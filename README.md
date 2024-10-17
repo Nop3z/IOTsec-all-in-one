@@ -24,6 +24,18 @@ DrayTek https://www.draytek.com/support/resources/routers#version
 
 海康威视 https://www.hiksemitech.com/en/hiksemi/support/download.html
 
+iptime https://iptime.com/iptime/?page_id=126
+
+ubiquiti https://ui.com.cn/download/releases/firmware
+
+grandstream https://www.grandstream.com/support/firmware
+
+peplink https://www.peplink.com/support/downloads/
+
+avm https://www.anthemav.com/support/latest-software.php
+
+axis https://www.axis.com/support/device-software
+
 # 固件解密
 
 DrayTek https://www.hexacon.fr/slides/hexacon_draytek_2022_final.pdf
