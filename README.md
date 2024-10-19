@@ -8,6 +8,8 @@ TENDA https://www.tenda.com.cn/download/default.html
 
 TP-LINK https://resource.tp-link.com.cn/?&productorlist=1&filterClass=[4]
 
+TP-LINK(国外)https://www.tp-link.com/us/support/download/
+
 水星 https://service.mercurycom.com.cn/download-list.html
 
 艾泰 https://www.utt.com.cn/downloadcenter.php
@@ -56,6 +58,8 @@ IOTsec-zone https://www.iotsec-zone.com/
 看雪 https://bbs.kanxue.com/
 
 先知社区 https://xz.aliyun.com/
+
+hackaday https://hackaday.com/(国外的IOT黑客论坛 比较偏硬件 里面的内容很有意思)
 
 # 逆向分析
 
