@@ -49,7 +49,7 @@ DLINK   https://bbs.kanxue.com/thread-281043.htm
 
 《揭秘家用路由器0day漏洞挖掘技术》
 
-《IOT Penetration Testing》(中文版 《物联网渗透测试》)
+《IOT Penetration Testing》 (中文版 《物联网渗透测试》)
 
 # 论坛推荐
 
@@ -59,7 +59,7 @@ IOTsec-zone https://www.iotsec-zone.com/
 
 先知社区 https://xz.aliyun.com/
 
-hackaday https://hackaday.com/(国外的IOT黑客论坛 比较偏硬件 里面的内容很有意思)
+hackaday https://hackaday.com/ (国外的IOT黑客论坛 比较偏硬件 里面的内容很有意思)
 
 # 逆向分析
 
