@@ -44,6 +44,8 @@ DrayTek https://www.hexacon.fr/slides/hexacon_draytek_2022_final.pdf
 
 DLINK   https://bbs.kanxue.com/thread-281043.htm
 
+Dlink   https://wzt.ac.cn/2019/09/18/D-Link_BUG/
+
 # 书籍推荐
 《物联网安全漏洞挖掘实战》
 
@@ -61,9 +63,7 @@ IOTsec-zone https://www.iotsec-zone.com/
 
 hackaday https://hackaday.com/ (国外的IOT黑客论坛 比较偏硬件 里面的内容很有意思)
 
-# 逆向分析
 
-# POC编写
 
 
 
