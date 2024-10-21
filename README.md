@@ -46,6 +46,10 @@ DLINK   https://bbs.kanxue.com/thread-281043.htm
 
 Dlink   https://wzt.ac.cn/2019/09/18/D-Link_BUG/
 
+SonicOS https://wzt.ac.cn/2024/09/05/sonicwall_dec2/
+
+SonicOS https://wzt.ac.cn/2022/02/08/sonicwall_dec1/
+
 # 书籍推荐
 《物联网安全漏洞挖掘实战》
 
@@ -63,9 +67,11 @@ IOTsec-zone https://www.iotsec-zone.com/
 
 hackaday https://hackaday.com/ (国外的IOT黑客论坛 比较偏硬件 里面的内容很有意思)
 
+# UART
+劫持启动服务为telnetd拿shell https://badmonkey.site/archives/router-debug-getshell
 
-
-
+# 越权
+https://wzt.ac.cn/2020/08/28/bypass_auth/
 
 
 
