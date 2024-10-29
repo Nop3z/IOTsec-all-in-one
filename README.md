@@ -73,7 +73,8 @@ hackaday https://hackaday.com/ (国外的IOT黑客论坛 比较偏硬件 里面�
 # 越权
 https://wzt.ac.cn/2020/08/28/bypass_auth/
 
-
+# 杂项
+浅谈 IoT 安全入门-漏洞挖掘向 https://mp.weixin.qq.com/s/_hzsjtZjyEZAU4zig1Bnig
 
 
 
