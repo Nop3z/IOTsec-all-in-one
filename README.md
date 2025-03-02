@@ -168,6 +168,9 @@ Tp-Link https://watchfulip.github.io/28-12-24/tp-link_c210_v2.html
 TPLink-Tapo https://github.com/hacefresko/CVE-2021-4045
 TPLink-Tapo https://pwner.gg/blog/2024-01-05-tp-link-tapo-c100
 
+- 🔗 [TPLink-Tapo CVE-2021-4045](https://github.com/hacefresko/CVE-2021-4045)
+- 🔍 [TPLink-Tapo 漏洞分析](https://pwner.gg/blog/2024-01-05-tp-link-tapo-c100)
+
 </details>
 
 # Openwrt
