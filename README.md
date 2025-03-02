@@ -253,7 +253,7 @@ QiLing板块
 # 故障注入
 
 <details>
-<summary>艹,我不会<summary>
+<summary>艹,我不会</summary>
 
 喵喵喵
 
