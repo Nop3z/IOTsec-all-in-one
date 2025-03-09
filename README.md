@@ -34,7 +34,7 @@
 - [💉 故障注入](#故障注入)
 - [🔑 安全启动](#安全启动)
 - [📜 固件解密](#固件解密)
-- 
+  
 ### 🔹 其他
 - [🖥️ 虚拟机镜像](#虚拟机镜像)
 - [📦 杂项](#杂项)
@@ -43,9 +43,11 @@
 # Log
 
 <details>
-<summary>点击展示记录</summary>
+<summary>点击查看更新记录</summary>
 
-# 3/2/2025 
+<details>
+<summary>3/2/2025</summary>
+
 >修改了原仓库名 
 增加了固件解密
 摄像头
@@ -70,6 +72,18 @@ QiLing板块
 ......
 
 对于路由器我是真的不想写了 挺多的:(
+
+</details>
+
+<details>
+<summary>3/9/2025</summary>
+
+>更新
+
+新增四篇摄像头相关文章、两篇无人机漏洞挖掘、一篇Luci系统漏洞挖掘 以及新添加了Contributors板块
+哎我去怎么这周那么少 我是不是有些文章看了忘收藏了:(
+
+</details>
 
 </details>
 
@@ -140,7 +154,10 @@ QiLing板块
 
 - 🔗 [TPLink-Tapo CVE-2021-4045](https://github.com/hacefresko/CVE-2021-4045)
 - 🔍 [TPLink-Tapo 漏洞分析](https://pwner.gg/blog/2024-01-05-tp-link-tapo-c100)
+- 🌐 [TPLink-Tapo C2000](https://drmnsamoliu.github.io/index.html)
+- 🔥 [TPLink-Tapo C2000](https://www.hacefresko.com/posts/tp-link-tapo-c200-unauthenticated-rce)
 
+- 📌 [TPLink-Tapo C310](https://sizeof.cat/post/tp-link-tapo-c310-camera/)
 </details>
 
 # Openwrt
@@ -151,6 +168,7 @@ QiLing板块
 - 🛠️ [Ruijie 漏洞分析](https://bbs.kanxue.com/thread-277386.htm)  
 
 - 📄 [小米路由器 Root 技术研究](https://blog.thalium.re/posts/rooting-xiaomi-wifi-routers/)
+- 🛠️ [浅析LuCI系统的漏洞挖掘技术](https://mp.weixin.qq.com/s/kBOfQhNHZCFNNzu_euLIgA)
 
 </details>
 
@@ -169,6 +187,8 @@ QiLing板块
 - 📡 [通过 Wireshark 解析无人机数据包](https://hackernoon.com/lang/zh/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8%E6%95%B0%E6%8D%AE%E5%8C%85%E8%A7%A3%E5%89%96%E4%BD%BF%E7%94%A8-wireshark-%E5%AF%B9%E6%97%A0%E4%BA%BA%E6%9C%BA%E8%BF%9B%E8%A1%8C%E9%80%86%E5%90%91%E5%B7%A5%E7%A8%8B)
 - 📈 [绿盟 2023 无人机安全报告](https://book.yunzhan365.com/tkgd/ghoo/mobile/index.html)  
 - 📉 [绿盟 2024 无人机安全报告](https://book.yunzhan365.com/tkgd/gmpv/mobile/index.html)
+- 🚁 [某无人机APP逆向分析](https://v5le0n9.github.io/posts/ac4cb042.html)
+- 🔍 [某无人机漏洞挖掘](https://v5le0n9.github.io/posts/8a5081f6.html)
 </details>
 
 # 防火墙
@@ -273,6 +293,18 @@ QiLing板块
 
 
 
+## Contributors
+
+<div align="center">
+
+  <a href="https://www.cnblogs.com/ve1kcon">
+    <img src="https://pic1.imgdb.cn/item/67cdb235066befcec6e23553.jpg" alt="ve1kcon" width="100" height="100">
+  </a>
+  
+  <a href="https://github.com/glkfc">
+    <img src="https://pic1.imgdb.cn/item/67cdb48c066befcec6e235c8.jpg" alt="jfkk" width="100" height="100">
+  </a>
+  
 
 
-
+</div>
