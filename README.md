@@ -85,6 +85,19 @@ QiLing板块
 
 </details>
 
+<details>
+<summary>3/17/2025</summary>
+
+>更新
+新增五篇无人机相关内容，两篇绕过ASLR，一篇故障注入
+
+因为最近搞无人机搞得比较多 所以无人机相关的添加的比较多
+
+希望能学学其他的丰富一下其他板块
+
+
+</details>
+
 </details>
 
 # 虚拟机镜像
@@ -189,6 +202,11 @@ QiLing板块
 - 📉 [绿盟 2024 无人机安全报告](https://book.yunzhan365.com/tkgd/gmpv/mobile/index.html)
 - 🚁 [某无人机APP逆向分析](https://v5le0n9.github.io/posts/ac4cb042.html)
 - 🔍 [某无人机漏洞挖掘](https://v5le0n9.github.io/posts/8a5081f6.html)
+- 📡 [315晚会报道的无人机是怎么被劫持的？](https://security.tencent.com/index.php/blog/msg/103)
+- 🔐 [几种小型UAV安全漏洞研究](https://ndxb.imu.edu.cn/__local/8/16/3D/02E8C65FA6BC939DC5776397BCE_8849FAC7_67446D.pdf)
+- 🎯 [针对基于mavlink协议的无人机进行攻击](https://mp.weixin.qq.com/s/HfFqgQcgOyA_rmb3UFXhww)
+- 🛡️ [无人机mavlink中间人攻击](https://mp.weixin.qq.com/s/gfzdWSlzBkc14fvG1n36Cg)
+- 🧑‍💻 [无人机MAVLINK协议安全剖析](https://mp.weixin.qq.com/s/WEivJpxTBSVcmAa5QvvDxQ)
 </details>
 
 # 防火墙
@@ -268,6 +286,8 @@ QiLing板块
 - 🛠️ [使用堆喷技术绕过 ASLR](https://www.anquanke.com/post/id/180252)  
 - 🎯 [修改 sendsize 触发 DNS 查询泄露地址](https://claroty.com/team82/research/pwn2own-wan-to-lan-exploit-showcase?ref=blog.exploits.club)  
 - 🔓 [通过文件包含漏洞绕过 ASLR](https://modzero.com/en/blog/roping-our-way-to-rce/)
+- 💻 [How CVE-2015-7547 (GLIBC getaddrinfo) Can Bypass ASLR](💻)
+- 🗄️ [wp-armis-cdpwn-aslr-bypass-en](https://media.armis.com/image/upload/v1679440790/PDFs/wp-armis-cdpwn-aslr-bypass-en.pdf)
 </details>
 
 # 故障注入
@@ -275,7 +295,7 @@ QiLing板块
 <details>
 <summary>艹,我不会</summary>
 
-喵喵喵
+- 🛠️ [Fault Injection – Down the Rabbit Hole](https://security.humanativaspa.it/fault-injection-down-the-rabbit-hole/)
 
 </details>
 
