@@ -22,12 +22,20 @@
 - [📷 摄像头安全](#摄像头)
 - [🚁 无人机安全](#无人机)
 - [🛡️ 防火墙安全](#防火墙)
-- [🎙️ 智能音箱安全](#智能音箱)
 - [📡 基站安全](#基站)
 - [🔥 防火墙安全](#防火墙)
 - [📠 打印机安全](#打印机)
 - [⚡ 充电桩安全](#充电桩)
 - [🚗 车机安全](#车机)
+- [⚠️ 智能家居安全](#智能家居)
+- [🛰️ 卫星安全](#卫星安全)
+- [📺 机器人安全](#机器人)
+- [📱 芯片安全](#芯片安全)
+- [🔑 RFID](#rfid)
+- [🌐 WIFI安全](#wifi安全)
+- [📦FUZZ](#fuzz)
+- [📜协议安全](#协议安全)
+- [🖥️硬件钱包](#硬件钱包)
 
 ### 🔹 技术点
 - [🚀 绕过 ASLR](#ASLR)
@@ -98,6 +106,21 @@ QiLing板块
 
 </details>
 
+<details>
+<summary>3/30/2025</summary>
+
+>更新
+更新了挺多文章了 最近生病了所以上周没更 可能有些文章遗漏了 如果有好文章可以推荐给我
+
+喵喵喵
+
+
+</details>
+
+</details>
+
+
+
 </details>
 
 # 虚拟机镜像
@@ -156,7 +179,7 @@ QiLing板块
 - 🛠️ [Lexmark 固件漏洞分析](https://haxx.in/posts/wtm-wtf/)  
 - 🛠️ [TP-Link C210 固件安全启动分析](https://watchfulip.github.io/28-12-24/tp-link_c210_v2.html)  
 - 🛠️ [乐鑫芯片 Flash 加密破解](https://courk.cc/breaking-flash-encryption-of-espressif-parts#breaking-flash-encryption-of-espressif-parts)
-
+- 🛠️ [使用机器学习解密固件](https://something.fromnothing.blog/posts/something-from-nothing/)
 </details>
 
 # 摄像头
@@ -207,6 +230,7 @@ QiLing板块
 - 🎯 [针对基于mavlink协议的无人机进行攻击](https://mp.weixin.qq.com/s/HfFqgQcgOyA_rmb3UFXhww)
 - 🛡️ [无人机mavlink中间人攻击](https://mp.weixin.qq.com/s/gfzdWSlzBkc14fvG1n36Cg)
 - 🧑‍💻 [无人机MAVLINK协议安全剖析](https://mp.weixin.qq.com/s/WEivJpxTBSVcmAa5QvvDxQ)
+- 🎯 [攻防速写｜击穿DJI大疆控制设备的致命漏洞](https://www.ctfiot.com/232771.html)
 </details>
 
 # 防火墙
@@ -222,14 +246,6 @@ QiLing板块
 
 </details>
 
-# 智能音箱
-
-<details>
-<summary>点我点我 这个我也收集的少 别骂我</summary>
-
-- 📄 [谷歌智能音箱安全分析](https://security.tencent.com/index.php/blog/msg/141)
-
-</details>
 
 # 基站
 <details>
@@ -237,7 +253,7 @@ QiLing板块
 
 - 🛠️ [NextEPC 漏洞分析](https://cellularsecurity.org/ransacked)  
 - ⚠️ [使用用户设备对 5G 基站进行攻击](https://www.trendmicro.com/en_gb/research/23/i/attacks-on-5g-infrastructure-from-users-devices.html)
-
+- 🔓[攻防速写｜我们拆了一台Starlink星链终端](https://mp.weixin.qq.com/s/QsLyWHp1zb89Gq7aXgWZwA)
 </details>
 
 # 打印机
@@ -283,7 +299,7 @@ QiLing板块
 <details>
 <summary>为什么要单独开个ASLR呢 因为很多栈溢出都因为ASLR导致无法RCE</summary>
 
-- 🛠️ [使用堆喷技术绕过 ASLR](https://www.anquanke.com/post/id/180252)  
+- 🛠️ [使用栈上gadget绕过 ASLR](https://www.anquanke.com/post/id/180252)  
 - 🎯 [修改 sendsize 触发 DNS 查询泄露地址](https://claroty.com/team82/research/pwn2own-wan-to-lan-exploit-showcase?ref=blog.exploits.club)  
 - 🔓 [通过文件包含漏洞绕过 ASLR](https://modzero.com/en/blog/roping-our-way-to-rce/)
 - 💻 [How CVE-2015-7547 (GLIBC getaddrinfo) Can Bypass ASLR](💻)
@@ -299,6 +315,25 @@ QiLing板块
 
 </details>
 
+# 智能家居
+
+<details>
+<summary>点我点我</summary>
+
+- 📄 [谷歌智能音箱安全分析](https://security.tencent.com/index.php/blog/msg/141)
+- 🛠️ [Pwning Millions of Smart Weighing Machines with API and Hardware Hacking](https://spaceraccoon.dev/pwning-millions-smart-weighing-machines-api-hardware-hacking/)
+
+</details>
+
+# RFID
+
+<details>
+<summary>点我点我</summary>
+
+- 📄 [身边的智能卡安全么？——IC卡安全性初探](https://xz.aliyun.com/news/8265?time__1311=YqUxg7iQoDqQqGNKQrDnBCFG%3D%3DMGO3rD&u_atoken=2605ac6da9572677f351f83015d5ebad&u_asig=1a0c399817433461047984986e0046)
+
+</details>
+
 
 # 杂项
 
@@ -308,10 +343,65 @@ QiLing板块
 - 🧩 [浅析 CGI 与 Lighttpd 之间的调用过程](https://www.iotsec-zone.com/article/319)  
 - 📚 [史上最全 U-Boot 命令解析](https://cloud.tencent.com/developer/article/2102295)  
 - 🛠️ [通过 WIFI 修改加热器固件](https://blog.includesecurity.com/2025/02/replacing-a-space-heater-firmware-over-wifi/)
+- 📄 [Brushing Up on Hardware Hacking Part 2 - SPI, UART, Pulseview, and Flashrom](https://voidstarsec.com/blog/brushing-up-part-2)
+- 🛠️ [嵌入式设备后门与shellcode生成工具](https://bbs.kanxue.com/thread-275619.htm)
+- 🗄️ [IOT设备常见配置文件加解密分析总结](https://mp.weixin.qq.com/s/vik2Xp459afeV0e3xcihHQ)
+- 💻 [How CVE-2015-7547 (GLIBC getaddrinfo) Can Bypass ASLR](https://mp.weixin.qq.com/s/AEOc49tz_WlDABXucmVPNw)
+</details>
+
+# 机器人
+
+<details>
+<summary>点我点我</summary>
+
+- 🛠️[DrayTek再现未授权RCE漏洞：CVE-2024-12987复现分析](https://think-awesome.com/download_unitree_report)
 
 </details>
 
+# FUZZ
 
+<details>
+<summary>点我点我</summary>
+
+- 🧩[RV130X Firmware Analysis](https://raffo24.github.io/hardware%20hacking/FirmwareAnalysis/)
+
+</details>
+
+# WIFI安全
+
+<details>
+<summary>点我点我</summary>
+
+- 🛠️[无线网络（WI-FI）保护协议标准WPA2漏洞综合分析报告](https://www.antiy.com/response/krack.html)
+
+</details>
+
+# 协议安全
+
+<details>
+<summary>点我点我</summary>
+
+- 🔍[DNSpooq系列漏洞分析与复现](https://www.venustech.com.cn/new_type/aqldfx/20210201/22352.html)
+
+</details>
+
+# 硬件钱包
+
+<details>
+<summary>艹,我不会</summary>
+
+- 🗄️ [攻防速写｜假如捡到 Web3 硬件钱包的人是黑客](https://mp.weixin.qq.com/s/FYDgYG9UCTgwc7KxAdIjjw)
+
+</details>
+
+# 芯片安全
+
+<details>
+<summary>点我点我</summary>
+
+- 📚 [Last barrier destroyed, or compromise of Fuse Encryption Key for Intel Security Fuses](https://swarm.ptsecurity.com/last-barrier-destroyed-or-compromise-of-fuse-encryption-key-for-intel-security-fuses/)
+
+</details>
 
 ## Contributors
 
@@ -328,3 +418,4 @@ QiLing板块
 
 
 </div>
+
