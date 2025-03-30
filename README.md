@@ -347,6 +347,7 @@ QiLing板块
 - 🛠️ [嵌入式设备后门与shellcode生成工具](https://bbs.kanxue.com/thread-275619.htm)
 - 🗄️ [IOT设备常见配置文件加解密分析总结](https://mp.weixin.qq.com/s/vik2Xp459afeV0e3xcihHQ)
 - 💻 [How CVE-2015-7547 (GLIBC getaddrinfo) Can Bypass ASLR](https://mp.weixin.qq.com/s/AEOc49tz_WlDABXucmVPNw)
+- 🛠️[DrayTek再现未授权RCE漏洞：CVE-2024-12987复现分析](https://think-awesome.com/download_unitree_report)
 </details>
 
 # 机器人
@@ -354,7 +355,7 @@ QiLing板块
 <details>
 <summary>点我点我</summary>
 
-- 🛠️[DrayTek再现未授权RCE漏洞：CVE-2024-12987复现分析](https://think-awesome.com/download_unitree_report)
+- 🔍 [宇树GO1机器人分析](https://think-awesome.com/download_unitree_report)
 
 </details>
 
