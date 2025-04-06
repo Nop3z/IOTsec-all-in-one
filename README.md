@@ -33,7 +33,7 @@
 - [📱 芯片安全](#芯片安全)
 - [🔑 RFID](#rfid)
 - [🌐 WIFI安全](#wifi安全)
-- [📦FUZZ](#fuzz)
+- [📦 FUZZ](#fuzz)
 - [📜协议安全](#协议安全)
 - [🖥️硬件钱包](#硬件钱包)
 
@@ -113,6 +113,15 @@ QiLing板块
 更新了挺多文章了 最近生病了所以上周没更 可能有些文章遗漏了 如果有好文章可以推荐给我
 
 喵喵喵
+
+
+</details>
+
+<details>
+<summary>4/7/2025</summary>
+
+>更新
+喵喵喵又过一周 随便水了几篇文章
 
 
 </details>
@@ -331,7 +340,10 @@ QiLing板块
 <summary>点我点我</summary>
 
 - 📄 [身边的智能卡安全么？——IC卡安全性初探](https://xz.aliyun.com/news/8265?time__1311=YqUxg7iQoDqQqGNKQrDnBCFG%3D%3DMGO3rD&u_atoken=2605ac6da9572677f351f83015d5ebad&u_asig=1a0c399817433461047984986e0046)
-
+- 🎭 [IC卡加密方式和基本常识](https://mp.weixin.qq.com/s/MC_gsU3lbOUfmkfKK_0RTQ)
+- 🖥️ [RFID 射频卡安全梳理](https://stdio.io/1345)
+- 🔒 [MIFARE Classic: exposing the static encrypted nonce variant](https://eprint.iacr.org/2024/1275.pdf)
+- 🔍 [逆向破解南京大学纯 CPU SAK28 FM1208 NFC 校园卡](https://blog.lyc8503.net/post/reverse-nju-cpu-card/)
 </details>
 
 
@@ -348,6 +360,8 @@ QiLing板块
 - 🗄️ [IOT设备常见配置文件加解密分析总结](https://mp.weixin.qq.com/s/vik2Xp459afeV0e3xcihHQ)
 - 💻 [How CVE-2015-7547 (GLIBC getaddrinfo) Can Bypass ASLR](https://mp.weixin.qq.com/s/AEOc49tz_WlDABXucmVPNw)
 - 🛠️[DrayTek再现未授权RCE漏洞：CVE-2024-12987复现分析](https://think-awesome.com/download_unitree_report)
+- 📚 [智能网联汽车信息安全测试白皮书](https://report.secbug.cc/2025%E6%99%BA%E8%83%BD%E7%BD%91%E8%81%94%E6%B1%BD%E8%BD%A6%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8%E6%B5%8B%E8%AF%95%E7%99%BD%E7%9A%AE%E4%B9%A6.pdf)
+- 💻 [企业安全设备漏洞研究](https://drive.google.com/file/d/1W6kVh6zJ-R61WR69xX7V02mmESTuwPJO/view)
 </details>
 
 # 机器人
@@ -382,7 +396,9 @@ QiLing板块
 <details>
 <summary>点我点我</summary>
 
-- 🔍[DNSpooq系列漏洞分析与复现](https://www.venustech.com.cn/new_type/aqldfx/20210201/22352.html)
+- 🔍 [DNSpooq系列漏洞分析与复现](https://www.venustech.com.cn/new_type/aqldfx/20210201/22352.html)
+- 🌐 [Bluetooth-Attacks-CVE-2025-27840](https://github.com/demining/Bluetooth-Attacks-CVE-2025-27840)
+- 🛠️ [无线电安全攻防之蓝牙协议栈技术初探](https://mp.weixin.qq.com/s/OTSwW2E1BRHYuGg1XxAC8g)
 
 </details>
 
