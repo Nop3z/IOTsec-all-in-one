@@ -126,6 +126,15 @@ QiLing板块
 
 </details>
 
+<details>
+<summary>4/14/2025</summary>
+
+>更新
+好累喵
+
+
+</details>
+
 </details>
 
 
@@ -201,7 +210,7 @@ QiLing板块
 - 🔍 [TPLink-Tapo 漏洞分析](https://pwner.gg/blog/2024-01-05-tp-link-tapo-c100)
 - 🌐 [TPLink-Tapo C2000](https://drmnsamoliu.github.io/index.html)
 - 🔥 [TPLink-Tapo C2000](https://www.hacefresko.com/posts/tp-link-tapo-c200-unauthenticated-rce)
-
+- 🎯 [Exploiting a Chinese camera for fun CVE-2024–48214]([深入剖析路由器FOTA固件升级流程：从解包到逆向分析](https://medium.com/%40shenhavmor/exploiting-a-chinese-camera-for-fun-cve-2024-48214-2d56848870c2))
 - 📌 [TPLink-Tapo C310](https://sizeof.cat/post/tp-link-tapo-c310-camera/)
 </details>
 
@@ -240,6 +249,7 @@ QiLing板块
 - 🛡️ [无人机mavlink中间人攻击](https://mp.weixin.qq.com/s/gfzdWSlzBkc14fvG1n36Cg)
 - 🧑‍💻 [无人机MAVLINK协议安全剖析](https://mp.weixin.qq.com/s/WEivJpxTBSVcmAa5QvvDxQ)
 - 🎯 [攻防速写｜击穿DJI大疆控制设备的致命漏洞](https://www.ctfiot.com/232771.html)
+- 🔍 [基于模糊测试的多旋翼无人机微小型无人机漏洞分析](https://xz.aliyun.com/course-view?id=11)
 </details>
 
 # 防火墙
@@ -252,7 +262,7 @@ QiLing板块
 - 🔓 [Palo Alto路径混淆认证绕过漏洞](https://slcyber.io/blog/nginx-apache-path-confusion-to-auth-bypass-in-pan-os/)  
 - 📱 [Palo Alto 分析报告](https://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458589341&idx=1&sn=c57db95a9d3d5f4d3d5993b9e4d2398e&chksm=b058fa0e9bed1058d3630a5e1eb6e07af731a0dd15a60c93ffc6f651afe5d8d410438491fea3&mpshare=1&scene=2&srcid=0208LPPhzgrDbMTj76w5Y3S0&sharer_shareinfo=d134b3645062ee3043dfb811bdfe2842&sharer_shareinfo_first=d134b3645062ee3043dfb811bdfe2842#rd)
 - ⚠️ [Check Point CVE-2024-24919 分析](https://labs.watchtowr.com/check-point-wrong-check-point-cve-2024-24919/)
-
+- 🎯 [CVE-2025-22457](https://attackerkb.com/topics/0ybGQIkHzR/cve-2025-22457/rapid7-analysis)
 </details>
 
 
@@ -313,6 +323,7 @@ QiLing板块
 - 🔓 [通过文件包含漏洞绕过 ASLR](https://modzero.com/en/blog/roping-our-way-to-rce/)
 - 💻 [How CVE-2015-7547 (GLIBC getaddrinfo) Can Bypass ASLR](💻)
 - 🗄️ [wp-armis-cdpwn-aslr-bypass-en](https://media.armis.com/image/upload/v1679440790/PDFs/wp-armis-cdpwn-aslr-bypass-en.pdf)
+- 🔍 [CVE-2025-22457](https://attackerkb.com/topics/0ybGQIkHzR/cve-2025-22457/rapid7-analysis)
 </details>
 
 # 故障注入
@@ -331,6 +342,7 @@ QiLing板块
 
 - 📄 [谷歌智能音箱安全分析](https://security.tencent.com/index.php/blog/msg/141)
 - 🛠️ [Pwning Millions of Smart Weighing Machines with API and Hardware Hacking](https://spaceraccoon.dev/pwning-millions-smart-weighing-machines-api-hardware-hacking/)
+- 💻 [https://www.synacktiv.com/en/publications/hack-the-channel-a-deep-dive-into-dvb-receiver-security](https://www.synacktiv.com/en/publications/hack-the-channel-a-deep-dive-into-dvb-receiver-security)
 
 </details>
 
@@ -362,6 +374,8 @@ QiLing板块
 - 🛠️[DrayTek再现未授权RCE漏洞：CVE-2024-12987复现分析](https://think-awesome.com/download_unitree_report)
 - 📚 [智能网联汽车信息安全测试白皮书](https://report.secbug.cc/2025%E6%99%BA%E8%83%BD%E7%BD%91%E8%81%94%E6%B1%BD%E8%BD%A6%E4%BF%A1%E6%81%AF%E5%AE%89%E5%85%A8%E6%B5%8B%E8%AF%95%E7%99%BD%E7%9A%AE%E4%B9%A6.pdf)
 - 💻 [企业安全设备漏洞研究](https://drive.google.com/file/d/1W6kVh6zJ-R61WR69xX7V02mmESTuwPJO/view)
+- 📄 [深入剖析路由器FOTA固件升级流程：从解包到逆向分析](https://xz.aliyun.com/news/17402?time__1311=eqUxn7DQG%3DekD%2Fb043aDBDRxQqiKN%3D3x&u_atoken=410984a321fcdb00f210c49c794f8cb1&u_asig=1a0c380917440179029383912e00f0)
+- 🗄️ [Secure Hardware Design](https://shd.mit.edu/home/)
 </details>
 
 # 机器人
