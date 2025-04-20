@@ -135,10 +135,20 @@ QiLing板块
 
 </details>
 
+<details>
+<summary>4/21/2025</summary>
+
+>更新
+这周更新好少
+
+
 </details>
 
 
 
+
+
+</details>
 </details>
 
 # 虚拟机镜像
@@ -198,6 +208,7 @@ QiLing板块
 - 🛠️ [TP-Link C210 固件安全启动分析](https://watchfulip.github.io/28-12-24/tp-link_c210_v2.html)  
 - 🛠️ [乐鑫芯片 Flash 加密破解](https://courk.cc/breaking-flash-encryption-of-espressif-parts#breaking-flash-encryption-of-espressif-parts)
 - 🛠️ [使用机器学习解密固件](https://something.fromnothing.blog/posts/something-from-nothing/)
+- 🛠️ [摄像头逆向分析之旅-程序还原](https://blog.nsfocus.net/lot-flash/)
 </details>
 
 # 摄像头
@@ -311,7 +322,7 @@ QiLing板块
 
 - 🛠️ [大众 MMX 车机漏洞分析](https://sector7.computest.nl/post/2018-07-mib/)  
 - 📄 [腾讯科恩实验室对奔驰梅赛德斯车机研究](https://keenlab.tencent.com/en/whitepapers/Mercedes_Benz_Security_Research_Report_Final.pdf)
-
+- ⚠️ [Asia-25-Evdokimov-Remote-Exploitation-of-Nissan-Leaf](https://i.blackhat.com/Asia-25/Asia-25-Evdokimov-Remote-Exploitation-of-Nissan-Leaf.pdf)
 </details>
 
 # 绕过ASLR
@@ -376,6 +387,7 @@ QiLing板块
 - 💻 [企业安全设备漏洞研究](https://drive.google.com/file/d/1W6kVh6zJ-R61WR69xX7V02mmESTuwPJO/view)
 - 📄 [深入剖析路由器FOTA固件升级流程：从解包到逆向分析](https://xz.aliyun.com/news/17402?time__1311=eqUxn7DQG%3DekD%2Fb043aDBDRxQqiKN%3D3x&u_atoken=410984a321fcdb00f210c49c794f8cb1&u_asig=1a0c380917440179029383912e00f0)
 - 🗄️ [Secure Hardware Design](https://shd.mit.edu/home/)
+- 🧩 [VxWorks固件系统研究技术总结二](https://mp.weixin.qq.com/s/SnooEM6NLLPIz8u2t4_MOw)
 </details>
 
 # 机器人
