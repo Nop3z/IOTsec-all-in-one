@@ -1,0 +1,186 @@
+{
+  "$comment": "周更爬虫信息源。只使用公开 RSS/Atom，不登录、不绕过任何访问控制。category 为分类提示，trust 为来源可信度加权（2.0=一线研究团队，1.5=厂商研究博客，0.5=聚合社区）。",
+  "politeness": {
+    "user_agent": "IOTsec-all-in-one-weekly-bot/1.0 (+https://github.com/Nop3z/IOTsec-all-in-one; research archive, 1 req/8s)",
+    "proxy": "http://127.0.0.1:10810",
+    "request_min_interval_sec": 8,
+    "request_jitter_sec": 4,
+    "timeout_sec": 30,
+    "respect_robots": true,
+    "max_requests_per_run": 70,
+    "max_download_bytes_per_run": 5000000,
+    "max_article_bytes": 150000,
+    "disk_free_floor_gb": 2,
+    "repo_size_budget_mb": 60
+  },
+  "feeds": [
+    {
+      "name": "Google Project Zero",
+      "url": "https://googleprojectzero.blogspot.com/feeds/posts/default",
+      "category": "杂项",
+      "trust": 2
+    },
+    {
+      "name": "watchTowr Labs",
+      "url": "https://labs.watchtowr.com/rss/",
+      "category": "防火墙",
+      "trust": 2
+    },
+    {
+      "name": "ret2 Systems",
+      "url": "https://blog.ret2.io/feed.xml",
+      "category": "车机",
+      "trust": 2
+    },
+    {
+      "name": "Quarkslab",
+      "url": "https://blog.quarkslab.com/feeds/all.atom.xml",
+      "category": "芯片安全",
+      "trust": 2
+    },
+    {
+      "name": "Binarly",
+      "url": "https://www.binarly.io/blog/rss.xml",
+      "category": "安全启动",
+      "trust": 2
+    },
+    {
+      "name": "Eclypsium",
+      "url": "https://eclypsium.com/feed/",
+      "category": "安全启动",
+      "trust": 2
+    },
+    {
+      "name": "Thalium",
+      "url": "https://blog.thalium.re/posts/index.xml",
+      "category": "Openwrt",
+      "trust": 2
+    },
+    {
+      "name": "Sector7",
+      "url": "https://sector7.computest.nl/feed/",
+      "category": "车机",
+      "trust": 2
+    },
+    {
+      "name": "Exodus Intelligence",
+      "url": "https://blog.exodusintel.com/feed/",
+      "category": "杂项",
+      "trust": 2
+    },
+    {
+      "name": "NCC Group Research",
+      "url": "https://research.nccgroup.com/feed/",
+      "category": "芯片安全",
+      "trust": 2
+    },
+    {
+      "name": "ZDI Blog",
+      "url": "https://www.zerodayinitiative.com/blog?rss=1",
+      "category": "杂项",
+      "trust": 2
+    },
+    {
+      "name": "Atredis Partners",
+      "url": "https://www.atredis.com/blog?format=rss",
+      "category": "杂项",
+      "trust": 2
+    },
+    {
+      "name": "Talos Intelligence",
+      "url": "https://blog.talosintelligence.com/rss/",
+      "category": "杂项",
+      "trust": 2
+    },
+    {
+      "name": "SentinelOne Labs",
+      "url": "https://www.sentinelone.com/labs/feed/",
+      "category": "杂项",
+      "trust": 2
+    },
+    {
+      "name": "IOActive",
+      "url": "https://www.ioactive.com/feed/",
+      "category": "杂项",
+      "trust": 2
+    },
+    {
+      "name": "PortSwigger Research",
+      "url": "https://portswigger.net/research/rss",
+      "category": "杂项",
+      "trust": 2
+    },
+    {
+      "name": "GitHub Security Lab",
+      "url": "https://github.blog/tag/github-security-lab/feed/",
+      "category": "杂项",
+      "trust": 2
+    },
+    {
+      "name": "Check Point Research",
+      "url": "https://research.checkpoint.com/feed/",
+      "category": "防火墙",
+      "trust": 1.5
+    },
+    {
+      "name": "Unit 42",
+      "url": "https://unit42.paloaltonetworks.com/feed/",
+      "category": "防火墙",
+      "trust": 1.5
+    },
+    {
+      "name": "CrowdStrike",
+      "url": "https://www.crowdstrike.com/blog/feed/",
+      "category": "杂项",
+      "trust": 1
+    },
+    {
+      "name": "Rapid7",
+      "url": "https://www.rapid7.com/blog/rss/",
+      "category": "防火墙",
+      "trust": 1
+    },
+    {
+      "name": "Pentest Partners",
+      "url": "https://www.pentestpartners.com/feed/",
+      "category": "杂项",
+      "trust": 1.5
+    },
+    {
+      "name": "绿盟科技 NSFOCUS",
+      "url": "https://blog.nsfocus.net/feed/",
+      "category": "杂项",
+      "trust": 1.5
+    },
+    {
+      "name": "Seebug Paper",
+      "url": "https://paper.seebug.org/rss/",
+      "category": "杂项",
+      "trust": 1.5
+    },
+    {
+      "name": "安全客",
+      "url": "https://api.anquanke.com/rss",
+      "category": "杂项",
+      "trust": 0.5
+    },
+    {
+      "name": "先知社区",
+      "url": "https://xz.aliyun.com/feed",
+      "category": "杂项",
+      "trust": 0.5
+    },
+    {
+      "name": "FreeBuf",
+      "url": "https://www.freebuf.com/feed",
+      "category": "杂项",
+      "trust": 0.5
+    },
+    {
+      "name": "CTF IoT",
+      "url": "https://www.ctfiot.com/feed",
+      "category": "杂项",
+      "trust": 0.5
+    }
+  ]
+}

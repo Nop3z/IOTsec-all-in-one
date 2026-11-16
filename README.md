@@ -13,7 +13,24 @@
 - **每周至少更新一次**（1 Week 1 Update）
 - 后期对每篇文章 **提炼关键词** 和 **总结核心内容**
 
+## 🤖 自动化周更（Weekly Bot）
 
+每周自动扫描一批高质量安全研究源（公开 RSS/Atom），筛出 **攻击角度新颖** 或 **利用难度极高** 的 IoT / 固件 / 硬件 / 底层安全文章，
+下载正文快照归档到 [`articles/`](articles/INDEX.md)，并自动登记到下方对应板块。
+
+- **信息源**：[`tools/sources.json`](tools/sources.json)（可自由增删，含来源可信度权重）
+- **礼貌抓取**：全程串行、请求间隔 ≥8s + 随机抖动、遵守 `robots.txt` 与 `Crawl-delay`；不登录、不伪造 Cookie、不绕过任何访问控制或付费墙
+- **体积控制**：单篇快照 ≤150 KB，单次下载 ≤5 MB，仓库总量 ≤60 MB，磁盘剩余 <2 GB 自动停止
+- **去重**：`data/state.json` 记录已收录 URL，重复文章不会二次下载
+- **复审**：候选先落到 `_staging/<周>/`，只有通过复审的才发布进 `articles/`（宁缺毋滥，每周 0~8 篇）
+
+手动跑一次：
+
+```powershell
+python tools/crawl.py --days 9 --limit 15   # 抓取 + 打分
+python tools/publish.py --list               # 查看本周候选
+python tools/publish.py --pick "01,03,05"    # 发布选中条目（自动挂板块 + 写 Log + 重建索引）
+```
 
 ## 📂 目录
 
@@ -149,6 +166,22 @@ QiLing板块
 
 
 </details>
+
+<details>
+<summary>11/16/2026</summary>
+
+>更新
+- [Pre-Auth RCE in Zyxel GS1900 Exploited in the Wild as a Zero-Day](articles/防火墙/2026-11-03-Pre-Auth-RCE-in-Zyxel-GS1900-Exploited-in-the-Wild-as-a-Zero.md)  —— 防火墙 板块
+- [Additional Ivanti Connect Secure zero-days exploited in the wild (CVE-2026-111357, CVE-2026-118527)](articles/防火墙/2026-11-02-Additional-Ivanti-Connect-Secure-zero-days-exploited-in-the.md)  —— 防火墙 板块
+- [Inside KeyDrift: Analyzing historical UAT-11473 activity on Cisco SD-WAN](articles/防火墙/2026-10-29-Inside-KeyDrift-Analyzing-historical-UAT-11473-activity-on-C.md)  —— 防火墙 板块
+- [Two Oracles to Get One Key: A tale of recovering a symmetric key from an encrypt-only firmware update scheme](articles/固件解密/2026-11-10-Two-Oracles-to-Get-One-Key-A-tale-of-recovering-a-symmetric.md)  —— 固件解密 板块
+- [Barracuda Networks is your new best friend (Barracuda Email Security Gateway Pre-Auth Remote Root RCE CVE-2026-116606 / CVE-2026-111560)](articles/防火墙/2026-11-06-Barracuda-Networks-is-your-new-best-friend-Barracuda-Email-S.md)  —— 防火墙 板块
+- [潜伏16年的UEFI漏洞：开机那几秒，你的所有防线都还没上线](articles/安全启动/2026-11-05-潜伏16年的UEFI漏洞-开机那几秒-你的所有防线都还没上线.md)  —— 安全启动 板块
+- [BinQL: a CodeQL extension for binary formats](articles/杂项/2026-11-13-BinQL-a-CodeQL-extension-for-binary-formats.md)  —— 杂项 板块
+- [Snapshotting our way to CVE-2026-9539](articles/FUZZ/2026-10-27-Snapshotting-our-way-to-CVE-2026-9539.md)  —— FUZZ 板块
+
+
+</details>
 </details>
 
 # 虚拟机镜像
@@ -209,6 +242,7 @@ QiLing板块
 - 🛠️ [乐鑫芯片 Flash 加密破解](https://courk.cc/breaking-flash-encryption-of-espressif-parts#breaking-flash-encryption-of-espressif-parts)
 - 🛠️ [使用机器学习解密固件](https://something.fromnothing.blog/posts/something-from-nothing/)
 - 🛠️ [摄像头逆向分析之旅-程序还原](https://blog.nsfocus.net/lot-flash/)
+- 📜 [Two Oracles to Get One Key: A tale of recovering a symmetric key from an encrypt-only firmware update scheme](articles/固件解密/2026-11-10-Two-Oracles-to-Get-One-Key-A-tale-of-recovering-a-symmetric.md) · [原文](https://www.ioactive.com/two-oracles-recovering-aes-firmware-key/)
 </details>
 
 # 摄像头
@@ -274,6 +308,10 @@ QiLing板块
 - 📱 [Palo Alto 分析报告](https://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&mid=2458589341&idx=1&sn=c57db95a9d3d5f4d3d5993b9e4d2398e&chksm=b058fa0e9bed1058d3630a5e1eb6e07af731a0dd15a60c93ffc6f651afe5d8d410438491fea3&mpshare=1&scene=2&srcid=0208LPPhzgrDbMTj76w5Y3S0&sharer_shareinfo=d134b3645062ee3043dfb811bdfe2842&sharer_shareinfo_first=d134b3645062ee3043dfb811bdfe2842#rd)
 - ⚠️ [Check Point CVE-2024-24919 分析](https://labs.watchtowr.com/check-point-wrong-check-point-cve-2024-24919/)
 - 🎯 [CVE-2025-22457](https://attackerkb.com/topics/0ybGQIkHzR/cve-2025-22457/rapid7-analysis)
+- 🛡️ [Pre-Auth RCE in Zyxel GS1900 Exploited in the Wild as a Zero-Day](articles/防火墙/2026-11-03-Pre-Auth-RCE-in-Zyxel-GS1900-Exploited-in-the-Wild-as-a-Zero.md) · [原文](https://www.binarly.io/blog/zyxel-gs1900-rce-cve-2026-107441)
+- 🛡️ [Additional Ivanti Connect Secure zero-days exploited in the wild (CVE-2026-111357, CVE-2026-118527)](articles/防火墙/2026-11-02-Additional-Ivanti-Connect-Secure-zero-days-exploited-in-the.md) · [原文](https://www.rapid7.com/blog/post/etr-additional-ivanti-connect-secure-zero-days-exploited-in-the-wild-cve-2026-111357-cve-2026-118527)
+- 🛡️ [Inside KeyDrift: Analyzing historical UAT-11473 activity on Cisco SD-WAN](articles/防火墙/2026-10-29-Inside-KeyDrift-Analyzing-historical-UAT-11473-activity-on-C.md) · [原文](https://blog.talosintelligence.com/uat-11473-keydrift/)
+- 🛡️ [Barracuda Networks is your new best friend (Barracuda Email Security Gateway Pre-Auth Remote Root RCE CVE-2026-116606 / CVE-2026-111560)](articles/防火墙/2026-11-06-Barracuda-Networks-is-your-new-best-friend-Barracuda-Email-S.md) · [原文](https://labs.watchtowr.com/barracuda-networks-is-your-new-best-friend-barracuda-email-security-gateway-pre-auth-remote-root-rce-cve-2026-116606-cve-2026-111560/)
 </details>
 
 
@@ -303,6 +341,7 @@ QiLing板块
 - 🛠️ [TP-Link C210 安全启动分析](https://watchfulip.github.io/28-12-24/tp-link_c210_v2.html)
 - 🧩 [U-Boot 逆向分析（Part 1）](https://www.shielder.com/blog/2022/03/reversing-embedded-device-bootloader-u-boot-p.1/)  
 - 🔍 [U-Boot 逆向分析（Part 2）](https://www.shielder.com/blog/2022/03/reversing-embedded-device-bootloader-u-boot-p.2/)
+- 🔑 [潜伏16年的UEFI漏洞：开机那几秒，你的所有防线都还没上线](articles/安全启动/2026-11-05-潜伏16年的UEFI漏洞-开机那几秒-你的所有防线都还没上线.md) · [原文](https://www.anquanke.com/post/id/316426)
 
 </details>
 
@@ -388,6 +427,7 @@ QiLing板块
 - 📄 [深入剖析路由器FOTA固件升级流程：从解包到逆向分析](https://xz.aliyun.com/news/17402?time__1311=eqUxn7DQG%3DekD%2Fb043aDBDRxQqiKN%3D3x&u_atoken=410984a321fcdb00f210c49c794f8cb1&u_asig=1a0c380917440179029383912e00f0)
 - 🗄️ [Secure Hardware Design](https://shd.mit.edu/home/)
 - 🧩 [VxWorks固件系统研究技术总结二](https://mp.weixin.qq.com/s/SnooEM6NLLPIz8u2t4_MOw)
+- 📦 [BinQL: a CodeQL extension for binary formats](articles/杂项/2026-11-13-BinQL-a-CodeQL-extension-for-binary-formats.md) · [原文](https://blog.thalium.re/posts/binql-a-codeql-extension-for-binary-formats/)
 </details>
 
 # 机器人
@@ -405,6 +445,7 @@ QiLing板块
 <summary>点我点我</summary>
 
 - 🧩[RV130X Firmware Analysis](https://raffo24.github.io/hardware%20hacking/FirmwareAnalysis/)
+- 📦 [Snapshotting our way to CVE-2026-9539](articles/FUZZ/2026-10-27-Snapshotting-our-way-to-CVE-2026-9539.md) · [原文](http://blog.quarkslab.com/snapshotting-our-way-to-cve-2026-9539.html)
 
 </details>
 

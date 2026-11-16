@@ -1,0 +1,121 @@
+{
+ "seen": {
+  "https://www.rapid7.com/blog/post/etr-additional-ivanti-connect-secure-zero-days-exploited-in-the-wild-cve-2026-111357-cve-2026-118527": {
+   "first_seen": "2026-11-16T21:49:44.022720+08:00",
+   "sha256": "1102677f6b2b65a061f8ab4a0a68dbea0f0511de61029ad22ac6881c4b52dfde",
+   "file": "02-Additional-Ivanti-Connect-Secure-zero-days-exploited-in-the.md"
+  },
+  "https://xz.aliyun.com/news/93271": {
+   "first_seen": "2026-11-16T21:49:44.022720+08:00",
+   "sha256": "7826355e5bc527aba6117777cd60a9c4b26005e47f44bdde166d59cf5f86cdbc",
+   "file": "03-深度剖析-CVE-2026-124079-rConfig-未授权反序列化-RCE-漏洞复现与代码审计.md"
+  },
+  "https://www.rapid7.com/blog/post/ra-rapid7-analysis-unauthenticated-file-upload-to-rce-in-beyondtrust-remote-support-cve-2026-102764": {
+   "first_seen": "2026-11-16T21:49:44.022720+08:00",
+   "sha256": "b6ba75ec1da6f9059f7df7717ee1c9881c53ff93daf9b7e0abd448bfbcd8e59a",
+   "file": "04-Rapid7-Analysis-Unauthenticated-File-Upload-to-RCE-in-Beyond.md"
+  },
+  "https://www.rapid7.com/blog/post/etr-critical-vulnerabilities-in-n-able-n-central-prompt-hosted-shutdown": {
+   "first_seen": "2026-11-16T21:49:44.022720+08:00",
+   "sha256": "e44b13fa9ceebf1ed2957a954086f339e314f75c6b43b6dcdb204935f2e35329",
+   "file": "05-Critical-vulnerabilities-in-N-able-N-central-prompt-hosted-s.md"
+  },
+  "https://labs.watchtowr.com/barracuda-networks-is-your-new-best-friend-barracuda-email-security-gateway-pre-auth-remote-root-rce-cve-2026-116606-cve-2026-111560/": {
+   "first_seen": "2026-11-16T21:49:44.022720+08:00",
+   "sha256": "077cad804ebac4ccfa45af871c04fabfc092355a15530cf4ea9a5539501581fe",
+   "file": "06-Barracuda-Networks-is-your-new-best-friend-Barracuda-Email-S.md"
+  },
+  "https://www.anquanke.com/post/id/316426": {
+   "first_seen": "2026-11-16T21:49:44.022720+08:00",
+   "sha256": "17a9958acb37db8d85a24da3d19eaf26eeddce94e5898646b4f96ecca4487ba8",
+   "file": "07-潜伏16年的UEFI漏洞-开机那几秒-你的所有防线都还没上线.md"
+  },
+  "https://www.anquanke.com/post/id/316387": {
+   "first_seen": "2026-11-16T21:49:44.022720+08:00",
+   "sha256": "6e1b904737ed488287c76c5e66e6873687ac6a4594c93eff16df64aab7cb449c",
+   "file": "08-突发-1day漏洞致使大量NAS用户文件被加密.md"
+  },
+  "https://eclypsium.com/news/ars-technica-code-execution-flaw-in-uefi-firmware-affects-most-servers-on-planet-earth/": {
+   "first_seen": "2026-11-16T21:49:44.022720+08:00",
+   "sha256": "f244d550fa7cb7595a2be9ea24fd8c84d37fa50d877aa5c83ddb09fdc0ab488f",
+   "file": "09-Ars-Technica-Code-execution-flaw-in-UEFI-firmware-affects-mo.md"
+  },
+  "https://research.checkpoint.com/2026/9th-november-threat-intelligence-report/": {
+   "first_seen": "2026-11-16T21:49:44.022720+08:00",
+   "sha256": "1f269ed7086c2494d03daed84eedbb22dfcacb2d81e98b9e02fed64d1ead7d40",
+   "file": "10-9th-November-Threat-Intelligence-Report.md"
+  },
+  "https://www.binarly.io/blog/zyxel-gs1900-rce-cve-2026-107441": {
+   "first_seen": "2026-11-16T22:13:50.975181+08:00",
+   "sha256": "b67d25bfdbc4939348b3a88e4c971d78e1991f382f01b2aa399580f4ab35d5dd",
+   "file": "01-Pre-Auth-RCE-in-Zyxel-GS1900-Exploited-in-the-Wild-as-a-Zero.md"
+  },
+  "https://www.ioactive.com/two-oracles-recovering-aes-firmware-key/": {
+   "first_seen": "2026-11-16T22:13:50.975181+08:00",
+   "sha256": "db2c198d859e824d8a7c17ef5b54c06035d1a8d21c9119009e552590a40faf44",
+   "file": "02-Two-Oracles-to-Get-One-Key-A-tale-of-recovering-a-symmetric.md"
+  },
+  "https://www.ioactive.com/supermarket-refrigeration-cyberattacks-industrial-cybersecurity/": {
+   "first_seen": "2026-11-16T22:13:50.975181+08:00",
+   "sha256": "c2a1892969f8b075f9b2e711b7da41ced76fad755321fce38b5af220ff63ba2c",
+   "file": "03-Fifteen-Years-of-Exposure-What-Supermarket-Refrigeration-Att.md"
+  },
+  "https://blog.talosintelligence.com/uat-11473-keydrift/": {
+   "first_seen": "2026-11-16T22:15:04.746781+08:00",
+   "sha256": "0536c8308a0ee683823234257953c88b21e09378996e2448648b221bea285cb2",
+   "file": "01-Inside-KeyDrift-Analyzing-historical-UAT-11473-activity-on-C.md"
+  },
+  "https://blog.thalium.re/posts/binql-a-codeql-extension-for-binary-formats/": {
+   "first_seen": "2026-11-16T22:15:04.746781+08:00",
+   "sha256": "aad64a4a280aa50772930e9e851eb83586a24b735309c526df260b1a8d86a289",
+   "file": "02-BinQL-a-CodeQL-extension-for-binary-formats.md"
+  },
+  "http://blog.quarkslab.com/snapshotting-our-way-to-cve-2026-9539.html": {
+   "first_seen": "2026-11-16T22:15:04.746781+08:00",
+   "sha256": "2a4c5a09356e45a48f9bdfc1beb381008d3462c29667900544c8d73801769ef9",
+   "file": "03-Snapshotting-our-way-to-CVE-2026-9539.md"
+  }
+ },
+ "runs": [
+  {
+   "week": "2026-W47",
+   "at": "2026-11-16T21:38:52.857537+08:00",
+   "candidates": 178,
+   "shortlist": 32,
+   "downloaded": 0,
+   "bytes": 0
+  },
+  {
+   "week": "2026-W47",
+   "at": "2026-11-16T21:49:44.022720+08:00",
+   "candidates": 178,
+   "shortlist": 10,
+   "downloaded": 9,
+   "bytes": 2175385
+  },
+  {
+   "week": "2026-W47",
+   "at": "2026-11-16T22:01:19.191882+08:00",
+   "candidates": 171,
+   "shortlist": 6,
+   "downloaded": 0,
+   "bytes": 0
+  },
+  {
+   "week": "2026-W47",
+   "at": "2026-11-16T22:13:50.975181+08:00",
+   "candidates": 3,
+   "shortlist": 3,
+   "downloaded": 3,
+   "bytes": 619064
+  },
+  {
+   "week": "2026-W47",
+   "at": "2026-11-16T22:15:04.746781+08:00",
+   "candidates": 3,
+   "shortlist": 3,
+   "downloaded": 3,
+   "bytes": 266030
+  }
+ ]
+}

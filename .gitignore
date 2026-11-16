@@ -1,0 +1,10 @@
+# 每周爬虫的暂存区（待人工/Agent 复审后再发布）
+_staging/
+
+# 运行日志与临时文件
+data/crawl.log
+*.tmp
+
+# Python 缓存
+__pycache__/
+*.pyc
