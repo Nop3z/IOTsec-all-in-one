@@ -32,19 +32,15 @@ BUDGET_MB = 60
 
 CST = timezone(timedelta(hours=8))
 
-# README 中真实存在的板块（# 一级标题）
-SECTIONS = [
-    "Openwrt", "摄像头", "无人机", "防火墙", "基站", "打印机", "充电桩", "车机",
-    "智能家居", "卫星安全", "机器人", "芯片安全", "RFID", "WIFI安全", "FUZZ",
-    "协议安全", "硬件钱包", "绕过ASLR", "故障注入", "安全启动", "固件解密", "杂项",
+# README 中真实存在的板块（二级标题），顺序同时决定索引的分组
+DEVICE_ORDER = [
+    "Openwrt", "摄像头", "无人机", "车机", "充电桩", "基站", "防火墙", "卫星安全",
+    "打印机", "智能家居", "机器人", "芯片安全", "RFID", "WIFI安全", "协议安全",
+    "硬件钱包", "FUZZ",
 ]
-EMOJI = {
-    "Openwrt": "🛠️", "摄像头": "📷", "无人机": "🚁", "防火墙": "🛡️", "基站": "📡",
-    "打印机": "📠", "充电桩": "⚡", "车机": "🚗", "智能家居": "⚠️", "卫星安全": "🛰️",
-    "机器人": "📺", "芯片安全": "📱", "RFID": "🔑", "WIFI安全": "🌐", "FUZZ": "📦",
-    "协议安全": "📜", "硬件钱包": "🖥️", "绕过ASLR": "🚀", "故障注入": "💉",
-    "安全启动": "🔑", "固件解密": "📜", "杂项": "📦",
-}
+TECH_ORDER = ["安全启动", "固件解密", "故障注入", "绕过ASLR"]
+RES_ORDER = ["固件下载", "虚拟机镜像", "杂项"]
+SECTIONS = DEVICE_ORDER + TECH_ORDER + RES_ORDER
 
 
 def read(path):
@@ -85,63 +81,75 @@ def section_anchor(name):
     return name
 
 
+HEADING_RE = re.compile(r"^#{1,2} ")
+
+
 def insert_link_into_section(readme_text, section, line):
     lines = readme_text.split("\n")
     head_idx = None
     for i, ln in enumerate(lines):
-        if ln.strip() == "# " + section:
+        if ln.strip() in ("# " + section, "## " + section):
             head_idx = i
             break
     if head_idx is None:
         return None
     end_idx = len(lines)
     for j in range(head_idx + 1, len(lines)):
-        if lines[j].startswith("# "):
+        if HEADING_RE.match(lines[j]):
             end_idx = j
             break
     last_item = None
+    empty_note = None
     for j in range(head_idx + 1, end_idx):
         if lines[j].startswith("- "):
             last_item = j
+        if empty_note is None and lines[j].strip().startswith("暂无"):
+            empty_note = j
     if last_item is not None:
         lines.insert(last_item + 1, line)
+    elif empty_note is not None:
+        lines[empty_note] = line
+    elif head_idx + 1 < end_idx and lines[head_idx + 1].strip() == "":
+        lines.insert(head_idx + 2, line)
     else:
-        # 没有列表项：插到 <summary> 之后的第一个空行后
-        insert_at = head_idx + 1
-        for j in range(head_idx + 1, end_idx):
-            if "</summary>" in lines[j]:
-                insert_at = j + 1
-                break
-        if insert_at < end_idx and lines[insert_at].strip() != "":
-            lines.insert(insert_at + 1, "")
-            lines.insert(insert_at + 2, line)
-        else:
-            lines.insert(insert_at + 1, line)
+        lines.insert(head_idx + 1, "")
+        lines.insert(head_idx + 2, line)
     return "\n".join(lines)
 
 
-def append_log_entry(readme_text, date_str, body_lines):
+def append_log_entry(readme_text, date_str, week, body_lines):
     lines = readme_text.split("\n")
     head_idx = None
     for i, ln in enumerate(lines):
-        if ln.strip() == "# Log":
+        if ln.strip() in ("# Log", "## Log", "## 更新日志", "# 更新日志"):
             head_idx = i
             break
     if head_idx is None:
         return None
     end_idx = len(lines)
     for j in range(head_idx + 1, len(lines)):
-        if lines[j].startswith("# "):
+        if HEADING_RE.match(lines[j]):
             end_idx = j
             break
+    summary_idx = None
+    for j in range(head_idx + 1, end_idx):
+        if "<summary>" in lines[j]:
+            summary_idx = j
+            break
+    heading = "### " + date_str + ((" · " + week) if week else "")
+    block = [heading, ""] + list(body_lines) + [""]
+    if summary_idx is not None:
+        insert_at = summary_idx + 1
+        if insert_at < end_idx and lines[insert_at].strip() == "":
+            insert_at += 1
+        lines[insert_at:insert_at] = block
+        return "\n".join(lines)
     close_indices = [j for j in range(head_idx + 1, end_idx) if lines[j].strip() == "</details>"]
     if not close_indices:
         return None
     insert_at = close_indices[-1]
-    block = ["", "<details>", "<summary>" + date_str + "</summary>", "", ">更新"]
-    block.extend(body_lines)
-    block.extend(["", "", "</details>"])
-    lines[insert_at:insert_at] = block
+    lines[insert_at:insert_at] = (["", "<details>", "<summary>" + date_str + "</summary>", "", ">更新"]
+                                  + list(body_lines) + ["", "", "</details>"])
     return "\n".join(lines)
 
 
@@ -172,6 +180,92 @@ def rebuild_index():
         out.append("| %s | %s | [%s](%s) | [md](%s) | %s |"
                    % (date, cat, title.replace("|", "/"), url, rel, source))
     write(os.path.join(ARTICLES, "INDEX.md"), "\n".join(out) + "\n")
+    return len(rows)
+
+
+def _section_counts(readme_text):
+    counts = {}
+    current = None
+    for ln in readme_text.split("\n"):
+        s = ln.strip()
+        if s.startswith("## "):
+            current = s[3:].strip()
+            counts.setdefault(current, 0)
+            continue
+        if s.startswith("# "):
+            current = None
+            continue
+        if current and s.startswith("- "):
+            counts[current] = counts.get(current, 0) + 1
+    return counts
+
+
+def _index_table(group, counts, pairs_per_row=3):
+    out = ["| 板块 | 篇 " * pairs_per_row + "|", "|:--|--:" * pairs_per_row + "|"]
+    for i in range(0, len(group), pairs_per_row):
+        cells = []
+        for k in range(pairs_per_row):
+            if i + k < len(group):
+                sec = group[i + k]
+                cells.append("| [%s](#%s) | %d " % (sec, sec.lower(), counts.get(sec, 0)))
+            else:
+                cells.append("| | ")
+        out.append("".join(cells) + "|")
+    return out
+
+
+def rebuild_index_block():
+    """按各板块实际条目数重写 <!-- INDEX:START --> … <!-- INDEX:END --> 区块。"""
+    text = read(README)
+    start = text.find("<!-- INDEX:START -->")
+    end = text.find("<!-- INDEX:END -->")
+    if start < 0 or end < 0 or end < start:
+        return 0
+    counts = _section_counts(text)
+    rows = 0
+    for dirpath, _, filenames in os.walk(ARTICLES):
+        rows += len([f for f in filenames if f.endswith(".md") and f != "INDEX.md"])
+    block = ["<!-- INDEX:START -->", "", "**设备与场景**", ""]
+    block += _index_table(DEVICE_ORDER, counts, 3)
+    block += ["", "**技术专题**", ""]
+    block += _index_table(TECH_ORDER, counts, 2)
+    block += ["", "**资源与归档**", ""]
+    block += _index_table(RES_ORDER, counts, 3)
+    block += ["| [文章快照](articles/INDEX.md) | %d | [更新日志](#更新日志) | - "
+              "| [收录标准](#收录标准) | - |" % rows, "", "<!-- INDEX:END -->"]
+    rest = text[end + len("<!-- INDEX:END -->"):]
+    write(README, text[:start] + "\n".join(block) + rest)
+    return rows
+
+
+def rebuild_latest_block(limit=8):
+    """重写 README 里 <!-- LATEST:START --> … <!-- LATEST:END --> 之间的「最新归档」表格。"""
+    rows = []
+    for dirpath, dirnames, filenames in os.walk(ARTICLES):
+        for fn in sorted(filenames):
+            if not fn.endswith(".md") or fn == "INDEX.md":
+                continue
+            path = os.path.join(dirpath, fn)
+            meta, _ = parse_front_matter(read(path))
+            if meta.get("status") != "published":
+                continue
+            rel = os.path.relpath(path, ROOT).replace(os.sep, "/")
+            rows.append((meta.get("published", "")[:10], meta.get("category", "杂项"),
+                         meta.get("title", fn), rel))
+    if not rows:
+        return 0
+    rows.sort(reverse=True)
+    out = ["| 日期 | 板块 | 文章 |", "|:--|:--|:--|"]
+    for date, cat, title, rel in rows[:limit]:
+        out.append("| %s | %s | [%s](%s) |" % (date, cat, title.replace("|", "/"), rel))
+    text = read(README)
+    start = text.find("<!-- LATEST:START -->")
+    end = text.find("<!-- LATEST:END -->")
+    if start < 0 or end < 0 or end < start:
+        return 0
+    new_text = (text[:start] + "<!-- LATEST:START -->\n" + "\n".join(out) + "\n"
+                + text[end:])
+    write(README, new_text)
     return len(rows)
 
 
@@ -280,7 +374,7 @@ def main():
 
         rel = os.path.relpath(dest, ROOT).replace(os.sep, "/")
         title = rec["title"]
-        link = "- " + EMOJI.get(cat, "🆕") + " [" + title + "](" + rel + ") · [原文](" + rec["url"] + ")"
+        link = "- [" + title + "](" + rel + ") · [原文](" + rec["url"] + ")"
         new_readme = insert_link_into_section(readme, cat, link)
         if new_readme is None:
             new_readme = insert_link_into_section(readme, "杂项", link)
@@ -292,13 +386,9 @@ def main():
     if published:
         log_lines = []
         for rec, cat, rel, link in published:
-            log_lines.append("- " + "[" + rec["title"] + "](" + rel + ")  —— " + cat + " 板块")
-        new_readme = append_log_entry(readme, github_date(now), log_lines)
-        if new_readme:
-            readme = new_readme
-            write(README, readme)
-        else:
-            write(README, readme)
+            log_lines.append("- [" + rec["title"] + "](" + rel + ") —— " + cat)
+        new_readme = append_log_entry(readme, today, week, log_lines)
+        write(README, new_readme if new_readme else readme)
 
         # 已发布的条目从 staging 删除，避免下次重复
         for rec, cat, rel, link in published:
@@ -307,6 +397,8 @@ def main():
                 os.remove(p)
 
         n = rebuild_index()
+        rebuild_latest_block()
+        rebuild_index_block()
         size_mb = repo_size() / 1048576.0
         print("articles index rebuilt: %d published, repo size %.1f MB / budget %d MB" % (n, size_mb, BUDGET_MB))
         if size_mb > BUDGET_MB:
