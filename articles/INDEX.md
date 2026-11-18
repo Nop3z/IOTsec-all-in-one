@@ -1,10 +1,9 @@
-# 📚 文章快照索引
+# 文章快照索引
 
-共 8 篇已归档（每周自动抓取 + 人工/Agent 复审）。
-快照仅供安全研究参考，版权归原作者所有；请以原文为准。
+共 8 篇已归档（每周自动抓取 + 复审）。快照仅供安全研究参考，版权归原作者所有。
 
 | 日期 | 板块 | 标题 | 快照 | 来源 |
-|---|---|---|---|---|
+|:--|:--|:--|:--|:--|
 | 2026-11-13 | 杂项 | [BinQL: a CodeQL extension for binary formats](https://blog.thalium.re/posts/binql-a-codeql-extension-for-binary-formats/) | [md](articles/杂项/2026-11-13-BinQL-a-CodeQL-extension-for-binary-formats.md) | Thalium |
 | 2026-11-10 | 固件解密 | [Two Oracles to Get One Key: A tale of recovering a symmetric key from an encrypt-only firmware update scheme](https://www.ioactive.com/two-oracles-recovering-aes-firmware-key/) | [md](articles/固件解密/2026-11-10-Two-Oracles-to-Get-One-Key-A-tale-of-recovering-a-symmetric.md) | IOActive |
 | 2026-11-06 | 防火墙 | [Barracuda Networks is your new best friend (Barracuda Email Security Gateway Pre-Auth Remote Root RCE CVE-2026-116606 / CVE-2026-111560)](https://labs.watchtowr.com/barracuda-networks-is-your-new-best-friend-barracuda-email-security-gateway-pre-auth-remote-root-rce-cve-2026-116606-cve-2026-111560/) | [md](articles/防火墙/2026-11-06-Barracuda-Networks-is-your-new-best-friend-Barracuda-Email-S.md) | watchTowr Labs |

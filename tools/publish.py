@@ -172,10 +172,9 @@ def rebuild_index():
                          meta.get("category", "杂项"), meta.get("title", fn), rel,
                          meta.get("source", ""), meta.get("score", ""), meta.get("url", "")))
     rows.sort(reverse=True)
-    out = ["# 📚 文章快照索引", "",
-           "共 " + str(len(rows)) + " 篇已归档（每周自动抓取 + 人工/Agent 复审）。",
-           "快照仅供安全研究参考，版权归原作者所有；请以原文为准。", "",
-           "| 日期 | 板块 | 标题 | 快照 | 来源 |", "|---|---|---|---|---|"]
+    out = ["# 文章快照索引", "",
+           "共 " + str(len(rows)) + " 篇已归档（每周自动抓取 + 复审）。快照仅供安全研究参考，版权归原作者所有。",
+           "", "| 日期 | 板块 | 标题 | 快照 | 来源 |", "|:--|:--|:--|:--|:--|"]
     for date, cat, title, rel, source, score, url in rows:
         out.append("| %s | %s | [%s](%s) | [md](%s) | %s |"
                    % (date, cat, title.replace("|", "/"), url, rel, source))
