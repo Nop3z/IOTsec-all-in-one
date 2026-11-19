@@ -84,7 +84,21 @@ def section_anchor(name):
 HEADING_RE = re.compile(r"^#{1,2} ")
 
 
-def insert_link_into_section(readme_text, section, line):
+DIVIDER = "**论文 / 理论综述**"
+
+
+def _classify_external(url):
+    low = (url or "").lower()
+    if any(d in low for d in ("arxiv.org", "usenix.org", "eprint.iacr.org", "tches.iacr.org",
+                              "dl.acm.org", "ieeexplore", "ndss-symposium", "sstic.org", "dspace.")):
+        return "theory"
+    if "/pdf" in low or low.endswith(".pdf"):
+        return "practical" if any(k in low for k in ("blackhat", "hardwear", "powerofcommunity", "media.ccc")) else "theory"
+    return "practical"
+
+
+def insert_link_into_section(readme_text, section, line, kind="practical"):
+    """实战条目插到「论文 / 理论综述」分隔线之前；理论条目插到板块末尾。"""
     lines = readme_text.split("\n")
     head_idx = None
     for i, ln in enumerate(lines):
@@ -98,22 +112,47 @@ def insert_link_into_section(readme_text, section, line):
         if HEADING_RE.match(lines[j]):
             end_idx = j
             break
-    last_item = None
+    div_idx = None
+    for j in range(head_idx + 1, end_idx):
+        if lines[j].strip() == DIVIDER:
+            div_idx = j
+            break
+    practical_last = None
+    theory_last = None
     empty_note = None
     for j in range(head_idx + 1, end_idx):
         if lines[j].startswith("- "):
-            last_item = j
+            if div_idx is not None and j > div_idx:
+                theory_last = j
+            else:
+                practical_last = j
         if empty_note is None and lines[j].strip().startswith("暂无"):
             empty_note = j
-    if last_item is not None:
-        lines.insert(last_item + 1, line)
-    elif empty_note is not None:
+    if empty_note is not None and practical_last is None and theory_last is None:
         lines[empty_note] = line
-    elif head_idx + 1 < end_idx and lines[head_idx + 1].strip() == "":
-        lines.insert(head_idx + 2, line)
+        return "\n".join(lines)
+    if kind == "theory":
+        if theory_last is not None:
+            lines.insert(theory_last + 1, line)
+        elif div_idx is not None:
+            lines.insert(div_idx + 2, line)
+        elif practical_last is not None:
+            lines.insert(practical_last + 1, "")
+            lines.insert(practical_last + 2, DIVIDER)
+            lines.insert(practical_last + 3, "")
+            lines.insert(practical_last + 4, line)
+        else:
+            lines.insert(head_idx + 2, line)
     else:
-        lines.insert(head_idx + 1, "")
-        lines.insert(head_idx + 2, line)
+        if div_idx is not None:
+            pos = div_idx - 1
+            while pos > head_idx and lines[pos].strip() == "":
+                pos -= 1
+            lines.insert(pos + 1, line)
+        elif practical_last is not None:
+            lines.insert(practical_last + 1, line)
+        else:
+            lines.insert(head_idx + 2, line)
     return "\n".join(lines)
 
 
@@ -371,9 +410,10 @@ def main():
         rel = os.path.relpath(dest, ROOT).replace(os.sep, "/")
         title = rec["title"]
         link = "- [" + title + "](" + rel + ") · [原文](" + rec["url"] + ")"
-        new_readme = insert_link_into_section(readme, cat, link)
+        kind = meta.get("kind", "practical")
+        new_readme = insert_link_into_section(readme, cat, link, kind)
         if new_readme is None:
-            new_readme = insert_link_into_section(readme, "杂项", link)
+            new_readme = insert_link_into_section(readme, "杂项", link, kind)
         if new_readme:
             readme = new_readme
         published.append((rec, cat, rel, link))

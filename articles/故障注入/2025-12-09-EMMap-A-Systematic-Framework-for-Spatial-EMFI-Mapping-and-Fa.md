@@ -11,6 +11,7 @@ sha256: 5a89a7f0e52b0bac36d74f5784f1e3c32812e4e69a8c0450a7c1ec62fd6df574
 bytes: 955
 truncated: false
 body_mode: meta
+kind: theory
 status: published
 published_at: 2026-11-19T12:20:43.910308+08:00
 ---

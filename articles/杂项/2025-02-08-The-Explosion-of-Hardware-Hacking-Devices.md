@@ -11,6 +11,7 @@ sha256: daaac5fa66f083177f4750c7ce192f277a4ad13ac9a391a8da89a3cb0920b52b
 bytes: 16645
 truncated: false
 body_mode: fulltext
+kind: practical
 status: published
 published_at: 2026-11-19T12:20:43.910308+08:00
 ---

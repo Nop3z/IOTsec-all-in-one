@@ -33,6 +33,20 @@ CST = timezone(timedelta(hours=8))
 ROOT = crawl.ROOT
 
 
+def infer_kind(url):
+    low = (url or "").lower()
+    if any(d in low for d in ("arxiv.org", "usenix.org", "eprint.iacr.org", "tches.iacr.org",
+                              "dl.acm.org", "ieeexplore", "ndss-symposium", "sstic.org", "dspace.")):
+        return "theory"
+    if "/pdf" in low or low.endswith(".pdf"):
+        if any(k in low for k in ("blackhat", "hardwear", "powerofcommunity", "media.ccc")):
+            return "practical"
+        return "theory"
+    if any(k in (url or "").lower() for k in ("arxiv",)):
+        return "theory"
+    return "practical"
+
+
 def slug(title, maxlen=60):
     s = re.sub(r"[^\w\u4e00-\u9fff]+", "-", title, flags=re.UNICODE).strip("-")
     s = re.sub(r"-{2,}", "-", s)
@@ -94,6 +108,7 @@ def main():
             "bytes: " + str(len(text.encode("utf-8"))),
             "truncated: false",
             "body_mode: " + body_mode,
+            "kind: " + item.get("kind", infer_kind(url)),
             "status: candidate",
             "---",
             "",

@@ -10,6 +10,7 @@ keywords: ["pre-auth", "barracuda"]
 sha256: 077cad804ebac4ccfa45af871c04fabfc092355a15530cf4ea9a5539501581fe
 bytes: 22200
 truncated: false
+kind: practical
 status: published
 published_at: 2026-11-16T22:16:27.064129+08:00
 ---

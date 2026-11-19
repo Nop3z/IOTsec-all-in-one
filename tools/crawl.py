@@ -824,6 +824,7 @@ def main():
             "bytes: " + str(size),
             "truncated: " + ("true" if truncated else "false"),
             "body_mode: " + ("link-only" if link_only else "fulltext"),
+            "kind: practical",
             "status: candidate",
             "---",
             "",
