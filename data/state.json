@@ -549,6 +549,186 @@
    "first_seen": "2026-11-19T11:35:50.129835+08:00",
    "sha256": "2475e670e8a55299008b1c0ddc50120ecbc3a31365f81bb91d29b845b6e0c95a",
    "file": "25-Repeatable-Failures-Test-Keys-Used-to-Sign-Production-Softwa.md"
+  },
+  "http://security.googleblog.com/2025/09/supporting-rowhammer-research-to.html": {
+   "first_seen": "2026-11-19T12:02:12.663918+08:00",
+   "sha256": "47425472c89f6f26339b495963ba5cea640d70c68955a743c955354d09b608bf",
+   "file": "01-Supporting-Rowhammer-research-to-protect-the-DRAM-ecosystem.md"
+  },
+  "https://www.thezdi.com/blog/2026/5/16/pwn2own-berlin-2026-day-three-results-and-master-of-pwn": {
+   "first_seen": "2026-11-19T12:02:12.663918+08:00",
+   "sha256": "9739b5df5cd4919017d3283241555c43a7a6b7f9f8cb1571764ad625230c1f07",
+   "file": "02-Pwn2Own-Berlin-2026-Day-Three-Results-and-Master-of-Pw.md"
+  },
+  "https://www.thezdi.com/blog/2026/5/15/pwn2own-berlin-2026-day-two-results": {
+   "first_seen": "2026-11-19T12:02:12.663918+08:00",
+   "sha256": "602c07b03ff1c54e2dd712cf7e1ef8c3663ce871df0842fdbc7615d7e459b6ac",
+   "file": "03-Pwn2Own-Berlin-2026-Day-Two-Results.md"
+  },
+  "http://security.googleblog.com/2025/12/further-hardening-android-gpus.html": {
+   "first_seen": "2026-11-19T12:02:12.663918+08:00",
+   "sha256": "0f3e0423c3079384b923116fe9efeb125ff9aeaf493f8d2d90b80ebeb693dd7b",
+   "file": "04-Further-Hardening-Android-GPUs.md"
+  },
+  "http://security.googleblog.com/2025/08/Android-pKVM-Certified-SESIP-Level-5.html": {
+   "first_seen": "2026-11-19T12:02:12.663918+08:00",
+   "sha256": "5d06eeef08903911339c25116860a951ed3d4f6cd60e7242ad633648b295277b",
+   "file": "05-Android-s-pKVM-Becomes-First-Globally-Certified-Software-to.md"
+  },
+  "https://projectzero.google/2026/02/windows-administrator-protection.html": {
+   "first_seen": "2026-11-19T12:02:12.663918+08:00",
+   "sha256": "68acdf186463028efd48eed599db18ddc95f48a96f185bc86d4ed9746646ec17",
+   "file": "06-Bypassing-Administrator-Protection-by-Abusing-UI-Access.md"
+  },
+  "https://portswigger.net/research/the-fragile-lock": {
+   "first_seen": "2026-11-19T12:02:12.663918+08:00",
+   "sha256": "c5ba03bd44c7e45dade9a11d5059390bcb453ffd1f18dfc45bd038d8d7206469",
+   "file": "07-The-Fragile-Lock-nbsp-Novel-Bypasses-For-SAML-Authentication.md"
+  },
+  "https://portswigger.net/research/introducing-the-url-validation-bypass-cheat-sheet": {
+   "first_seen": "2026-11-19T12:02:12.663918+08:00",
+   "sha256": "9e6d72eb22b63a9eddaa6b776a1d7e4bf977a22eeea9b832632453b8a4f62271",
+   "file": "08-Introducing-the-URL-validation-bypass-cheat-sheet.md"
+  },
+  "http://security.googleblog.com/2025/11/rust-in-android-move-fast-fix-things.html": {
+   "first_seen": "2026-11-19T12:02:12.663918+08:00",
+   "sha256": "d77c984239014d64577ccaa1d3e508ff1742df0ab22cb50baef19bc8d99c612a",
+   "file": "09-Rust-in-Android-move-fast-and-fix-things.md"
+  },
+  "https://blog.trailofbits.com/2026/09/25/dont-let-tees-break-your-mpc/": {
+   "first_seen": "2026-11-19T12:02:12.663918+08:00",
+   "sha256": "f448ba705755950bfd32d12e2bea96e6714e23dfd062bb9fea0ac39942c381e8",
+   "file": "10-Don-t-let-TEEs-break-your-MPC.md"
+  },
+  "https://blog.trailofbits.com/2026/08/05/a-few-notes-on-aws-nitro-enclaves-kms-integration/": {
+   "first_seen": "2026-11-19T12:02:12.663918+08:00",
+   "sha256": "759b827930c78f242478597ee309e5fca6804f0efa55e1aa2fd4a3a13ef194c0",
+   "file": "11-A-few-notes-on-AWS-Nitro-Enclaves-KMS-integration.md"
+  },
+  "https://research.checkpoint.com/2026/free-the-model-sell-the-gateway-prompt-adware-hidden-in-jailbreak-bundles/": {
+   "first_seen": "2026-11-19T12:02:12.663918+08:00",
+   "sha256": "c024d4ca00c482574226d9e5e73a176e0023765347d71c8e2998d7af5810fc91",
+   "file": "13-Free-the-Model-Sell-the-Gateway-Prompt-Adware-hidden-in-Jail.md"
+  },
+  "https://research.checkpoint.com/2026/coheres-qwen-story-looks-more-like-model-jaggedness/": {
+   "first_seen": "2026-11-19T12:02:12.663918+08:00",
+   "sha256": "94f5d8e9145b1bcd884eb379049aa20085fcc36604c1b2a0a133600a19921fd7",
+   "file": "14-Cohere-s-Qwen-Story-Looks-More-Like-Model-Jaggedness.md"
+  },
+  "https://research.checkpoint.com/2026/the-risk-of-ai-powered-antidetect-browsers-in-online-fraud-and-influence-operations/": {
+   "first_seen": "2026-11-19T12:02:12.663918+08:00",
+   "sha256": "c437e43ec13b8fde16606a337634923359af8652dac935b801bb2a685c175053",
+   "file": "15-The-Risk-of-AI-Powered-Antidetect-Browsers-in-Online-Fraud-a.md"
+  },
+  "https://www.pentestpartners.com/security-blog/the-problem-with-shared-wi-fi-passwords-at-work/": {
+   "first_seen": "2026-11-19T12:02:12.663918+08:00",
+   "sha256": "3e2d9080828569556d92e06a652dd3292ae456bf70dae8d4cf282e7d24dcffb0",
+   "file": "16-The-problem-with-shared-Wi-Fi-passwords-at-work.md"
+  },
+  "https://www.pentestpartners.com/security-blog/automated-warehouses-8-third-parties-one-network-and-no-owner/": {
+   "first_seen": "2026-11-19T12:02:12.663918+08:00",
+   "sha256": "f91f6e7ee9090517f0b744e379941f1b7db6218f35a2390cc675b4d336c856ae",
+   "file": "17-Automated-warehouses-8-third-parties-one-network-and-no-owne.md"
+  },
+  "https://www.pentestpartners.com/security-blog/why-your-data-is-safer-than-you-think-on-public-wi-fi/": {
+   "first_seen": "2026-11-19T12:02:12.663918+08:00",
+   "sha256": "089db9c640958565216dac0222008c747d3813f442c943ae156306b136ae8b09",
+   "file": "18-Why-your-data-is-safer-than-you-think-on-public-Wi-Fi.md"
+  },
+  "https://xlab.tencent.com/en/2026/02/02/ai-browser-crawler-whitepaper/": {
+   "first_seen": "2026-11-19T12:02:12.663918+08:00",
+   "sha256": "10b04ef529b31c91b83b4b188ab25419d06ac4fee281ab5604d926ad25d8f51c",
+   "file": "21-AI-Web-Crawler-Security-White-Paper.md"
+  },
+  "https://blogs.cisco.com/security/building-a-security-framework-for-the-agentic-enterprise/": {
+   "first_seen": "2026-11-19T12:02:12.663918+08:00",
+   "sha256": "b51eaf1c6db4ca26d7eb938b04a54d32df681382584ad5aa8580db4ae1a97a4d",
+   "file": "22-Building-a-Security-Framework-for-the-Agentic-Enterprise.md"
+  },
+  "https://blogs.cisco.com/security/two-forrester-waves-one-connected-security-strategy/": {
+   "first_seen": "2026-11-19T12:02:12.663918+08:00",
+   "sha256": "c128010441ea666f560d52a42867184e231876f60bf315f46cc0e9c18d9e2f2a",
+   "file": "23-Two-Forrester-Waves-One-Connected-Security-Strategy.md"
+  },
+  "https://blogs.cisco.com/security/php2shell-how-cisco-helps-customers-respond-to-ai-accelerated-threats/": {
+   "first_seen": "2026-11-19T12:02:12.663918+08:00",
+   "sha256": "b2eb91723ef5e439010f0c7555ee2937fc1f260942ed7f6fbd674cade263c61c",
+   "file": "24-PHP2Shell-How-Cisco-Helps-Customers-Respond-to-AI-Accelerate.md"
+  },
+  "https://blogs.cisco.com/security/cisco-rethinks-privileged-infrastructure-access/": {
+   "first_seen": "2026-11-19T12:02:12.663918+08:00",
+   "sha256": "f43b6917334a7746e0b68a4e4fef677a62e8d977f1091addd8e4741abc70a8c0",
+   "file": "25-Cisco-Rethinks-Privileged-Infrastructure-Access.md"
+  },
+  "https://blogs.cisco.com/security/unified-defense-from-endpoint-to-cloud/": {
+   "first_seen": "2026-11-19T12:02:12.663918+08:00",
+   "sha256": "9a56f0c87baee5a0d8b72dc1f4c8dfa2311eda655166764a16dfe2e0bea06b11",
+   "file": "26-Unified-Defense-from-Endpoint-to-Cloud-Real-Time-Protection.md"
+  },
+  "http://security.googleblog.com/2025/09/pixel-android-trusted-images-c2pa-content-credentials.html": {
+   "first_seen": "2026-11-19T12:02:12.663918+08:00",
+   "sha256": "a543e6405cff6773f482d3f704dac42aa205af6929e57c32894ca61a03032fb6",
+   "file": "27-How-Pixel-and-Android-are-bringing-a-new-level-of-trust-to-y.md"
+  },
+  "https://www.rapid7.com/blog/post/em-patch-tuesday-november-2026": {
+   "first_seen": "2026-11-19T12:02:12.663918+08:00",
+   "sha256": "3c9019887006b18246bb83e8d534c306dfedbe124ee7764f2fee66887fb547ef",
+   "file": "28-Patch-Tuesday-November-2026.md"
+  },
+  "https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-2026-gartner-mq-siem/": {
+   "first_seen": "2026-11-19T12:02:12.663918+08:00",
+   "sha256": "246eac008fb66171ba63b44ad505d8742f823110b744961509c42c84dc75d0b6",
+   "file": "29-CrowdStrike-Is-Building-the-Engine-of-the-Agentic-SOC-with-F.md"
+  },
+  "https://www.crowdstrike.com/en-us/blog/supply-chain-risk-from-backdoored-lora-models/": {
+   "first_seen": "2026-11-19T12:02:12.663918+08:00",
+   "sha256": "4a436675616f368c9e0576694b99f09fc4b889ea2b08eb9ca0a6cd970bba11c9",
+   "file": "30-Hidden-in-the-Weights-Supply-Chain-Risk-from-Backdoored-LoRA.md"
+  },
+  "https://www.crowdstrike.com/en-us/blog/crowdstrike-detects-and-stops-agent-insider-threats/": {
+   "first_seen": "2026-11-19T12:02:12.663918+08:00",
+   "sha256": "4ffc5995e3e54c2225794b68ebd90c035fdb33895537a19b774286ee9ffc75f7",
+   "file": "31-CrowdStrike-Extends-the-Agentic-SOC-to-Detect-and-Stop-Agent.md"
+  },
+  "https://www.bitdefender.com/en-us/blog/labs/midnight-mimosa-malware": {
+   "first_seen": "2026-11-19T12:02:12.663918+08:00",
+   "sha256": "033d18f027a956df58e8e2d38519481ae7cb94b9d1b9bc90c52102e87dbff53b",
+   "file": "32-The-phone-was-compromised-before-the-user-turned-it-on-the-r.md"
+  },
+  "https://securelist.com/virtualization-security-esxi-and-proxmox-ransomware-cases/121819/": {
+   "first_seen": "2026-11-19T12:02:12.663918+08:00",
+   "sha256": "d76213f45e2a998e0bddbcc0b3efb57e6c46b4776faa632226407fa7ce48675f",
+   "file": "33-Virtualization-security-attack-layers-and-misconfiguration-i.md"
+  },
+  "https://fortiguard.fortinet.com/psirt/FG-IR-26-268": {
+   "first_seen": "2026-11-19T12:02:12.663918+08:00",
+   "sha256": "b77e71ed8d6b54fae560dcc87c4fe829e1db3b6048d2a6e2fceae6a8321e9585",
+   "file": "34-Numeric-truncation-error.md"
+  },
+  "https://fortiguard.fortinet.com/psirt/FG-IR-26-195": {
+   "first_seen": "2026-11-19T12:02:12.663918+08:00",
+   "sha256": "c847bc4719a69f24e6d73abdb772f05d4efa4956aa887c0b9c779237efd510e9",
+   "file": "35-Broken-Access-Control-in-Two-Factor-Authentication.md"
+  },
+  "https://www.4hou.com/posts/LGMD": {
+   "first_seen": "2026-11-19T12:02:12.663918+08:00",
+   "sha256": "a785f635ad9d93e9b948a3213dddb45da1bd68656f1d61b18e14b4cdee618d5f",
+   "file": "36-新型CrystalRAT恶意软件新增远程控制-数据窃取等功能.md"
+  },
+  "https://xz.aliyun.com/news/93356": {
+   "first_seen": "2026-11-19T12:02:12.663918+08:00",
+   "sha256": "3b743cbd7c5bf08fde1c508fdc4a6ee44332b0a9b173da1c1fff204525ecbc0a",
+   "file": "37-CVE-2026-30623-漏洞分析-LiteLLM-Proxy-MCP-接口命令注入漏洞复现与源码审计.md"
+  },
+  "https://xz.aliyun.com/news/93223": {
+   "first_seen": "2026-11-19T12:02:12.663918+08:00",
+   "sha256": "a8eefb5beb8d7d1e188f740d8fc818e68ee08f88816572a7f708e65241aa8b8f",
+   "file": "38-SSN-只是开始-一次-Hell-s-Gate-源码与动态调试拆解.md"
+  },
+  "https://www.4hou.com/posts/PGXA": {
+   "first_seen": "2026-11-19T12:02:12.663918+08:00",
+   "sha256": "ebeeae6ca01fabcd5f29deca18a27f2e2a3c635bd048f9bfa4baddd8e81d39d2",
+   "file": "39-公安部通报37款违规应用-电商类占比超七成-小程序不再是-法外之地.md"
   }
  },
  "runs": [
@@ -615,6 +795,14 @@
    "shortlist": 25,
    "downloaded": 25,
    "bytes": 4967881
+  },
+  {
+   "week": "2026-W47",
+   "at": "2026-11-19T12:02:12.663918+08:00",
+   "candidates": 498,
+   "shortlist": 39,
+   "downloaded": 36,
+   "bytes": 6916549
   }
  ]
 }

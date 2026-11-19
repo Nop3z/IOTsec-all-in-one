@@ -503,21 +503,48 @@ def extract_main_text(html, base_url):
     soup = BeautifulSoup(html, "lxml")
     for t in soup(list(DROP_TAGS)):
         t.decompose()
-    candidates = []
-    for sel in ["article", "main", "[role=main]", "div.post-content", "div.entry-content",
-                "div.article-content", "div.content", "div#content", "div.post", "body"]:
-        for node in soup.select(sel):
-            text = node.get_text(" ", strip=True)
-            if len(text) > 600:
-                candidates.append((len(text), node))
-        if candidates:
-            break
-    if not candidates:
+    # 以“段落文字量”为主要信号，并列时取正文更短（更贴近文章本体）的容器
+    cands = []
+    for node in soup.find_all(["article", "main", "div", "section"]):
+        ps = node.find_all("p", recursive=True)
+        if len(ps) < 2:
+            continue
+        pscore = sum(len(p.get_text(" ", strip=True)) for p in ps)
+        if pscore < 500:
+            continue
+        total = len(node.get_text(" ", strip=True))
+        cands.append((pscore, -total, node))
+    node = None
+    if cands:
+        cands.sort(key=lambda x: (x[0], x[1]), reverse=True)
+        node = cands[0][2]
+    else:
+        for sel in ["article", "main", "[role=main]", "div.post-content", "div.entry-content",
+                    "div.article-content", "div.content", "div#content", "div.post", "body"]:
+            for cand in soup.select(sel):
+                if len(cand.get_text(" ", strip=True)) > 600:
+                    node = cand
+                    break
+            if node is not None:
+                break
+    if node is None:
         return ""
-    node = max(candidates, key=lambda x: x[0])[1]
     md = md_block(node, base_url)
     md = re.sub(r"[ \t]+\n", "\n", md)
     md = re.sub(r"\n{3,}", "\n\n", md).strip()
+    # 去掉顶部的站点导航/面包屑
+    NAV_MARKERS = ("Get a Demo", "close column", "Breadcrumb", "Related Products",
+                   "Take a Tour", "Case Studies", "Events & Webinar", "Read more")
+    head = md[:900]
+    if sum(1 for m in NAV_MARKERS if m in head) >= 2:
+        lines = md.split("\n")
+        cut = 0
+        for idx, ln in enumerate(lines):
+            if len(ln) >= 160:
+                cut = idx
+                break
+        if cut > 0:
+            md = "\n".join(lines[cut:]).strip()
     return md
 
 

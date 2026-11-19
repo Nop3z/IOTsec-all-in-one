@@ -7,8 +7,8 @@
     "request_jitter_sec": 4,
     "timeout_sec": 30,
     "respect_robots": true,
-    "max_requests_per_run": 200,
-    "max_download_bytes_per_run": 15000000,
+    "max_requests_per_run": 300,
+    "max_download_bytes_per_run": 25000000,
     "max_article_bytes": 150000,
     "disk_free_floor_gb": 2,
     "repo_size_budget_mb": 60
@@ -253,6 +253,42 @@
       "url": "https://www.malwarebytes.com/blog/feed/index.xml",
       "category": "杂项",
       "trust": 0.5
+    },
+    {
+      "name": "arXiv cs.CR",
+      "url": "https://arxiv.org/rss/cs.CR",
+      "category": "杂项",
+      "trust": 1.5
+    },
+    {
+      "name": "arXiv cs.AR",
+      "url": "https://arxiv.org/rss/cs.AR",
+      "category": "芯片安全",
+      "trust": 1.5
+    },
+    {
+      "name": "wrongbaud",
+      "url": "https://wrongbaud.github.io/feed.xml",
+      "category": "杂项",
+      "trust": 1.5
+    },
+    {
+      "name": "Attify",
+      "url": "https://blog.attify.com/feed/",
+      "category": "杂项",
+      "trust": 1.5
+    },
+    {
+      "name": "Trezor Blog",
+      "url": "https://blog.trezor.io/feed",
+      "category": "硬件钱包",
+      "trust": 1.5
+    },
+    {
+      "name": "Hackaday Hardware",
+      "url": "https://hackaday.com/tag/hardware-security/feed/",
+      "category": "杂项",
+      "trust": 1
     }
   ]
 }

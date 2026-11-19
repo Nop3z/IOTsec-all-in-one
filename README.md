@@ -11,26 +11,26 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 
 | 板块 | 篇 | 板块 | 篇 | 板块 | 篇 |
 |:--|--:|:--|--:|:--|--:|
-| [Openwrt](#openwrt) | 3 | [摄像头](#摄像头) | 6 | [无人机](#无人机) | 19 |
-| [车机](#车机) | 3 | [充电桩](#充电桩) | 7 | [基站](#基站) | 3 |
-| [防火墙](#防火墙) | 21 | [卫星安全](#卫星安全) | 1 | [打印机](#打印机) | 4 |
-| [智能家居](#智能家居) | 5 | [机器人](#机器人) | 1 | [芯片安全](#芯片安全) | 3 |
+| [Openwrt](#openwrt) | 4 | [摄像头](#摄像头) | 6 | [无人机](#无人机) | 19 |
+| [车机](#车机) | 4 | [充电桩](#充电桩) | 7 | [基站](#基站) | 3 |
+| [防火墙](#防火墙) | 22 | [卫星安全](#卫星安全) | 10 | [打印机](#打印机) | 4 |
+| [智能家居](#智能家居) | 5 | [机器人](#机器人) | 1 | [芯片安全](#芯片安全) | 12 |
 | [RFID](#rfid) | 5 | [WIFI安全](#wifi安全) | 1 | [协议安全](#协议安全) | 3 |
-| [硬件钱包](#硬件钱包) | 1 | [FUZZ](#fuzz) | 2 | | |
+| [硬件钱包](#硬件钱包) | 1 | [FUZZ](#fuzz) | 4 | | |
 
 **技术专题**
 
 | 板块 | 篇 | 板块 | 篇 |
 |:--|--:|:--|--:|
-| [安全启动](#安全启动) | 14 | [固件解密](#固件解密) | 14 |
-| [故障注入](#故障注入) | 1 | [绕过ASLR](#绕过aslr) | 5 |
+| [安全启动](#安全启动) | 19 | [固件解密](#固件解密) | 14 |
+| [故障注入](#故障注入) | 17 | [绕过ASLR](#绕过aslr) | 5 |
 
 **资源与归档**
 
 | 板块 | 篇 | 板块 | 篇 | 板块 | 篇 |
 |:--|--:|:--|--:|:--|--:|
-| [固件下载](#固件下载) | 18 | [虚拟机镜像](#虚拟机镜像) | 0 | [杂项](#杂项) | 13 |
-| [文章快照](articles/INDEX.md) | 38 | [更新日志](#更新日志) | - | [收录标准](#收录标准) | - |
+| [固件下载](#固件下载) | 18 | [虚拟机镜像](#虚拟机镜像) | 0 | [杂项](#杂项) | 19 |
+| [文章快照](articles/INDEX.md) | 88 | [更新日志](#更新日志) | - | [收录标准](#收录标准) | - |
 
 <!-- INDEX:END -->
 
@@ -41,12 +41,12 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 |:--|:--|:--|
 | 2026-11-13 | 杂项 | [BinQL: a CodeQL extension for binary formats](articles/杂项/2026-11-13-BinQL-a-CodeQL-extension-for-binary-formats.md) |
 | 2026-11-12 | 防火墙 | [PHP2Shell Exploitation on Check Point Gateway](articles/防火墙/2026-11-12-PHP2Shell-Exploitation-on-Check-Point-Gateway.md) |
+| 2026-11-12 | 故障注入 | [NonSense: On the (In)security of FPGA Anti-tamper Sensors](articles/故障注入/2026-11-12-NonSense-On-the-In-security-of-FPGA-Anti-tamper-Sensors.md) |
 | 2026-11-10 | 固件解密 | [Two Oracles to Get One Key: A tale of recovering a symmetric key from an encrypt-only firmware update scheme](articles/固件解密/2026-11-10-Two-Oracles-to-Get-One-Key-A-tale-of-recovering-a-symmetric.md) |
 | 2026-11-06 | 防火墙 | [Barracuda Networks is your new best friend (Barracuda Email Security Gateway Pre-Auth Remote Root RCE CVE-2026-116606 / CVE-2026-111560)](articles/防火墙/2026-11-06-Barracuda-Networks-is-your-new-best-friend-Barracuda-Email-S.md) |
 | 2026-11-05 | 安全启动 | [潜伏16年的UEFI漏洞：开机那几秒，你的所有防线都还没上线](articles/安全启动/2026-11-05-潜伏16年的UEFI漏洞-开机那几秒-你的所有防线都还没上线.md) |
 | 2026-11-03 | 防火墙 | [Pre-Auth RCE in Zyxel GS1900 Exploited in the Wild as a Zero-Day](articles/防火墙/2026-11-03-Pre-Auth-RCE-in-Zyxel-GS1900-Exploited-in-the-Wild-as-a-Zero.md) |
 | 2026-11-02 | 防火墙 | [Additional Ivanti Connect Secure zero-days exploited in the wild (CVE-2026-111357, CVE-2026-118527)](articles/防火墙/2026-11-02-Additional-Ivanti-Connect-Secure-zero-days-exploited-in-the.md) |
-| 2026-10-29 | 防火墙 | [Inside KeyDrift: Analyzing historical UAT-11473 activity on Cisco SD-WAN](articles/防火墙/2026-10-29-Inside-KeyDrift-Analyzing-historical-UAT-11473-activity-on-C.md) |
 <!-- LATEST:END -->
 
 全部归档见 [articles/INDEX.md](articles/INDEX.md)。
@@ -58,6 +58,7 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 - [Ruijie 漏洞分析](https://bbs.kanxue.com/thread-277386.htm)
 - [小米路由器 Root 技术研究](https://blog.thalium.re/posts/rooting-xiaomi-wifi-routers/)
 - [浅析 LuCI 系统的漏洞挖掘技术](https://mp.weixin.qq.com/s/kBOfQhNHZCFNNzu_euLIgA)
+- [Vulnerability REsearch using VulHunt](articles/Openwrt/2026-02-20-Vulnerability-REsearch-using-VulHunt.md) · [原文](https://www.binarly.io/blog/vulnerability-research-using-vulhunt)
 
 ## 摄像头
 
@@ -101,6 +102,7 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 - [大众 MMX 车机漏洞分析](https://sector7.computest.nl/post/2018-07-mib/)
 - [腾讯科恩实验室对奔驰梅赛德斯车机研究](https://keenlab.tencent.com/en/whitepapers/Mercedes_Benz_Security_Research_Report_Final.pdf)
 - [Black Hat Asia 2025：日产 Leaf 远程利用](https://i.blackhat.com/Asia-25/Asia-25-Evdokimov-Remote-Exploitation-of-Nissan-Leaf.pdf)
+- [Automotive HSMs - Architectural Challenges and Security Implications](articles/车机/2026-08-25-Automotive-HSMs-Architectural-Challenges-and-Security-Implic.md) · [原文](http://arxiv.org/abs/2608.25216v1)
 
 ## 充电桩
 
@@ -147,12 +149,22 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 - [Marking Your Own Homework (Check Point Remote Access VPN IKEv1 Authentication Bypass CVE-2026-50751)](articles/防火墙/2026-06-12-Marking-Your-Own-Homework-Check-Point-Remote-Access-VPN-IKEv.md) · [原文](https://labs.watchtowr.com/marking-your-own-homework-check-point-remote-access-vpn-ikev1-authentication-bypass-cve-2026-50751/)
 - [More Evidence That Words Don't Mean What We Thought They Meant (Ivanti Sentry Pre-Auth OS Command Injection CVE-2026-10520)](articles/防火墙/2026-06-10-More-Evidence-That-Words-Don-t-Mean-What-We-Thought-They-Mea.md) · [原文](https://labs.watchtowr.com/more-evidence-that-words-dont-mean-what-we-thought-they-meant-ivanti-sentry-pre-auth-os-command-injection-cve-2026-10520/)
 - [Ruckus Unleashed: Multiple vulnerabilities exploited](articles/防火墙/2025-07-21-Ruckus-Unleashed-Multiple-vulnerabilities-exploited.md) · [原文](https://defion.security/en/research-labs/ruckus-unleashed-multiple-vulnerabilities-exploited/)
+- [Pull the Plug: FIRESTARTER Survives Patches, Reboots, and Your Incident Response Plan](articles/防火墙/2026-05-07-Pull-the-Plug-FIRESTARTER-Survives-Patches-Reboots-and-Your.md) · [原文](https://eclypsium.com/blog/firestarter-cisco-firewall-backdoor-survives-patches/)
 
 ## 卫星安全
 
 > 卫星终端与 GNSS
 
 - [攻防速写｜我们拆了一台Starlink星链终端](https://mp.weixin.qq.com/s/QsLyWHp1zb89Gq7aXgWZwA)
+- [Glitched on Earth by Humans: A Black-Box Security Evaluation of the SpaceX Starlink User Terminal](articles/卫星安全/2022-08-11-Glitched-on-Earth-by-Humans-A-Black-Box-Security-Evaluation.md) · [原文](https://i.blackhat.com/USA-22/Wednesday/US-22-Wouters-Glitched-On-Earth.pdf)
+- [SATCOM Terminals: Hacking by Air, Sea, and Land](articles/卫星安全/2014-08-06-SATCOM-Terminals-Hacking-by-Air-Sea-and-Land.md) · [原文](https://www.blackhat.com/docs/us-14/materials/us-14-Santamarta-SATCOM-Terminals-Hacking-By-Air-Sea-And-Land-WP.pdf)
+- [SpyChain: Multi-Vector Supply Chain Attacks on Small Satellite Systems](articles/卫星安全/2025-10-08-SpyChain-Multi-Vector-Supply-Chain-Attacks-on-Small-Satellit.md) · [原文](http://arxiv.org/abs/2510.06535v2)
+- [SatBleed: Security of Commoditized Communication Modules in Satellites](articles/卫星安全/2026-10-05-SatBleed-Security-of-Commoditized-Communication-Modules-in-S.md) · [原文](http://arxiv.org/abs/2610.06258v1)
+- [Systematic Security Analysis of the Iridium Satellite Radio Link](articles/卫星安全/2026-03-12-Systematic-Security-Analysis-of-the-Iridium-Satellite-Radio.md) · [原文](http://arxiv.org/abs/2603.12062v1)
+- [JANUS: Denial-of-Service Attack Against Beam Hopping in LEO Satellite Networks](articles/卫星安全/2026-09-17-JANUS-Denial-of-Service-Attack-Against-Beam-Hopping-in-LEO-S.md) · [原文](http://arxiv.org/abs/2609.19977v1)
+- [Silent Subversion: Sensor Spoofing Attacks via Supply Chain Implants in Satellite Systems](articles/卫星安全/2026-03-11-Silent-Subversion-Sensor-Spoofing-Attacks-via-Supply-Chain-I.md) · [原文](http://arxiv.org/abs/2603.10388v1)
+- [Updated Standard for Secure Satellite Communications: Analysis of Satellites, Attack Vectors, Existing Standards, and Enterprise and Security Architectures](articles/卫星安全/2023-10-29-Updated-Standard-for-Secure-Satellite-Communications-Analysi.md) · [原文](http://arxiv.org/abs/2310.19105v1)
+- [SATversary: Adversarial Attacks and Defenses for Satellite Fingerprinting](articles/卫星安全/2025-06-06-SATversary-Adversarial-Attacks-and-Defenses-for-Satellite-Fi.md) · [原文](http://arxiv.org/abs/2506.06119v2)
 
 ## 打印机
 
@@ -186,6 +198,15 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 - [Last barrier destroyed, or compromise of Fuse Encryption Key for Intel Security Fuses](https://swarm.ptsecurity.com/last-barrier-destroyed-or-compromise-of-fuse-encryption-key-for-intel-security-fuses/)
 - [Bypassing Android Hardware Attestation from the Analyst's Chair](articles/芯片安全/2026-08-11-Bypassing-Android-Hardware-Attestation-from-the-Analyst-s-Ch.md) · [原文](http://blog.quarkslab.com/bypassing-android-hardware-attestation.html)
 - [Black Box Probing: a Security Analysis of Xiaomi's MJA1 Secure Chip](articles/芯片安全/2026-06-18-Black-Box-Probing-a-Security-Analysis-of-Xiaomi-s-MJA1-Secur.md) · [原文](http://blog.quarkslab.com/black-box-probing-a-security-analysis-of-xiaomis-mja1-secure-chip.html)
+- [TriSweep: A Four-Drone Swarm Framework for Electromagnetic Side-Channel Analysis](articles/芯片安全/2026-05-21-TriSweep-A-Four-Drone-Swarm-Framework-for-Electromagnetic-Si.md) · [原文](http://arxiv.org/abs/2605.22709v1)
+- [Side-Channel Attacks on RISC-V Processors: Current Progress, Challenges, and Opportunities](articles/芯片安全/2021-06-16-Side-Channel-Attacks-on-RISC-V-Processors-Current-Progress-C.md) · [原文](http://arxiv.org/abs/2106.08877v1)
+- [SoK: Where's the "up"?! A Comprehensive (bottom-up) Study on the Security of Arm Cortex-M Systems](articles/芯片安全/2024-01-27-SoK-Where-s-the-up-A-Comprehensive-bottom-up-Study-on-the-Se.md) · [原文](http://arxiv.org/abs/2401.15289v3)
+- [One Exploit to Rule them All? On the Security of Drop-in Replacement and Counterfeit Microcontrollers](articles/芯片安全/2020-08-21-One-Exploit-to-Rule-them-All-On-the-Security-of-Drop-in-Repl.md) · [原文](http://arxiv.org/abs/2008.09710v1)
+- [Hardware Security Evaluation of MAX 10 FPGA](articles/芯片安全/2019-10-11-Hardware-Security-Evaluation-of-MAX-10-FPGA.md) · [原文](http://arxiv.org/abs/1910.05086v1)
+- [BugWhisperer: Fine-Tuning LLMs for SoC Hardware Vulnerability Detection](articles/芯片安全/2025-05-28-BugWhisperer-Fine-Tuning-LLMs-for-SoC-Hardware-Vulnerability.md) · [原文](http://arxiv.org/abs/2505.22878v1)
+- [Supporting Rowhammer research to protect the DRAM ecosystem](articles/芯片安全/2025-09-16-Supporting-Rowhammer-research-to-protect-the-DRAM-ecosystem.md) · [原文](http://security.googleblog.com/2025/09/supporting-rowhammer-research-to.html)
+- [Further Hardening Android GPUs](articles/芯片安全/2025-12-10-Further-Hardening-Android-GPUs.md) · [原文](http://security.googleblog.com/2025/12/further-hardening-android-gpus.html)
+- [Don't let TEEs break your MPC](articles/芯片安全/2026-09-25-Don-t-let-TEEs-break-your-MPC.md) · [原文](https://blog.trailofbits.com/2026/09/25/dont-let-tees-break-your-mpc/)
 
 ## RFID
 
@@ -223,6 +244,8 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 
 - [RV130X Firmware Analysis](https://raffo24.github.io/hardware%20hacking/FirmwareAnalysis/)
 - [Snapshotting our way to CVE-2026-9539](articles/FUZZ/2026-10-27-Snapshotting-our-way-to-CVE-2026-9539.md) · [原文](http://blog.quarkslab.com/snapshotting-our-way-to-cve-2026-9539.html)
+- [Fuzz'EMup: Leveraging EM Side-Channel Emanation to Guide Black-Box Embedded Firmware Fuzzing](articles/FUZZ/2026-07-17-Fuzz-EMup-Leveraging-EM-Side-Channel-Emanation-to-Guide-Blac.md) · [原文](http://arxiv.org/abs/2607.16487v1)
+- [PowerFuzz: Power-Based Black-Box Firmware Fuzzing](articles/FUZZ/2026-06-23-PowerFuzz-Power-Based-Black-Box-Firmware-Fuzzing.md) · [原文](http://arxiv.org/abs/2606.24692v1)
 
 ## 安全启动
 
@@ -242,6 +265,11 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 - [Ghost in the Controller: Abusing Supermicro BMC Firmware Verification](articles/安全启动/2025-07-02-Ghost-in-the-Controller-Abusing-Supermicro-BMC-Firmware-Veri.md) · [原文](https://www.binarly.io/blog/ghost-in-the-controller-abusing-supermicro-bmc-firmware)
 - [UEFI Bootkit Hunting: In-Depth Search for Unique Code Behavior](articles/安全启动/2025-03-13-UEFI-Bootkit-Hunting-In-Depth-Search-for-Unique-Code-Behavio.md) · [原文](https://www.binarly.io/blog/uefi-bootkit-hunting-in-depth-search-for-unique-code-behavior)
 - [CVE-2024-36435 Deep-Dive: The Year's Most Critical BMC Security Flaw](articles/安全启动/2024-09-26-CVE-2024-36435-Deep-Dive-The-Year-s-Most-Critical-BMC-Securi.md) · [原文](https://www.binarly.io/blog/cve-2024-36435-deep-dive-critical-bmc-security-flaw)
+- [Another Crack in the Chain of Trust: Uncovering (Yet Another) Secure Boot Bypass](articles/安全启动/2025-06-10-Another-Crack-in-the-Chain-of-Trust-Uncovering-Yet-Another-S.md) · [原文](https://www.binarly.io/blog/another-crack-in-chain-of-trust-secure-boot-bypass)
+- [Broken Trust: Fixed Supermicro BMC Bug Gains a New Life in Two New Vulnerabilities](articles/安全启动/2025-09-24-Broken-Trust-Fixed-Supermicro-BMC-Bug-Gains-a-New-Life-in-Tw.md) · [原文](https://www.binarly.io/blog/broken-trust-fixed-supermicro-bmc-bug-gains-new-life)
+- [How an Old Bug in Lighttpd Gained New Life in AMI BMC, Including Lenovo and Intel products](articles/安全启动/2025-11-19-How-an-Old-Bug-in-Lighttpd-Gained-New-Life-in-AMI-BMC-Includ.md) · [原文](https://www.binarly.io/blog/how-an-old-bug-in-lighttpd-gained-new-life-in-ami-bmc-including-lenovo-and-intel-products)
+- [Clevo Boot Guard Keys Leaked in Update Package](articles/安全启动/2025-03-20-Clevo-Boot-Guard-Keys-Leaked-in-Update-Package.md) · [原文](https://www.binarly.io/blog/clevo-boot-guard-keys-leaked-in-update-package)
+- [LogoFAIL Exploited to Deploy Bootkitty, the first UEFI bootkit for Linux](articles/安全启动/2024-11-29-LogoFAIL-Exploited-to-Deploy-Bootkitty-the-first-UEFI-bootki.md) · [原文](https://www.binarly.io/blog/logofail-exploited-deploy-bootkitty-first-uefi-bootkit-linux)
 
 ## 固件解密
 
@@ -267,6 +295,22 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 > 电压毛刺、EMFI 等物理攻击
 
 - [Fault Injection – Down the Rabbit Hole](https://security.humanativaspa.it/fault-injection-down-the-rabbit-hole/)
+- [Glitch in the Sky: Exploiting Voltage Fault Injection in UAV Flight Controllers](articles/故障注入/2026-04-17-Glitch-in-the-Sky-Exploiting-Voltage-Fault-Injection-in-UAV.md) · [原文](http://arxiv.org/abs/2604.16699v1)
+- [One Glitch to Rule Them All: Fault Injection Attacks Against AMD's Secure Encrypted Virtualization](articles/故障注入/2021-08-10-One-Glitch-to-Rule-Them-All-Fault-Injection-Attacks-Against.md) · [原文](http://arxiv.org/abs/2108.04575v4)
+- [Oops..! I Glitched It Again! How to Multi-Glitch the Glitching-Protections on ARM TrustZone-M](articles/故障注入/2023-02-14-Oops-I-Glitched-It-Again-How-to-Multi-Glitch-the-Glitching-P.md) · [原文](http://arxiv.org/abs/2302.06932v2)
+- [Injecting Software Vulnerabilities with Voltage Glitching](articles/故障注入/2019-02-14-Injecting-Software-Vulnerabilities-with-Voltage-Glitching.md) · [原文](http://arxiv.org/abs/1903.08102v1)
+- [Physical and Software Based Fault Injection Attacks Against TEEs in Mobile Devices: A Systemisation of Knowledge](articles/故障注入/2024-11-22-Physical-and-Software-Based-Fault-Injection-Attacks-Against.md) · [原文](http://arxiv.org/abs/2411.14878v1)
+- [The Forgotten Threat of Voltage Glitching: A Case Study on Nvidia Tegra X2 SoCs](articles/故障注入/2021-08-13-The-Forgotten-Threat-of-Voltage-Glitching-A-Case-Study-on-Nv.md) · [原文](http://arxiv.org/abs/2108.06131v2)
+- [Keyless Entry: Breaking and Entering eMMC RPMB with EMFI](articles/故障注入/2025-11-27-Keyless-Entry-Breaking-and-Entering-eMMC-RPMB-with-EMFI.md) · [原文](http://arxiv.org/abs/2511.22340v1)
+- [NonSense: On the (In)security of FPGA Anti-tamper Sensors](articles/故障注入/2026-11-12-NonSense-On-the-In-security-of-FPGA-Anti-tamper-Sensors.md) · [原文](http://arxiv.org/abs/2611.17065v1)
+- [EM-Fault It Yourself: Building a Replicable EMFI Setup for Desktop and Server Hardware](articles/故障注入/2022-09-20-EM-Fault-It-Yourself-Building-a-Replicable-EMFI-Setup-for-De.md) · [原文](http://arxiv.org/abs/2209.09835v1)
+- [EMMap: A Systematic Framework for Spatial EMFI Mapping and Fault Classification on Microcontrollers](articles/故障注入/2025-12-09-EMMap-A-Systematic-Framework-for-Spatial-EMFI-Mapping-and-Fa.md) · [原文](http://arxiv.org/abs/2512.09049v1)
+- [Honest to a Fault: Root-Causing Fault Attacks with Pre-Silicon RISC Pipeline Characterization](articles/故障注入/2025-03-05-Honest-to-a-Fault-Root-Causing-Fault-Attacks-with-Pre-Silico.md) · [原文](http://arxiv.org/abs/2503.04846v2)
+- [Google Wifi Pro Glitching from Root to EL3 (Part 1: Characterization)](articles/故障注入/2026-05-01-Google-Wifi-Pro-Glitching-from-Root-to-EL3-Part-1-Characteri.md) · [原文](https://raelize.com/blog/google-wifi-pro-glitching-from-root-to-el3-part-1-characterization/)
+- [Google Wifi Pro Glitching from Root to EL3 (Part 3: Arbitrary Code Execution)](articles/故障注入/2026-05-20-Google-Wifi-Pro-Glitching-from-Root-to-EL3-Part-3-Arbitrary.md) · [原文](https://raelize.com/blog/google-wifi-pro-glitching-from-root-to-el3-part-3-arbitrary-code-exec/)
+- [setresuid(⚡): Glitching Google's TV Streamer from adb to Root](articles/故障注入/2026-04-01-setresuid-Glitching-Google-s-TV-Streamer-from-adb-to-Root.md) · [原文](https://raelize.com/blog/setresuid-glitching-google-tv-streamer-from-adb-to-root/)
+- [AI-FI: Giving Claude Code Glitch Skills for Bypassing Secure Boot](articles/故障注入/2026-06-01-AI-FI-Giving-Claude-Code-Glitch-Skills-for-Bypassing-Secure.md) · [原文](https://raelize.com/blog/ai-fi-giving-claude-code-glitch-skills-for-bypassing-secure-boot/)
+- [Triple Exploit Chain with Laser Fault Injection on a Secure Element](articles/故障注入/2024-10-01-Triple-Exploit-Chain-with-Laser-Fault-Injection-on-a-Secure.md) · [原文](https://hardwear.io/talks/triple-exploit-chain-with-laser-fault-injection-on-a-secure-element/)
 
 ## 绕过ASLR
 
@@ -324,11 +368,70 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 - [VxWorks固件系统研究技术总结二](https://mp.weixin.qq.com/s/SnooEM6NLLPIz8u2t4_MOw)
 - [BinQL: a CodeQL extension for binary formats](articles/杂项/2026-11-13-BinQL-a-CodeQL-extension-for-binary-formats.md) · [原文](https://blog.thalium.re/posts/binql-a-codeql-extension-for-binary-formats/)
 - [Exploiting the Synology DiskStation with Null-byte Writes](articles/杂项/2025-04-23-Exploiting-the-Synology-DiskStation-with-Null-byte-Writes.md) · [原文](https://blog.ret2.io/2025/04/23/pwn2own-soho-2024-diskstation/)
+- [Deep dip teardown of tubeless insulin pump](articles/杂项/2017-09-18-Deep-dip-teardown-of-tubeless-insulin-pump.md) · [原文](http://arxiv.org/abs/1709.06026v1)
+- [Lessons from the Hardware Hacking Competitions: Verification Techniques, Findings, and Insights](articles/杂项/2026-08-23-Lessons-from-the-Hardware-Hacking-Competitions-Verification.md) · [原文](http://arxiv.org/abs/2608.22202v1)
+- [Your KVM is the Weak Link: How $30 Devices Can Own Your Entire Network](articles/杂项/2026-03-17-Your-KVM-is-the-Weak-Link-How-30-Devices-Can-Own-Your-Entire.md) · [原文](https://eclypsium.com/blog/your-kvm-is-the-weak-link-how-30-dollar-devices-can-own-your-entire-network/)
+- [Fake Kernel Threads Are Hiding Backdoors on Linux Servers and Appliances](articles/杂项/2026-10-20-Fake-Kernel-Threads-Are-Hiding-Backdoors-on-Linux-Servers-an.md) · [原文](https://eclypsium.com/blog/linux-malware-fake-kernel-threads/)
+- [The Explosion of Hardware-Hacking Devices](articles/杂项/2025-02-08-The-Explosion-of-Hardware-Hacking-Devices.md) · [原文](https://eclypsium.com/blog/the-explosion-of-hardware-hacking-devices/)
+- [Android’s pKVM Becomes First Globally Certified Software to Achieve Prestigious SESIP Level 5 Security Certification](articles/杂项/2025-08-13-Android-s-pKVM-Becomes-First-Globally-Certified-Software-to.md) · [原文](http://security.googleblog.com/2025/08/Android-pKVM-Certified-SESIP-Level-5.html)
 
 ## 更新日志
 
 <details>
 <summary>展开查看（最新在上）</summary>
+
+### 2026-11-19 · 2026-W50
+
+- [Glitch in the Sky: Exploiting Voltage Fault Injection in UAV Flight Controllers](articles/故障注入/2026-04-17-Glitch-in-the-Sky-Exploiting-Voltage-Fault-Injection-in-UAV.md) —— 故障注入
+- [One Glitch to Rule Them All: Fault Injection Attacks Against AMD's Secure Encrypted Virtualization](articles/故障注入/2021-08-10-One-Glitch-to-Rule-Them-All-Fault-Injection-Attacks-Against.md) —— 故障注入
+- [Oops..! I Glitched It Again! How to Multi-Glitch the Glitching-Protections on ARM TrustZone-M](articles/故障注入/2023-02-14-Oops-I-Glitched-It-Again-How-to-Multi-Glitch-the-Glitching-P.md) —— 故障注入
+- [Injecting Software Vulnerabilities with Voltage Glitching](articles/故障注入/2019-02-14-Injecting-Software-Vulnerabilities-with-Voltage-Glitching.md) —— 故障注入
+- [Physical and Software Based Fault Injection Attacks Against TEEs in Mobile Devices: A Systemisation of Knowledge](articles/故障注入/2024-11-22-Physical-and-Software-Based-Fault-Injection-Attacks-Against.md) —— 故障注入
+- [The Forgotten Threat of Voltage Glitching: A Case Study on Nvidia Tegra X2 SoCs](articles/故障注入/2021-08-13-The-Forgotten-Threat-of-Voltage-Glitching-A-Case-Study-on-Nv.md) —— 故障注入
+- [Keyless Entry: Breaking and Entering eMMC RPMB with EMFI](articles/故障注入/2025-11-27-Keyless-Entry-Breaking-and-Entering-eMMC-RPMB-with-EMFI.md) —— 故障注入
+- [NonSense: On the (In)security of FPGA Anti-tamper Sensors](articles/故障注入/2026-11-12-NonSense-On-the-In-security-of-FPGA-Anti-tamper-Sensors.md) —— 故障注入
+- [EM-Fault It Yourself: Building a Replicable EMFI Setup for Desktop and Server Hardware](articles/故障注入/2022-09-20-EM-Fault-It-Yourself-Building-a-Replicable-EMFI-Setup-for-De.md) —— 故障注入
+- [EMMap: A Systematic Framework for Spatial EMFI Mapping and Fault Classification on Microcontrollers](articles/故障注入/2025-12-09-EMMap-A-Systematic-Framework-for-Spatial-EMFI-Mapping-and-Fa.md) —— 故障注入
+- [Honest to a Fault: Root-Causing Fault Attacks with Pre-Silicon RISC Pipeline Characterization](articles/故障注入/2025-03-05-Honest-to-a-Fault-Root-Causing-Fault-Attacks-with-Pre-Silico.md) —— 故障注入
+- [TriSweep: A Four-Drone Swarm Framework for Electromagnetic Side-Channel Analysis](articles/芯片安全/2026-05-21-TriSweep-A-Four-Drone-Swarm-Framework-for-Electromagnetic-Si.md) —— 芯片安全
+- [Fuzz'EMup: Leveraging EM Side-Channel Emanation to Guide Black-Box Embedded Firmware Fuzzing](articles/FUZZ/2026-07-17-Fuzz-EMup-Leveraging-EM-Side-Channel-Emanation-to-Guide-Blac.md) —— FUZZ
+- [PowerFuzz: Power-Based Black-Box Firmware Fuzzing](articles/FUZZ/2026-06-23-PowerFuzz-Power-Based-Black-Box-Firmware-Fuzzing.md) —— FUZZ
+- [Side-Channel Attacks on RISC-V Processors: Current Progress, Challenges, and Opportunities](articles/芯片安全/2021-06-16-Side-Channel-Attacks-on-RISC-V-Processors-Current-Progress-C.md) —— 芯片安全
+- [SoK: Where's the "up"?! A Comprehensive (bottom-up) Study on the Security of Arm Cortex-M Systems](articles/芯片安全/2024-01-27-SoK-Where-s-the-up-A-Comprehensive-bottom-up-Study-on-the-Se.md) —— 芯片安全
+- [One Exploit to Rule them All? On the Security of Drop-in Replacement and Counterfeit Microcontrollers](articles/芯片安全/2020-08-21-One-Exploit-to-Rule-them-All-On-the-Security-of-Drop-in-Repl.md) —— 芯片安全
+- [Automotive HSMs - Architectural Challenges and Security Implications](articles/车机/2026-08-25-Automotive-HSMs-Architectural-Challenges-and-Security-Implic.md) —— 车机
+- [Deep dip teardown of tubeless insulin pump](articles/杂项/2017-09-18-Deep-dip-teardown-of-tubeless-insulin-pump.md) —— 杂项
+- [Hardware Security Evaluation of MAX 10 FPGA](articles/芯片安全/2019-10-11-Hardware-Security-Evaluation-of-MAX-10-FPGA.md) —— 芯片安全
+- [Lessons from the Hardware Hacking Competitions: Verification Techniques, Findings, and Insights](articles/杂项/2026-08-23-Lessons-from-the-Hardware-Hacking-Competitions-Verification.md) —— 杂项
+- [BugWhisperer: Fine-Tuning LLMs for SoC Hardware Vulnerability Detection](articles/芯片安全/2025-05-28-BugWhisperer-Fine-Tuning-LLMs-for-SoC-Hardware-Vulnerability.md) —— 芯片安全
+- [Glitched on Earth by Humans: A Black-Box Security Evaluation of the SpaceX Starlink User Terminal](articles/卫星安全/2022-08-11-Glitched-on-Earth-by-Humans-A-Black-Box-Security-Evaluation.md) —— 卫星安全
+- [SATCOM Terminals: Hacking by Air, Sea, and Land](articles/卫星安全/2014-08-06-SATCOM-Terminals-Hacking-by-Air-Sea-and-Land.md) —— 卫星安全
+- [SpyChain: Multi-Vector Supply Chain Attacks on Small Satellite Systems](articles/卫星安全/2025-10-08-SpyChain-Multi-Vector-Supply-Chain-Attacks-on-Small-Satellit.md) —— 卫星安全
+- [SatBleed: Security of Commoditized Communication Modules in Satellites](articles/卫星安全/2026-10-05-SatBleed-Security-of-Commoditized-Communication-Modules-in-S.md) —— 卫星安全
+- [Systematic Security Analysis of the Iridium Satellite Radio Link](articles/卫星安全/2026-03-12-Systematic-Security-Analysis-of-the-Iridium-Satellite-Radio.md) —— 卫星安全
+- [JANUS: Denial-of-Service Attack Against Beam Hopping in LEO Satellite Networks](articles/卫星安全/2026-09-17-JANUS-Denial-of-Service-Attack-Against-Beam-Hopping-in-LEO-S.md) —— 卫星安全
+- [Silent Subversion: Sensor Spoofing Attacks via Supply Chain Implants in Satellite Systems](articles/卫星安全/2026-03-11-Silent-Subversion-Sensor-Spoofing-Attacks-via-Supply-Chain-I.md) —— 卫星安全
+- [Updated Standard for Secure Satellite Communications: Analysis of Satellites, Attack Vectors, Existing Standards, and Enterprise and Security Architectures](articles/卫星安全/2023-10-29-Updated-Standard-for-Secure-Satellite-Communications-Analysi.md) —— 卫星安全
+- [SATversary: Adversarial Attacks and Defenses for Satellite Fingerprinting](articles/卫星安全/2025-06-06-SATversary-Adversarial-Attacks-and-Defenses-for-Satellite-Fi.md) —— 卫星安全
+- [Google Wifi Pro Glitching from Root to EL3 (Part 1: Characterization)](articles/故障注入/2026-05-01-Google-Wifi-Pro-Glitching-from-Root-to-EL3-Part-1-Characteri.md) —— 故障注入
+- [Google Wifi Pro Glitching from Root to EL3 (Part 3: Arbitrary Code Execution)](articles/故障注入/2026-05-20-Google-Wifi-Pro-Glitching-from-Root-to-EL3-Part-3-Arbitrary.md) —— 故障注入
+- [setresuid(⚡): Glitching Google's TV Streamer from adb to Root](articles/故障注入/2026-04-01-setresuid-Glitching-Google-s-TV-Streamer-from-adb-to-Root.md) —— 故障注入
+- [AI-FI: Giving Claude Code Glitch Skills for Bypassing Secure Boot](articles/故障注入/2026-06-01-AI-FI-Giving-Claude-Code-Glitch-Skills-for-Bypassing-Secure.md) —— 故障注入
+- [Triple Exploit Chain with Laser Fault Injection on a Secure Element](articles/故障注入/2024-10-01-Triple-Exploit-Chain-with-Laser-Fault-Injection-on-a-Secure.md) —— 故障注入
+- [Pull the Plug: FIRESTARTER Survives Patches, Reboots, and Your Incident Response Plan](articles/防火墙/2026-05-07-Pull-the-Plug-FIRESTARTER-Survives-Patches-Reboots-and-Your.md) —— 防火墙
+- [Your KVM is the Weak Link: How $30 Devices Can Own Your Entire Network](articles/杂项/2026-03-17-Your-KVM-is-the-Weak-Link-How-30-Devices-Can-Own-Your-Entire.md) —— 杂项
+- [Fake Kernel Threads Are Hiding Backdoors on Linux Servers and Appliances](articles/杂项/2026-10-20-Fake-Kernel-Threads-Are-Hiding-Backdoors-on-Linux-Servers-an.md) —— 杂项
+- [The Explosion of Hardware-Hacking Devices](articles/杂项/2025-02-08-The-Explosion-of-Hardware-Hacking-Devices.md) —— 杂项
+- [Supporting Rowhammer research to protect the DRAM ecosystem](articles/芯片安全/2025-09-16-Supporting-Rowhammer-research-to-protect-the-DRAM-ecosystem.md) —— 芯片安全
+- [Further Hardening Android GPUs](articles/芯片安全/2025-12-10-Further-Hardening-Android-GPUs.md) —— 芯片安全
+- [Android’s pKVM Becomes First Globally Certified Software to Achieve Prestigious SESIP Level 5 Security Certification](articles/杂项/2025-08-13-Android-s-pKVM-Becomes-First-Globally-Certified-Software-to.md) —— 杂项
+- [Don't let TEEs break your MPC](articles/芯片安全/2026-09-25-Don-t-let-TEEs-break-your-MPC.md) —— 芯片安全
+- [Another Crack in the Chain of Trust: Uncovering (Yet Another) Secure Boot Bypass](articles/安全启动/2025-06-10-Another-Crack-in-the-Chain-of-Trust-Uncovering-Yet-Another-S.md) —— 安全启动
+- [Broken Trust: Fixed Supermicro BMC Bug Gains a New Life in Two New Vulnerabilities](articles/安全启动/2025-09-24-Broken-Trust-Fixed-Supermicro-BMC-Bug-Gains-a-New-Life-in-Tw.md) —— 安全启动
+- [How an Old Bug in Lighttpd Gained New Life in AMI BMC, Including Lenovo and Intel products](articles/安全启动/2025-11-19-How-an-Old-Bug-in-Lighttpd-Gained-New-Life-in-AMI-BMC-Includ.md) —— 安全启动
+- [Clevo Boot Guard Keys Leaked in Update Package](articles/安全启动/2025-03-20-Clevo-Boot-Guard-Keys-Leaked-in-Update-Package.md) —— 安全启动
+- [LogoFAIL Exploited to Deploy Bootkitty, the first UEFI bootkit for Linux](articles/安全启动/2024-11-29-LogoFAIL-Exploited-to-Deploy-Bootkitty-the-first-UEFI-bootki.md) —— 安全启动
+- [Vulnerability REsearch using VulHunt](articles/Openwrt/2026-02-20-Vulnerability-REsearch-using-VulHunt.md) —— Openwrt
 
 ### 2026-11-19 · 2026-W48
 
