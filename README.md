@@ -12,25 +12,25 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 | 板块 | 篇 | 板块 | 篇 | 板块 | 篇 |
 |:--|--:|:--|--:|:--|--:|
 | [Openwrt](#openwrt) | 4 | [摄像头](#摄像头) | 6 | [无人机](#无人机) | 19 |
-| [车机](#车机) | 4 | [充电桩](#充电桩) | 7 | [基站](#基站) | 3 |
+| [车机](#车机) | 6 | [充电桩](#充电桩) | 7 | [基站](#基站) | 3 |
 | [防火墙](#防火墙) | 22 | [卫星安全](#卫星安全) | 10 | [打印机](#打印机) | 4 |
-| [智能家居](#智能家居) | 5 | [机器人](#机器人) | 1 | [芯片安全](#芯片安全) | 12 |
+| [智能家居](#智能家居) | 7 | [机器人](#机器人) | 1 | [芯片安全](#芯片安全) | 14 |
 | [RFID](#rfid) | 5 | [WIFI安全](#wifi安全) | 1 | [协议安全](#协议安全) | 3 |
-| [硬件钱包](#硬件钱包) | 1 | [FUZZ](#fuzz) | 4 | | |
+| [硬件钱包](#硬件钱包) | 3 | [FUZZ](#fuzz) | 4 | | |
 
 **技术专题**
 
 | 板块 | 篇 | 板块 | 篇 |
 |:--|--:|:--|--:|
-| [安全启动](#安全启动) | 19 | [固件解密](#固件解密) | 14 |
-| [故障注入](#故障注入) | 17 | [绕过ASLR](#绕过aslr) | 5 |
+| [安全启动](#安全启动) | 22 | [固件解密](#固件解密) | 14 |
+| [故障注入](#故障注入) | 22 | [绕过ASLR](#绕过aslr) | 5 |
 
 **资源与归档**
 
 | 板块 | 篇 | 板块 | 篇 | 板块 | 篇 |
 |:--|--:|:--|--:|:--|--:|
 | [固件下载](#固件下载) | 18 | [虚拟机镜像](#虚拟机镜像) | 0 | [杂项](#杂项) | 19 |
-| [文章快照](articles/INDEX.md) | 88 | [更新日志](#更新日志) | - | [收录标准](#收录标准) | - |
+| [文章快照](articles/INDEX.md) | 104 | [更新日志](#更新日志) | - | [收录标准](#收录标准) | - |
 
 <!-- INDEX:END -->
 
@@ -39,14 +39,14 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 <!-- LATEST:START -->
 | 日期 | 板块 | 文章 |
 |:--|:--|:--|
+| 2026-11-14 | 车机 | [MC9S12/HCS12 复位安全评估窗口毛刺：解锁 BDM 读全片 flash](articles/车机/2026-11-14-MC9S12-HCS12-复位安全评估窗口毛刺-解锁-BDM-读全片-flash.md) |
+| 2026-11-14 | 芯片安全 | [GA100 数据中心 GPU PWMVID 电压毛刺实验台](articles/芯片安全/2026-11-14-GA100-数据中心-GPU-PWMVID-电压毛刺实验台.md) |
+| 2026-11-14 | 硬件钱包 | [STM32F2/F4 故障注入：EMFI/VFI 双档 RDP2→RDP1 + FPB 两毛刺读全片 flash](articles/硬件钱包/2026-11-14-STM32F2-F4-故障注入-EMFI-VFI-双档-RDP2-RDP1-FPB-两毛刺读全片-flash.md) |
+| 2026-11-14 | 智能家居 | [Apple AirTag（nRF52832）电压毛刺解锁 APPROTECT 并转储固件](articles/智能家居/2026-11-14-Apple-AirTag-nRF52832-电压毛刺解锁-APPROTECT-并转储固件.md) |
+| 2026-11-14 | 故障注入 | [RP2350 OTP 毛刺：割断 USB_OTP_VDD 后在 ~1.75ms 窗口篡改 OTP](articles/故障注入/2026-11-14-RP2350-OTP-毛刺-割断-USB_OTP_VDD-后在-1-75ms-窗口篡改-OTP.md) |
 | 2026-11-13 | 杂项 | [BinQL: a CodeQL extension for binary formats](articles/杂项/2026-11-13-BinQL-a-CodeQL-extension-for-binary-formats.md) |
+| 2026-11-13 | 安全启动 | [RP2350 光子发射引导激光 FI：恢复被永久关闭的 Secure Debug](articles/安全启动/2026-11-13-RP2350-光子发射引导激光-FI-恢复被永久关闭的-Secure-Debug.md) |
 | 2026-11-12 | 防火墙 | [PHP2Shell Exploitation on Check Point Gateway](articles/防火墙/2026-11-12-PHP2Shell-Exploitation-on-Check-Point-Gateway.md) |
-| 2026-11-12 | 故障注入 | [NonSense: On the (In)security of FPGA Anti-tamper Sensors](articles/故障注入/2026-11-12-NonSense-On-the-In-security-of-FPGA-Anti-tamper-Sensors.md) |
-| 2026-11-10 | 固件解密 | [Two Oracles to Get One Key: A tale of recovering a symmetric key from an encrypt-only firmware update scheme](articles/固件解密/2026-11-10-Two-Oracles-to-Get-One-Key-A-tale-of-recovering-a-symmetric.md) |
-| 2026-11-06 | 防火墙 | [Barracuda Networks is your new best friend (Barracuda Email Security Gateway Pre-Auth Remote Root RCE CVE-2026-116606 / CVE-2026-111560)](articles/防火墙/2026-11-06-Barracuda-Networks-is-your-new-best-friend-Barracuda-Email-S.md) |
-| 2026-11-05 | 安全启动 | [潜伏16年的UEFI漏洞：开机那几秒，你的所有防线都还没上线](articles/安全启动/2026-11-05-潜伏16年的UEFI漏洞-开机那几秒-你的所有防线都还没上线.md) |
-| 2026-11-03 | 防火墙 | [Pre-Auth RCE in Zyxel GS1900 Exploited in the Wild as a Zero-Day](articles/防火墙/2026-11-03-Pre-Auth-RCE-in-Zyxel-GS1900-Exploited-in-the-Wild-as-a-Zero.md) |
-| 2026-11-02 | 防火墙 | [Additional Ivanti Connect Secure zero-days exploited in the wild (CVE-2026-111357, CVE-2026-118527)](articles/防火墙/2026-11-02-Additional-Ivanti-Connect-Secure-zero-days-exploited-in-the.md) |
 <!-- LATEST:END -->
 
 全部归档见 [articles/INDEX.md](articles/INDEX.md)。
@@ -103,6 +103,8 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 - [腾讯科恩实验室对奔驰梅赛德斯车机研究](https://keenlab.tencent.com/en/whitepapers/Mercedes_Benz_Security_Research_Report_Final.pdf)
 - [Black Hat Asia 2025：日产 Leaf 远程利用](https://i.blackhat.com/Asia-25/Asia-25-Evdokimov-Remote-Exploitation-of-Nissan-Leaf.pdf)
 - [Automotive HSMs - Architectural Challenges and Security Implications](articles/车机/2026-08-25-Automotive-HSMs-Architectural-Challenges-and-Security-Implic.md) · [原文](http://arxiv.org/abs/2608.25216v1)
+- [Mercedes 防盗器 ECU 过压毛刺：短暂恢复被熔断的 JTAG](articles/车机/2025-06-01-Mercedes-防盗器-ECU-过压毛刺-短暂恢复被熔断的-JTAG.md) · [原文](https://troopers.de/troopers25/talks/et37yq/)
+- [MC9S12/HCS12 复位安全评估窗口毛刺：解锁 BDM 读全片 flash](articles/车机/2026-11-14-MC9S12-HCS12-复位安全评估窗口毛刺-解锁-BDM-读全片-flash.md) · [原文](https://github.com/wichers/mc9s12-voltage-glitch-attack)
 
 ## 充电桩
 
@@ -184,6 +186,8 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 - [Hack the Channel：DVB 接收机安全深度分析](https://www.synacktiv.com/en/publications/hack-the-channel-a-deep-dive-into-dvb-receiver-security)
 - [Flicker and fall: rooting the Philips Hue Bridge both remotely and wirelessly](articles/智能家居/2026-06-08-Flicker-and-fall-rooting-the-Philips-Hue-Bridge-both-remotel.md) · [原文](https://blog.thalium.re/posts/rooting-the-philips-hue-bridge-remotely-and-wirelessly/)
 - [Streaming Zero-Fi Shells to Your Smart Speaker](articles/智能家居/2025-06-11-Streaming-Zero-Fi-Shells-to-Your-Smart-Speaker.md) · [原文](https://blog.ret2.io/2025/06/11/pwn2own-soho-2024-sonos-exploit/)
+- [Apple AirTag（nRF52832）电压毛刺解锁 APPROTECT 并转储固件](articles/智能家居/2026-11-14-Apple-AirTag-nRF52832-电压毛刺解锁-APPROTECT-并转储固件.md) · [原文](https://github.com/ensingerphilipp/airtag-glitch-dump-improved)
+- [Chipolo 蓝牙追踪器：FI 绕调试锁 → 固件逆向 → 蓝牙栈 RCE](articles/智能家居/2024-12-27-Chipolo-蓝牙追踪器-FI-绕调试锁-固件逆向-蓝牙栈-RCE.md) · [原文](https://media.ccc.de/v/38c3-from-fault-injection-to-rce-analyzing-a-bluetooth-tracker)
 
 ## 机器人
 
@@ -207,6 +211,8 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 - [Supporting Rowhammer research to protect the DRAM ecosystem](articles/芯片安全/2025-09-16-Supporting-Rowhammer-research-to-protect-the-DRAM-ecosystem.md) · [原文](http://security.googleblog.com/2025/09/supporting-rowhammer-research-to.html)
 - [Further Hardening Android GPUs](articles/芯片安全/2025-12-10-Further-Hardening-Android-GPUs.md) · [原文](http://security.googleblog.com/2025/12/further-hardening-android-gpus.html)
 - [Don't let TEEs break your MPC](articles/芯片安全/2026-09-25-Don-t-let-TEEs-break-your-MPC.md) · [原文](https://blog.trailofbits.com/2026/09/25/dont-let-tees-break-your-mpc/)
+- [GA100 数据中心 GPU PWMVID 电压毛刺实验台](articles/芯片安全/2026-11-14-GA100-数据中心-GPU-PWMVID-电压毛刺实验台.md) · [原文](https://github.com/kate-land/ga100vfi)
+- [压电打火机 EMFI 打 DRAM 总线：笔记本 Linux 提权 root](articles/芯片安全/2024-10-07-压电打火机-EMFI-打-DRAM-总线-笔记本-Linux-提权-root.md) · [原文](https://www.da.vidbuchanan.co.uk/blog/dram-emfi.html)
 
 ## RFID
 
@@ -237,6 +243,8 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 > Web3 硬件钱包的攻击面
 
 - [攻防速写｜假如捡到 Web3 硬件钱包的人是黑客](https://mp.weixin.qq.com/s/FYDgYG9UCTgwc7KxAdIjjw)
+- [Trezor 穿壳 EMFI：毛刺 USB 栈长度检查读出 metadata/seed](articles/硬件钱包/2019-03-06-Trezor-穿壳-EMFI-毛刺-USB-栈长度检查读出-metadata-seed.md) · [原文](https://colinoflynn.com/2019/03/glitching-trezor-using-emfi-through-the-enclosure/)
+- [STM32F2/F4 故障注入：EMFI/VFI 双档 RDP2→RDP1 + FPB 两毛刺读全片 flash](articles/硬件钱包/2026-11-14-STM32F2-F4-故障注入-EMFI-VFI-双档-RDP2-RDP1-FPB-两毛刺读全片-flash.md) · [原文](https://github.com/joegrand/stm32-fault-injection)
 
 ## FUZZ
 
@@ -270,6 +278,9 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 - [How an Old Bug in Lighttpd Gained New Life in AMI BMC, Including Lenovo and Intel products](articles/安全启动/2025-11-19-How-an-Old-Bug-in-Lighttpd-Gained-New-Life-in-AMI-BMC-Includ.md) · [原文](https://www.binarly.io/blog/how-an-old-bug-in-lighttpd-gained-new-life-in-ami-bmc-including-lenovo-and-intel-products)
 - [Clevo Boot Guard Keys Leaked in Update Package](articles/安全启动/2025-03-20-Clevo-Boot-Guard-Keys-Leaked-in-Update-Package.md) · [原文](https://www.binarly.io/blog/clevo-boot-guard-keys-leaked-in-update-package)
 - [LogoFAIL Exploited to Deploy Bootkitty, the first UEFI bootkit for Linux](articles/安全启动/2024-11-29-LogoFAIL-Exploited-to-Deploy-Bootkitty-the-first-UEFI-bootki.md) · [原文](https://www.binarly.io/blog/logofail-exploited-deploy-bootkitty-first-uefi-bootkit-linux)
+- [Zynq-7000 Secure Boot：故障注入攻破 RSA 位流认证（WOOT'24）](articles/安全启动/2024-08-13-Zynq-7000-Secure-Boot-故障注入攻破-RSA-位流认证-WOOT-24.md) · [原文](https://www.usenix.org/conference/woot24/presentation/ravi)
+- [bootl-attacks（CHES'21）：LPC1343 ROP / STM8 双毛刺 / Renesas 78K0 符号执行制导](articles/安全启动/2021-09-01-bootl-attacks-CHES-21-LPC1343-ROP-STM8-双毛刺-Renesas-78K0-符号执行.md) · [原文](https://github.com/janvdherrewegen/bootl-attacks)
+- [RP2350 光子发射引导激光 FI：恢复被永久关闭的 Secure Debug](articles/安全启动/2026-11-13-RP2350-光子发射引导激光-FI-恢复被永久关闭的-Secure-Debug.md) · [原文](https://donjon.ledger.com/blog/rp2350-secure-debug-laser-fault-injection/)
 
 ## 固件解密
 
@@ -311,6 +322,11 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 - [setresuid(⚡): Glitching Google's TV Streamer from adb to Root](articles/故障注入/2026-04-01-setresuid-Glitching-Google-s-TV-Streamer-from-adb-to-Root.md) · [原文](https://raelize.com/blog/setresuid-glitching-google-tv-streamer-from-adb-to-root/)
 - [AI-FI: Giving Claude Code Glitch Skills for Bypassing Secure Boot](articles/故障注入/2026-06-01-AI-FI-Giving-Claude-Code-Glitch-Skills-for-Bypassing-Secure.md) · [原文](https://raelize.com/blog/ai-fi-giving-claude-code-glitch-skills-for-bypassing-secure-boot/)
 - [Triple Exploit Chain with Laser Fault Injection on a Secure Element](articles/故障注入/2024-10-01-Triple-Exploit-Chain-with-Laser-Fault-Injection-on-a-Secure.md) · [原文](https://hardwear.io/talks/triple-exploit-chain-with-laser-fault-injection-on-a-secure-element/)
+- [ESP32 全安全模式双毛刺：绕过 Secure Boot 并读出 FEK/SBK（CVE-2019-15894 / CVE-2019-17391）](articles/故障注入/2019-09-01-ESP32-全安全模式双毛刺-绕过-Secure-Boot-并读出-FEK-SBK-CVE-2019-15894-CVE.md) · [原文](https://limitedresults.com/results/pwn-the-esp32-secure-boot)
+- [Espressif AR2023-007：ESP32-C3/C6 遭 CPA + 电压毛刺组合绕过 Secure Boot 与 Flash 加密](articles/故障注入/2024-01-05-Espressif-AR2023-007-ESP32-C3-C6-遭-CPA-电压毛刺组合绕过-Secure-Boot.md) · [原文](https://www.espressif.com/sites/default/files/advisory_downloads/AR2023-007%20Security%20Advisory%20Concerning%20Bypassing%20Secure%20Boot%20and%20Flash%20Encryption%20using%20CPA%20and%20FI%20attack%20on%20ESP32-C3%20and%20ESP32-C6%20EN.pdf)
+- [Qualcomm IPQ40xx QSEE：EMFI 绕过安全范围检查实现任意 NULL 写](articles/故障注入/2021-06-07-Qualcomm-IPQ40xx-QSEE-EMFI-绕过安全范围检查实现任意-NULL-写.md) · [原文](https://raelize.com/blog/qualcomm-ipq40xx-breaking-into-qsee-using-fault-injection/)
+- [PS Vita BootROM 毛刺：ChipWhisperer 时钟注入执行自定义 payload](articles/故障注入/2018-12-01-PS-Vita-BootROM-毛刺-ChipWhisperer-时钟注入执行自定义-payload.md) · [原文](https://github.com/TeamMolecule/petite-mort)
+- [RP2350 OTP 毛刺：割断 USB_OTP_VDD 后在 ~1.75ms 窗口篡改 OTP](articles/故障注入/2026-11-14-RP2350-OTP-毛刺-割断-USB_OTP_VDD-后在-1-75ms-窗口篡改-OTP.md) · [原文](https://mkesenheimer.github.io/blog/glitching-the-rp2350.html)
 
 ## 绕过ASLR
 
@@ -379,6 +395,25 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 
 <details>
 <summary>展开查看（最新在上）</summary>
+
+### 2026-11-19 · 2026-W51
+
+- [ESP32 全安全模式双毛刺：绕过 Secure Boot 并读出 FEK/SBK（CVE-2019-15894 / CVE-2019-17391）](articles/故障注入/2019-09-01-ESP32-全安全模式双毛刺-绕过-Secure-Boot-并读出-FEK-SBK-CVE-2019-15894-CVE.md) —— 故障注入
+- [Espressif AR2023-007：ESP32-C3/C6 遭 CPA + 电压毛刺组合绕过 Secure Boot 与 Flash 加密](articles/故障注入/2024-01-05-Espressif-AR2023-007-ESP32-C3-C6-遭-CPA-电压毛刺组合绕过-Secure-Boot.md) —— 故障注入
+- [Apple AirTag（nRF52832）电压毛刺解锁 APPROTECT 并转储固件](articles/智能家居/2026-11-14-Apple-AirTag-nRF52832-电压毛刺解锁-APPROTECT-并转储固件.md) —— 智能家居
+- [GA100 数据中心 GPU PWMVID 电压毛刺实验台](articles/芯片安全/2026-11-14-GA100-数据中心-GPU-PWMVID-电压毛刺实验台.md) —— 芯片安全
+- [Qualcomm IPQ40xx QSEE：EMFI 绕过安全范围检查实现任意 NULL 写](articles/故障注入/2021-06-07-Qualcomm-IPQ40xx-QSEE-EMFI-绕过安全范围检查实现任意-NULL-写.md) —— 故障注入
+- [Trezor 穿壳 EMFI：毛刺 USB 栈长度检查读出 metadata/seed](articles/硬件钱包/2019-03-06-Trezor-穿壳-EMFI-毛刺-USB-栈长度检查读出-metadata-seed.md) —— 硬件钱包
+- [STM32F2/F4 故障注入：EMFI/VFI 双档 RDP2→RDP1 + FPB 两毛刺读全片 flash](articles/硬件钱包/2026-11-14-STM32F2-F4-故障注入-EMFI-VFI-双档-RDP2-RDP1-FPB-两毛刺读全片-flash.md) —— 硬件钱包
+- [Mercedes 防盗器 ECU 过压毛刺：短暂恢复被熔断的 JTAG](articles/车机/2025-06-01-Mercedes-防盗器-ECU-过压毛刺-短暂恢复被熔断的-JTAG.md) —— 车机
+- [Chipolo 蓝牙追踪器：FI 绕调试锁 → 固件逆向 → 蓝牙栈 RCE](articles/智能家居/2024-12-27-Chipolo-蓝牙追踪器-FI-绕调试锁-固件逆向-蓝牙栈-RCE.md) —— 智能家居
+- [PS Vita BootROM 毛刺：ChipWhisperer 时钟注入执行自定义 payload](articles/故障注入/2018-12-01-PS-Vita-BootROM-毛刺-ChipWhisperer-时钟注入执行自定义-payload.md) —— 故障注入
+- [Zynq-7000 Secure Boot：故障注入攻破 RSA 位流认证（WOOT'24）](articles/安全启动/2024-08-13-Zynq-7000-Secure-Boot-故障注入攻破-RSA-位流认证-WOOT-24.md) —— 安全启动
+- [bootl-attacks（CHES'21）：LPC1343 ROP / STM8 双毛刺 / Renesas 78K0 符号执行制导](articles/安全启动/2021-09-01-bootl-attacks-CHES-21-LPC1343-ROP-STM8-双毛刺-Renesas-78K0-符号执行.md) —— 安全启动
+- [RP2350 光子发射引导激光 FI：恢复被永久关闭的 Secure Debug](articles/安全启动/2026-11-13-RP2350-光子发射引导激光-FI-恢复被永久关闭的-Secure-Debug.md) —— 安全启动
+- [RP2350 OTP 毛刺：割断 USB_OTP_VDD 后在 ~1.75ms 窗口篡改 OTP](articles/故障注入/2026-11-14-RP2350-OTP-毛刺-割断-USB_OTP_VDD-后在-1-75ms-窗口篡改-OTP.md) —— 故障注入
+- [MC9S12/HCS12 复位安全评估窗口毛刺：解锁 BDM 读全片 flash](articles/车机/2026-11-14-MC9S12-HCS12-复位安全评估窗口毛刺-解锁-BDM-读全片-flash.md) —— 车机
+- [压电打火机 EMFI 打 DRAM 总线：笔记本 Linux 提权 root](articles/芯片安全/2024-10-07-压电打火机-EMFI-打-DRAM-总线-笔记本-Linux-提权-root.md) —— 芯片安全
 
 ### 2026-11-19 · 2026-W50
 
