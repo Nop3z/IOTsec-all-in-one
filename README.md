@@ -12,11 +12,11 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 | 板块 | 篇 | 板块 | 篇 | 板块 | 篇 |
 |:--|--:|:--|--:|:--|--:|
 | [Openwrt](#openwrt) | 4 | [摄像头](#摄像头) | 6 | [无人机](#无人机) | 19 |
-| [车机](#车机) | 6 | [充电桩](#充电桩) | 7 | [基站](#基站) | 3 |
+| [车机](#车机) | 6 | [充电桩](#充电桩) | 7 | [基站](#基站) | 13 |
 | [防火墙](#防火墙) | 22 | [卫星安全](#卫星安全) | 10 | [打印机](#打印机) | 4 |
-| [智能家居](#智能家居) | 7 | [机器人](#机器人) | 1 | [芯片安全](#芯片安全) | 14 |
+| [智能家居](#智能家居) | 7 | [机器人](#机器人) | 11 | [芯片安全](#芯片安全) | 14 |
 | [RFID](#rfid) | 5 | [WIFI安全](#wifi安全) | 1 | [协议安全](#协议安全) | 3 |
-| [硬件钱包](#硬件钱包) | 3 | [FUZZ](#fuzz) | 4 | | |
+| [硬件钱包](#硬件钱包) | 13 | [FUZZ](#fuzz) | 4 | | |
 
 **技术专题**
 
@@ -30,7 +30,7 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 | 板块 | 篇 | 板块 | 篇 | 板块 | 篇 |
 |:--|--:|:--|--:|:--|--:|
 | [固件下载](#固件下载) | 18 | [虚拟机镜像](#虚拟机镜像) | 0 | [杂项](#杂项) | 19 |
-| [文章快照](articles/INDEX.md) | 121 | [更新日志](#更新日志) | - | [收录标准](#收录标准) | - |
+| [文章快照](articles/INDEX.md) | 151 | [更新日志](#更新日志) | - | [收录标准](#收录标准) | - |
 
 <!-- INDEX:END -->
 
@@ -125,6 +125,16 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 - [NextEPC 漏洞分析](https://cellularsecurity.org/ransacked)
 - [使用用户设备对 5G 基站进行攻击](https://www.trendmicro.com/en_gb/research/23/i/attacks-on-5g-infrastructure-from-users-devices.html)
 - [Bringing Rust to the Pixel Baseband](articles/基站/2026-04-10-Bringing-Rust-to-the-Pixel-Baseband.md) · [原文](http://security.googleblog.com/2026/04/bringing-rust-to-pixel-baseband.html)
+- [The Baseband Apocalypse：把基带当作独立攻击面](articles/基站/2010-12-28-The-Baseband-Apocalypse-把基带当作独立攻击面.md) · [原文](https://media.ccc.de/v/27c3-4090-en-baseband_apocalypse)
+- [Reverse-engineering a Qualcomm baseband：系统级逆向](articles/基站/2011-12-28-Reverse-engineering-a-Qualcomm-baseband-系统级逆向.md) · [原文](https://media.ccc.de/v/28c3-4735-en-reverse_engineering_a_qualcomm_baseband)
+- [Baseband Exploitation in 2013：LTE 时代的利用难度](articles/基站/2013-12-27-Baseband-Exploitation-in-2013-LTE-时代的利用难度.md) · [原文](https://media.ccc.de/v/30C3_-_5618_-_en_-_saal_1_-_201312272145_-_baseband_exploitation_in_2013_-_rpw_esizkur)
+- [SS7: Locate. Track. Manipulate.：信令网上的定位与监听](articles/基站/2014-12-27-SS7-Locate-Track-Manipulate-信令网上的定位与监听.md) · [原文](https://media.ccc.de/v/31c3_-_6249_-_en_-_saal_1_-_201412271715_-_ss7_locate_track_manipulate_-_tobias_engel)
+- [Mobile Data Interception from the Interconnection Link：Diameter 也能被滥用](articles/基站/2017-12-28-Mobile-Data-Interception-from-the-Interconnection-Link-Diame.md) · [原文](https://media.ccc.de/v/34c3-8879-mobile_data_interception_from_the_interconnection_link)
+- [SIM card technology from A-Z：SIM/eSIM 攻击面全景](articles/基站/2019-12-27-SIM-card-technology-from-A-Z-SIM-eSIM-攻击面全景.md) · [原文](https://media.ccc.de/v/36c3-10737-sim_card_technology_from_a-z)
+- [Advanced Hexagon Diag：在现货手机上玩转基带诊断协议](articles/基站/2020-12-28-Advanced-Hexagon-Diag-在现货手机上玩转基带诊断协议.md) · [原文](https://media.ccc.de/v/rc3-11397-advanced_hexagon_diag)
+- [OpenRAN – 5G hacking just got a lot more interesting](articles/基站/2022-07-23-OpenRAN-5G-hacking-just-got-a-lot-more-interesting.md) · [原文](https://media.ccc.de/v/mch2022-273-openran-5g-hacking-just-got-a-lot-more-interesting)
+- [Analyzing Cellular Basebands with FirmWire：开源基带分析平台](articles/基站/2023-08-17-Analyzing-Cellular-Basebands-with-FirmWire-开源基带分析平台.md) · [原文](https://media.ccc.de/v/camp2023-57330-analyzing_cellular_basebands_with_firmwire)
+- [Over-The-Air Baseband Exploit：5G 手机上的远程基带 RCE（Black Hat USA 2021）](articles/基站/2021-08-04-Over-The-Air-Baseband-Exploit-5G-手机上的远程基带-RCE-Black-Hat-USA.md) · [原文](https://i.blackhat.com/USA21/Wednesday-Handouts/us-21-Over-The-Air-Baseband-Exploit-Gaining-Remote-Code-Execution-On-5G-Smartphones-wp.pdf)
 
 ## 防火墙
 
@@ -194,6 +204,16 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 > 机器人本体与控制链路
 
 - [宇树GO1机器人分析](https://think-awesome.com/download_unitree_report)
+- [Hacking Robots Before Skynet（技术附录）：工业与协作机器人的攻击面](articles/机器人/2017-07-01-Hacking-Robots-Before-Skynet-技术附录-工业与协作机器人的攻击面.md) · [原文](https://www.ioactive.com/wp-content/uploads/pdfs/Hacking-Robots-Before-Skynet-Technical-Appendix.pdf)
+- [Rogue Robots：工业机器人软件的老旧依赖与物理后果](articles/机器人/2017-05-03-Rogue-Robots-工业机器人软件的老旧依赖与物理后果.md) · [原文](https://www.trendmicro.com/vinfo/it/security/news/internet-of-things/rogue-robots-testing-industrial-robot-security)
+- [Hacking Robots Before Skynet（POC 2017 演示稿）](articles/机器人/2017-11-01-Hacking-Robots-Before-Skynet-POC-2017-演示稿.md) · [原文](https://powerofcommunity.net/assets/v0/poc2017/lucas.pdf)
+- [Vacuum robot security and privacy：扫地机器人五年后的攻击面](articles/机器人/2023-08-18-Vacuum-robot-security-and-privacy-扫地机器人五年后的攻击面.md) · [原文](https://media.ccc.de/v/camp2023-57158-vacuum_robot_security_and_privacy)
+- [Sucking dust and cutting grass：逆向机器人并绕过安全机制](articles/机器人/2023-12-27-Sucking-dust-and-cutting-grass-逆向机器人并绕过安全机制.md) · [原文](https://media.ccc.de/v/37c3-11943-sucking_dust_and_cutting_grass_reversing_robots_and_bypassing_security)
+- [Skynet Starter Kit：Unitree 机器人生态的端到端攻破（39C3）](articles/机器人/2025-12-28-Skynet-Starter-Kit-Unitree-机器人生态的端到端攻破-39C3.md) · [原文](https://media.ccc.de/v/39c3-skynet-starter-kit-from-embodied-ai-jailbreak-to-remote-takeover-of-humanoid-robots)
+- [Smart vacuum cleaners as remote wiretapping devices：QNX 扫地机的窃听](articles/机器人/2019-04-21-Smart-vacuum-cleaners-as-remote-wiretapping-devices-QNX-扫地机的.md) · [原文](https://media.ccc.de/v/eh19-157-smart-vacuum-cleaners-as-remote-wiretapping-devices)
+- [How (not) to build autonomous robots：配送机器人背后的工程与安全债](articles/机器人/2019-12-27-How-not-to-build-autonomous-robots-配送机器人背后的工程与安全债.md) · [原文](https://media.ccc.de/v/36c3-10601-how_not_to_build_autonomous_robots)
+- [RIPA：针对 LLM 控制 ROS 2 机器人的感知向量提示注入](articles/机器人/2026-06-01-RIPA-针对-LLM-控制-ROS-2-机器人的感知向量提示注入.md) · [原文](https://arxiv.org/abs/2606.28649)
+- [Seeing is Not Believing：打破机器人的物理-数字信任边界](articles/机器人/2026-09-01-Seeing-is-Not-Believing-打破机器人的物理-数字信任边界.md) · [原文](https://arxiv.org/abs/2609.08280)
 
 ## 芯片安全
 
@@ -245,6 +265,16 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 - [攻防速写｜假如捡到 Web3 硬件钱包的人是黑客](https://mp.weixin.qq.com/s/FYDgYG9UCTgwc7KxAdIjjw)
 - [Trezor 穿壳 EMFI：毛刺 USB 栈长度检查读出 metadata/seed](articles/硬件钱包/2019-03-06-Trezor-穿壳-EMFI-毛刺-USB-栈长度检查读出-metadata-seed.md) · [原文](https://colinoflynn.com/2019/03/glitching-trezor-using-emfi-through-the-enclosure/)
 - [STM32F2/F4 故障注入：EMFI/VFI 双档 RDP2→RDP1 + FPB 两毛刺读全片 flash](articles/硬件钱包/2026-11-14-STM32F2-F4-故障注入-EMFI-VFI-双档-RDP2-RDP1-FPB-两毛刺读全片-flash.md) · [原文](https://github.com/joegrand/stm32-fault-injection)
+- [wallet.fail：破解主流加密货币硬件钱包（35C3）](articles/硬件钱包/2018-12-27-wallet-fail-破解主流加密货币硬件钱包-35C3.md) · [原文](https://media.ccc.de/v/35c3-9563-wallet_fail)
+- [Wallet Security：密钥存储方案与“kleptogram”后门](articles/硬件钱包/2018-12-28-Wallet-Security-密钥存储方案与-kleptogram-后门.md) · [原文](https://media.ccc.de/v/35c3-9492-wallet_security)
+- [Trezor: Bitcoin hardware wallet：硬件钱包安全模型的起点](articles/硬件钱包/2013-12-29-Trezor-Bitcoin-hardware-wallet-硬件钱包安全模型的起点.md) · [原文](https://media.ccc.de/v/30C3_-_5545_-_en_-_saal_1_-_201312292200_-_trezor_bitcoin_hardware_wallet_-_pavol_stick_rusnak)
+- [Cryptocurrency Hardware Wallets：Monero 硬件钱包的工程实践](articles/硬件钱包/2018-08-25-Cryptocurrency-Hardware-Wallets-Monero-硬件钱包的工程实践.md) · [原文](https://media.ccc.de/v/froscon2018-2109-cryptocurrency_hardware_wallets)
+- [Trezor / KeepKey 硬件钱包安全分析（CVUT 学位论文）](articles/硬件钱包/2020-06-01-Trezor-KeepKey-硬件钱包安全分析-CVUT-学位论文.md) · [原文](https://dspace.cvut.cz/bitstream/handle/10467/88181/F8-BP-2020-Kozak-Lukas-thesis.pdf)
+- [TROPIC01 开源安全元件的激光故障注入（Ledger Donjon）](articles/硬件钱包/2026-06-03-TROPIC01-开源安全元件的激光故障注入-Ledger-Donjon.md) · [原文](https://donjon.ledger.com/blog/tropic01-laser-fault-injection/)
+- [Bypassing Tangem Card Security with a Laser Attack（Ledger Donjon）](articles/硬件钱包/2026-07-09-Bypassing-Tangem-Card-Security-with-a-Laser-Attack-Ledger-Do.md) · [原文](https://donjon.ledger.com/blog/bypassing-tangem-card-security-with-laser-attack/)
+- [Why Secure Elements make a crucial difference：安全元件与钱包设计取舍](articles/硬件钱包/2025-01-01-Why-Secure-Elements-make-a-crucial-difference-安全元件与钱包设计取舍.md) · [原文](https://www.ledger.com/why-secure-elements-make-a-crucial-difference-to-hardware-wallet-security)
+- [Lessons from Building an Open-Architecture Secure Element（39C3）](articles/硬件钱包/2025-12-28-Lessons-from-Building-an-Open-Architecture-Secure-Element-39.md) · [原文](https://media.ccc.de/v/39c3-lessons-from-building-an-open-architecture-secure-element)
+- [OpenPGP 智能卡横向评测：机械强度、防护能力与开放度](articles/硬件钱包/2019-06-15-OpenPGP-智能卡横向评测-机械强度-防护能力与开放度.md) · [原文](https://media.ccc.de/v/cosin-16-openpgp-smartcard-vergleich)
 
 ## FUZZ
 
@@ -412,6 +442,39 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 
 <details>
 <summary>展开查看（最新在上）</summary>
+
+### 2026-11-19 · 2026-W53
+
+- [The Baseband Apocalypse：把基带当作独立攻击面](articles/基站/2010-12-28-The-Baseband-Apocalypse-把基带当作独立攻击面.md) —— 基站
+- [Reverse-engineering a Qualcomm baseband：系统级逆向](articles/基站/2011-12-28-Reverse-engineering-a-Qualcomm-baseband-系统级逆向.md) —— 基站
+- [Baseband Exploitation in 2013：LTE 时代的利用难度](articles/基站/2013-12-27-Baseband-Exploitation-in-2013-LTE-时代的利用难度.md) —— 基站
+- [SS7: Locate. Track. Manipulate.：信令网上的定位与监听](articles/基站/2014-12-27-SS7-Locate-Track-Manipulate-信令网上的定位与监听.md) —— 基站
+- [Mobile Data Interception from the Interconnection Link：Diameter 也能被滥用](articles/基站/2017-12-28-Mobile-Data-Interception-from-the-Interconnection-Link-Diame.md) —— 基站
+- [SIM card technology from A-Z：SIM/eSIM 攻击面全景](articles/基站/2019-12-27-SIM-card-technology-from-A-Z-SIM-eSIM-攻击面全景.md) —— 基站
+- [Advanced Hexagon Diag：在现货手机上玩转基带诊断协议](articles/基站/2020-12-28-Advanced-Hexagon-Diag-在现货手机上玩转基带诊断协议.md) —— 基站
+- [OpenRAN – 5G hacking just got a lot more interesting](articles/基站/2022-07-23-OpenRAN-5G-hacking-just-got-a-lot-more-interesting.md) —— 基站
+- [Analyzing Cellular Basebands with FirmWire：开源基带分析平台](articles/基站/2023-08-17-Analyzing-Cellular-Basebands-with-FirmWire-开源基带分析平台.md) —— 基站
+- [Over-The-Air Baseband Exploit：5G 手机上的远程基带 RCE（Black Hat USA 2021）](articles/基站/2021-08-04-Over-The-Air-Baseband-Exploit-5G-手机上的远程基带-RCE-Black-Hat-USA.md) —— 基站
+- [Hacking Robots Before Skynet（技术附录）：工业与协作机器人的攻击面](articles/机器人/2017-07-01-Hacking-Robots-Before-Skynet-技术附录-工业与协作机器人的攻击面.md) —— 机器人
+- [Rogue Robots：工业机器人软件的老旧依赖与物理后果](articles/机器人/2017-05-03-Rogue-Robots-工业机器人软件的老旧依赖与物理后果.md) —— 机器人
+- [Hacking Robots Before Skynet（POC 2017 演示稿）](articles/机器人/2017-11-01-Hacking-Robots-Before-Skynet-POC-2017-演示稿.md) —— 机器人
+- [Vacuum robot security and privacy：扫地机器人五年后的攻击面](articles/机器人/2023-08-18-Vacuum-robot-security-and-privacy-扫地机器人五年后的攻击面.md) —— 机器人
+- [Sucking dust and cutting grass：逆向机器人并绕过安全机制](articles/机器人/2023-12-27-Sucking-dust-and-cutting-grass-逆向机器人并绕过安全机制.md) —— 机器人
+- [Skynet Starter Kit：Unitree 机器人生态的端到端攻破（39C3）](articles/机器人/2025-12-28-Skynet-Starter-Kit-Unitree-机器人生态的端到端攻破-39C3.md) —— 机器人
+- [Smart vacuum cleaners as remote wiretapping devices：QNX 扫地机的窃听](articles/机器人/2019-04-21-Smart-vacuum-cleaners-as-remote-wiretapping-devices-QNX-扫地机的.md) —— 机器人
+- [How (not) to build autonomous robots：配送机器人背后的工程与安全债](articles/机器人/2019-12-27-How-not-to-build-autonomous-robots-配送机器人背后的工程与安全债.md) —— 机器人
+- [RIPA：针对 LLM 控制 ROS 2 机器人的感知向量提示注入](articles/机器人/2026-06-01-RIPA-针对-LLM-控制-ROS-2-机器人的感知向量提示注入.md) —— 机器人
+- [Seeing is Not Believing：打破机器人的物理-数字信任边界](articles/机器人/2026-09-01-Seeing-is-Not-Believing-打破机器人的物理-数字信任边界.md) —— 机器人
+- [wallet.fail：破解主流加密货币硬件钱包（35C3）](articles/硬件钱包/2018-12-27-wallet-fail-破解主流加密货币硬件钱包-35C3.md) —— 硬件钱包
+- [Wallet Security：密钥存储方案与“kleptogram”后门](articles/硬件钱包/2018-12-28-Wallet-Security-密钥存储方案与-kleptogram-后门.md) —— 硬件钱包
+- [Trezor: Bitcoin hardware wallet：硬件钱包安全模型的起点](articles/硬件钱包/2013-12-29-Trezor-Bitcoin-hardware-wallet-硬件钱包安全模型的起点.md) —— 硬件钱包
+- [Cryptocurrency Hardware Wallets：Monero 硬件钱包的工程实践](articles/硬件钱包/2018-08-25-Cryptocurrency-Hardware-Wallets-Monero-硬件钱包的工程实践.md) —— 硬件钱包
+- [Trezor / KeepKey 硬件钱包安全分析（CVUT 学位论文）](articles/硬件钱包/2020-06-01-Trezor-KeepKey-硬件钱包安全分析-CVUT-学位论文.md) —— 硬件钱包
+- [TROPIC01 开源安全元件的激光故障注入（Ledger Donjon）](articles/硬件钱包/2026-06-03-TROPIC01-开源安全元件的激光故障注入-Ledger-Donjon.md) —— 硬件钱包
+- [Bypassing Tangem Card Security with a Laser Attack（Ledger Donjon）](articles/硬件钱包/2026-07-09-Bypassing-Tangem-Card-Security-with-a-Laser-Attack-Ledger-Do.md) —— 硬件钱包
+- [Why Secure Elements make a crucial difference：安全元件与钱包设计取舍](articles/硬件钱包/2025-01-01-Why-Secure-Elements-make-a-crucial-difference-安全元件与钱包设计取舍.md) —— 硬件钱包
+- [Lessons from Building an Open-Architecture Secure Element（39C3）](articles/硬件钱包/2025-12-28-Lessons-from-Building-an-Open-Architecture-Secure-Element-39.md) —— 硬件钱包
+- [OpenPGP 智能卡横向评测：机械强度、防护能力与开放度](articles/硬件钱包/2019-06-15-OpenPGP-智能卡横向评测-机械强度-防护能力与开放度.md) —— 硬件钱包
 
 ### 2026-11-19 · 2026-W52
 
