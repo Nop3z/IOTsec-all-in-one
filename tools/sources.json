@@ -7,8 +7,8 @@
     "request_jitter_sec": 4,
     "timeout_sec": 30,
     "respect_robots": true,
-    "max_requests_per_run": 70,
-    "max_download_bytes_per_run": 5000000,
+    "max_requests_per_run": 200,
+    "max_download_bytes_per_run": 15000000,
     "max_article_bytes": 150000,
     "disk_free_floor_gb": 2,
     "repo_size_budget_mb": 60
@@ -58,7 +58,7 @@
     },
     {
       "name": "Sector7",
-      "url": "https://sector7.computest.nl/feed/",
+      "url": "https://sector7.computest.nl/index.xml",
       "category": "车机",
       "trust": 2
     },
@@ -179,6 +179,78 @@
     {
       "name": "CTF IoT",
       "url": "https://www.ctfiot.com/feed",
+      "category": "杂项",
+      "trust": 0.5
+    },
+    {
+      "name": "Trail of Bits",
+      "url": "https://blog.trailofbits.com/feed/",
+      "category": "杂项",
+      "trust": 2
+    },
+    {
+      "name": "Tencent Xuanwu",
+      "url": "https://xlab.tencent.com/en/feed/",
+      "category": "杂项",
+      "trust": 1.5
+    },
+    {
+      "name": "arXiv cs.CR",
+      "url": "https://export.arxiv.org/rss/cs.CR",
+      "category": "杂项",
+      "trust": 1.5
+    },
+    {
+      "name": "Cisco Security",
+      "url": "https://blogs.cisco.com/security/feed",
+      "category": "防火墙",
+      "trust": 1.5
+    },
+    {
+      "name": "Google Security Blog",
+      "url": "https://security.googleblog.com/feeds/posts/default",
+      "category": "杂项",
+      "trust": 1.5
+    },
+    {
+      "name": "ESET WeLiveSecurity",
+      "url": "https://www.welivesecurity.com/en/rss/feed/",
+      "category": "杂项",
+      "trust": 1
+    },
+    {
+      "name": "Bitdefender Labs",
+      "url": "https://www.bitdefender.com/blog/api/rss/labs/",
+      "category": "杂项",
+      "trust": 1
+    },
+    {
+      "name": "Kaspersky Securelist",
+      "url": "https://securelist.com/feed/",
+      "category": "杂项",
+      "trust": 1
+    },
+    {
+      "name": "Cloudflare Blog",
+      "url": "https://blog.cloudflare.com/rss/",
+      "category": "协议安全",
+      "trust": 1
+    },
+    {
+      "name": "Fortiguard IR",
+      "url": "https://www.fortiguard.com/rss/ir.xml",
+      "category": "防火墙",
+      "trust": 0.5
+    },
+    {
+      "name": "4hou",
+      "url": "https://www.4hou.com/feed",
+      "category": "杂项",
+      "trust": 0.5
+    },
+    {
+      "name": "Malwarebytes",
+      "url": "https://www.malwarebytes.com/blog/feed/index.xml",
       "category": "杂项",
       "trust": 0.5
     }

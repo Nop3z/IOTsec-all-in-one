@@ -74,6 +74,481 @@
    "first_seen": "2026-11-16T22:15:04.746781+08:00",
    "sha256": "2a4c5a09356e45a48f9bdfc1beb381008d3462c29667900544c8d73801769ef9",
    "file": "03-Snapshotting-our-way-to-CVE-2026-9539.md"
+  },
+  "https://www.thezdi.com/blog/2026/9/23/cve-2024-0244-a-heap-buffer-overflow-in-the-canon-mf753cdw-printer": {
+   "first_seen": "2026-11-19T10:48:37.911925+08:00",
+   "sha256": "c24de9ec63b23af5888dbe2cf6bf69d6aa0839d1a1753c0e1cff769e90625de4",
+   "file": "01-CVE-2024-0244-A-heap-buffer-overflow-in-the-Canon-MF753Cdw-p.md"
+  },
+  "https://www.thezdi.com/blog/2026/6/30/the-june-2026-apple-security-update-review": {
+   "first_seen": "2026-11-19T10:48:37.911925+08:00",
+   "sha256": "46a3891506d131f50832aa9e6a0ee8fd3ad9f1927050df41a8c39c3562485b02",
+   "file": "02-The-June-2026-Apple-Security-Update-Review.md"
+  },
+  "https://www.binarly.io/blog/unfit-to-boot-breaking-u-boots-fit-signature-verification": {
+   "first_seen": "2026-11-19T10:48:37.911925+08:00",
+   "sha256": "b151a9b0a141b1bca625e3733edf34f7135c1bd0af55f85229025b2947c5d562",
+   "file": "03-Unfit-to-Boot-Breaking-U-Boot-s-FIT-Signature-Verification.md"
+  },
+  "https://www.thezdi.com/blog/2026/10/8/pwn2own-ireland-2026-day-three-results-amp-master-of-pwn": {
+   "first_seen": "2026-11-19T10:48:37.911925+08:00",
+   "sha256": "f2ff8802d0625e0743ffebc8e0bf0bc8cc33ba7d6e2868eaca671accbe231e96",
+   "file": "04-Pwn2Own-Ireland-2026-Day-Three-Results-Master-of-Pwn.md"
+  },
+  "https://www.4hou.com/posts/RX2V": {
+   "first_seen": "2026-11-19T10:48:37.911925+08:00",
+   "sha256": "638dbe6dd1266a288671381707cde2276a96fb3a958bf634b133548e9fa1e1fa",
+   "file": "05-各种Claw层出不穷-你的龙虾是否也已沦为-黑客内鬼.md"
+  },
+  "https://labs.watchtowr.com/youre-back-in-the-room-citrix-netscaler-pre-auth-rce-cve-2026-8452/": {
+   "first_seen": "2026-11-19T10:48:37.911925+08:00",
+   "sha256": "b200847dbd866426caea1ab742ddc25f83981989dee86dec1b36ffcb569643b2",
+   "file": "06-You-re-Back-In-The-Room-Citrix-NetScaler-Pre-Auth-RCE-CVE-20.md"
+  },
+  "https://www.binarly.io/blog/hunting-u-boot-at-scale": {
+   "first_seen": "2026-11-19T10:48:37.911925+08:00",
+   "sha256": "e15937f9fb1442136f0a16322e600c02f1232484d61dcd3ec63b55a77930d5d3",
+   "file": "07-Fit-for-Detection-Hunting-U-Boot-Vulnerabilities-at-Scale.md"
+  },
+  "https://www.rapid7.com/blog/post/etr-rapid7-detected-exploitation-of-cve-2026-90436-against-atlassian-confluence-data-center-n-able-n-central-also-exploited": {
+   "first_seen": "2026-11-19T10:48:37.911925+08:00",
+   "sha256": "befaab77b140d0bb9d9f35bba9749bcf7d02924e1358c99ca232698d2297c721",
+   "file": "08-Rapid7-Detected-Exploitation-of-CVE-2026-90436-against-Atlas.md"
+  },
+  "https://labs.watchtowr.com/here-we-go-again-citrix-netscaler-dtls-preauth-memory-overflow-cve-2026-88772/": {
+   "first_seen": "2026-11-19T10:48:37.911925+08:00",
+   "sha256": "b0093e4afd9975afbc837d106e3df28a78d9c681bf448c8d0a3f743ad58ed336",
+   "file": "09-Here-We-Go-Again-Citrix-NetScaler-DTLS-Preauth-Memory-Overfl.md"
+  },
+  "https://labs.watchtowr.com/oh-look-the-foot-gun-went-off-again-citrix-netscaler-preauth-command-injection-cve-2026-88771/": {
+   "first_seen": "2026-11-19T10:48:37.911925+08:00",
+   "sha256": "c55ae0ac93c07f2cd2ebf13714ee3484e9efa255900f35d1c7176d4b182e4807",
+   "file": "10-Oh-Look-The-Foot-Gun-Went-Off-Again-Citrix-NetScaler-PreAuth.md"
+  },
+  "https://labs.watchtowr.com/citrixbleed-to-infinity-and-beyond-citrix-netscaler-pre-auth-memory-overread-cve-2026-8451/": {
+   "first_seen": "2026-11-19T10:48:37.911925+08:00",
+   "sha256": "d6ad13035724c77f566e01e4452b31552b54a39ebe3f5e925f644bf9e0a79790",
+   "file": "11-CitrixBleed-To-Infinity-And-Beyond-Citrix-NetScaler-Pre-Auth.md"
+  },
+  "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-langflow-mongodb-and-more": {
+   "first_seen": "2026-11-19T10:48:37.911925+08:00",
+   "sha256": "d26842e3e8f19b9ea78b318c9d733e44a04ed6c86eea14a9c9b4cd43b9e646f5",
+   "file": "12-Metasploit-Wrap-Up-Langflow-MongoDB-and-More.md"
+  },
+  "https://www.4hou.com/posts/pKwQ": {
+   "first_seen": "2026-11-19T10:48:37.911925+08:00",
+   "sha256": "a5420929d9887d8a8e0493e50b08ab32f0455882e763912aeb702c2083a471c9",
+   "file": "13-梆梆安全发布-2026年Q1移动应用安全风险报告-超八成APP存隐私违规-数据境外外发风险需高度警惕.md"
+  },
+  "https://www.thezdi.com/blog/2026/11/17/hostile-inference-exploiting-docker-model-runner-for-container-escapes": {
+   "first_seen": "2026-11-19T10:48:37.911925+08:00",
+   "sha256": "a154adf8f61931c746424dca60d495775a531091110a768f83b4a1b626766be4",
+   "file": "14-Hostile-Inference-Exploiting-Docker-Model-Runner-for-Contain.md"
+  },
+  "http://security.googleblog.com/2026/04/bringing-rust-to-pixel-baseband.html": {
+   "first_seen": "2026-11-19T10:48:37.911925+08:00",
+   "sha256": "47296082be1dc6f2cf3292a73aa11c5fe4440c5b54a217f716b3ecb75c7f33dc",
+   "file": "15-Bringing-Rust-to-the-Pixel-Baseband.md"
+  },
+  "https://www.thezdi.com/blog/2026/7/9/cve-2026-47291-remote-code-execution-in-the-windows-httpsys": {
+   "first_seen": "2026-11-19T10:48:37.911925+08:00",
+   "sha256": "f5f79538348414260c8846f00a6866ba6fe807b5d6396f4920a3a674e1435030",
+   "file": "16-CVE-2026-47291-Remote-Code-Execution-in-the-Windows-HTTP-sys.md"
+  },
+  "https://blog.talosintelligence.com/java4shell/": {
+   "first_seen": "2026-11-19T10:48:37.911925+08:00",
+   "sha256": "158a16e9e1332137856e7fd6bd97bde9e0715dda2fa87f284cd2600447ff2b2d",
+   "file": "17-CVE-2026-114938-Critical-vulnerability-in-OpenJDK-Java.md"
+  },
+  "https://www.rapid7.com/blog/post/ve-cve-2026-123007-critical-nginx-http-2-integer-underflow-leads-to-rce-fixed": {
+   "first_seen": "2026-11-19T10:48:37.911925+08:00",
+   "sha256": "07c1324046eced3d42a5fb24582edf7390dfc24e0c3e6924b32c4745e86d9794",
+   "file": "18-CVE-2026-123007-Critical-NGINX-HTTP-2-Integer-Underflow-Lead.md"
+  },
+  "https://fortiguard.fortinet.com/psirt/FG-IR-26-267": {
+   "first_seen": "2026-11-19T10:48:37.911925+08:00",
+   "sha256": "42af8061dadb19e24df57d49c14026d911879102a9647bd15b1bb26b0ae98743",
+   "file": "19-Authentication-bypass-by-primary-weakness.md"
+  },
+  "https://fortiguard.fortinet.com/psirt/FG-IR-26-269": {
+   "first_seen": "2026-11-19T10:48:37.911925+08:00",
+   "sha256": "a54c33d44d92bd99cf7f2cdc16b8ade7121be72c48c9eda6ceaeed37419e7e1b",
+   "file": "20-Improper-neutralization-of-special-elements-in-output-used-b.md"
+  },
+  "https://www.4hou.com/posts/XPmv": {
+   "first_seen": "2026-11-19T10:48:37.911925+08:00",
+   "sha256": "6d1bdbea971d0f53cade2f8fc1792e1d444fafece46f52d011f02f043ac1cc9a",
+   "file": "21-以-CaaS-2-0-重构数字信任-领航后量子时代-亚数TrustAsia-2026春季战略发布会圆满举行.md"
+  },
+  "https://labs.watchtowr.com/is-this-a-joke-in-the-auth-header-f5-big-ip-unauth-heap-overflow-to-rce-cve-2026-94127/": {
+   "first_seen": "2026-11-19T10:48:37.911925+08:00",
+   "sha256": "72eef18d23523c772e4d22c194acb07628df3e6de3960ec7a40249e10c235f88",
+   "file": "22-Is-This-A-Joke-In-The-Auth-Header-F5-BIG-IP-UnAuth-Heap-Over.md"
+  },
+  "http://blog.quarkslab.com/black-box-probing-a-security-analysis-of-xiaomis-mja1-secure-chip.html": {
+   "first_seen": "2026-11-19T10:48:37.911925+08:00",
+   "sha256": "7a39109b4fa23d54516644ae5cad1cb2f01ff3d60eacb95f7f2b3cdc7307deef",
+   "file": "23-Black-Box-Probing-a-Security-Analysis-of-Xiaomi-s-MJA1-Secur.md"
+  },
+  "https://www.thezdi.com/blog/2026/7/29/the-july-2026-apple-security-update-review": {
+   "first_seen": "2026-11-19T10:48:37.911925+08:00",
+   "sha256": "db86a17125c4d8b21c82fa1dda6e00e0c9794439eee1bca47a4976e9efa369e9",
+   "file": "24-The-July-2026-Apple-Security-Update-Review.md"
+  },
+  "https://xz.aliyun.com/news/93262": {
+   "first_seen": "2026-11-19T10:48:37.911925+08:00",
+   "sha256": "869b95b411d9a619a78501a0ac8b59b2ebb5c43428f3ef6f482c089b9f5a69b5",
+   "file": "25-深入浅出-Gohttpserver-Zip-Slip-漏洞-从黑盒复现到白盒源码审计的闭环剖析.md"
+  },
+  "https://www.4hou.com/posts/42E7": {
+   "first_seen": "2026-11-19T10:48:37.911925+08:00",
+   "sha256": "a2cc8f381cca2681c1a658ab15b068242d4e3a8e87bc9acfcbe87f65e0c762e0",
+   "file": "26-当-小龙虾-潜入内网-如何解决-影子AI-的隐匿危机.md"
+  },
+  "https://labs.watchtowr.com/marking-your-own-homework-check-point-remote-access-vpn-ikev1-authentication-bypass-cve-2026-50751/": {
+   "first_seen": "2026-11-19T10:48:37.911925+08:00",
+   "sha256": "5adb23856935b245b44e7d749b2a2c0970a2b9d20322c91f45e13c68ed401433",
+   "file": "27-Marking-Your-Own-Homework-Check-Point-Remote-Access-VPN-IKEv.md"
+  },
+  "https://labs.watchtowr.com/more-evidence-that-words-dont-mean-what-we-thought-they-meant-ivanti-sentry-pre-auth-os-command-injection-cve-2026-10520/": {
+   "first_seen": "2026-11-19T10:48:37.911925+08:00",
+   "sha256": "f0a38c7a624ed23b97119d0376c39514e30969f3c670d109aa994db54b23dc27",
+   "file": "28-More-Evidence-That-Words-Don-t-Mean-What-We-Thought-They-Mea.md"
+  },
+  "https://www.binarly.io/blog/uefi-vulnerability-discovery-ai": {
+   "first_seen": "2026-11-19T10:48:37.911925+08:00",
+   "sha256": "3fd1322d5b92641af6315757eaa1867f66183a9e8b3bb68b964d4920ef543e6e",
+   "file": "29-Can-AI-Hack-Firmware-Evaluating-LLMs-on-UEFI-Vulnerability-D.md"
+  },
+  "https://blog.thalium.re/posts/rooting-the-philips-hue-bridge-remotely-and-wirelessly/": {
+   "first_seen": "2026-11-19T10:48:37.911925+08:00",
+   "sha256": "a2604e0c7af55141add4c01ba97983b3212a94674c41f44b8d44794a9f8b8415",
+   "file": "30-Flicker-and-fall-rooting-the-Philips-Hue-Bridge-both-remotel.md"
+  },
+  "https://www.thezdi.com/blog/2026/10/6/pwn2own-ireland-2026-day-one-results": {
+   "first_seen": "2026-11-19T11:10:59.946272+08:00",
+   "sha256": "ac84119cbfe05812b1dce113a010604850aae8a46b45153587a08f16592f5c17",
+   "file": "01-Pwn2Own-Ireland-2026-Day-One-Results.md"
+  },
+  "http://blog.quarkslab.com/bypassing-android-hardware-attestation.html": {
+   "first_seen": "2026-11-19T11:10:59.946272+08:00",
+   "sha256": "f686e226a3425c3f96789734a90c299f716c4b2a4cb3f13673a8d68e92532ebf",
+   "file": "02-Bypassing-Android-Hardware-Attestation-from-the-Analyst-s-Ch.md"
+  },
+  "https://www.thezdi.com/blog/2026/10/7/pwn2own-ireland-2026-day-two-results": {
+   "first_seen": "2026-11-19T11:10:59.946272+08:00",
+   "sha256": "e656ebbab968e92ab2095280b7887b6efe38941d5e7e7c51b5cf1e4b5ec5d152",
+   "file": "03-Pwn2Own-Ireland-2026-Day-Two-Results.md"
+  },
+  "https://www.thezdi.com/blog/2026/10/5/pwn2own-ireland-2026-the-full-schedule": {
+   "first_seen": "2026-11-19T11:10:59.946272+08:00",
+   "sha256": "0c1c52b092431c13019a935e105bae5214a39b5b114b4223055daa001eaa964a",
+   "file": "04-Pwn2Own-Ireland-2026-The-Full-Schedule.md"
+  },
+  "https://blog.talosintelligence.com/nik-c2-new-ai-enabled-framework/": {
+   "first_seen": "2026-11-19T11:10:59.946272+08:00",
+   "sha256": "7d79f8fb4fef1bf577fee20cd59c2cc5932283f767ed45ef20350958ca6d2353",
+   "file": "05-NIK-C2-The-new-AI-enabled-command-and-control-framework.md"
+  },
+  "https://portswigger.net/research/can-ai-do-novel-security-research": {
+   "first_seen": "2026-11-19T11:10:59.946272+08:00",
+   "sha256": "37196e8ee4a51a58d0e73c4315e0f51ebd735b07adab1ff33e241f05675e4504",
+   "file": "06-Can-AI-do-novel-security-research-Meet-the-HTTP-Terminator.md"
+  },
+  "https://www.thezdi.com/blog/2026/9/16/the-apple-security-update-review-for-september-2026": {
+   "first_seen": "2026-11-19T11:10:59.946272+08:00",
+   "sha256": "e26977a99fc448a890de72252c76d39e4753e4a4293e92dcca79546d9f732aba",
+   "file": "07-The-Apple-Security-Update-Review-for-September-2026.md"
+  },
+  "https://www.pentestpartners.com/security-blog/passing-the-bucks-passback-attacks-explained/": {
+   "first_seen": "2026-11-19T11:10:59.946272+08:00",
+   "sha256": "38c4942082a1fd82407a6fd025ee794ab1dbb7181e61521ef7aa7da162de2e7f",
+   "file": "08-Passing-the-bucks-Passback-attacks-explained.md"
+  },
+  "https://blogs.cisco.com/security/cisco-ai-transit-connects-ai-environments-to-your-sd-wan/": {
+   "first_seen": "2026-11-19T11:10:59.946272+08:00",
+   "sha256": "8645a3b1db94f48dc7c248bac368ee0378b4cec9ee0073a6df92a4de529166ee",
+   "file": "09-Cisco-AI-Transit-connects-AI-environments-to-your-SD-WAN.md"
+  },
+  "https://xz.aliyun.com/news/93347": {
+   "first_seen": "2026-11-19T11:10:59.946272+08:00",
+   "sha256": "e29a3637773a5ea3237507456cecac02055aea9123c25d3cf5b7586bcf324339",
+   "file": "10-记一次攻防演练从Shiro默认Key打到集团270个库与六百万条业务数据进入内网.md"
+  },
+  "https://fortiguard.fortinet.com/psirt/FG-IR-26-208": {
+   "first_seen": "2026-11-19T11:10:59.946272+08:00",
+   "sha256": "08699b6b7b0c5f52c0c0399f1108061a985a03fde4b7604083a7ab9f8d970f8b",
+   "file": "11-Authorization-bypass-through-user-controlled-key.md"
+  },
+  "https://fortiguard.fortinet.com/psirt/FG-IR-26-211": {
+   "first_seen": "2026-11-19T11:10:59.946272+08:00",
+   "sha256": "1be252bb35a2320d6db45d7ccd2b1fb4373b02d17147663d7429725dddbe78b8",
+   "file": "12-Authorization-bypass-through-user-controlled-key.md"
+  },
+  "https://www.4hou.com/posts/33BA": {
+   "first_seen": "2026-11-19T11:10:59.946272+08:00",
+   "sha256": "71579d7e83cb860e1fcd821b3840ad612d9ee71e522d1d11baf72318a803c6dc",
+   "file": "13-绿盟NF防火墙-筑牢OpenClaw安全防线-构筑AI时代安全基石.md"
+  },
+  "https://securelist.com/esxi-ransomware/121959/": {
+   "first_seen": "2026-11-19T11:10:59.946272+08:00",
+   "sha256": "6bf22fee8268546bd1513bd3e7e1ab191a4197cd0eb97f43e92e58f28a7013f0",
+   "file": "14-Ransomware-at-the-hypervisor-layer-how-attackers-use-ESXi-an.md"
+  },
+  "https://fortiguard.fortinet.com/psirt/FG-IR-26-273": {
+   "first_seen": "2026-11-19T11:10:59.946272+08:00",
+   "sha256": "715bc3ddb6067b904e3862c6d8c9a328ab245966b1b5715cee90748af6a4e86e",
+   "file": "15-Unauthenticated-adjacent-command-execution-via-HA.md"
+  },
+  "https://fortiguard.fortinet.com/psirt/FG-IR-26-193": {
+   "first_seen": "2026-11-19T11:10:59.946272+08:00",
+   "sha256": "9e1c85e42e1b4c3936c5554efa687e9fe9d567883f6e467ec71c3ca8639e35b5",
+   "file": "16-SSLVPN-Improper-Certificate-Validation.md"
+  },
+  "https://fortiguard.fortinet.com/psirt/FG-IR-26-271": {
+   "first_seen": "2026-11-19T11:10:59.946272+08:00",
+   "sha256": "5b6054f81e620c3c440368bdb8a2866ff7f0bd6050b2d80fb44d6fd30d64d882",
+   "file": "17-Authentication-bypass.md"
+  },
+  "https://xz.aliyun.com/news/93253": {
+   "first_seen": "2026-11-19T11:10:59.946272+08:00",
+   "sha256": "75bf7e37d7750472596ce535963fb27bee09f9c26e2aea4b318f2befdd819f35",
+   "file": "18-CVE-2025-25185-深度解析-GPT-Academic-软链接解析缺陷导致任意文件读取.md"
+  },
+  "https://www.binarly.io/blog/signature-verification-bypass-in-u-boot-spl": {
+   "first_seen": "2026-11-19T11:10:59.946272+08:00",
+   "sha256": "b9dc41ba8d29f2cf459d900bd3450e88d7b62a34be37f815133d401c1713529d",
+   "file": "19-Hidden-beneFITs-Bypassing-Signature-Verification-in-U-Boot-S.md"
+  },
+  "https://eclypsium.com/blog/cron-persistence-network-appliances/": {
+   "first_seen": "2026-11-19T11:10:59.946272+08:00",
+   "sha256": "feab9267600c6dd617b62a5bdbda58646e8caefee445e8bd010b82f42f555093",
+   "file": "20-Cron-Is-A-Sneaky-Way-Malware-Persists-on-Your-Network-Applia.md"
+  },
+  "https://blog.thalium.re/posts/sleigh/": {
+   "first_seen": "2026-11-19T11:10:59.946272+08:00",
+   "sha256": "1668066a70c6e431f98a0a5d0b742292c8576f86d3d0a3f1c91d25f39212eebe",
+   "file": "21-A-gentle-introduction-to-binary-analysis-and-Ghidra-s-SLEIGH.md"
+  },
+  "https://unit42.paloaltonetworks.com/active-exploitation-of-pan-os-cve-2026-0257/": {
+   "first_seen": "2026-11-19T11:10:59.946272+08:00",
+   "sha256": "af15ac02a570a9d34a98988fe3c3f59953fba8cf4019b602b4ae559d606001d9",
+   "file": "22-Active-Exploitation-of-May-2026-PAN-OS-CVE-2026-0257-Updated.md"
+  },
+  "https://xz.aliyun.com/news/93382": {
+   "first_seen": "2026-11-19T11:10:59.946272+08:00",
+   "sha256": "c76a388042435f6dae922c52157f78286f9a692378778928283e3c6dbf88f4e7",
+   "file": "23-OpenJDK-JDWP-调试代理命令分发表越界索引漏洞分析与复现.md"
+  },
+  "https://xz.aliyun.com/news/93255": {
+   "first_seen": "2026-11-19T11:10:59.946272+08:00",
+   "sha256": "27b554774a5f53efe21a6cff5d2afabfa64ab2457d619e872dd2fe43ca71e790",
+   "file": "24-赏金踩坑实录-因-非标代币不在白名单-被拒收的白链桥假充值漏洞分析.md"
+  },
+  "https://www.4hou.com/posts/J1GK": {
+   "first_seen": "2026-11-19T11:10:59.946272+08:00",
+   "sha256": "9fe95d7529996e23728df4068a7701099367f846950e7bef3247de226b329753",
+   "file": "25-Claude-Code源码泄露遭利用-攻击者借GitHub散播窃密木马.md"
+  },
+  "https://blog.talosintelligence.com/uat-12643-suspected-north-korea-aligned-actor-blends-blockchain-resilience-with-targeted-infostealing/": {
+   "first_seen": "2026-11-19T11:10:59.946272+08:00",
+   "sha256": "a1da35e500e188a16262f21fd671af3a76278203775308f03ba27db81a6c8508",
+   "file": "26-UAT-12643-Suspected-North-Korea-aligned-actor-blends-blockch.md"
+  },
+  "https://blog.talosintelligence.com/compromised-intermediate-certificates/": {
+   "first_seen": "2026-11-19T11:10:59.946272+08:00",
+   "sha256": "023ab231c2ba3dd301aa7c093f28b158214712b60507540db18ca68493214b4c",
+   "file": "27-Compromised-eMudhra-intermediate-certificates.md"
+  },
+  "https://www.ioactive.com/faa-ground-stop-legacy-infrastructure-cybersecurity/": {
+   "first_seen": "2026-11-19T11:10:59.946272+08:00",
+   "sha256": "e1436b903a4b85fb2ad9b12fca52fbeff1f75b28bea90d71bea14ff75a2dcd2d",
+   "file": "28-The-FAA-Ground-Stop-Wasn-t-a-Cyberattack-The-Next-One-Might.md"
+  },
+  "https://www.ioactive.com/cybersecurity-trends-2027-risks-reshaping-security/": {
+   "first_seen": "2026-11-19T11:10:59.946272+08:00",
+   "sha256": "ade276801fe0eb0fc87756ecdd8ed71bff0eb9ef7fff2ba1b4447314cbbc2544",
+   "file": "29-Cybersecurity-Trends-2027-Risks-Reshaping-Security.md"
+  },
+  "https://www.ioactive.com/secure-product-development-lifecycle-requirements/": {
+   "first_seen": "2026-11-19T11:10:59.946272+08:00",
+   "sha256": "c8d01624466eef2756a36f1014b41380edd4caacd81d9d2d0438d91dcd64cef3",
+   "file": "30-Secure-Product-Development-Lifecycle-Requirements.md"
+  },
+  "https://portswigger.net/research/http3-in-burp-suite": {
+   "first_seen": "2026-11-19T11:10:59.946272+08:00",
+   "sha256": "10f14c74b45500d6b2229c7b56d032fd9dca4ad7a6b738e9e0e701e3701e78e0",
+   "file": "31-HTTP-3-in-Burp-Suite-it-s-time-to-find-a-bigger-wordlist.md"
+  },
+  "https://research.checkpoint.com/2026/php2shell-exploitation-on-check-point-gateway/": {
+   "first_seen": "2026-11-19T11:10:59.946272+08:00",
+   "sha256": "218df625333bb54ed03a53fce7c43c7549fb10fa76248b3522ddd0a0cc6a02f5",
+   "file": "32-PHP2Shell-Exploitation-on-Check-Point-Gateway.md"
+  },
+  "https://blogs.cisco.com/security/defenders-need-more-time-to-patch-with-the-influx-of-patching-hitting-operations/": {
+   "first_seen": "2026-11-19T11:10:59.946272+08:00",
+   "sha256": "06b4263e7a18dbca307aa6e90bde2e8cdc2708a21c5972ab9ae1400467e6f779",
+   "file": "34-Defenders-need-more-time-to-patch-with-the-influx-of-patchin.md"
+  },
+  "https://xz.aliyun.com/news/93387": {
+   "first_seen": "2026-11-19T11:10:59.946272+08:00",
+   "sha256": "38b9020c946bb9dab29d974feb9f303d4ec0b1d3a65b321dce96820bd190b7f8",
+   "file": "35-CVE-2026-104007与CVE-2026-104692-LibreOffice-JDBC驱动加载与HSQLDB任.md"
+  },
+  "https://www.4hou.com/posts/BpoQ": {
+   "first_seen": "2026-11-19T11:10:59.946272+08:00",
+   "sha256": "544b88e4ff7b49e0898bba711aad4cfc5c5898075140de78721055e1f8dacbd5",
+   "file": "36-以图鉴势-嘶吼2026网络安全产业图谱重磅发布.md"
+  },
+  "https://www.4hou.com/posts/ZgqQ": {
+   "first_seen": "2026-11-19T11:10:59.946272+08:00",
+   "sha256": "0c8601b9ababf680b91ba515dd45ab0e83d7390a1d8d2b8c7649350f5a6c34dc",
+   "file": "37-高校邮件安全怎么抓-北工大这份-可复制范本-值得一看.md"
+  },
+  "https://research.checkpoint.com/2026/the-state-of-ransomware-q3-2026/": {
+   "first_seen": "2026-11-19T11:10:59.946272+08:00",
+   "sha256": "9cb2bfcf327d2cd9c7513db7b1675e4f11a9e5b7e63bff64713e51a88d04a1df",
+   "file": "38-The-State-of-Ransomware-Q3-2026.md"
+  },
+  "https://research.checkpoint.com/2026/not-all-that-glitters-is-gold-tracking-copperdragons-sparrow-framework-around-the-globe/": {
+   "first_seen": "2026-11-19T11:10:59.946272+08:00",
+   "sha256": "c58e6c64ffe83c50ddd7e2b027480d95bd558f574a54f122c06fc8e7884f70a3",
+   "file": "39-Not-All-That-Glitters-Is-Gold-Tracking-CopperDragon-s-Sparro.md"
+  },
+  "https://research.checkpoint.com/2026/hacking-on-autopilot-inside-artex-cybercrime-campaigns/": {
+   "first_seen": "2026-11-19T11:10:59.946272+08:00",
+   "sha256": "12544fb28f06d898c1912cf53be063394e7cd5543a38b6c26e688dba6ed10b6f",
+   "file": "40-Hacking-on-Autopilot-Inside-ARTEX-Cybercrime-Campaigns.md"
+  },
+  "https://research.checkpoint.com/2026/chatgpt-lockdown-mode-bypass-phishing-malware-delivery-and-silent-data-exfiltration/": {
+   "first_seen": "2026-11-19T11:10:59.946272+08:00",
+   "sha256": "6f1581d466b76a70e0997a382596b14edaf494472931124507b7f79a501bec76",
+   "file": "41-ChatGPT-Lockdown-Mode-Bypass-Phishing-Malware-Delivery-and-S.md"
+  },
+  "https://blog.ret2.io/2025/06/11/pwn2own-soho-2024-sonos-exploit/": {
+   "first_seen": "2026-11-19T11:35:50.129835+08:00",
+   "sha256": "7d053fdc78b37e66532beec8c547fb90dbe33d1a1e7f7e9ac0e2a1a7bd3bdc52",
+   "file": "01-Streaming-Zero-Fi-Shells-to-Your-Smart-Speaker.md"
+  },
+  "https://blog.ret2.io/2025/04/23/pwn2own-soho-2024-diskstation/": {
+   "first_seen": "2026-11-19T11:35:50.129835+08:00",
+   "sha256": "e27c3fe43cc7c9b6d05b6858a2eab16ea08f6f63305260d0ebf2befb5760d5f1",
+   "file": "02-Exploiting-the-Synology-DiskStation-with-Null-byte-Writes.md"
+  },
+  "https://www.binarly.io/blog/vulnerability-research-using-vulhunt": {
+   "first_seen": "2026-11-19T11:35:50.129835+08:00",
+   "sha256": "cdd7a3798edbaaf759a5b178011676a22da00fd535c000d17948f21b92f057c0",
+   "file": "03-Vulnerability-REsearch-using-VulHunt.md"
+  },
+  "https://www.binarly.io/blog/have-you-patched--are-you-sure--the-story-of-the-sticky-supermicro-bmc-bugs": {
+   "first_seen": "2026-11-19T11:35:50.129835+08:00",
+   "sha256": "3ae750afafa46649c5e1213fcc96b9b6543048eb2806816821ed67670f3a8914",
+   "file": "04-Have-you-patched-Are-you-sure-The-story-of-the-sticky-Superm.md"
+  },
+  "https://eclypsium.com/blog/cve-2026-20349-someone-is-crashing-cisco-firewalls-we-need-to-talk-about-why/": {
+   "first_seen": "2026-11-19T11:35:50.129835+08:00",
+   "sha256": "feab9267600c6dd617b62a5bdbda58646e8caefee445e8bd010b82f42f555093",
+   "file": "05-CVE-2026-20349-Someone-Is-Crashing-Cisco-Firewalls-We-Need-t.md"
+  },
+  "https://www.binarly.io/blog/signed-and-dangerous-byovd-attacks-on-secure-boot": {
+   "first_seen": "2026-11-19T11:35:50.129835+08:00",
+   "sha256": "dfd969603729db05505d06bf7dc80a41c76b5e5390631d54a330577ad47aedeb",
+   "file": "06-Signed-and-Dangerous-BYOVD-Attacks-on-Secure-Boot.md"
+  },
+  "https://www.binarly.io/blog/ghost-in-the-controller-abusing-supermicro-bmc-firmware": {
+   "first_seen": "2026-11-19T11:35:50.129835+08:00",
+   "sha256": "11aa79c7d3a10b88b645a82f19e5f38425418a22a8c853441b6db19bcb62a247",
+   "file": "07-Ghost-in-the-Controller-Abusing-Supermicro-BMC-Firmware-Veri.md"
+  },
+  "https://www.binarly.io/blog/another-crack-in-chain-of-trust-secure-boot-bypass": {
+   "first_seen": "2026-11-19T11:35:50.129835+08:00",
+   "sha256": "ab82b68afedb4d7e73e46aa4090bcf597e6fc13cf5042786c9a4c79c33a31941",
+   "file": "08-Another-Crack-in-the-Chain-of-Trust-Uncovering-Yet-Another-S.md"
+  },
+  "https://www.binarly.io/blog/missing-mitigations-inside-security-gap-uefi-firmware": {
+   "first_seen": "2026-11-19T11:35:50.129835+08:00",
+   "sha256": "57f5cc503dca54c81bb317ee8d9a5495f6d9c47253216de238ba6474b2a9a179",
+   "file": "09-Missing-Mitigations-Inside-The-Security-Gap-in-UEFI-Firmware.md"
+  },
+  "https://www.binarly.io/blog/cve-2024-36435-deep-dive-critical-bmc-security-flaw": {
+   "first_seen": "2026-11-19T11:35:50.129835+08:00",
+   "sha256": "d5dd85828645c1b2c451638bbc92e03ebd94706edc287445d32894042d74540f",
+   "file": "10-CVE-2024-36435-Deep-Dive-The-Year-s-Most-Critical-BMC-Securi.md"
+  },
+  "https://eclypsium.com/blog/linux-malware-fake-kernel-threads/": {
+   "first_seen": "2026-11-19T11:35:50.129835+08:00",
+   "sha256": "feab9267600c6dd617b62a5bdbda58646e8caefee445e8bd010b82f42f555093",
+   "file": "11-Fake-Kernel-Threads-Are-Hiding-Backdoors-on-Linux-Servers-an.md"
+  },
+  "https://eclypsium.com/blog/firestarter-cisco-firewall-backdoor-survives-patches/": {
+   "first_seen": "2026-11-19T11:35:50.129835+08:00",
+   "sha256": "feab9267600c6dd617b62a5bdbda58646e8caefee445e8bd010b82f42f555093",
+   "file": "12-Pull-the-Plug-FIRESTARTER-Survives-Patches-Reboots-and-Your.md"
+  },
+  "https://www.binarly.io/blog/uefi-bootkit-hunting-in-depth-search-for-unique-code-behavior": {
+   "first_seen": "2026-11-19T11:35:50.129835+08:00",
+   "sha256": "dcaadf935e7d0fca851a6f89f173527fc1c0757fbd71d85c2b0d716ffbd915dd",
+   "file": "13-UEFI-Bootkit-Hunting-In-Depth-Search-for-Unique-Code-Behavio.md"
+  },
+  "https://defion.security/en/research-labs/pwn2own-automotive-2024-hacking-the-autel-maxicharger/": {
+   "first_seen": "2026-11-19T11:35:50.129835+08:00",
+   "sha256": "257627b349d68833049b8e4f3fe4f61e6efc1353d484b9252a20f751c9b8361d",
+   "file": "14-Pwn2Own-Automotive-2024-Hacking-the-Autel-MaxiCharger.md"
+  },
+  "https://defion.security/en/research-labs/pwn2own-automotive-2024-hacking-the-juicebox-40/": {
+   "first_seen": "2026-11-19T11:35:50.129835+08:00",
+   "sha256": "9b54b6062b7a2e5c116b1f4f856bcf763139f9c1f3154cf4eaf8c731ee1c719e",
+   "file": "15-Pwn2Own-Automotive-2024-Hacking-the-JuiceBox-40.md"
+  },
+  "https://defion.security/en/research-labs/pwn2own-automotive-2024-hacking-the-chargepoint-home-flex-and-their-cloud/": {
+   "first_seen": "2026-11-19T11:35:50.129835+08:00",
+   "sha256": "8d46a617607a89783a546e6657cc33c9050f7e67ad34e3cd98e7e098612e1144",
+   "file": "16-Pwn2Own-Automotive-2024-Hacking-the-ChargePoint-Home-Flex-an.md"
+  },
+  "https://www.binarly.io/blog/broken-trust-fixed-supermicro-bmc-bug-gains-new-life": {
+   "first_seen": "2026-11-19T11:35:50.129835+08:00",
+   "sha256": "c69373975395973ebf78a7f0ca7e234838187fa177c0eb3e02a2d031a799fe28",
+   "file": "17-Broken-Trust-Fixed-Supermicro-BMC-Bug-Gains-a-New-Life-in-Tw.md"
+  },
+  "https://www.binarly.io/blog/how-an-old-bug-in-lighttpd-gained-new-life-in-ami-bmc-including-lenovo-and-intel-products": {
+   "first_seen": "2026-11-19T11:35:50.129835+08:00",
+   "sha256": "4591e2ae09e79701f6ba7719fd510ba194d1f5ded797c730e6892c040bb9a126",
+   "file": "18-How-an-Old-Bug-in-Lighttpd-Gained-New-Life-in-AMI-BMC-Includ.md"
+  },
+  "https://eclypsium.com/blog/ami-megarac-vulnerabilities-bmc-part-3/": {
+   "first_seen": "2026-11-19T11:35:50.129835+08:00",
+   "sha256": "feab9267600c6dd617b62a5bdbda58646e8caefee445e8bd010b82f42f555093",
+   "file": "19-BMC-C-Redfish-Alert-3.md"
+  },
+  "https://defion.security/en/research-labs/ruckus-unleashed-multiple-vulnerabilities-exploited/": {
+   "first_seen": "2026-11-19T11:35:50.129835+08:00",
+   "sha256": "ec46f3e0f41906ef042442b4b8e7847e40621d71f84a6c7f9215ee5d442b2468",
+   "file": "20-Ruckus-Unleashed-Multiple-vulnerabilities-exploited.md"
+  },
+  "https://eclypsium.com/blog/your-kvm-is-the-weak-link-how-30-dollar-devices-can-own-your-entire-network/": {
+   "first_seen": "2026-11-19T11:35:50.129835+08:00",
+   "sha256": "feab9267600c6dd617b62a5bdbda58646e8caefee445e8bd010b82f42f555093",
+   "file": "21-Your-KVM-is-the-Weak-Link-How-30-Devices-Can-Own-Your-Entire.md"
+  },
+  "https://eclypsium.com/blog/the-explosion-of-hardware-hacking-devices/": {
+   "first_seen": "2026-11-19T11:35:50.129835+08:00",
+   "sha256": "feab9267600c6dd617b62a5bdbda58646e8caefee445e8bd010b82f42f555093",
+   "file": "22-The-Explosion-of-Hardware-Hacking-Devices.md"
+  },
+  "https://www.binarly.io/blog/clevo-boot-guard-keys-leaked-in-update-package": {
+   "first_seen": "2026-11-19T11:35:50.129835+08:00",
+   "sha256": "d2fe734c180def0e758feb9d2cc925f6d5cd97b0a759f970065633f46f2e143d",
+   "file": "23-Clevo-Boot-Guard-Keys-Leaked-in-Update-Package.md"
+  },
+  "https://www.binarly.io/blog/logofail-exploited-deploy-bootkitty-first-uefi-bootkit-linux": {
+   "first_seen": "2026-11-19T11:35:50.129835+08:00",
+   "sha256": "9c94b82325d6e24a8401166a8085a7369cc11a42ac6f10f5ebd81eb3e3d15ce2",
+   "file": "24-LogoFAIL-Exploited-to-Deploy-Bootkitty-the-first-UEFI-bootki.md"
+  },
+  "https://www.binarly.io/blog/repeatable-failures-test-keys-production-software-again": {
+   "first_seen": "2026-11-19T11:35:50.129835+08:00",
+   "sha256": "2475e670e8a55299008b1c0ddc50120ecbc3a31365f81bb91d29b845b6e0c95a",
+   "file": "25-Repeatable-Failures-Test-Keys-Used-to-Sign-Production-Softwa.md"
   }
  },
  "runs": [
@@ -116,6 +591,30 @@
    "shortlist": 3,
    "downloaded": 3,
    "bytes": 266030
+  },
+  {
+   "week": "2026-W47",
+   "at": "2026-11-19T10:48:37.911925+08:00",
+   "candidates": 473,
+   "shortlist": 100,
+   "downloaded": 30,
+   "bytes": 5051289
+  },
+  {
+   "week": "2026-W47",
+   "at": "2026-11-19T11:10:59.946272+08:00",
+   "candidates": 420,
+   "shortlist": 66,
+   "downloaded": 40,
+   "bytes": 5756333
+  },
+  {
+   "week": "2026-W47",
+   "at": "2026-11-19T11:35:50.129835+08:00",
+   "candidates": 71,
+   "shortlist": 25,
+   "downloaded": 25,
+   "bytes": 4967881
   }
  ]
 }

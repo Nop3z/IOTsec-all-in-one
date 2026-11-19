@@ -50,6 +50,7 @@ STATE_PATH = os.path.join(ROOT, "data", "state.json")
 LOG_PATH = os.path.join(ROOT, "data", "crawl.log")
 ARTICLES_DIR = os.path.join(ROOT, "articles")
 STAGING_ROOT = os.path.join(ROOT, "_staging")
+ROBOTS_CACHE = os.path.join(ROOT, "data", "robots_cache.json")
 
 FENCE = chr(96) * 3
 TICK = chr(96)
@@ -251,6 +252,7 @@ class Politeness:
         self.bytes_made = 0
         self._last = 0.0
         self._robots = {}
+        self._robots_cache = load_json(ROBOTS_CACHE, {}) if os.path.exists(ROBOTS_CACHE) else {}
         proxy = os.environ.get("HTTPS_PROXY") or os.environ.get("https_proxy") or conf.get("proxy")
         handlers = [urllib.request.ProxyHandler({"http": proxy, "https": proxy})] if proxy else []
         ctx = ssl.create_default_context()
@@ -275,6 +277,10 @@ class Politeness:
         host = parts.netloc
         if host in self._robots:
             return self._robots[host]
+        cached = self._robots_cache.get(host)
+        if cached and (time.time() - cached.get("at", 0)) < 3 * 86400:
+            self._robots[host] = cached
+            return cached
         entry = {"allow_all": True, "rules": [], "crawl_delay": None}
         robots_url = parts.scheme + "://" + host + "/robots.txt"
         try:
@@ -299,7 +305,15 @@ class Politeness:
                         pass
         except Exception:
             entry["allow_all"] = True
+        entry["at"] = time.time()
         self._robots[host] = entry
+        self._robots_cache[host] = entry
+        try:
+            os.makedirs(os.path.dirname(ROBOTS_CACHE), exist_ok=True)
+            with open(ROBOTS_CACHE, "w", encoding="utf-8") as f:
+                json.dump(self._robots_cache, f)
+        except Exception:
+            pass
         return entry
 
     def allowed(self, url):
@@ -596,9 +610,12 @@ def main():
     ap.add_argument("--dry-run", action="store_true", help="score feeds only, no download")
     ap.add_argument("--min-score", type=float, default=3.0, help="min score to download")
     ap.add_argument("--reuse-manifest", default="", help="reuse candidates from an existing manifest.json (skips feed pass)")
+    ap.add_argument("--sources", default="", help="use an alternative sources json file")
     args = ap.parse_args()
 
-    conf = load_json(CONF_PATH, {})
+    conf = load_json(args.sources or CONF_PATH, {})
+    if not conf.get("feeds"):
+        raise SystemExit("no feeds in %s" % (args.sources or CONF_PATH))
     polconf = conf.get("politeness", {})
     pol = Politeness(polconf)
     max_article_bytes = int(polconf.get("max_article_bytes", 150000))
@@ -607,6 +624,12 @@ def main():
     repo_budget = float(polconf.get("repo_size_budget_mb", 60)) * 1024 * 1024
 
     state = load_json(STATE_PATH, {"seen": {}, "runs": []})
+    # README 里已有的链接视为"已收录"，本轮不再重复抓取
+    try:
+        with open(os.path.join(ROOT, "README.md"), "r", encoding="utf-8") as f:
+            readme_urls = set(re.findall(r"https?://[^\s)\]\",<>]+", f.read()))
+    except Exception:
+        readme_urls = set()
     seen = state.get("seen", {})
 
     free = shutil.disk_usage(ROOT).free
@@ -659,7 +682,8 @@ def main():
             n_new = 0
             for e in parsed.entries[:40]:
                 link = urllib.parse.urljoin(final, (e.get("link") or "").strip())
-                if not link or link in seen:
+                norm = link.rstrip("/")
+                if not link or link in seen or norm in readme_urls or norm + "/" in readme_urls:
                     continue
                 dt = entry_date(e)
                 if dt and dt < cutoff:

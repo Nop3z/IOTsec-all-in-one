@@ -301,10 +301,7 @@ def main():
         return 1
     sdir = os.path.join(STAGING, week)
     man_path = os.path.join(sdir, "manifest.json")
-    if not os.path.exists(man_path):
-        print("manifest not found: " + man_path)
-        return 1
-    manifest = json.loads(read(man_path))
+    manifest = json.loads(read(man_path)) if os.path.exists(man_path) else {"items": []}
     # 以目录里的快照文件为准（manifest 可能被后续抓取覆盖）
     staged = []
     for fn in sorted(os.listdir(sdir)):
