@@ -27,3 +27,8 @@ published_at: 2026-11-19T13:22:06.082437+08:00
 - **难度**：极高 —— 需要 BootROM 时序定位与可复现的故障注入台架。
 
 论文《Achilles Heel in Secure Boot: Breaking RSA Authentication and Bitstream Recovery from Zynq-7000 SoC》：对 Zynq-7000 的 BootROM RSA 验证环节做故障注入，绕过位流认证并恢复加密位流内容。
+
+## 方法论启示
+
+- 验签算法（RSA/ECDSA 校验）本身就是高价值靶：毛刺它比毛刺业务逻辑更通用。
+- 平台侧信任根实现的差异，决定了 FI 之后是“绕过”还是“恢复位流”。

@@ -27,3 +27,8 @@ published_at: 2026-11-19T13:22:06.082437+08:00
 - **难度**：高 —— 需要拆机、超细线焊接与参数扫描，但工具链（Pico + MOSFET）成本很低。
 
 stacksmashing airtag-glitcher 的全文档改良版：Pico 固件管理毛刺时序与脉宽，Jupyter 扫 delay，openocd 检测 SWD 调试是否解锁，随后读取 AirTag 全部固件；附完整接线、焊点温度、1.8V→3.3V 电平转换与 MOSFET 选型。
+
+## 方法论启示
+
+- 消费设备的调试锁多是软锁：上电沿触发的 crowbar 加扫 delay 就能掀开 APPROTECT。
+- 把 delay/length 参数化并通过串口调，是提高复现效率的最简改造。

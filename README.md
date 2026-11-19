@@ -22,15 +22,15 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 
 | 板块 | 篇 | 板块 | 篇 |
 |:--|--:|:--|--:|
-| [安全启动](#安全启动) | 22 | [固件解密](#固件解密) | 14 |
-| [故障注入](#故障注入) | 22 | [绕过ASLR](#绕过aslr) | 5 |
+| [安全启动](#安全启动) | 22 | [固件解密](#固件解密) | 15 |
+| [故障注入](#故障注入) | 38 | [绕过ASLR](#绕过aslr) | 5 |
 
 **资源与归档**
 
 | 板块 | 篇 | 板块 | 篇 | 板块 | 篇 |
 |:--|--:|:--|--:|:--|--:|
 | [固件下载](#固件下载) | 18 | [虚拟机镜像](#虚拟机镜像) | 0 | [杂项](#杂项) | 19 |
-| [文章快照](articles/INDEX.md) | 104 | [更新日志](#更新日志) | - | [收录标准](#收录标准) | - |
+| [文章快照](articles/INDEX.md) | 121 | [更新日志](#更新日志) | - | [收录标准](#收录标准) | - |
 
 <!-- INDEX:END -->
 
@@ -43,10 +43,10 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 | 2026-11-14 | 芯片安全 | [GA100 数据中心 GPU PWMVID 电压毛刺实验台](articles/芯片安全/2026-11-14-GA100-数据中心-GPU-PWMVID-电压毛刺实验台.md) |
 | 2026-11-14 | 硬件钱包 | [STM32F2/F4 故障注入：EMFI/VFI 双档 RDP2→RDP1 + FPB 两毛刺读全片 flash](articles/硬件钱包/2026-11-14-STM32F2-F4-故障注入-EMFI-VFI-双档-RDP2-RDP1-FPB-两毛刺读全片-flash.md) |
 | 2026-11-14 | 智能家居 | [Apple AirTag（nRF52832）电压毛刺解锁 APPROTECT 并转储固件](articles/智能家居/2026-11-14-Apple-AirTag-nRF52832-电压毛刺解锁-APPROTECT-并转储固件.md) |
-| 2026-11-14 | 故障注入 | [RP2350 OTP 毛刺：割断 USB_OTP_VDD 后在 ~1.75ms 窗口篡改 OTP](articles/故障注入/2026-11-14-RP2350-OTP-毛刺-割断-USB_OTP_VDD-后在-1-75ms-窗口篡改-OTP.md) |
-| 2026-11-13 | 杂项 | [BinQL: a CodeQL extension for binary formats](articles/杂项/2026-11-13-BinQL-a-CodeQL-extension-for-binary-formats.md) |
-| 2026-11-13 | 安全启动 | [RP2350 光子发射引导激光 FI：恢复被永久关闭的 Secure Debug](articles/安全启动/2026-11-13-RP2350-光子发射引导激光-FI-恢复被永久关闭的-Secure-Debug.md) |
-| 2026-11-12 | 防火墙 | [PHP2Shell Exploitation on Check Point Gateway](articles/防火墙/2026-11-12-PHP2Shell-Exploitation-on-Check-Point-Gateway.md) |
+| 2026-11-14 | 故障注入 | [把故障注入仿真塞进开发流（Ledger Donjon：rust_fi + Rainbow + CI）](articles/故障注入/2026-11-14-把故障注入仿真塞进开发流-Ledger-Donjon-rust_fi-Rainbow-CI.md) |
+| 2026-11-14 | 故障注入 | [ot-sca：OpenTitan 官方 SCA + 故障注入评估框架](articles/故障注入/2026-11-14-ot-sca-OpenTitan-官方-SCA-故障注入评估框架.md) |
+| 2026-11-14 | 故障注入 | [findus / fault-injection-library：Pico Glitcher 软件框架 + 12 个 MCU 靶项目](articles/故障注入/2026-11-14-findus-fault-injection-library-Pico-Glitcher-软件框架-12-个-MCU-靶.md) |
+| 2026-11-14 | 故障注入 | [SiliconToaster：开源 0–1000V 电磁故障注入发生器（Ledger Donjon）](articles/故障注入/2026-11-14-SiliconToaster-开源-0-1000V-电磁故障注入发生器-Ledger-Donjon.md) |
 <!-- LATEST:END -->
 
 全部归档见 [articles/INDEX.md](articles/INDEX.md)。
@@ -300,6 +300,7 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 - [使用机器学习解密固件](https://something.fromnothing.blog/posts/something-from-nothing/)
 - [摄像头逆向分析之旅-程序还原](https://blog.nsfocus.net/lot-flash/)
 - [Two Oracles to Get One Key: A tale of recovering a symmetric key from an encrypt-only firmware update scheme](articles/固件解密/2026-11-10-Two-Oracles-to-Get-One-Key-A-tale-of-recovering-a-symmetric.md) · [原文](https://www.ioactive.com/two-oracles-recovering-aes-firmware-key/)
+- [STM32-TraceRip：不注入故障，用 CRC 状态步进重建受保护 flash](articles/固件解密/2025-06-10-STM32-TraceRip-不注入故障-用-CRC-状态步进重建受保护-flash.md) · [原文](https://hardwear.io/wp-content/uploads/2026/03/TraceRip-Hardwear.pdf)
 
 ## 故障注入
 
@@ -327,6 +328,22 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 - [Qualcomm IPQ40xx QSEE：EMFI 绕过安全范围检查实现任意 NULL 写](articles/故障注入/2021-06-07-Qualcomm-IPQ40xx-QSEE-EMFI-绕过安全范围检查实现任意-NULL-写.md) · [原文](https://raelize.com/blog/qualcomm-ipq40xx-breaking-into-qsee-using-fault-injection/)
 - [PS Vita BootROM 毛刺：ChipWhisperer 时钟注入执行自定义 payload](articles/故障注入/2018-12-01-PS-Vita-BootROM-毛刺-ChipWhisperer-时钟注入执行自定义-payload.md) · [原文](https://github.com/TeamMolecule/petite-mort)
 - [RP2350 OTP 毛刺：割断 USB_OTP_VDD 后在 ~1.75ms 窗口篡改 OTP](articles/故障注入/2026-11-14-RP2350-OTP-毛刺-割断-USB_OTP_VDD-后在-1-75ms-窗口篡改-OTP.md) · [原文](https://mkesenheimer.github.io/blog/glitching-the-rp2350.html)
+- [findus / fault-injection-library：Pico Glitcher 软件框架 + 12 个 MCU 靶项目](articles/故障注入/2026-11-14-findus-fault-injection-library-Pico-Glitcher-软件框架-12-个-MCU-靶.md) · [原文](https://github.com/MKesenheimer/fault-injection-library)
+- [ChipWhisperer 官方 Tips & Tricks：毛刺硬件选型、亚周期精度与触发排障](articles/故障注入/2026-11-14-ChipWhisperer-官方-Tips-Tricks-毛刺硬件选型-亚周期精度与触发排障.md) · [原文](https://github.com/newaetech/cw_tips_tricks)
+- [Raelize RapidBlockMode：PicoScope 分段采集 + GPIO 选通的对齐基础设施](articles/故障注入/2026-11-14-Raelize-RapidBlockMode-PicoScope-分段采集-GPIO-选通的对齐基础设施.md) · [原文](https://github.com/raelize/RapidBlockMode)
+- [GlitchGlück（WOOT'25）：用状态转移图引导硬件故障注入复现软件漏洞](articles/故障注入/2026-11-14-GlitchGl-ck-WOOT-25-用状态转移图引导硬件故障注入复现软件漏洞.md) · [原文](https://github.com/Secure-Embedded-Systems/woot2025-GlitchGluck)
+- [Rainbow：Unicorn 指令级侧信道 / 故障注入仿真器（Ledger Donjon）](articles/故障注入/2026-11-14-Rainbow-Unicorn-指令级侧信道-故障注入仿真器-Ledger-Donjon.md) · [原文](https://github.com/Ledger-Donjon/rainbow)
+- [ot-sca：OpenTitan 官方 SCA + 故障注入评估框架](articles/故障注入/2026-11-14-ot-sca-OpenTitan-官方-SCA-故障注入评估框架.md) · [原文](https://github.com/lowRISC/ot-sca)
+- [Cypherock EMFI Board：低成本开源电磁故障注入台架（附 7 款钱包 DUT）](articles/故障注入/2026-11-14-Cypherock-EMFI-Board-低成本开源电磁故障注入台架-附-7-款钱包-DUT.md) · [原文](https://github.com/Cypherock/emfi-board)
+- [SiliconToaster：开源 0–1000V 电磁故障注入发生器（Ledger Donjon）](articles/故障注入/2026-11-14-SiliconToaster-开源-0-1000V-电磁故障注入发生器-Ledger-Donjon.md) · [原文](https://github.com/Ledger-Donjon/silicon-toaster)
+- [ChipShover：EMFI/EM 探针的 XYZ 定位台](articles/故障注入/2026-11-14-ChipShover-EMFI-EM-探针的-XYZ-定位台.md) · [原文](https://github.com/newaetech/ChipShover)
+- [ESP32 EMFI 绕 Secure Boot（CVE-2020-13629 / 15048 系列）](articles/故障注入/2020-07-24-ESP32-EMFI-绕-Secure-Boot-CVE-2020-13629-15048-系列.md) · [原文](https://raelize.com/blog/espressif-systems-esp32-bypassing-sb-using-emfi/)
+- [ESP32 OTP Transfer EMFI：打 eFuse→shadow 寄存器的纯硬件搬运窗口](articles/故障注入/2023-03-10-ESP32-OTP-Transfer-EMFI-打-eFuse-shadow-寄存器的纯硬件搬运窗口.md) · [原文](https://raelize.com/blog/espressif-systems-esp32-glitching-otp-transfer/)
+- [RP2350 预算级激光故障注入（Glasgow + DEF CON 33 Playground）](articles/故障注入/2026-11-14-RP2350-预算级激光故障注入-Glasgow-DEF-CON-33-Playground.md) · [原文](https://github.com/courk/rp2350-lfi)
+- [ATECC608A 安全元件：两发激光故障读出 PIN hash（Coldcard Mk3 种子可窃）](articles/故障注入/2021-06-01-ATECC608A-安全元件-两发激光故障读出-PIN-hash-Coldcard-Mk3-种子可窃.md) · [原文](https://www.sstic.org/media/SSTIC2021/SSTIC-actes/defeating_a_secure_element_with_multiple_laser_fau/SSTIC2021-Article-defeating_a_secure_element_with_multiple_laser_fault_injections-heriveaux.pdf)
+- [SPHINCS+ 故障攻击与对策（TCHES 2023 官方 artifact）](articles/故障注入/2023-06-01-SPHINCS-故障攻击与对策-TCHES-2023-官方-artifact.md) · [原文](https://github.com/AymericGenet/SPHINCSplus-FA)
+- [RHme2 / RHme3 故障注入挑战解题合集（Riscure CTF）](articles/故障注入/2018-01-01-RHme2-RHme3-故障注入挑战解题合集-Riscure-CTF.md) · [原文](https://github.com/Riscure/Rhme-2016)
+- [把故障注入仿真塞进开发流（Ledger Donjon：rust_fi + Rainbow + CI）](articles/故障注入/2026-11-14-把故障注入仿真塞进开发流-Ledger-Donjon-rust_fi-Rainbow-CI.md) · [原文](https://github.com/Ledger-Donjon/fault_injection_checks_demo)
 
 ## 绕过ASLR
 
@@ -395,6 +412,26 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 
 <details>
 <summary>展开查看（最新在上）</summary>
+
+### 2026-11-19 · 2026-W52
+
+- [findus / fault-injection-library：Pico Glitcher 软件框架 + 12 个 MCU 靶项目](articles/故障注入/2026-11-14-findus-fault-injection-library-Pico-Glitcher-软件框架-12-个-MCU-靶.md) —— 故障注入
+- [ChipWhisperer 官方 Tips & Tricks：毛刺硬件选型、亚周期精度与触发排障](articles/故障注入/2026-11-14-ChipWhisperer-官方-Tips-Tricks-毛刺硬件选型-亚周期精度与触发排障.md) —— 故障注入
+- [Raelize RapidBlockMode：PicoScope 分段采集 + GPIO 选通的对齐基础设施](articles/故障注入/2026-11-14-Raelize-RapidBlockMode-PicoScope-分段采集-GPIO-选通的对齐基础设施.md) —— 故障注入
+- [GlitchGlück（WOOT'25）：用状态转移图引导硬件故障注入复现软件漏洞](articles/故障注入/2026-11-14-GlitchGl-ck-WOOT-25-用状态转移图引导硬件故障注入复现软件漏洞.md) —— 故障注入
+- [Rainbow：Unicorn 指令级侧信道 / 故障注入仿真器（Ledger Donjon）](articles/故障注入/2026-11-14-Rainbow-Unicorn-指令级侧信道-故障注入仿真器-Ledger-Donjon.md) —— 故障注入
+- [ot-sca：OpenTitan 官方 SCA + 故障注入评估框架](articles/故障注入/2026-11-14-ot-sca-OpenTitan-官方-SCA-故障注入评估框架.md) —— 故障注入
+- [Cypherock EMFI Board：低成本开源电磁故障注入台架（附 7 款钱包 DUT）](articles/故障注入/2026-11-14-Cypherock-EMFI-Board-低成本开源电磁故障注入台架-附-7-款钱包-DUT.md) —— 故障注入
+- [SiliconToaster：开源 0–1000V 电磁故障注入发生器（Ledger Donjon）](articles/故障注入/2026-11-14-SiliconToaster-开源-0-1000V-电磁故障注入发生器-Ledger-Donjon.md) —— 故障注入
+- [ChipShover：EMFI/EM 探针的 XYZ 定位台](articles/故障注入/2026-11-14-ChipShover-EMFI-EM-探针的-XYZ-定位台.md) —— 故障注入
+- [ESP32 EMFI 绕 Secure Boot（CVE-2020-13629 / 15048 系列）](articles/故障注入/2020-07-24-ESP32-EMFI-绕-Secure-Boot-CVE-2020-13629-15048-系列.md) —— 故障注入
+- [ESP32 OTP Transfer EMFI：打 eFuse→shadow 寄存器的纯硬件搬运窗口](articles/故障注入/2023-03-10-ESP32-OTP-Transfer-EMFI-打-eFuse-shadow-寄存器的纯硬件搬运窗口.md) —— 故障注入
+- [RP2350 预算级激光故障注入（Glasgow + DEF CON 33 Playground）](articles/故障注入/2026-11-14-RP2350-预算级激光故障注入-Glasgow-DEF-CON-33-Playground.md) —— 故障注入
+- [ATECC608A 安全元件：两发激光故障读出 PIN hash（Coldcard Mk3 种子可窃）](articles/故障注入/2021-06-01-ATECC608A-安全元件-两发激光故障读出-PIN-hash-Coldcard-Mk3-种子可窃.md) —— 故障注入
+- [SPHINCS+ 故障攻击与对策（TCHES 2023 官方 artifact）](articles/故障注入/2023-06-01-SPHINCS-故障攻击与对策-TCHES-2023-官方-artifact.md) —— 故障注入
+- [RHme2 / RHme3 故障注入挑战解题合集（Riscure CTF）](articles/故障注入/2018-01-01-RHme2-RHme3-故障注入挑战解题合集-Riscure-CTF.md) —— 故障注入
+- [STM32-TraceRip：不注入故障，用 CRC 状态步进重建受保护 flash](articles/固件解密/2025-06-10-STM32-TraceRip-不注入故障-用-CRC-状态步进重建受保护-flash.md) —— 固件解密
+- [把故障注入仿真塞进开发流（Ledger Donjon：rust_fi + Rainbow + CI）](articles/故障注入/2026-11-14-把故障注入仿真塞进开发流-Ledger-Donjon-rust_fi-Rainbow-CI.md) —— 故障注入
 
 ### 2026-11-19 · 2026-W51
 
