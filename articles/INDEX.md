@@ -1,6 +1,6 @@
 # 文章快照索引
 
-共 169 篇已归档（每周自动抓取 + 复审）。快照仅供安全研究参考，版权归原作者所有。
+共 186 篇已归档（每周自动抓取 + 复审）。快照仅供安全研究参考，版权归原作者所有。
 
 | 日期 | 板块 | 标题 | 快照 | 来源 |
 |:--|:--|:--|:--|:--|
@@ -121,10 +121,13 @@
 | 2023-06-01 | 故障注入 | [SPHINCS+ 故障攻击与对策（TCHES 2023 官方 artifact）](https://github.com/AymericGenet/SPHINCSplus-FA) | [md](articles/故障注入/2023-06-01-SPHINCS-故障攻击与对策-TCHES-2023-官方-artifact.md) | TCHES 2023 (CRAPL) |
 | 2023-06-01 | 固件解密 | [Binwalk：固件逆向与文件系统提取的事实标准工具](https://github.com/ReFirmLabs/binwalk) | [md](articles/固件解密/2023-06-01-Binwalk-固件逆向与文件系统提取的事实标准工具.md) | ReFirmLabs |
 | 2023-03-10 | 故障注入 | [ESP32 OTP Transfer EMFI：打 eFuse→shadow 寄存器的纯硬件搬运窗口](https://raelize.com/blog/espressif-systems-esp32-glitching-otp-transfer/) | [md](articles/故障注入/2023-03-10-ESP32-OTP-Transfer-EMFI-打-eFuse-shadow-寄存器的纯硬件搬运窗口.md) | Raelize |
+| 2023-02-20 | 芯片安全 | [Rowhammer 在 RISC-V / 嵌入式平台上的评估](https://arxiv.org/abs/2302.09544) | [md](articles/芯片安全/2023-02-20-Rowhammer-在-RISC-V-嵌入式平台上的评估.md) | arXiv 2302.09544 |
 | 2023-02-14 | 故障注入 | [Oops..! I Glitched It Again! How to Multi-Glitch the Glitching-Protections on ARM TrustZone-M](http://arxiv.org/abs/2302.06932v2) | [md](articles/故障注入/2023-02-14-Oops-I-Glitched-It-Again-How-to-Multi-Glitch-the-Glitching-P.md) | arXiv |
 | 2022-09-20 | 故障注入 | [EM-Fault It Yourself: Building a Replicable EMFI Setup for Desktop and Server Hardware](http://arxiv.org/abs/2209.09835v1) | [md](articles/故障注入/2022-09-20-EM-Fault-It-Yourself-Building-a-Replicable-EMFI-Setup-for-De.md) | arXiv |
 | 2022-08-11 | 卫星安全 | [Glitched on Earth by Humans: A Black-Box Security Evaluation of the SpaceX Starlink User Terminal](https://i.blackhat.com/USA-22/Wednesday/US-22-Wouters-Glitched-On-Earth.pdf) | [md](articles/卫星安全/2022-08-11-Glitched-on-Earth-by-Humans-A-Black-Box-Security-Evaluation.md) | Black Hat USA 2022 |
 | 2022-07-23 | 基站 | [OpenRAN – 5G hacking just got a lot more interesting](https://media.ccc.de/v/mch2022-273-openran-5g-hacking-just-got-a-lot-more-interesting) | [md](articles/基站/2022-07-23-OpenRAN-5G-hacking-just-got-a-lot-more-interesting.md) | mch2022 |
+| 2022-03-08 | 芯片安全 | [Spectre-BHB：分支历史缓冲区污染（ARM 白皮书）](https://developer.arm.com/-/media/Arm%20Developer%20Community/PDF/Security%20Update%2008%20March%202022/Spectre-BHB%20White%20Paper%20v1.6.pdf) | [md](articles/芯片安全/2022-03-08-Spectre-BHB-分支历史缓冲区污染-ARM-白皮书.md) | ARM |
+| 2021-10-18 | 芯片安全 | [Blacksmith：面向现代 DRAM 的可扩展 Rowhammer（S&P 2022）](https://arxiv.org/abs/2110.09101) | [md](articles/芯片安全/2021-10-18-Blacksmith-面向现代-DRAM-的可扩展-Rowhammer-S-P-2022.md) | Google |
 | 2021-09-01 | 安全启动 | [bootl-attacks（CHES'21）：LPC1343 ROP / STM8 双毛刺 / Renesas 78K0 符号执行制导](https://github.com/janvdherrewegen/bootl-attacks) | [md](articles/安全启动/2021-09-01-bootl-attacks-CHES-21-LPC1343-ROP-STM8-双毛刺-Renesas-78K0-符号执行.md) | CHES 2021 配套仓库 (GPL-3.0) |
 | 2021-08-13 | 故障注入 | [The Forgotten Threat of Voltage Glitching: A Case Study on Nvidia Tegra X2 SoCs](http://arxiv.org/abs/2108.06131v2) | [md](articles/故障注入/2021-08-13-The-Forgotten-Threat-of-Voltage-Glitching-A-Case-Study-on-Nv.md) | arXiv |
 | 2021-08-11 | 协议安全 | [Fastlane：Apple AirDrop 的协议逆向与攻击分析（USENIX Security 2021）](https://www.usenix.org/conference/usenixsecurity21/presentation/stute) | [md](articles/协议安全/2021-08-11-Fastlane-Apple-AirDrop-的协议逆向与攻击分析-USENIX-Security-2021.md) | USENIX Security 2021 |
@@ -133,11 +136,16 @@
 | 2021-06-16 | 芯片安全 | [Side-Channel Attacks on RISC-V Processors: Current Progress, Challenges, and Opportunities](http://arxiv.org/abs/2106.08877v1) | [md](articles/芯片安全/2021-06-16-Side-Channel-Attacks-on-RISC-V-Processors-Current-Progress-C.md) | arXiv |
 | 2021-06-07 | 故障注入 | [Qualcomm IPQ40xx QSEE：EMFI 绕过安全范围检查实现任意 NULL 写](https://raelize.com/blog/qualcomm-ipq40xx-breaking-into-qsee-using-fault-injection/) | [md](articles/故障注入/2021-06-07-Qualcomm-IPQ40xx-QSEE-EMFI-绕过安全范围检查实现任意-NULL-写.md) | Raelize |
 | 2021-06-01 | 故障注入 | [ATECC608A 安全元件：两发激光故障读出 PIN hash（Coldcard Mk3 种子可窃）](https://www.sstic.org/media/SSTIC2021/SSTIC-actes/defeating_a_secure_element_with_multiple_laser_fau/SSTIC2021-Article-defeating_a_secure_element_with_multiple_laser_fault_injections-heriveaux.pdf) | [md](articles/故障注入/2021-06-01-ATECC608A-安全元件-两发激光故障读出-PIN-hash-Coldcard-Mk3-种子可窃.md) | SSTIC 2021 / Ledger Donjon |
+| 2021-05-12 | 芯片安全 | [Half-Double：跨行锤击让“相邻行防护”失效（Google）](https://arxiv.org/abs/2106.05850) | [md](articles/芯片安全/2021-05-12-Half-Double-跨行锤击让-相邻行防护-失效-Google.md) | Google Project Zero |
 | 2021-05-11 | WIFI安全 | [FragAttacks：Wi-Fi 帧聚合与分片引起的 12 个新漏洞](https://www.fragattacks.com/) | [md](articles/WIFI安全/2021-05-11-FragAttacks-Wi-Fi-帧聚合与分片引起的-12-个新漏洞.md) | Mathy Vanhoef |
+| 2021-03-01 | 芯片安全 | [SMASH：同步多侧锤击，绕过现代 DRAM 防护（S&P 2021）](https://arxiv.org/abs/2103.03081) | [md](articles/芯片安全/2021-03-01-SMASH-同步多侧锤击-绕过现代-DRAM-防护-S-P-2021.md) | de Ridder et al. |
 | 2020-12-28 | 基站 | [Advanced Hexagon Diag：在现货手机上玩转基带诊断协议](https://media.ccc.de/v/rc3-11397-advanced_hexagon_diag) | [md](articles/基站/2020-12-28-Advanced-Hexagon-Diag-在现货手机上玩转基带诊断协议.md) | rC3 2020 |
 | 2020-08-21 | 芯片安全 | [One Exploit to Rule them All? On the Security of Drop-in Replacement and Counterfeit Microcontrollers](http://arxiv.org/abs/2008.09710v1) | [md](articles/芯片安全/2020-08-21-One-Exploit-to-Rule-them-All-On-the-Security-of-Drop-in-Repl.md) | arXiv |
+| 2020-08-01 | 芯片安全 | [TRRespass：用锤击“多行”打穿 TRR 缓解（S&P 2020）](https://arxiv.org/abs/1908.03026) | [md](articles/芯片安全/2020-08-01-TRRespass-用锤击-多行-打穿-TRR-缓解-S-P-2020.md) | Frattaroli et al. |
 | 2020-07-24 | 故障注入 | [ESP32 EMFI 绕 Secure Boot（CVE-2020-13629 / 15048 系列）](https://raelize.com/blog/espressif-systems-esp32-bypassing-sb-using-emfi/) | [md](articles/故障注入/2020-07-24-ESP32-EMFI-绕-Secure-Boot-CVE-2020-13629-15048-系列.md) | Raelize |
+| 2020-06-13 | 芯片安全 | [Rowhammer 的工程可复现性评估：成功率、时间与平台差异](https://arxiv.org/abs/2006.07671) | [md](articles/芯片安全/2020-06-13-Rowhammer-的工程可复现性评估-成功率-时间与平台差异.md) | arXiv 2006.07671 |
 | 2020-06-01 | 硬件钱包 | [Trezor / KeepKey 硬件钱包安全分析（CVUT 学位论文）](https://dspace.cvut.cz/bitstream/handle/10467/88181/F8-BP-2020-Kozak-Lukas-thesis.pdf) | [md](articles/硬件钱包/2020-06-01-Trezor-KeepKey-硬件钱包安全分析-CVUT-学位论文.md) | CVUT 2020 |
+| 2020-02-15 | 芯片安全 | [Spectre 与嵌入式处理器：Cortex-A/M 与 RISC-V 的系统性评估](https://arxiv.org/abs/2002.06639) | [md](articles/芯片安全/2020-02-15-Spectre-与嵌入式处理器-Cortex-A-M-与-RISC-V-的系统性评估.md) | arXiv 2002.06639 |
 | 2019-12-27 | 机器人 | [How (not) to build autonomous robots：配送机器人背后的工程与安全债](https://media.ccc.de/v/36c3-10601-how_not_to_build_autonomous_robots) | [md](articles/机器人/2019-12-27-How-not-to-build-autonomous-robots-配送机器人背后的工程与安全债.md) | 36C3 |
 | 2019-12-27 | 基站 | [SIM card technology from A-Z：SIM/eSIM 攻击面全景](https://media.ccc.de/v/36c3-10737-sim_card_technology_from_a-z) | [md](articles/基站/2019-12-27-SIM-card-technology-from-A-Z-SIM-eSIM-攻击面全景.md) | 36C3 |
 | 2019-10-11 | 芯片安全 | [Hardware Security Evaluation of MAX 10 FPGA](http://arxiv.org/abs/1910.05086v1) | [md](articles/芯片安全/2019-10-11-Hardware-Security-Evaluation-of-MAX-10-FPGA.md) | arXiv |
@@ -151,6 +159,11 @@
 | 2018-12-27 | 硬件钱包 | [wallet.fail：破解主流加密货币硬件钱包（35C3）](https://media.ccc.de/v/35c3-9563-wallet_fail) | [md](articles/硬件钱包/2018-12-27-wallet-fail-破解主流加密货币硬件钱包-35C3.md) | 35C3 |
 | 2018-12-01 | 故障注入 | [PS Vita BootROM 毛刺：ChipWhisperer 时钟注入执行自定义 payload](https://github.com/TeamMolecule/petite-mort) | [md](articles/故障注入/2018-12-01-PS-Vita-BootROM-毛刺-ChipWhisperer-时钟注入执行自定义-payload.md) | TeamMolecule (GitHub, MIT) |
 | 2018-08-25 | 硬件钱包 | [Cryptocurrency Hardware Wallets：Monero 硬件钱包的工程实践](https://media.ccc.de/v/froscon2018-2109-cryptocurrency_hardware_wallets) | [md](articles/硬件钱包/2018-08-25-Cryptocurrency-Hardware-Wallets-Monero-硬件钱包的工程实践.md) | FrOSCon 2018 |
+| 2018-02-07 | 芯片安全 | [ARM Trusted Firmware / OP-TEE 对 Meltdown/Spectre 的官方说明](https://raw.githubusercontent.com/Linaro/website/2cff169892eed936388e815811c330bef24f6c34/_posts/previous/2018-02-07-meltdown-spectre-2.md) | [md](articles/芯片安全/2018-02-07-ARM-Trusted-Firmware-OP-TEE-对-Meltdown-Spectre-的官方说明.md) | Linaro / Trusted Firmware |
+| 2018-01-04 | 芯片安全 | [Linux 内核视角的 Spectre 缓解与状态检查](https://www.kernel.org/doc/html/latest/admin-guide/hw-vuln/spectre.html) | [md](articles/芯片安全/2018-01-04-Linux-内核视角的-Spectre-缓解与状态检查.md) | kernel.org 文档 |
+| 2018-01-03 | 芯片安全 | [meltdownattack.com：漏洞披露、PoC 与厂商响应汇总](https://meltdownattack.com/) | [md](articles/芯片安全/2018-01-03-meltdownattack-com-漏洞披露-PoC-与厂商响应汇总.md) | Meltdown/Spectre 团队 |
+| 2018-01-03 | 芯片安全 | [Spectre：利用分支预测污染诱导推测执行泄漏](https://spectreattack.com/spectre.pdf) | [md](articles/芯片安全/2018-01-03-Spectre-利用分支预测污染诱导推测执行泄漏.md) | Spectre 团队（USENIX Sec 2018） |
+| 2018-01-03 | 芯片安全 | [Meltdown：利用乱序执行与权限检查时序泄露内核内存](https://meltdownattack.com/meltdown.pdf) | [md](articles/芯片安全/2018-01-03-Meltdown-利用乱序执行与权限检查时序泄露内核内存.md) | Meltdown 团队（USENIX Sec 2018） |
 | 2018-01-01 | 故障注入 | [RHme2 / RHme3 故障注入挑战解题合集（Riscure CTF）](https://github.com/Riscure/Rhme-2016) | [md](articles/故障注入/2018-01-01-RHme2-RHme3-故障注入挑战解题合集-Riscure-CTF.md) | Riscure / 社区 writeups |
 | 2017-12-28 | 基站 | [Mobile Data Interception from the Interconnection Link：Diameter 也能被滥用](https://media.ccc.de/v/34c3-8879-mobile_data_interception_from_the_interconnection_link) | [md](articles/基站/2017-12-28-Mobile-Data-Interception-from-the-Interconnection-Link-Diame.md) | 34C3 |
 | 2017-11-01 | 机器人 | [Hacking Robots Before Skynet（POC 2017 演示稿）](https://powerofcommunity.net/assets/v0/poc2017/lucas.pdf) | [md](articles/机器人/2017-11-01-Hacking-Robots-Before-Skynet-POC-2017-演示稿.md) | POC 2017 / IOActive |
@@ -162,12 +175,16 @@
 | 2017-06-01 | 打印机 | [打印机攻击面与 PJL 后门：用打印语言控制设备](https://www.contextis.com/en/blog/printer-exploitation) | [md](articles/打印机/2017-06-01-打印机攻击面与-PJL-后门-用打印语言控制设备.md) | Context Information Security |
 | 2017-05-03 | 机器人 | [Rogue Robots：工业机器人软件的老旧依赖与物理后果](https://www.trendmicro.com/vinfo/it/security/news/internet-of-things/rogue-robots-testing-industrial-robot-security) | [md](articles/机器人/2017-05-03-Rogue-Robots-工业机器人软件的老旧依赖与物理后果.md) | Trend Micro |
 | 2017-01-01 | 摄像头 | [Hikvision 摄像头后门固件分析（2017）](https://ipvm.com/reports/hikvision-backdoor) | [md](articles/摄像头/2017-01-01-Hikvision-摄像头后门固件分析-2017.md) | IPVM / 安全社区 |
+| 2016-10-24 | 芯片安全 | [Drammer：Android 手机上的确定性 Rowhammer（CCS 2016）](https://arxiv.org/abs/1610.03526) | [md](articles/芯片安全/2016-10-24-Drammer-Android-手机上的确定性-Rowhammer-CCS-2016.md) | VUSec 等 |
 | 2016-09-19 | 车机 | [Remote Attack to Tesla Model S：从 Wi-Fi 到 CAN 总线的远程控制（KeenLab 2016）](https://keenlab.tencent.com/en/2016/09/19/Keen-Security-Lab-of-Tencent-Car-Hacking-Research-Remote-Attack-to-Tesla-Cars/) | [md](articles/车机/2016-09-19-Remote-Attack-to-Tesla-Model-S-从-Wi-Fi-到-CAN-总线的远程控制-KeenLab.md) | Tencent KeenLab |
+| 2016-05-22 | 芯片安全 | [Dedup Est Machina：用 Rowhammer 翻转指针窃取机密（S&P 2016）](https://arxiv.org/abs/1610.02829) | [md](articles/芯片安全/2016-05-22-Dedup-Est-Machina-用-Rowhammer-翻转指针窃取机密-S-P-2016.md) | Bosman et al. |
 | 2016-03-15 | 无人机 | [315 晚会曝光：大疆无人机被劫持始末](https://www.leiphone.com/category/zixun/aeqQVEI2hvyRBPDh.html) | [md](articles/无人机/2016-03-15-315-晚会曝光-大疆无人机被劫持始末.md) | 雷锋网 / CCTV 315 |
 | 2015-08-05 | 车机 | [Remote Car Hacking：Jeep Cherokee 攻击面白皮书（Miller & Valasek）](https://ioactive.com/wp-content/uploads/2018/05/IOActive_Remote_Car_Hacking-1.pdf) | [md](articles/车机/2015-08-05-Remote-Car-Hacking-Jeep-Cherokee-攻击面白皮书-Miller-Valasek.md) | IOActive / Black Hat 2015 |
+| 2015-05-12 | 芯片安全 | [Rowhammer.js：用 JavaScript 在浏览器里触发 Rowhammer（DIMVA 2015）](https://arxiv.org/abs/1505.02573) | [md](articles/芯片安全/2015-05-12-Rowhammer-js-用-JavaScript-在浏览器里触发-Rowhammer-DIMVA-2015.md) | Gruss et al. |
 | 2014-12-29 | 安全启动 | [Thunderstrike：MacBook EFI 固件 bootkit 与 Thunderbolt 攻击面](https://trmm.net/Thunderstrike/) | [md](articles/安全启动/2014-12-29-Thunderstrike-MacBook-EFI-固件-bootkit-与-Thunderbolt-攻击面.md) | Trammell Hudson |
 | 2014-12-27 | 基站 | [SS7: Locate. Track. Manipulate.：信令网上的定位与监听](https://media.ccc.de/v/31c3_-_6249_-_en_-_saal_1_-_201412271715_-_ss7_locate_track_manipulate_-_tobias_engel) | [md](articles/基站/2014-12-27-SS7-Locate-Track-Manipulate-信令网上的定位与监听.md) | 31C3 |
 | 2014-08-06 | 卫星安全 | [SATCOM Terminals: Hacking by Air, Sea, and Land](https://www.blackhat.com/docs/us-14/materials/us-14-Santamarta-SATCOM-Terminals-Hacking-By-Air-Sea-And-Land-WP.pdf) | [md](articles/卫星安全/2014-08-06-SATCOM-Terminals-Hacking-by-Air-Sea-and-Land.md) | Black Hat USA 2014 |
+| 2014-06-14 | 芯片安全 | [Rowhammer 原始论文：反复刷新同一行即可翻转相邻行比特（ISCA 2014）](https://users.ece.cmu.edu/~yoonguk/papers/kim-isca14.pdf) | [md](articles/芯片安全/2014-06-14-Rowhammer-原始论文-反复刷新同一行即可翻转相邻行比特-ISCA-2014.md) | Kim et al., ISCA 2014 |
 | 2013-12-29 | 硬件钱包 | [Trezor: Bitcoin hardware wallet：硬件钱包安全模型的起点](https://media.ccc.de/v/30C3_-_5545_-_en_-_saal_1_-_201312292200_-_trezor_bitcoin_hardware_wallet_-_pavol_stick_rusnak) | [md](articles/硬件钱包/2013-12-29-Trezor-Bitcoin-hardware-wallet-硬件钱包安全模型的起点.md) | 30C3 |
 | 2013-12-27 | 基站 | [Baseband Exploitation in 2013：LTE 时代的利用难度](https://media.ccc.de/v/30C3_-_5618_-_en_-_saal_1_-_201312272145_-_baseband_exploitation_in_2013_-_rpw_esizkur) | [md](articles/基站/2013-12-27-Baseband-Exploitation-in-2013-LTE-时代的利用难度.md) | 30C3 |
 | 2011-12-28 | 基站 | [Reverse-engineering a Qualcomm baseband：系统级逆向](https://media.ccc.de/v/28c3-4735-en-reverse_engineering_a_qualcomm_baseband) | [md](articles/基站/2011-12-28-Reverse-engineering-a-Qualcomm-baseband-系统级逆向.md) | 28C3 |

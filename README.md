@@ -14,7 +14,7 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 | [Openwrt](#openwrt) | 4 | [摄像头](#摄像头) | 7 | [无人机](#无人机) | 20 |
 | [车机](#车机) | 8 | [充电桩](#充电桩) | 7 | [基站](#基站) | 13 |
 | [防火墙](#防火墙) | 22 | [卫星安全](#卫星安全) | 10 | [打印机](#打印机) | 5 |
-| [智能家居](#智能家居) | 8 | [机器人](#机器人) | 12 | [芯片安全](#芯片安全) | 15 |
+| [智能家居](#智能家居) | 8 | [机器人](#机器人) | 12 | [芯片安全](#芯片安全) | 32 |
 | [RFID](#rfid) | 6 | [WIFI安全](#wifi安全) | 3 | [协议安全](#协议安全) | 5 |
 | [硬件钱包](#硬件钱包) | 13 | [FUZZ](#fuzz) | 5 | | |
 
@@ -30,7 +30,7 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 | 板块 | 篇 | 板块 | 篇 | 板块 | 篇 |
 |:--|--:|:--|--:|:--|--:|
 | [固件下载](#固件下载) | 18 | [虚拟机镜像](#虚拟机镜像) | 0 | [杂项](#杂项) | 20 |
-| [文章快照](articles/INDEX.md) | 169 | [更新日志](#更新日志) | - | [收录标准](#收录标准) | - |
+| [文章快照](articles/INDEX.md) | 186 | [更新日志](#更新日志) | - | [收录标准](#收录标准) | - |
 
 <!-- INDEX:END -->
 
@@ -256,6 +256,23 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 - [One Exploit to Rule them All? On the Security of Drop-in Replacement and Counterfeit Microcontrollers](articles/芯片安全/2020-08-21-One-Exploit-to-Rule-them-All-On-the-Security-of-Drop-in-Repl.md) · [原文](http://arxiv.org/abs/2008.09710v1)
 - [Hardware Security Evaluation of MAX 10 FPGA](articles/芯片安全/2019-10-11-Hardware-Security-Evaluation-of-MAX-10-FPGA.md) · [原文](http://arxiv.org/abs/1910.05086v1)
 - [BugWhisperer: Fine-Tuning LLMs for SoC Hardware Vulnerability Detection](articles/芯片安全/2025-05-28-BugWhisperer-Fine-Tuning-LLMs-for-SoC-Hardware-Vulnerability.md) · [原文](http://arxiv.org/abs/2505.22878v1)
+- [Rowhammer 原始论文：反复刷新同一行即可翻转相邻行比特（ISCA 2014）](articles/芯片安全/2014-06-14-Rowhammer-原始论文-反复刷新同一行即可翻转相邻行比特-ISCA-2014.md) · [原文](https://users.ece.cmu.edu/~yoonguk/papers/kim-isca14.pdf)
+- [Rowhammer.js：用 JavaScript 在浏览器里触发 Rowhammer（DIMVA 2015）](articles/芯片安全/2015-05-12-Rowhammer-js-用-JavaScript-在浏览器里触发-Rowhammer-DIMVA-2015.md) · [原文](https://arxiv.org/abs/1505.02573)
+- [Drammer：Android 手机上的确定性 Rowhammer（CCS 2016）](articles/芯片安全/2016-10-24-Drammer-Android-手机上的确定性-Rowhammer-CCS-2016.md) · [原文](https://arxiv.org/abs/1610.03526)
+- [TRRespass：用锤击“多行”打穿 TRR 缓解（S&P 2020）](articles/芯片安全/2020-08-01-TRRespass-用锤击-多行-打穿-TRR-缓解-S-P-2020.md) · [原文](https://arxiv.org/abs/1908.03026)
+- [Dedup Est Machina：用 Rowhammer 翻转指针窃取机密（S&P 2016）](articles/芯片安全/2016-05-22-Dedup-Est-Machina-用-Rowhammer-翻转指针窃取机密-S-P-2016.md) · [原文](https://arxiv.org/abs/1610.02829)
+- [SMASH：同步多侧锤击，绕过现代 DRAM 防护（S&P 2021）](articles/芯片安全/2021-03-01-SMASH-同步多侧锤击-绕过现代-DRAM-防护-S-P-2021.md) · [原文](https://arxiv.org/abs/2103.03081)
+- [Half-Double：跨行锤击让“相邻行防护”失效（Google）](articles/芯片安全/2021-05-12-Half-Double-跨行锤击让-相邻行防护-失效-Google.md) · [原文](https://arxiv.org/abs/2106.05850)
+- [Blacksmith：面向现代 DRAM 的可扩展 Rowhammer（S&P 2022）](articles/芯片安全/2021-10-18-Blacksmith-面向现代-DRAM-的可扩展-Rowhammer-S-P-2022.md) · [原文](https://arxiv.org/abs/2110.09101)
+- [Rowhammer 在 RISC-V / 嵌入式平台上的评估](articles/芯片安全/2023-02-20-Rowhammer-在-RISC-V-嵌入式平台上的评估.md) · [原文](https://arxiv.org/abs/2302.09544)
+- [Rowhammer 的工程可复现性评估：成功率、时间与平台差异](articles/芯片安全/2020-06-13-Rowhammer-的工程可复现性评估-成功率-时间与平台差异.md) · [原文](https://arxiv.org/abs/2006.07671)
+- [Meltdown：利用乱序执行与权限检查时序泄露内核内存](articles/芯片安全/2018-01-03-Meltdown-利用乱序执行与权限检查时序泄露内核内存.md) · [原文](https://meltdownattack.com/meltdown.pdf)
+- [Spectre：利用分支预测污染诱导推测执行泄漏](articles/芯片安全/2018-01-03-Spectre-利用分支预测污染诱导推测执行泄漏.md) · [原文](https://spectreattack.com/spectre.pdf)
+- [Spectre 与嵌入式处理器：Cortex-A/M 与 RISC-V 的系统性评估](articles/芯片安全/2020-02-15-Spectre-与嵌入式处理器-Cortex-A-M-与-RISC-V-的系统性评估.md) · [原文](https://arxiv.org/abs/2002.06639)
+- [Spectre-BHB：分支历史缓冲区污染（ARM 白皮书）](articles/芯片安全/2022-03-08-Spectre-BHB-分支历史缓冲区污染-ARM-白皮书.md) · [原文](https://developer.arm.com/-/media/Arm%20Developer%20Community/PDF/Security%20Update%2008%20March%202022/Spectre-BHB%20White%20Paper%20v1.6.pdf)
+- [ARM Trusted Firmware / OP-TEE 对 Meltdown/Spectre 的官方说明](articles/芯片安全/2018-02-07-ARM-Trusted-Firmware-OP-TEE-对-Meltdown-Spectre-的官方说明.md) · [原文](https://raw.githubusercontent.com/Linaro/website/2cff169892eed936388e815811c330bef24f6c34/_posts/previous/2018-02-07-meltdown-spectre-2.md)
+- [Linux 内核视角的 Spectre 缓解与状态检查](articles/芯片安全/2018-01-04-Linux-内核视角的-Spectre-缓解与状态检查.md) · [原文](https://www.kernel.org/doc/html/latest/admin-guide/hw-vuln/spectre.html)
+- [meltdownattack.com：漏洞披露、PoC 与厂商响应汇总](articles/芯片安全/2018-01-03-meltdownattack-com-漏洞披露-PoC-与厂商响应汇总.md) · [原文](https://meltdownattack.com/)
 
 ## RFID
 
@@ -499,6 +516,26 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 
 <details>
 <summary>展开查看（最新在上）</summary>
+
+### 2026-11-23 · 2026-W56
+
+- [Rowhammer 原始论文：反复刷新同一行即可翻转相邻行比特（ISCA 2014）](articles/芯片安全/2014-06-14-Rowhammer-原始论文-反复刷新同一行即可翻转相邻行比特-ISCA-2014.md) —— 芯片安全
+- [Rowhammer.js：用 JavaScript 在浏览器里触发 Rowhammer（DIMVA 2015）](articles/芯片安全/2015-05-12-Rowhammer-js-用-JavaScript-在浏览器里触发-Rowhammer-DIMVA-2015.md) —— 芯片安全
+- [Drammer：Android 手机上的确定性 Rowhammer（CCS 2016）](articles/芯片安全/2016-10-24-Drammer-Android-手机上的确定性-Rowhammer-CCS-2016.md) —— 芯片安全
+- [TRRespass：用锤击“多行”打穿 TRR 缓解（S&P 2020）](articles/芯片安全/2020-08-01-TRRespass-用锤击-多行-打穿-TRR-缓解-S-P-2020.md) —— 芯片安全
+- [Dedup Est Machina：用 Rowhammer 翻转指针窃取机密（S&P 2016）](articles/芯片安全/2016-05-22-Dedup-Est-Machina-用-Rowhammer-翻转指针窃取机密-S-P-2016.md) —— 芯片安全
+- [SMASH：同步多侧锤击，绕过现代 DRAM 防护（S&P 2021）](articles/芯片安全/2021-03-01-SMASH-同步多侧锤击-绕过现代-DRAM-防护-S-P-2021.md) —— 芯片安全
+- [Half-Double：跨行锤击让“相邻行防护”失效（Google）](articles/芯片安全/2021-05-12-Half-Double-跨行锤击让-相邻行防护-失效-Google.md) —— 芯片安全
+- [Blacksmith：面向现代 DRAM 的可扩展 Rowhammer（S&P 2022）](articles/芯片安全/2021-10-18-Blacksmith-面向现代-DRAM-的可扩展-Rowhammer-S-P-2022.md) —— 芯片安全
+- [Rowhammer 在 RISC-V / 嵌入式平台上的评估](articles/芯片安全/2023-02-20-Rowhammer-在-RISC-V-嵌入式平台上的评估.md) —— 芯片安全
+- [Rowhammer 的工程可复现性评估：成功率、时间与平台差异](articles/芯片安全/2020-06-13-Rowhammer-的工程可复现性评估-成功率-时间与平台差异.md) —— 芯片安全
+- [Meltdown：利用乱序执行与权限检查时序泄露内核内存](articles/芯片安全/2018-01-03-Meltdown-利用乱序执行与权限检查时序泄露内核内存.md) —— 芯片安全
+- [Spectre：利用分支预测污染诱导推测执行泄漏](articles/芯片安全/2018-01-03-Spectre-利用分支预测污染诱导推测执行泄漏.md) —— 芯片安全
+- [Spectre 与嵌入式处理器：Cortex-A/M 与 RISC-V 的系统性评估](articles/芯片安全/2020-02-15-Spectre-与嵌入式处理器-Cortex-A-M-与-RISC-V-的系统性评估.md) —— 芯片安全
+- [Spectre-BHB：分支历史缓冲区污染（ARM 白皮书）](articles/芯片安全/2022-03-08-Spectre-BHB-分支历史缓冲区污染-ARM-白皮书.md) —— 芯片安全
+- [ARM Trusted Firmware / OP-TEE 对 Meltdown/Spectre 的官方说明](articles/芯片安全/2018-02-07-ARM-Trusted-Firmware-OP-TEE-对-Meltdown-Spectre-的官方说明.md) —— 芯片安全
+- [Linux 内核视角的 Spectre 缓解与状态检查](articles/芯片安全/2018-01-04-Linux-内核视角的-Spectre-缓解与状态检查.md) —— 芯片安全
+- [meltdownattack.com：漏洞披露、PoC 与厂商响应汇总](articles/芯片安全/2018-01-03-meltdownattack-com-漏洞披露-PoC-与厂商响应汇总.md) —— 芯片安全
 
 ### 2026-11-23 · 2026-W55
 
