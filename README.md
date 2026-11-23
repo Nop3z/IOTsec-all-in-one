@@ -11,18 +11,18 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 
 | 板块 | 篇 | 板块 | 篇 | 板块 | 篇 |
 |:--|--:|:--|--:|:--|--:|
-| [Openwrt](#openwrt) | 4 | [摄像头](#摄像头) | 6 | [无人机](#无人机) | 19 |
-| [车机](#车机) | 6 | [充电桩](#充电桩) | 7 | [基站](#基站) | 13 |
-| [防火墙](#防火墙) | 22 | [卫星安全](#卫星安全) | 10 | [打印机](#打印机) | 4 |
-| [智能家居](#智能家居) | 7 | [机器人](#机器人) | 11 | [芯片安全](#芯片安全) | 15 |
-| [RFID](#rfid) | 5 | [WIFI安全](#wifi安全) | 1 | [协议安全](#协议安全) | 3 |
+| [Openwrt](#openwrt) | 4 | [摄像头](#摄像头) | 7 | [无人机](#无人机) | 20 |
+| [车机](#车机) | 8 | [充电桩](#充电桩) | 7 | [基站](#基站) | 13 |
+| [防火墙](#防火墙) | 22 | [卫星安全](#卫星安全) | 10 | [打印机](#打印机) | 5 |
+| [智能家居](#智能家居) | 8 | [机器人](#机器人) | 12 | [芯片安全](#芯片安全) | 15 |
+| [RFID](#rfid) | 6 | [WIFI安全](#wifi安全) | 3 | [协议安全](#协议安全) | 5 |
 | [硬件钱包](#硬件钱包) | 13 | [FUZZ](#fuzz) | 5 | | |
 
 **技术专题**
 
 | 板块 | 篇 | 板块 | 篇 |
 |:--|--:|:--|--:|
-| [安全启动](#安全启动) | 22 | [固件解密](#固件解密) | 15 |
+| [安全启动](#安全启动) | 23 | [固件解密](#固件解密) | 17 |
 | [故障注入](#故障注入) | 38 | [绕过ASLR](#绕过aslr) | 5 |
 
 **资源与归档**
@@ -30,7 +30,7 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 | 板块 | 篇 | 板块 | 篇 | 板块 | 篇 |
 |:--|--:|:--|--:|:--|--:|
 | [固件下载](#固件下载) | 18 | [虚拟机镜像](#虚拟机镜像) | 0 | [杂项](#杂项) | 20 |
-| [文章快照](articles/INDEX.md) | 154 | [更新日志](#更新日志) | - | [收录标准](#收录标准) | - |
+| [文章快照](articles/INDEX.md) | 169 | [更新日志](#更新日志) | - | [收录标准](#收录标准) | - |
 
 <!-- INDEX:END -->
 
@@ -70,6 +70,7 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 - [TP-Link Tapo C200 未授权 RCE](https://www.hacefresko.com/posts/tp-link-tapo-c200-unauthenticated-rce)
 - [Exploiting a Chinese camera for fun（CVE-2024-48214）](https://medium.com/%40shenhavmor/exploiting-a-chinese-camera-for-fun-cve-2024-48214-2d56848870c2)
 - [TPLink-Tapo C310](https://sizeof.cat/post/tp-link-tapo-c310-camera/)
+- [Hikvision 摄像头后门固件分析（2017）](articles/摄像头/2017-01-01-Hikvision-摄像头后门固件分析-2017.md) · [原文](https://ipvm.com/reports/hikvision-backdoor)
 
 ## 无人机
 
@@ -92,6 +93,7 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 - [无人机MAVLINK协议安全剖析](https://mp.weixin.qq.com/s/WEivJpxTBSVcmAa5QvvDxQ)
 - [攻防速写｜击穿DJI大疆控制设备的致命漏洞](https://www.ctfiot.com/232771.html)
 - [基于模糊测试的小型多旋翼无人机漏洞分析](https://xz.aliyun.com/course-view?id=11)
+- [315 晚会曝光：大疆无人机被劫持始末](articles/无人机/2016-03-15-315-晚会曝光-大疆无人机被劫持始末.md) · [原文](https://www.leiphone.com/category/zixun/aeqQVEI2hvyRBPDh.html)
 
 **论文 / 理论综述**
 
@@ -106,6 +108,8 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 - [Black Hat Asia 2025：日产 Leaf 远程利用](https://i.blackhat.com/Asia-25/Asia-25-Evdokimov-Remote-Exploitation-of-Nissan-Leaf.pdf)
 - [Mercedes 防盗器 ECU 过压毛刺：短暂恢复被熔断的 JTAG](articles/车机/2025-06-01-Mercedes-防盗器-ECU-过压毛刺-短暂恢复被熔断的-JTAG.md) · [原文](https://troopers.de/troopers25/talks/et37yq/)
 - [MC9S12/HCS12 复位安全评估窗口毛刺：解锁 BDM 读全片 flash](articles/车机/2026-11-14-MC9S12-HCS12-复位安全评估窗口毛刺-解锁-BDM-读全片-flash.md) · [原文](https://github.com/wichers/mc9s12-voltage-glitch-attack)
+- [Remote Attack to Tesla Model S：从 Wi-Fi 到 CAN 总线的远程控制（KeenLab 2016）](articles/车机/2016-09-19-Remote-Attack-to-Tesla-Model-S-从-Wi-Fi-到-CAN-总线的远程控制-KeenLab.md) · [原文](https://keenlab.tencent.com/en/2016/09/19/Keen-Security-Lab-of-Tencent-Car-Hacking-Research-Remote-Attack-to-Tesla-Cars/)
+- [Remote Car Hacking：Jeep Cherokee 攻击面白皮书（Miller & Valasek）](articles/车机/2015-08-05-Remote-Car-Hacking-Jeep-Cherokee-攻击面白皮书-Miller-Valasek.md) · [原文](https://ioactive.com/wp-content/uploads/2018/05/IOActive_Remote_Car_Hacking-1.pdf)
 
 **论文 / 理论综述**
 
@@ -195,6 +199,7 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 - [Sharp MFP 17 漏洞分析](https://pierrekim.github.io/blog/2024-06-27-sharp-mfp-17-vulnerabilities.html#pre-auth-memory-corruption)
 - [Xerox WorkCentre 未授权 RCE 漏洞](https://swarm.ptsecurity.com/inside-xerox-workcentre-two-unauthenticated-rces/)
 - [CVE-2024-0244 – A heap buffer overflow in the Canon MF753Cdw printer](articles/打印机/2026-09-24-CVE-2024-0244-A-heap-buffer-overflow-in-the-Canon-MF753Cdw-p.md) · [原文](https://www.thezdi.com/blog/2026/9/23/cve-2024-0244-a-heap-buffer-overflow-in-the-canon-mf753cdw-printer)
+- [打印机攻击面与 PJL 后门：用打印语言控制设备](articles/打印机/2017-06-01-打印机攻击面与-PJL-后门-用打印语言控制设备.md) · [原文](https://www.contextis.com/en/blog/printer-exploitation)
 
 ## 智能家居
 
@@ -207,6 +212,7 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 - [Streaming Zero-Fi Shells to Your Smart Speaker](articles/智能家居/2025-06-11-Streaming-Zero-Fi-Shells-to-Your-Smart-Speaker.md) · [原文](https://blog.ret2.io/2025/06/11/pwn2own-soho-2024-sonos-exploit/)
 - [Apple AirTag（nRF52832）电压毛刺解锁 APPROTECT 并转储固件](articles/智能家居/2026-11-14-Apple-AirTag-nRF52832-电压毛刺解锁-APPROTECT-并转储固件.md) · [原文](https://github.com/ensingerphilipp/airtag-glitch-dump-improved)
 - [Chipolo 蓝牙追踪器：FI 绕调试锁 → 固件逆向 → 蓝牙栈 RCE](articles/智能家居/2024-12-27-Chipolo-蓝牙追踪器-FI-绕调试锁-固件逆向-蓝牙栈-RCE.md) · [原文](https://media.ccc.de/v/38c3-from-fault-injection-to-rce-analyzing-a-bluetooth-tracker)
+- [Echo Hacking Wiki：Amazon Echo 固件提取与硬件分析](articles/智能家居/2017-06-01-Echo-Hacking-Wiki-Amazon-Echo-固件提取与硬件分析.md) · [原文](https://github.com/echohacking/wiki/wiki)
 
 ## 机器人
 
@@ -220,6 +226,7 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 - [Skynet Starter Kit：Unitree 机器人生态的端到端攻破（39C3）](articles/机器人/2025-12-28-Skynet-Starter-Kit-Unitree-机器人生态的端到端攻破-39C3.md) · [原文](https://media.ccc.de/v/39c3-skynet-starter-kit-from-embodied-ai-jailbreak-to-remote-takeover-of-humanoid-robots)
 - [Smart vacuum cleaners as remote wiretapping devices：QNX 扫地机的窃听](articles/机器人/2019-04-21-Smart-vacuum-cleaners-as-remote-wiretapping-devices-QNX-扫地机的.md) · [原文](https://media.ccc.de/v/eh19-157-smart-vacuum-cleaners-as-remote-wiretapping-devices)
 - [How (not) to build autonomous robots：配送机器人背后的工程与安全债](articles/机器人/2019-12-27-How-not-to-build-autonomous-robots-配送机器人背后的工程与安全债.md) · [原文](https://media.ccc.de/v/36c3-10601-how_not_to_build_autonomous_robots)
+- [ROS 安全：机器人操作系统的攻击面权威分析（vandersanden/Dieber 等，2017）](articles/机器人/2017-09-01-ROS-安全-机器人操作系统的攻击面权威分析-vandersanden-Dieber-等-2017.md) · [原文](https://arxiv.org/abs/1709.08826)
 
 **论文 / 理论综述**
 
@@ -258,6 +265,7 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 - [IC卡加密方式和基本常识](https://mp.weixin.qq.com/s/MC_gsU3lbOUfmkfKK_0RTQ)
 - [RFID 射频卡安全梳理](https://stdio.io/1345)
 - [逆向破解南京大学纯 CPU SAK28 FM1208 NFC 校园卡](https://blog.lyc8503.net/post/reverse-nju-cpu-card/)
+- [反向工程密码学 RFID 标签：MIFARE Classic 的 Crypto-1 被完整攻破（USENIX Security 2008）](articles/RFID/2008-07-31-反向工程密码学-RFID-标签-MIFARE-Classic-的-Crypto-1-被完整攻破-USENIX-Secur.md) · [原文](https://www.usenix.org/legacy/event/sec08/tech/nohl.html)
 
 **论文 / 理论综述**
 
@@ -268,6 +276,8 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 > 802.11 协议层漏洞
 
 - [无线网络（WI-FI）保护协议标准WPA2漏洞综合分析报告](https://www.antiy.com/response/krack.html)
+- [KRACK：WPA2 四次握手密钥重装攻击](articles/WIFI安全/2017-10-16-KRACK-WPA2-四次握手密钥重装攻击.md) · [原文](https://www.krackattacks.com/)
+- [FragAttacks：Wi-Fi 帧聚合与分片引起的 12 个新漏洞](articles/WIFI安全/2021-05-11-FragAttacks-Wi-Fi-帧聚合与分片引起的-12-个新漏洞.md) · [原文](https://www.fragattacks.com/)
 
 ## 协议安全
 
@@ -276,6 +286,8 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 - [DNSpooq系列漏洞分析与复现](https://www.venustech.com.cn/new_type/aqldfx/20210201/22352.html)
 - [Bluetooth-Attacks-CVE-2025-27840](https://github.com/demining/Bluetooth-Attacks-CVE-2025-27840)
 - [无线电安全攻防之蓝牙协议栈技术初探](https://mp.weixin.qq.com/s/OTSwW2E1BRHYuGg1XxAC8g)
+- [Dragonblood：WPA3 Dragonfly 握手的侧信道与降级攻击](articles/协议安全/2019-04-10-Dragonblood-WPA3-Dragonfly-握手的侧信道与降级攻击.md) · [原文](https://wpa3.mathyvanhoef.com/)
+- [Fastlane：Apple AirDrop 的协议逆向与攻击分析（USENIX Security 2021）](articles/协议安全/2021-08-11-Fastlane-Apple-AirDrop-的协议逆向与攻击分析-USENIX-Security-2021.md) · [原文](https://www.usenix.org/conference/usenixsecurity21/presentation/stute)
 
 ## 硬件钱包
 
@@ -336,6 +348,7 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 - [LogoFAIL Exploited to Deploy Bootkitty, the first UEFI bootkit for Linux](articles/安全启动/2024-11-29-LogoFAIL-Exploited-to-Deploy-Bootkitty-the-first-UEFI-bootki.md) · [原文](https://www.binarly.io/blog/logofail-exploited-deploy-bootkitty-first-uefi-bootkit-linux)
 - [bootl-attacks（CHES'21）：LPC1343 ROP / STM8 双毛刺 / Renesas 78K0 符号执行制导](articles/安全启动/2021-09-01-bootl-attacks-CHES-21-LPC1343-ROP-STM8-双毛刺-Renesas-78K0-符号执行.md) · [原文](https://github.com/janvdherrewegen/bootl-attacks)
 - [RP2350 光子发射引导激光 FI：恢复被永久关闭的 Secure Debug](articles/安全启动/2026-11-13-RP2350-光子发射引导激光-FI-恢复被永久关闭的-Secure-Debug.md) · [原文](https://donjon.ledger.com/blog/rp2350-secure-debug-laser-fault-injection/)
+- [Thunderstrike：MacBook EFI 固件 bootkit 与 Thunderbolt 攻击面](articles/安全启动/2014-12-29-Thunderstrike-MacBook-EFI-固件-bootkit-与-Thunderbolt-攻击面.md) · [原文](https://trmm.net/Thunderstrike/)
 
 **论文 / 理论综述**
 
@@ -359,6 +372,8 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 - [摄像头逆向分析之旅-程序还原](https://blog.nsfocus.net/lot-flash/)
 - [Two Oracles to Get One Key: A tale of recovering a symmetric key from an encrypt-only firmware update scheme](articles/固件解密/2026-11-10-Two-Oracles-to-Get-One-Key-A-tale-of-recovering-a-symmetric.md) · [原文](https://www.ioactive.com/two-oracles-recovering-aes-firmware-key/)
 - [STM32-TraceRip：不注入故障，用 CRC 状态步进重建受保护 flash](articles/固件解密/2025-06-10-STM32-TraceRip-不注入故障-用-CRC-状态步进重建受保护-flash.md) · [原文](https://hardwear.io/wp-content/uploads/2026/03/TraceRip-Hardwear.pdf)
+- [Binwalk：固件逆向与文件系统提取的事实标准工具](articles/固件解密/2023-06-01-Binwalk-固件逆向与文件系统提取的事实标准工具.md) · [原文](https://github.com/ReFirmLabs/binwalk)
+- [FACT：固件分析与比较工具（Firmware Analysis and Comparison Tool）](articles/固件解密/2024-01-01-FACT-固件分析与比较工具-Firmware-Analysis-and-Comparison-Tool.md) · [原文](https://github.com/fkie-cad/FACT_core)
 
 **论文 / 理论综述**
 
@@ -484,6 +499,24 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 
 <details>
 <summary>展开查看（最新在上）</summary>
+
+### 2026-11-23 · 2026-W55
+
+- [KRACK：WPA2 四次握手密钥重装攻击](articles/WIFI安全/2017-10-16-KRACK-WPA2-四次握手密钥重装攻击.md) —— WIFI安全
+- [FragAttacks：Wi-Fi 帧聚合与分片引起的 12 个新漏洞](articles/WIFI安全/2021-05-11-FragAttacks-Wi-Fi-帧聚合与分片引起的-12-个新漏洞.md) —— WIFI安全
+- [Dragonblood：WPA3 Dragonfly 握手的侧信道与降级攻击](articles/协议安全/2019-04-10-Dragonblood-WPA3-Dragonfly-握手的侧信道与降级攻击.md) —— 协议安全
+- [Fastlane：Apple AirDrop 的协议逆向与攻击分析（USENIX Security 2021）](articles/协议安全/2021-08-11-Fastlane-Apple-AirDrop-的协议逆向与攻击分析-USENIX-Security-2021.md) —— 协议安全
+- [反向工程密码学 RFID 标签：MIFARE Classic 的 Crypto-1 被完整攻破（USENIX Security 2008）](articles/RFID/2008-07-31-反向工程密码学-RFID-标签-MIFARE-Classic-的-Crypto-1-被完整攻破-USENIX-Secur.md) —— RFID
+- [Remote Attack to Tesla Model S：从 Wi-Fi 到 CAN 总线的远程控制（KeenLab 2016）](articles/车机/2016-09-19-Remote-Attack-to-Tesla-Model-S-从-Wi-Fi-到-CAN-总线的远程控制-KeenLab.md) —— 车机
+- [Remote Car Hacking：Jeep Cherokee 攻击面白皮书（Miller & Valasek）](articles/车机/2015-08-05-Remote-Car-Hacking-Jeep-Cherokee-攻击面白皮书-Miller-Valasek.md) —— 车机
+- [315 晚会曝光：大疆无人机被劫持始末](articles/无人机/2016-03-15-315-晚会曝光-大疆无人机被劫持始末.md) —— 无人机
+- [Hikvision 摄像头后门固件分析（2017）](articles/摄像头/2017-01-01-Hikvision-摄像头后门固件分析-2017.md) —— 摄像头
+- [打印机攻击面与 PJL 后门：用打印语言控制设备](articles/打印机/2017-06-01-打印机攻击面与-PJL-后门-用打印语言控制设备.md) —— 打印机
+- [Echo Hacking Wiki：Amazon Echo 固件提取与硬件分析](articles/智能家居/2017-06-01-Echo-Hacking-Wiki-Amazon-Echo-固件提取与硬件分析.md) —— 智能家居
+- [Thunderstrike：MacBook EFI 固件 bootkit 与 Thunderbolt 攻击面](articles/安全启动/2014-12-29-Thunderstrike-MacBook-EFI-固件-bootkit-与-Thunderbolt-攻击面.md) —— 安全启动
+- [Binwalk：固件逆向与文件系统提取的事实标准工具](articles/固件解密/2023-06-01-Binwalk-固件逆向与文件系统提取的事实标准工具.md) —— 固件解密
+- [FACT：固件分析与比较工具（Firmware Analysis and Comparison Tool）](articles/固件解密/2024-01-01-FACT-固件分析与比较工具-Firmware-Analysis-and-Comparison-Tool.md) —— 固件解密
+- [ROS 安全：机器人操作系统的攻击面权威分析（vandersanden/Dieber 等，2017）](articles/机器人/2017-09-01-ROS-安全-机器人操作系统的攻击面权威分析-vandersanden-Dieber-等-2017.md) —— 机器人
 
 ### 2026-11-23 · 2026-W48
 
