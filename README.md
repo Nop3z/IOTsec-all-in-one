@@ -14,9 +14,9 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 | [Openwrt](#openwrt) | 4 | [摄像头](#摄像头) | 6 | [无人机](#无人机) | 19 |
 | [车机](#车机) | 6 | [充电桩](#充电桩) | 7 | [基站](#基站) | 13 |
 | [防火墙](#防火墙) | 22 | [卫星安全](#卫星安全) | 10 | [打印机](#打印机) | 4 |
-| [智能家居](#智能家居) | 7 | [机器人](#机器人) | 11 | [芯片安全](#芯片安全) | 14 |
+| [智能家居](#智能家居) | 7 | [机器人](#机器人) | 11 | [芯片安全](#芯片安全) | 15 |
 | [RFID](#rfid) | 5 | [WIFI安全](#wifi安全) | 1 | [协议安全](#协议安全) | 3 |
-| [硬件钱包](#硬件钱包) | 13 | [FUZZ](#fuzz) | 4 | | |
+| [硬件钱包](#硬件钱包) | 13 | [FUZZ](#fuzz) | 5 | | |
 
 **技术专题**
 
@@ -29,8 +29,8 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 
 | 板块 | 篇 | 板块 | 篇 | 板块 | 篇 |
 |:--|--:|:--|--:|:--|--:|
-| [固件下载](#固件下载) | 18 | [虚拟机镜像](#虚拟机镜像) | 0 | [杂项](#杂项) | 19 |
-| [文章快照](articles/INDEX.md) | 151 | [更新日志](#更新日志) | - | [收录标准](#收录标准) | - |
+| [固件下载](#固件下载) | 18 | [虚拟机镜像](#虚拟机镜像) | 0 | [杂项](#杂项) | 20 |
+| [文章快照](articles/INDEX.md) | 154 | [更新日志](#更新日志) | - | [收录标准](#收录标准) | - |
 
 <!-- INDEX:END -->
 
@@ -39,14 +39,14 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 <!-- LATEST:START -->
 | 日期 | 板块 | 文章 |
 |:--|:--|:--|
+| 2026-11-19 | 芯片安全 | [利用AVX-512越界写漏洞CVE-2026-114938实现Java Base64解码远程代码执行](articles/芯片安全/2026-11-19-利用AVX-512越界写漏洞CVE-2026-114938实现Java-Base64解码远程代码执行.md) |
+| 2026-11-19 | 杂项 | [CVE-2026-53676：ThingsBoard 远程 JS 执行器沙箱逃逸漏洞分析](articles/杂项/2026-11-19-CVE-2026-53676-ThingsBoard-远程-JS-执行器沙箱逃逸漏洞分析.md) |
+| 2026-11-19 | FUZZ | [从一千多个“漏洞”到三处没修完的补丁：给 AI agent 做固件审计工具的经验](articles/FUZZ/2026-11-19-从一千多个-漏洞-到三处没修完的补丁-给-AI-agent-做固件审计工具的经验.md) |
 | 2026-11-14 | 车机 | [MC9S12/HCS12 复位安全评估窗口毛刺：解锁 BDM 读全片 flash](articles/车机/2026-11-14-MC9S12-HCS12-复位安全评估窗口毛刺-解锁-BDM-读全片-flash.md) |
 | 2026-11-14 | 芯片安全 | [GA100 数据中心 GPU PWMVID 电压毛刺实验台](articles/芯片安全/2026-11-14-GA100-数据中心-GPU-PWMVID-电压毛刺实验台.md) |
 | 2026-11-14 | 硬件钱包 | [STM32F2/F4 故障注入：EMFI/VFI 双档 RDP2→RDP1 + FPB 两毛刺读全片 flash](articles/硬件钱包/2026-11-14-STM32F2-F4-故障注入-EMFI-VFI-双档-RDP2-RDP1-FPB-两毛刺读全片-flash.md) |
 | 2026-11-14 | 智能家居 | [Apple AirTag（nRF52832）电压毛刺解锁 APPROTECT 并转储固件](articles/智能家居/2026-11-14-Apple-AirTag-nRF52832-电压毛刺解锁-APPROTECT-并转储固件.md) |
 | 2026-11-14 | 故障注入 | [把故障注入仿真塞进开发流（Ledger Donjon：rust_fi + Rainbow + CI）](articles/故障注入/2026-11-14-把故障注入仿真塞进开发流-Ledger-Donjon-rust_fi-Rainbow-CI.md) |
-| 2026-11-14 | 故障注入 | [ot-sca：OpenTitan 官方 SCA + 故障注入评估框架](articles/故障注入/2026-11-14-ot-sca-OpenTitan-官方-SCA-故障注入评估框架.md) |
-| 2026-11-14 | 故障注入 | [findus / fault-injection-library：Pico Glitcher 软件框架 + 12 个 MCU 靶项目](articles/故障注入/2026-11-14-findus-fault-injection-library-Pico-Glitcher-软件框架-12-个-MCU-靶.md) |
-| 2026-11-14 | 故障注入 | [SiliconToaster：开源 0–1000V 电磁故障注入发生器（Ledger Donjon）](articles/故障注入/2026-11-14-SiliconToaster-开源-0-1000V-电磁故障注入发生器-Ledger-Donjon.md) |
 <!-- LATEST:END -->
 
 全部归档见 [articles/INDEX.md](articles/INDEX.md)。
@@ -239,6 +239,7 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 - [Don't let TEEs break your MPC](articles/芯片安全/2026-09-25-Don-t-let-TEEs-break-your-MPC.md) · [原文](https://blog.trailofbits.com/2026/09/25/dont-let-tees-break-your-mpc/)
 - [GA100 数据中心 GPU PWMVID 电压毛刺实验台](articles/芯片安全/2026-11-14-GA100-数据中心-GPU-PWMVID-电压毛刺实验台.md) · [原文](https://github.com/kate-land/ga100vfi)
 - [压电打火机 EMFI 打 DRAM 总线：笔记本 Linux 提权 root](articles/芯片安全/2024-10-07-压电打火机-EMFI-打-DRAM-总线-笔记本-Linux-提权-root.md) · [原文](https://www.da.vidbuchanan.co.uk/blog/dram-emfi.html)
+- [利用AVX-512越界写漏洞CVE-2026-114938实现Java Base64解码远程代码执行](articles/芯片安全/2026-11-19-利用AVX-512越界写漏洞CVE-2026-114938实现Java-Base64解码远程代码执行.md) · [原文](https://xz.aliyun.com/news/93395)
 
 **论文 / 理论综述**
 
@@ -303,6 +304,7 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 
 - [RV130X Firmware Analysis](https://raffo24.github.io/hardware%20hacking/FirmwareAnalysis/)
 - [Snapshotting our way to CVE-2026-9539](articles/FUZZ/2026-10-27-Snapshotting-our-way-to-CVE-2026-9539.md) · [原文](http://blog.quarkslab.com/snapshotting-our-way-to-cve-2026-9539.html)
+- [从一千多个“漏洞”到三处没修完的补丁：给 AI agent 做固件审计工具的经验](articles/FUZZ/2026-11-19-从一千多个-漏洞-到三处没修完的补丁-给-AI-agent-做固件审计工具的经验.md) · [原文](https://xz.aliyun.com/news/93403)
 
 **论文 / 理论综述**
 
@@ -470,6 +472,7 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 - [Fake Kernel Threads Are Hiding Backdoors on Linux Servers and Appliances](articles/杂项/2026-10-20-Fake-Kernel-Threads-Are-Hiding-Backdoors-on-Linux-Servers-an.md) · [原文](https://eclypsium.com/blog/linux-malware-fake-kernel-threads/)
 - [The Explosion of Hardware-Hacking Devices](articles/杂项/2025-02-08-The-Explosion-of-Hardware-Hacking-Devices.md) · [原文](https://eclypsium.com/blog/the-explosion-of-hardware-hacking-devices/)
 - [Android’s pKVM Becomes First Globally Certified Software to Achieve Prestigious SESIP Level 5 Security Certification](articles/杂项/2025-08-13-Android-s-pKVM-Becomes-First-Globally-Certified-Software-to.md) · [原文](http://security.googleblog.com/2025/08/Android-pKVM-Certified-SESIP-Level-5.html)
+- [CVE-2026-53676：ThingsBoard 远程 JS 执行器沙箱逃逸漏洞分析](articles/杂项/2026-11-19-CVE-2026-53676-ThingsBoard-远程-JS-执行器沙箱逃逸漏洞分析.md) · [原文](https://xz.aliyun.com/news/93399)
 
 **论文 / 理论综述**
 
@@ -481,6 +484,12 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 
 <details>
 <summary>展开查看（最新在上）</summary>
+
+### 2026-11-23 · 2026-W48
+
+- [CVE-2026-53676：ThingsBoard 远程 JS 执行器沙箱逃逸漏洞分析](articles/杂项/2026-11-19-CVE-2026-53676-ThingsBoard-远程-JS-执行器沙箱逃逸漏洞分析.md) —— 杂项
+- [利用AVX-512越界写漏洞CVE-2026-114938实现Java Base64解码远程代码执行](articles/芯片安全/2026-11-19-利用AVX-512越界写漏洞CVE-2026-114938实现Java-Base64解码远程代码执行.md) —— 芯片安全
+- [从一千多个“漏洞”到三处没修完的补丁：给 AI agent 做固件审计工具的经验](articles/FUZZ/2026-11-19-从一千多个-漏洞-到三处没修完的补丁-给-AI-agent-做固件审计工具的经验.md) —— FUZZ
 
 ### 2026-11-19 · 2026-W53
 

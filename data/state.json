@@ -729,6 +729,41 @@
    "first_seen": "2026-11-19T12:02:12.663918+08:00",
    "sha256": "ebeeae6ca01fabcd5f29deca18a27f2e2a3c635bd048f9bfa4baddd8e81d39d2",
    "file": "39-公安部通报37款违规应用-电商类占比超七成-小程序不再是-法外之地.md"
+  },
+  "https://xz.aliyun.com/news/93399": {
+   "first_seen": "2026-11-23T12:53:46.244493+08:00",
+   "sha256": "0edc7e63a0b4d56b48b2ca8fd066989a4a35c5fe9cbd5311b4dbb5b1de8f6545",
+   "file": "01-CVE-2026-53676-ThingsBoard-远程-JS-执行器沙箱逃逸漏洞分析.md"
+  },
+  "https://www.welivesecurity.com/en/internet-of-things/iot-devices-no-longer-supported-smart-home-safe/": {
+   "first_seen": "2026-11-23T12:53:46.244493+08:00",
+   "sha256": "fa923e2098bd397be37d68c81f5877438af9cc3162ea7c4dc727a6069d624948",
+   "file": "02-My-IoT-devices-are-no-longer-supported-is-my-smart-home-safe.md"
+  },
+  "https://www.rapid7.com/blog/post/etr-cve-2026-123890-critical-authentication-bypass-vmware-vcenter": {
+   "first_seen": "2026-11-23T12:53:46.244493+08:00",
+   "sha256": "a67c82f222dce1d03cbf51e98d963e55ed66b399b2e13285b021e14b01ed3696",
+   "file": "03-CVE-2026-123890-Critical-Authentication-Bypass-in-VMware-vCe.md"
+  },
+  "https://xz.aliyun.com/news/93395": {
+   "first_seen": "2026-11-23T12:53:46.244493+08:00",
+   "sha256": "2c0529b1ce3fe53938887a57b21eae957f237e3d9704cad5245abae09d0fd3d5",
+   "file": "04-利用AVX-512越界写漏洞CVE-2026-114938实现Java-Base64解码远程代码执行.md"
+  },
+  "https://research.checkpoint.com/2026/30-years-of-gatekeeper-asymmetry-doom-the-paradox-that-makes-powerful-llms-more-vulnerable/": {
+   "first_seen": "2026-11-23T12:53:46.244493+08:00",
+   "sha256": "053cfa5e5f12205c39b22bfcfc43b9a2a261e17707faec9999a74b439ecdcba6",
+   "file": "05-30-Years-of-Gatekeeper-Asymmetry-Doom-The-Paradox-that-Makes.md"
+  },
+  "https://xz.aliyun.com/news/93403": {
+   "first_seen": "2026-11-23T12:53:46.244493+08:00",
+   "sha256": "7d8215ffbaff18ae679cb8afb94e138d895dcedfbe505a120514a752de4fbc57",
+   "file": "07-从一千多个-漏洞-到三处没修完的补丁-给-AI-agent-做固件审计工具的经验.md"
+  },
+  "https://fortiguard.fortinet.com/psirt/FG-IR-26-279": {
+   "first_seen": "2026-11-23T12:53:46.244493+08:00",
+   "sha256": "3ae78dcbdb14e10a4d96076b9889d0642540b2fba097e8e080cfa7a0331e05e6",
+   "file": "08-NGINX-vulnerabilities.md"
   }
  },
  "runs": [
@@ -803,6 +838,14 @@
    "shortlist": 39,
    "downloaded": 36,
    "bytes": 6916549
+  },
+  {
+   "week": "2026-W48",
+   "at": "2026-11-23T12:53:46.244493+08:00",
+   "candidates": 123,
+   "shortlist": 8,
+   "downloaded": 7,
+   "bytes": 1436982
   }
  ]
 }

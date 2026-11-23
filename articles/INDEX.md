@@ -1,9 +1,12 @@
 # 文章快照索引
 
-共 151 篇已归档（每周自动抓取 + 复审）。快照仅供安全研究参考，版权归原作者所有。
+共 154 篇已归档（每周自动抓取 + 复审）。快照仅供安全研究参考，版权归原作者所有。
 
 | 日期 | 板块 | 标题 | 快照 | 来源 |
 |:--|:--|:--|:--|:--|
+| 2026-11-19 | 芯片安全 | [利用AVX-512越界写漏洞CVE-2026-114938实现Java Base64解码远程代码执行](https://xz.aliyun.com/news/93395) | [md](articles/芯片安全/2026-11-19-利用AVX-512越界写漏洞CVE-2026-114938实现Java-Base64解码远程代码执行.md) | 先知社区 |
+| 2026-11-19 | 杂项 | [CVE-2026-53676：ThingsBoard 远程 JS 执行器沙箱逃逸漏洞分析](https://xz.aliyun.com/news/93399) | [md](articles/杂项/2026-11-19-CVE-2026-53676-ThingsBoard-远程-JS-执行器沙箱逃逸漏洞分析.md) | 先知社区 |
+| 2026-11-19 | FUZZ | [从一千多个“漏洞”到三处没修完的补丁：给 AI agent 做固件审计工具的经验](https://xz.aliyun.com/news/93403) | [md](articles/FUZZ/2026-11-19-从一千多个-漏洞-到三处没修完的补丁-给-AI-agent-做固件审计工具的经验.md) | 先知社区 |
 | 2026-11-14 | 车机 | [MC9S12/HCS12 复位安全评估窗口毛刺：解锁 BDM 读全片 flash](https://github.com/wichers/mc9s12-voltage-glitch-attack) | [md](articles/车机/2026-11-14-MC9S12-HCS12-复位安全评估窗口毛刺-解锁-BDM-读全片-flash.md) | wichers (GitHub, CC0) |
 | 2026-11-14 | 芯片安全 | [GA100 数据中心 GPU PWMVID 电压毛刺实验台](https://github.com/kate-land/ga100vfi) | [md](articles/芯片安全/2026-11-14-GA100-数据中心-GPU-PWMVID-电压毛刺实验台.md) | kate-land (GitHub, MIT) |
 | 2026-11-14 | 硬件钱包 | [STM32F2/F4 故障注入：EMFI/VFI 双档 RDP2→RDP1 + FPB 两毛刺读全片 flash](https://github.com/joegrand/stm32-fault-injection) | [md](articles/硬件钱包/2026-11-14-STM32F2-F4-故障注入-EMFI-VFI-双档-RDP2-RDP1-FPB-两毛刺读全片-flash.md) | Joe Grand / Lennert Wouters (GitHub) |
