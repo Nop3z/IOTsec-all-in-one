@@ -1,7 +1,7 @@
 ---
 title: "QUIC and Covert：用 HTTP/3 隧道承载的 RAT 攻击东南亚政府目标"
 source: "Unit 42"
-url: https://unit42.paloaltonetworks.com/
+url: https://unit42.paloaltonetworks.com/category/high-profile-threats/
 published: 2026-11-17
 fetched: 2026-11-24T02:16:14.965Z
 category: "协议安全"
@@ -18,7 +18,7 @@ published_at: 2026-11-24T10:16:18.753705+08:00
 
 # QUIC and Covert：用 HTTP/3 隧道承载的 RAT 攻击东南亚政府目标
 
-> 来源：Unit 42 · 2026-11-17 · [原文](https://unit42.paloaltonetworks.com/)
+> 来源：Unit 42 · 2026-11-17 · [Unit 42 高危威胁栏目](https://unit42.paloaltonetworks.com/category/high-profile-threats/)
 > 归档用于安全研究参考；版权归原作者所有。
 
 ## 收录理由

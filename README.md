@@ -309,7 +309,7 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 - [Dragonblood：WPA3 Dragonfly 握手的侧信道与降级攻击](articles/协议安全/2019-04-10-Dragonblood-WPA3-Dragonfly-握手的侧信道与降级攻击.md) · [原文](https://wpa3.mathyvanhoef.com/)
 - [Fastlane：Apple AirDrop 的协议逆向与攻击分析（USENIX Security 2021）](articles/协议安全/2021-08-11-Fastlane-Apple-AirDrop-的协议逆向与攻击分析-USENIX-Security-2021.md) · [原文](https://www.usenix.org/conference/usenixsecurity21/presentation/stute)
 - [Signal K Server 认证链断在“读文件”这一步：一个 ../ 读走 JWT 密钥](articles/协议安全/2026-11-13-Signal-K-Server-认证链断在-读文件-这一步-一个-读走-JWT-密钥.md) · [原文](https://xz.aliyun.com/news/93323)
-- [QUIC and Covert：用 HTTP/3 隧道承载的 RAT 攻击东南亚政府目标](articles/协议安全/2026-11-17-QUIC-and-Covert-用-HTTP-3-隧道承载的-RAT-攻击东南亚政府目标.md) · [原文](https://unit42.paloaltonetworks.com/)
+- [QUIC and Covert：用 HTTP/3 隧道承载的 RAT 攻击东南亚政府目标](articles/协议安全/2026-11-17-QUIC-and-Covert-用-HTTP-3-隧道承载的-RAT-攻击东南亚政府目标.md)
 
 ## 硬件钱包
 
