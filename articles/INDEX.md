@@ -1,12 +1,16 @@
 # 文章快照索引
 
-共 186 篇已归档（每周自动抓取 + 复审）。快照仅供安全研究参考，版权归原作者所有。
+共 194 篇已归档（每周自动抓取 + 复审）。快照仅供安全研究参考，版权归原作者所有。
 
 | 日期 | 板块 | 标题 | 快照 | 来源 |
 |:--|:--|:--|:--|:--|
+| 2026-11-23 | 杂项 | [VirtualBox Process Hardening on Windows 2026 Edition: What’s a Single Bit Between Friends?](https://projectzero.google/2026/11/virtualbox-process-hardening.html) | [md](articles/杂项/2026-11-23-VirtualBox-Process-Hardening-2026.md) | Google Project Zero |
 | 2026-11-19 | 芯片安全 | [利用AVX-512越界写漏洞CVE-2026-114938实现Java Base64解码远程代码执行](https://xz.aliyun.com/news/93395) | [md](articles/芯片安全/2026-11-19-利用AVX-512越界写漏洞CVE-2026-114938实现Java-Base64解码远程代码执行.md) | 先知社区 |
+| 2026-11-19 | 芯片安全 | [Java4Shell：补 Java 之前，先看处理器（AVX-512 版本差异命中不同目标）](https://eclypsium.com/blog/java4shell-patch-java-check-the-processor/) | [md](articles/芯片安全/2026-11-19-Java4Shell-补-Java-之前-先看处理器-AVX-512-版本差异命中不同目标.md) | Eclypsium |
 | 2026-11-19 | 杂项 | [CVE-2026-53676：ThingsBoard 远程 JS 执行器沙箱逃逸漏洞分析](https://xz.aliyun.com/news/93399) | [md](articles/杂项/2026-11-19-CVE-2026-53676-ThingsBoard-远程-JS-执行器沙箱逃逸漏洞分析.md) | 先知社区 |
 | 2026-11-19 | FUZZ | [从一千多个“漏洞”到三处没修完的补丁：给 AI agent 做固件审计工具的经验](https://xz.aliyun.com/news/93403) | [md](articles/FUZZ/2026-11-19-从一千多个-漏洞-到三处没修完的补丁-给-AI-agent-做固件审计工具的经验.md) | 先知社区 |
+| 2026-11-17 | 芯片安全 | [Manipulating AI Models from the Hardware Up：从硬件层篡改 AI 计算基础设施](https://eclypsium.com/events/manipulating-ai-models-from-the-hardware-up/) | [md](articles/芯片安全/2026-11-17-Manipulating-AI-Models-from-the-Hardware-Up-从硬件层篡改-AI-计算基础设施.md) | Eclypsium |
+| 2026-11-17 | 协议安全 | [QUIC and Covert：用 HTTP/3 隧道承载的 RAT 攻击东南亚政府目标](https://unit42.paloaltonetworks.com/) | [md](articles/协议安全/2026-11-17-QUIC-and-Covert-用-HTTP-3-隧道承载的-RAT-攻击东南亚政府目标.md) | Unit 42 |
 | 2026-11-14 | 车机 | [MC9S12/HCS12 复位安全评估窗口毛刺：解锁 BDM 读全片 flash](https://github.com/wichers/mc9s12-voltage-glitch-attack) | [md](articles/车机/2026-11-14-MC9S12-HCS12-复位安全评估窗口毛刺-解锁-BDM-读全片-flash.md) | wichers (GitHub, CC0) |
 | 2026-11-14 | 芯片安全 | [GA100 数据中心 GPU PWMVID 电压毛刺实验台](https://github.com/kate-land/ga100vfi) | [md](articles/芯片安全/2026-11-14-GA100-数据中心-GPU-PWMVID-电压毛刺实验台.md) | kate-land (GitHub, MIT) |
 | 2026-11-14 | 硬件钱包 | [STM32F2/F4 故障注入：EMFI/VFI 双档 RDP2→RDP1 + FPB 两毛刺读全片 flash](https://github.com/joegrand/stm32-fault-injection) | [md](articles/硬件钱包/2026-11-14-STM32F2-F4-故障注入-EMFI-VFI-双档-RDP2-RDP1-FPB-两毛刺读全片-flash.md) | Joe Grand / Lennert Wouters (GitHub) |
@@ -25,12 +29,16 @@
 | 2026-11-14 | 故障注入 | [ChipShover：EMFI/EM 探针的 XYZ 定位台](https://github.com/newaetech/ChipShover) | [md](articles/故障注入/2026-11-14-ChipShover-EMFI-EM-探针的-XYZ-定位台.md) | NewAE |
 | 2026-11-13 | 杂项 | [BinQL: a CodeQL extension for binary formats](https://blog.thalium.re/posts/binql-a-codeql-extension-for-binary-formats/) | [md](articles/杂项/2026-11-13-BinQL-a-CodeQL-extension-for-binary-formats.md) | Thalium |
 | 2026-11-13 | 安全启动 | [RP2350 光子发射引导激光 FI：恢复被永久关闭的 Secure Debug](https://donjon.ledger.com/blog/rp2350-secure-debug-laser-fault-injection/) | [md](articles/安全启动/2026-11-13-RP2350-光子发射引导激光-FI-恢复被永久关闭的-Secure-Debug.md) | Ledger Donjon |
+| 2026-11-13 | 协议安全 | [Signal K Server 认证链断在“读文件”这一步：一个 ../ 读走 JWT 密钥](https://xz.aliyun.com/news/93323) | [md](articles/协议安全/2026-11-13-Signal-K-Server-认证链断在-读文件-这一步-一个-读走-JWT-密钥.md) | 先知社区 |
 | 2026-11-12 | 防火墙 | [PHP2Shell Exploitation on Check Point Gateway](https://research.checkpoint.com/2026/php2shell-exploitation-on-check-point-gateway/) | [md](articles/防火墙/2026-11-12-PHP2Shell-Exploitation-on-Check-Point-Gateway.md) | Check Point Research |
 | 2026-11-12 | 故障注入 | [NonSense: On the (In)security of FPGA Anti-tamper Sensors](http://arxiv.org/abs/2611.17065v1) | [md](articles/故障注入/2026-11-12-NonSense-On-the-In-security-of-FPGA-Anti-tamper-Sensors.md) | arXiv |
+| 2026-11-11 | 防火墙 | [Php2shell 的网络边缘处置手册：哪些安全设备还停在漏洞上](https://eclypsium.com/blog/php2shell-network-appliances-status/) | [md](articles/防火墙/2026-11-11-Php2shell-的网络边缘处置手册-哪些安全设备还停在漏洞上.md) | Eclypsium |
 | 2026-11-10 | 固件解密 | [Two Oracles to Get One Key: A tale of recovering a symmetric key from an encrypt-only firmware update scheme](https://www.ioactive.com/two-oracles-recovering-aes-firmware-key/) | [md](articles/固件解密/2026-11-10-Two-Oracles-to-Get-One-Key-A-tale-of-recovering-a-symmetric.md) | IOActive |
 | 2026-11-06 | 防火墙 | [Barracuda Networks is your new best friend (Barracuda Email Security Gateway Pre-Auth Remote Root RCE CVE-2026-116606 / CVE-2026-111560)](https://labs.watchtowr.com/barracuda-networks-is-your-new-best-friend-barracuda-email-security-gateway-pre-auth-remote-root-rce-cve-2026-116606-cve-2026-111560/) | [md](articles/防火墙/2026-11-06-Barracuda-Networks-is-your-new-best-friend-Barracuda-Email-S.md) | watchTowr Labs |
 | 2026-11-05 | 安全启动 | [潜伏16年的UEFI漏洞：开机那几秒，你的所有防线都还没上线](https://www.anquanke.com/post/id/316426) | [md](articles/安全启动/2026-11-05-潜伏16年的UEFI漏洞-开机那几秒-你的所有防线都还没上线.md) | 安全客 |
+| 2026-11-04 | 杂项 | [VerifiedIDA：让 LLM 驱动的逆向分析可审计、可续做](https://www.sentinelone.com/labs/verifiedida-making-llm-driven-reverse-engineering-inspectable-continuable-and-reproducible/) | [md](articles/杂项/2026-11-04-VerifiedIDA-让-LLM-驱动的逆向分析可审计-可续做.md) | SentinelOne Labs |
 | 2026-11-03 | 防火墙 | [Pre-Auth RCE in Zyxel GS1900 Exploited in the Wild as a Zero-Day](https://www.binarly.io/blog/zyxel-gs1900-rce-cve-2026-107441) | [md](articles/防火墙/2026-11-03-Pre-Auth-RCE-in-Zyxel-GS1900-Exploited-in-the-Wild-as-a-Zero.md) | Binarly |
+| 2026-11-03 | 杂项 | [欧洲制冷攻击事件评估：OT 设备被远程打穿后的物理后果](https://www.sentinelone.com/labs/defrost-and-disrupt-an-assessment-of-europe-s-refrigeration-attacks/) | [md](articles/杂项/2026-11-03-欧洲制冷攻击事件评估-OT-设备被远程打穿后的物理后果.md) | SentinelOne Labs |
 | 2026-11-02 | 防火墙 | [Additional Ivanti Connect Secure zero-days exploited in the wild (CVE-2026-111357, CVE-2026-118527)](https://www.rapid7.com/blog/post/etr-additional-ivanti-connect-secure-zero-days-exploited-in-the-wild-cve-2026-111357-cve-2026-118527) | [md](articles/防火墙/2026-11-02-Additional-Ivanti-Connect-Secure-zero-days-exploited-in-the.md) | Rapid7 |
 | 2026-10-29 | 防火墙 | [Inside KeyDrift: Analyzing historical UAT-11473 activity on Cisco SD-WAN](https://blog.talosintelligence.com/uat-11473-keydrift/) | [md](articles/防火墙/2026-10-29-Inside-KeyDrift-Analyzing-historical-UAT-11473-activity-on-C.md) | Talos Intelligence |
 | 2026-10-27 | FUZZ | [Snapshotting our way to CVE-2026-9539](http://blog.quarkslab.com/snapshotting-our-way-to-cve-2026-9539.html) | [md](articles/FUZZ/2026-10-27-Snapshotting-our-way-to-CVE-2026-9539.md) | Quarkslab |

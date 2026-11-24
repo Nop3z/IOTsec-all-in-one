@@ -764,6 +764,11 @@
    "first_seen": "2026-11-23T12:53:46.244493+08:00",
    "sha256": "3ae78dcbdb14e10a4d96076b9889d0642540b2fba097e8e080cfa7a0331e05e6",
    "file": "08-NGINX-vulnerabilities.md"
+  },
+  "https://projectzero.google/2026/11/virtualbox-process-hardening.html": {
+   "first_seen": "2026-11-24T10:00:10.706300+08:00",
+   "sha256": "af63252231b326b553ed02e4dc68ea49a4b9fb2334fef11ef8db90313f7899d0",
+   "file": "01-VirtualBox-Process-Hardening-on-Windows-2026-Edition-What-s.md"
   }
  },
  "runs": [
@@ -846,6 +851,22 @@
    "shortlist": 8,
    "downloaded": 7,
    "bytes": 1436982
+  },
+  {
+   "week": "2026-W48",
+   "at": "2026-11-24T10:00:10.706300+08:00",
+   "candidates": 202,
+   "shortlist": 2,
+   "downloaded": 1,
+   "bytes": 46425
+  },
+  {
+   "week": "2026-W48",
+   "at": "2026-11-24T10:08:21.086421+08:00",
+   "candidates": 201,
+   "shortlist": 1,
+   "downloaded": 0,
+   "bytes": 0
   }
  ]
 }

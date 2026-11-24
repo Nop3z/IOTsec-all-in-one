@@ -13,9 +13,9 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 |:--|--:|:--|--:|:--|--:|
 | [Openwrt](#openwrt) | 4 | [摄像头](#摄像头) | 7 | [无人机](#无人机) | 20 |
 | [车机](#车机) | 8 | [充电桩](#充电桩) | 7 | [基站](#基站) | 13 |
-| [防火墙](#防火墙) | 22 | [卫星安全](#卫星安全) | 10 | [打印机](#打印机) | 5 |
-| [智能家居](#智能家居) | 8 | [机器人](#机器人) | 12 | [芯片安全](#芯片安全) | 32 |
-| [RFID](#rfid) | 6 | [WIFI安全](#wifi安全) | 3 | [协议安全](#协议安全) | 5 |
+| [防火墙](#防火墙) | 23 | [卫星安全](#卫星安全) | 10 | [打印机](#打印机) | 5 |
+| [智能家居](#智能家居) | 8 | [机器人](#机器人) | 12 | [芯片安全](#芯片安全) | 34 |
+| [RFID](#rfid) | 6 | [WIFI安全](#wifi安全) | 3 | [协议安全](#协议安全) | 7 |
 | [硬件钱包](#硬件钱包) | 13 | [FUZZ](#fuzz) | 5 | | |
 
 **技术专题**
@@ -29,8 +29,8 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 
 | 板块 | 篇 | 板块 | 篇 | 板块 | 篇 |
 |:--|--:|:--|--:|:--|--:|
-| [固件下载](#固件下载) | 18 | [虚拟机镜像](#虚拟机镜像) | 0 | [杂项](#杂项) | 20 |
-| [文章快照](articles/INDEX.md) | 186 | [更新日志](#更新日志) | - | [收录标准](#收录标准) | - |
+| [固件下载](#固件下载) | 18 | [虚拟机镜像](#虚拟机镜像) | 0 | [杂项](#杂项) | 23 |
+| [文章快照](articles/INDEX.md) | 194 | [更新日志](#更新日志) | - | [收录标准](#收录标准) | - |
 
 <!-- INDEX:END -->
 
@@ -39,14 +39,14 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 <!-- LATEST:START -->
 | 日期 | 板块 | 文章 |
 |:--|:--|:--|
+| 2026-11-23 | 杂项 | [VirtualBox Process Hardening on Windows 2026 Edition: What’s a Single Bit Between Friends?](articles/杂项/2026-11-23-VirtualBox-Process-Hardening-2026.md) |
 | 2026-11-19 | 芯片安全 | [利用AVX-512越界写漏洞CVE-2026-114938实现Java Base64解码远程代码执行](articles/芯片安全/2026-11-19-利用AVX-512越界写漏洞CVE-2026-114938实现Java-Base64解码远程代码执行.md) |
+| 2026-11-19 | 芯片安全 | [Java4Shell：补 Java 之前，先看处理器（AVX-512 版本差异命中不同目标）](articles/芯片安全/2026-11-19-Java4Shell-补-Java-之前-先看处理器-AVX-512-版本差异命中不同目标.md) |
 | 2026-11-19 | 杂项 | [CVE-2026-53676：ThingsBoard 远程 JS 执行器沙箱逃逸漏洞分析](articles/杂项/2026-11-19-CVE-2026-53676-ThingsBoard-远程-JS-执行器沙箱逃逸漏洞分析.md) |
 | 2026-11-19 | FUZZ | [从一千多个“漏洞”到三处没修完的补丁：给 AI agent 做固件审计工具的经验](articles/FUZZ/2026-11-19-从一千多个-漏洞-到三处没修完的补丁-给-AI-agent-做固件审计工具的经验.md) |
+| 2026-11-17 | 芯片安全 | [Manipulating AI Models from the Hardware Up：从硬件层篡改 AI 计算基础设施](articles/芯片安全/2026-11-17-Manipulating-AI-Models-from-the-Hardware-Up-从硬件层篡改-AI-计算基础设施.md) |
+| 2026-11-17 | 协议安全 | [QUIC and Covert：用 HTTP/3 隧道承载的 RAT 攻击东南亚政府目标](articles/协议安全/2026-11-17-QUIC-and-Covert-用-HTTP-3-隧道承载的-RAT-攻击东南亚政府目标.md) |
 | 2026-11-14 | 车机 | [MC9S12/HCS12 复位安全评估窗口毛刺：解锁 BDM 读全片 flash](articles/车机/2026-11-14-MC9S12-HCS12-复位安全评估窗口毛刺-解锁-BDM-读全片-flash.md) |
-| 2026-11-14 | 芯片安全 | [GA100 数据中心 GPU PWMVID 电压毛刺实验台](articles/芯片安全/2026-11-14-GA100-数据中心-GPU-PWMVID-电压毛刺实验台.md) |
-| 2026-11-14 | 硬件钱包 | [STM32F2/F4 故障注入：EMFI/VFI 双档 RDP2→RDP1 + FPB 两毛刺读全片 flash](articles/硬件钱包/2026-11-14-STM32F2-F4-故障注入-EMFI-VFI-双档-RDP2-RDP1-FPB-两毛刺读全片-flash.md) |
-| 2026-11-14 | 智能家居 | [Apple AirTag（nRF52832）电压毛刺解锁 APPROTECT 并转储固件](articles/智能家居/2026-11-14-Apple-AirTag-nRF52832-电压毛刺解锁-APPROTECT-并转储固件.md) |
-| 2026-11-14 | 故障注入 | [把故障注入仿真塞进开发流（Ledger Donjon：rust_fi + Rainbow + CI）](articles/故障注入/2026-11-14-把故障注入仿真塞进开发流-Ledger-Donjon-rust_fi-Rainbow-CI.md) |
 <!-- LATEST:END -->
 
 全部归档见 [articles/INDEX.md](articles/INDEX.md)。
@@ -172,6 +172,7 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 - [More Evidence That Words Don't Mean What We Thought They Meant (Ivanti Sentry Pre-Auth OS Command Injection CVE-2026-10520)](articles/防火墙/2026-06-10-More-Evidence-That-Words-Don-t-Mean-What-We-Thought-They-Mea.md) · [原文](https://labs.watchtowr.com/more-evidence-that-words-dont-mean-what-we-thought-they-meant-ivanti-sentry-pre-auth-os-command-injection-cve-2026-10520/)
 - [Ruckus Unleashed: Multiple vulnerabilities exploited](articles/防火墙/2025-07-21-Ruckus-Unleashed-Multiple-vulnerabilities-exploited.md) · [原文](https://defion.security/en/research-labs/ruckus-unleashed-multiple-vulnerabilities-exploited/)
 - [Pull the Plug: FIRESTARTER Survives Patches, Reboots, and Your Incident Response Plan](articles/防火墙/2026-05-07-Pull-the-Plug-FIRESTARTER-Survives-Patches-Reboots-and-Your.md) · [原文](https://eclypsium.com/blog/firestarter-cisco-firewall-backdoor-survives-patches/)
+- [Php2shell 的网络边缘处置手册：哪些安全设备还停在漏洞上](articles/防火墙/2026-11-11-Php2shell-的网络边缘处置手册-哪些安全设备还停在漏洞上.md) · [原文](https://eclypsium.com/blog/php2shell-network-appliances-status/)
 
 ## 卫星安全
 
@@ -247,6 +248,8 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 - [GA100 数据中心 GPU PWMVID 电压毛刺实验台](articles/芯片安全/2026-11-14-GA100-数据中心-GPU-PWMVID-电压毛刺实验台.md) · [原文](https://github.com/kate-land/ga100vfi)
 - [压电打火机 EMFI 打 DRAM 总线：笔记本 Linux 提权 root](articles/芯片安全/2024-10-07-压电打火机-EMFI-打-DRAM-总线-笔记本-Linux-提权-root.md) · [原文](https://www.da.vidbuchanan.co.uk/blog/dram-emfi.html)
 - [利用AVX-512越界写漏洞CVE-2026-114938实现Java Base64解码远程代码执行](articles/芯片安全/2026-11-19-利用AVX-512越界写漏洞CVE-2026-114938实现Java-Base64解码远程代码执行.md) · [原文](https://xz.aliyun.com/news/93395)
+- [Java4Shell：补 Java 之前，先看处理器（AVX-512 版本差异命中不同目标）](articles/芯片安全/2026-11-19-Java4Shell-补-Java-之前-先看处理器-AVX-512-版本差异命中不同目标.md) · [原文](https://eclypsium.com/blog/java4shell-patch-java-check-the-processor/)
+- [Manipulating AI Models from the Hardware Up：从硬件层篡改 AI 计算基础设施](articles/芯片安全/2026-11-17-Manipulating-AI-Models-from-the-Hardware-Up-从硬件层篡改-AI-计算基础设施.md) · [原文](https://eclypsium.com/events/manipulating-ai-models-from-the-hardware-up/)
 
 **论文 / 理论综述**
 
@@ -305,6 +308,8 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 - [无线电安全攻防之蓝牙协议栈技术初探](https://mp.weixin.qq.com/s/OTSwW2E1BRHYuGg1XxAC8g)
 - [Dragonblood：WPA3 Dragonfly 握手的侧信道与降级攻击](articles/协议安全/2019-04-10-Dragonblood-WPA3-Dragonfly-握手的侧信道与降级攻击.md) · [原文](https://wpa3.mathyvanhoef.com/)
 - [Fastlane：Apple AirDrop 的协议逆向与攻击分析（USENIX Security 2021）](articles/协议安全/2021-08-11-Fastlane-Apple-AirDrop-的协议逆向与攻击分析-USENIX-Security-2021.md) · [原文](https://www.usenix.org/conference/usenixsecurity21/presentation/stute)
+- [Signal K Server 认证链断在“读文件”这一步：一个 ../ 读走 JWT 密钥](articles/协议安全/2026-11-13-Signal-K-Server-认证链断在-读文件-这一步-一个-读走-JWT-密钥.md) · [原文](https://xz.aliyun.com/news/93323)
+- [QUIC and Covert：用 HTTP/3 隧道承载的 RAT 攻击东南亚政府目标](articles/协议安全/2026-11-17-QUIC-and-Covert-用-HTTP-3-隧道承载的-RAT-攻击东南亚政府目标.md) · [原文](https://unit42.paloaltonetworks.com/)
 
 ## 硬件钱包
 
@@ -505,6 +510,9 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 - [The Explosion of Hardware-Hacking Devices](articles/杂项/2025-02-08-The-Explosion-of-Hardware-Hacking-Devices.md) · [原文](https://eclypsium.com/blog/the-explosion-of-hardware-hacking-devices/)
 - [Android’s pKVM Becomes First Globally Certified Software to Achieve Prestigious SESIP Level 5 Security Certification](articles/杂项/2025-08-13-Android-s-pKVM-Becomes-First-Globally-Certified-Software-to.md) · [原文](http://security.googleblog.com/2025/08/Android-pKVM-Certified-SESIP-Level-5.html)
 - [CVE-2026-53676：ThingsBoard 远程 JS 执行器沙箱逃逸漏洞分析](articles/杂项/2026-11-19-CVE-2026-53676-ThingsBoard-远程-JS-执行器沙箱逃逸漏洞分析.md) · [原文](https://xz.aliyun.com/news/93399)
+- [VirtualBox Process Hardening on Windows 2026 Edition: What’s a Single Bit Between Friends?](articles/杂项/2026-11-23-VirtualBox-Process-Hardening-2026.md) · [原文](https://projectzero.google/2026/11/virtualbox-process-hardening.html)
+- [欧洲制冷攻击事件评估：OT 设备被远程打穿后的物理后果](articles/杂项/2026-11-03-欧洲制冷攻击事件评估-OT-设备被远程打穿后的物理后果.md) · [原文](https://www.sentinelone.com/labs/defrost-and-disrupt-an-assessment-of-europe-s-refrigeration-attacks/)
+- [VerifiedIDA：让 LLM 驱动的逆向分析可审计、可续做](articles/杂项/2026-11-04-VerifiedIDA-让-LLM-驱动的逆向分析可审计-可续做.md) · [原文](https://www.sentinelone.com/labs/verifiedida-making-llm-driven-reverse-engineering-inspectable-continuable-and-reproducible/)
 
 **论文 / 理论综述**
 
@@ -516,6 +524,17 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 
 <details>
 <summary>展开查看（最新在上）</summary>
+
+### 2026-11-24 · 2026-W57
+
+- [VirtualBox Process Hardening on Windows 2026 Edition: What’s a Single Bit Between Friends?](articles/杂项/2026-11-23-VirtualBox-Process-Hardening-2026.md) —— 杂项
+- [Java4Shell：补 Java 之前，先看处理器（AVX-512 版本差异命中不同目标）](articles/芯片安全/2026-11-19-Java4Shell-补-Java-之前-先看处理器-AVX-512-版本差异命中不同目标.md) —— 芯片安全
+- [Manipulating AI Models from the Hardware Up：从硬件层篡改 AI 计算基础设施](articles/芯片安全/2026-11-17-Manipulating-AI-Models-from-the-Hardware-Up-从硬件层篡改-AI-计算基础设施.md) —— 芯片安全
+- [Signal K Server 认证链断在“读文件”这一步：一个 ../ 读走 JWT 密钥](articles/协议安全/2026-11-13-Signal-K-Server-认证链断在-读文件-这一步-一个-读走-JWT-密钥.md) —— 协议安全
+- [Php2shell 的网络边缘处置手册：哪些安全设备还停在漏洞上](articles/防火墙/2026-11-11-Php2shell-的网络边缘处置手册-哪些安全设备还停在漏洞上.md) —— 防火墙
+- [欧洲制冷攻击事件评估：OT 设备被远程打穿后的物理后果](articles/杂项/2026-11-03-欧洲制冷攻击事件评估-OT-设备被远程打穿后的物理后果.md) —— 杂项
+- [VerifiedIDA：让 LLM 驱动的逆向分析可审计、可续做](articles/杂项/2026-11-04-VerifiedIDA-让-LLM-驱动的逆向分析可审计-可续做.md) —— 杂项
+- [QUIC and Covert：用 HTTP/3 隧道承载的 RAT 攻击东南亚政府目标](articles/协议安全/2026-11-17-QUIC-and-Covert-用-HTTP-3-隧道承载的-RAT-攻击东南亚政府目标.md) —— 协议安全
 
 ### 2026-11-23 · 2026-W56
 

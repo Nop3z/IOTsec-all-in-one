@@ -638,6 +638,7 @@ def main():
     ap.add_argument("--min-score", type=float, default=3.0, help="min score to download")
     ap.add_argument("--reuse-manifest", default="", help="reuse candidates from an existing manifest.json (skips feed pass)")
     ap.add_argument("--sources", default="", help="use an alternative sources json file")
+    ap.add_argument("--dump-candidates", action="store_true", help="write all candidates into manifest for audit")
     args = ap.parse_args()
 
     conf = load_json(args.sources or CONF_PATH, {})
@@ -844,7 +845,7 @@ def main():
         seen[rec["url"]] = {"first_seen": now.isoformat(), "sha256": sha, "file": fname}
         log("  [%d] %s  score=%.1f  %s" % (downloaded, human_size(size), rec["score"], rec["title"][:70]))
 
-    if args.dry_run:
+    if args.dry_run or args.dump_candidates:
         recorded = set(i.get("url") for i in manifest["items"])
         for it in items:
             if it["url"] not in recorded:
