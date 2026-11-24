@@ -12,9 +12,9 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 | 板块 | 篇 | 板块 | 篇 | 板块 | 篇 |
 |:--|--:|:--|--:|:--|--:|
 | [Openwrt](#openwrt) | 4 | [摄像头](#摄像头) | 7 | [无人机](#无人机) | 20 |
-| [车机](#车机) | 8 | [充电桩](#充电桩) | 7 | [基站](#基站) | 13 |
-| [防火墙](#防火墙) | 23 | [卫星安全](#卫星安全) | 10 | [打印机](#打印机) | 5 |
-| [智能家居](#智能家居) | 8 | [机器人](#机器人) | 12 | [芯片安全](#芯片安全) | 34 |
+| [车机](#车机) | 12 | [充电桩](#充电桩) | 7 | [基站](#基站) | 13 |
+| [防火墙](#防火墙) | 24 | [卫星安全](#卫星安全) | 10 | [打印机](#打印机) | 6 |
+| [智能家居](#智能家居) | 9 | [机器人](#机器人) | 14 | [芯片安全](#芯片安全) | 35 |
 | [RFID](#rfid) | 6 | [WIFI安全](#wifi安全) | 3 | [协议安全](#协议安全) | 7 |
 | [硬件钱包](#硬件钱包) | 13 | [FUZZ](#fuzz) | 5 | | |
 
@@ -29,8 +29,8 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 
 | 板块 | 篇 | 板块 | 篇 | 板块 | 篇 |
 |:--|--:|:--|--:|:--|--:|
-| [固件下载](#固件下载) | 18 | [虚拟机镜像](#虚拟机镜像) | 0 | [杂项](#杂项) | 23 |
-| [文章快照](articles/INDEX.md) | 194 | [更新日志](#更新日志) | - | [收录标准](#收录标准) | - |
+| [固件下载](#固件下载) | 18 | [虚拟机镜像](#虚拟机镜像) | 0 | [杂项](#杂项) | 24 |
+| [文章快照](articles/INDEX.md) | 205 | [更新日志](#更新日志) | - | [收录标准](#收录标准) | - |
 
 <!-- INDEX:END -->
 
@@ -110,6 +110,10 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 - [MC9S12/HCS12 复位安全评估窗口毛刺：解锁 BDM 读全片 flash](articles/车机/2026-11-14-MC9S12-HCS12-复位安全评估窗口毛刺-解锁-BDM-读全片-flash.md) · [原文](https://github.com/wichers/mc9s12-voltage-glitch-attack)
 - [Remote Attack to Tesla Model S：从 Wi-Fi 到 CAN 总线的远程控制（KeenLab 2016）](articles/车机/2016-09-19-Remote-Attack-to-Tesla-Model-S-从-Wi-Fi-到-CAN-总线的远程控制-KeenLab.md) · [原文](https://keenlab.tencent.com/en/2016/09/19/Keen-Security-Lab-of-Tencent-Car-Hacking-Research-Remote-Attack-to-Tesla-Cars/)
 - [Remote Car Hacking：Jeep Cherokee 攻击面白皮书（Miller & Valasek）](articles/车机/2015-08-05-Remote-Car-Hacking-Jeep-Cherokee-攻击面白皮书-Miller-Valasek.md) · [原文](https://ioactive.com/wp-content/uploads/2018/05/IOActive_Remote_Car_Hacking-1.pdf)
+- [Xiaomi 电动滑板车的新固件安全措施：BLE 锁与刷机防护的攻防演进](articles/车机/2022-09-15-Xiaomi-电动滑板车的新固件安全措施-BLE-锁与刷机防护的攻防演进.md) · [原文](https://robocoffee.de/?p=193)
+- [Brightway 电动滑板车破解案例研究（Xiaomi 3 Lite / 4 Pro 代工方）](articles/车机/2023-02-22-Brightway-电动滑板车破解案例研究-Xiaomi-3-Lite-4-Pro-代工方.md) · [原文](https://robocoffee.de/?p=436)
+- [LEQI Scooter Elite 技术分析：又一款滑板车固件被拆开](articles/车机/2026-11-24-LEQI-Scooter-Elite-技术分析-又一款滑板车固件被拆开.md) · [原文](https://robocoffee.de/?p=979)
+- [NAVEE 就是 Xiaomi：共享平台滑板车的安全同源问题](articles/车机/2026-08-29-NAVEE-就是-Xiaomi-共享平台滑板车的安全同源问题.md) · [原文](https://robocoffee.de/?p=1015)
 
 **论文 / 理论综述**
 
@@ -173,6 +177,7 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 - [Ruckus Unleashed: Multiple vulnerabilities exploited](articles/防火墙/2025-07-21-Ruckus-Unleashed-Multiple-vulnerabilities-exploited.md) · [原文](https://defion.security/en/research-labs/ruckus-unleashed-multiple-vulnerabilities-exploited/)
 - [Pull the Plug: FIRESTARTER Survives Patches, Reboots, and Your Incident Response Plan](articles/防火墙/2026-05-07-Pull-the-Plug-FIRESTARTER-Survives-Patches-Reboots-and-Your.md) · [原文](https://eclypsium.com/blog/firestarter-cisco-firewall-backdoor-survives-patches/)
 - [Php2shell 的网络边缘处置手册：哪些安全设备还停在漏洞上](articles/防火墙/2026-11-11-Php2shell-的网络边缘处置手册-哪些安全设备还停在漏洞上.md) · [原文](https://eclypsium.com/blog/php2shell-network-appliances-status/)
+- [Cato VPN 客户端：从分流上传到 SYSTEM 提权（CVE-2026-10739）](articles/防火墙/2026-10-01-Cato-VPN-客户端-从分流上传到-SYSTEM-提权-CVE-2026-10739.md) · [原文](https://blog.quarkslab.com/cato-vpn-client-split-tunnel-and-privilege-escalation-cve-2026-10739.html)
 
 ## 卫星安全
 
@@ -201,6 +206,7 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 - [Xerox WorkCentre 未授权 RCE 漏洞](https://swarm.ptsecurity.com/inside-xerox-workcentre-two-unauthenticated-rces/)
 - [CVE-2024-0244 – A heap buffer overflow in the Canon MF753Cdw printer](articles/打印机/2026-09-24-CVE-2024-0244-A-heap-buffer-overflow-in-the-Canon-MF753Cdw-p.md) · [原文](https://www.thezdi.com/blog/2026/9/23/cve-2024-0244-a-heap-buffer-overflow-in-the-canon-mf753cdw-printer)
 - [打印机攻击面与 PJL 后门：用打印语言控制设备](articles/打印机/2017-06-01-打印机攻击面与-PJL-后门-用打印语言控制设备.md) · [原文](https://www.contextis.com/en/blog/printer-exploitation)
+- [Hacking Printers Wiki：打印机攻击知识库](articles/打印机/2026-11-24-Hacking-Printers-Wiki-打印机攻击知识库.md) · [原文](https://hacking-printers.net/wiki/index.php/Main_Page)
 
 ## 智能家居
 
@@ -214,6 +220,7 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 - [Apple AirTag（nRF52832）电压毛刺解锁 APPROTECT 并转储固件](articles/智能家居/2026-11-14-Apple-AirTag-nRF52832-电压毛刺解锁-APPROTECT-并转储固件.md) · [原文](https://github.com/ensingerphilipp/airtag-glitch-dump-improved)
 - [Chipolo 蓝牙追踪器：FI 绕调试锁 → 固件逆向 → 蓝牙栈 RCE](articles/智能家居/2024-12-27-Chipolo-蓝牙追踪器-FI-绕调试锁-固件逆向-蓝牙栈-RCE.md) · [原文](https://media.ccc.de/v/38c3-from-fault-injection-to-rce-analyzing-a-bluetooth-tracker)
 - [Echo Hacking Wiki：Amazon Echo 固件提取与硬件分析](articles/智能家居/2017-06-01-Echo-Hacking-Wiki-Amazon-Echo-固件提取与硬件分析.md) · [原文](https://github.com/echohacking/wiki/wiki)
+- [给小米（Yeelight）人体感应夜灯刷自定义固件](articles/智能家居/2026-11-24-给小米-Yeelight-人体感应夜灯刷自定义固件.md) · [原文](https://robocoffee.de/?p=849)
 
 ## 机器人
 
@@ -228,6 +235,8 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 - [Smart vacuum cleaners as remote wiretapping devices：QNX 扫地机的窃听](articles/机器人/2019-04-21-Smart-vacuum-cleaners-as-remote-wiretapping-devices-QNX-扫地机的.md) · [原文](https://media.ccc.de/v/eh19-157-smart-vacuum-cleaners-as-remote-wiretapping-devices)
 - [How (not) to build autonomous robots：配送机器人背后的工程与安全债](articles/机器人/2019-12-27-How-not-to-build-autonomous-robots-配送机器人背后的工程与安全债.md) · [原文](https://media.ccc.de/v/36c3-10601-how_not_to_build_autonomous_robots)
 - [ROS 安全：机器人操作系统的攻击面权威分析（vandersanden/Dieber 等，2017）](articles/机器人/2017-09-01-ROS-安全-机器人操作系统的攻击面权威分析-vandersanden-Dieber-等-2017.md) · [原文](https://arxiv.org/abs/1709.08826)
+- [dustcloud：小米扫地机器人逆向与免拆机 Root](articles/机器人/2026-11-24-dustcloud-小米扫地机器人逆向与免拆机-Root.md) · [原文](https://github.com/dgiese/dustcloud)
+- [Dennis Giese：扫地机器人安全研究的长期档案](articles/机器人/2026-11-24-Dennis-Giese-扫地机器人安全研究的长期档案.md) · [原文](https://dontvacuum.me/)
 
 **论文 / 理论综述**
 
@@ -250,6 +259,7 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 - [利用AVX-512越界写漏洞CVE-2026-114938实现Java Base64解码远程代码执行](articles/芯片安全/2026-11-19-利用AVX-512越界写漏洞CVE-2026-114938实现Java-Base64解码远程代码执行.md) · [原文](https://xz.aliyun.com/news/93395)
 - [Java4Shell：补 Java 之前，先看处理器（AVX-512 版本差异命中不同目标）](articles/芯片安全/2026-11-19-Java4Shell-补-Java-之前-先看处理器-AVX-512-版本差异命中不同目标.md) · [原文](https://eclypsium.com/blog/java4shell-patch-java-check-the-processor/)
 - [Manipulating AI Models from the Hardware Up：从硬件层篡改 AI 计算基础设施](articles/芯片安全/2026-11-17-Manipulating-AI-Models-from-the-Hardware-Up-从硬件层篡改-AI-计算基础设施.md) · [原文](https://eclypsium.com/events/manipulating-ai-models-from-the-hardware-up/)
+- [在 LKS32 运动控制 MCU 上运行自定义固件](articles/芯片安全/2026-11-24-在-LKS32-运动控制-MCU-上运行自定义固件.md) · [原文](https://robocoffee.de/?p=876)
 
 **论文 / 理论综述**
 
@@ -513,6 +523,7 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 - [VirtualBox Process Hardening on Windows 2026 Edition: What’s a Single Bit Between Friends?](articles/杂项/2026-11-23-VirtualBox-Process-Hardening-2026.md) · [原文](https://projectzero.google/2026/11/virtualbox-process-hardening.html)
 - [欧洲制冷攻击事件评估：OT 设备被远程打穿后的物理后果](articles/杂项/2026-11-03-欧洲制冷攻击事件评估-OT-设备被远程打穿后的物理后果.md) · [原文](https://www.sentinelone.com/labs/defrost-and-disrupt-an-assessment-of-europe-s-refrigeration-attacks/)
 - [VerifiedIDA：让 LLM 驱动的逆向分析可审计、可续做](articles/杂项/2026-11-04-VerifiedIDA-让-LLM-驱动的逆向分析可审计-可续做.md) · [原文](https://www.sentinelone.com/labs/verifiedida-making-llm-driven-reverse-engineering-inspectable-continuable-and-reproducible/)
+- [MyReport Updater：从 gRPC 到 SYSTEM 的提权与 RCE](articles/杂项/2026-10-13-MyReport-Updater-从-gRPC-到-SYSTEM-的提权与-RCE.md) · [原文](https://blog.quarkslab.com/myreport-updater-from-grpc-to-system.html)
 
 **论文 / 理论综述**
 
@@ -524,6 +535,20 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 
 <details>
 <summary>展开查看（最新在上）</summary>
+
+### 2026-11-24 · 2026-W58
+
+- [Xiaomi 电动滑板车的新固件安全措施：BLE 锁与刷机防护的攻防演进](articles/车机/2022-09-15-Xiaomi-电动滑板车的新固件安全措施-BLE-锁与刷机防护的攻防演进.md) —— 车机
+- [Brightway 电动滑板车破解案例研究（Xiaomi 3 Lite / 4 Pro 代工方）](articles/车机/2023-02-22-Brightway-电动滑板车破解案例研究-Xiaomi-3-Lite-4-Pro-代工方.md) —— 车机
+- [给小米（Yeelight）人体感应夜灯刷自定义固件](articles/智能家居/2026-11-24-给小米-Yeelight-人体感应夜灯刷自定义固件.md) —— 智能家居
+- [在 LKS32 运动控制 MCU 上运行自定义固件](articles/芯片安全/2026-11-24-在-LKS32-运动控制-MCU-上运行自定义固件.md) —— 芯片安全
+- [LEQI Scooter Elite 技术分析：又一款滑板车固件被拆开](articles/车机/2026-11-24-LEQI-Scooter-Elite-技术分析-又一款滑板车固件被拆开.md) —— 车机
+- [NAVEE 就是 Xiaomi：共享平台滑板车的安全同源问题](articles/车机/2026-08-29-NAVEE-就是-Xiaomi-共享平台滑板车的安全同源问题.md) —— 车机
+- [dustcloud：小米扫地机器人逆向与免拆机 Root](articles/机器人/2026-11-24-dustcloud-小米扫地机器人逆向与免拆机-Root.md) —— 机器人
+- [Dennis Giese：扫地机器人安全研究的长期档案](articles/机器人/2026-11-24-Dennis-Giese-扫地机器人安全研究的长期档案.md) —— 机器人
+- [Hacking Printers Wiki：打印机攻击知识库](articles/打印机/2026-11-24-Hacking-Printers-Wiki-打印机攻击知识库.md) —— 打印机
+- [Cato VPN 客户端：从分流上传到 SYSTEM 提权（CVE-2026-10739）](articles/防火墙/2026-10-01-Cato-VPN-客户端-从分流上传到-SYSTEM-提权-CVE-2026-10739.md) —— 防火墙
+- [MyReport Updater：从 gRPC 到 SYSTEM 的提权与 RCE](articles/杂项/2026-10-13-MyReport-Updater-从-gRPC-到-SYSTEM-的提权与-RCE.md) —— 杂项
 
 ### 2026-11-24 · 2026-W57
 

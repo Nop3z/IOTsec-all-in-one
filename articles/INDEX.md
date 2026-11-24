@@ -1,16 +1,22 @@
 # 文章快照索引
 
-共 194 篇已归档（每周自动抓取 + 复审）。快照仅供安全研究参考，版权归原作者所有。
+共 205 篇已归档（每周自动抓取 + 复审）。快照仅供安全研究参考，版权归原作者所有。
 
 | 日期 | 板块 | 标题 | 快照 | 来源 |
 |:--|:--|:--|:--|:--|
+| 2026-11-24 | 车机 | [LEQI Scooter Elite 技术分析：又一款滑板车固件被拆开](https://robocoffee.de/?p=979) | [md](articles/车机/2026-11-24-LEQI-Scooter-Elite-技术分析-又一款滑板车固件被拆开.md) | RoboCoffee |
+| 2026-11-24 | 芯片安全 | [在 LKS32 运动控制 MCU 上运行自定义固件](https://robocoffee.de/?p=876) | [md](articles/芯片安全/2026-11-24-在-LKS32-运动控制-MCU-上运行自定义固件.md) | RoboCoffee |
+| 2026-11-24 | 机器人 | [dustcloud：小米扫地机器人逆向与免拆机 Root](https://github.com/dgiese/dustcloud) | [md](articles/机器人/2026-11-24-dustcloud-小米扫地机器人逆向与免拆机-Root.md) | Dennis Giese / dustcloud |
+| 2026-11-24 | 机器人 | [Dennis Giese：扫地机器人安全研究的长期档案](https://dontvacuum.me/) | [md](articles/机器人/2026-11-24-Dennis-Giese-扫地机器人安全研究的长期档案.md) | Dennis Giese |
+| 2026-11-24 | 智能家居 | [给小米（Yeelight）人体感应夜灯刷自定义固件](https://robocoffee.de/?p=849) | [md](articles/智能家居/2026-11-24-给小米-Yeelight-人体感应夜灯刷自定义固件.md) | RoboCoffee |
+| 2026-11-24 | 打印机 | [Hacking Printers Wiki：打印机攻击知识库](https://hacking-printers.net/wiki/index.php/Main_Page) | [md](articles/打印机/2026-11-24-Hacking-Printers-Wiki-打印机攻击知识库.md) | hacking-printers.net |
 | 2026-11-23 | 杂项 | [VirtualBox Process Hardening on Windows 2026 Edition: What’s a Single Bit Between Friends?](https://projectzero.google/2026/11/virtualbox-process-hardening.html) | [md](articles/杂项/2026-11-23-VirtualBox-Process-Hardening-2026.md) | Google Project Zero |
 | 2026-11-19 | 芯片安全 | [利用AVX-512越界写漏洞CVE-2026-114938实现Java Base64解码远程代码执行](https://xz.aliyun.com/news/93395) | [md](articles/芯片安全/2026-11-19-利用AVX-512越界写漏洞CVE-2026-114938实现Java-Base64解码远程代码执行.md) | 先知社区 |
 | 2026-11-19 | 芯片安全 | [Java4Shell：补 Java 之前，先看处理器（AVX-512 版本差异命中不同目标）](https://eclypsium.com/blog/java4shell-patch-java-check-the-processor/) | [md](articles/芯片安全/2026-11-19-Java4Shell-补-Java-之前-先看处理器-AVX-512-版本差异命中不同目标.md) | Eclypsium |
 | 2026-11-19 | 杂项 | [CVE-2026-53676：ThingsBoard 远程 JS 执行器沙箱逃逸漏洞分析](https://xz.aliyun.com/news/93399) | [md](articles/杂项/2026-11-19-CVE-2026-53676-ThingsBoard-远程-JS-执行器沙箱逃逸漏洞分析.md) | 先知社区 |
 | 2026-11-19 | FUZZ | [从一千多个“漏洞”到三处没修完的补丁：给 AI agent 做固件审计工具的经验](https://xz.aliyun.com/news/93403) | [md](articles/FUZZ/2026-11-19-从一千多个-漏洞-到三处没修完的补丁-给-AI-agent-做固件审计工具的经验.md) | 先知社区 |
 | 2026-11-17 | 芯片安全 | [Manipulating AI Models from the Hardware Up：从硬件层篡改 AI 计算基础设施](https://eclypsium.com/events/manipulating-ai-models-from-the-hardware-up/) | [md](articles/芯片安全/2026-11-17-Manipulating-AI-Models-from-the-Hardware-Up-从硬件层篡改-AI-计算基础设施.md) | Eclypsium |
-| 2026-11-17 | 协议安全 | [QUIC and Covert：用 HTTP/3 隧道承载的 RAT 攻击东南亚政府目标](https://unit42.paloaltonetworks.com/) | [md](articles/协议安全/2026-11-17-QUIC-and-Covert-用-HTTP-3-隧道承载的-RAT-攻击东南亚政府目标.md) | Unit 42 |
+| 2026-11-17 | 协议安全 | [QUIC and Covert：用 HTTP/3 隧道承载的 RAT 攻击东南亚政府目标](https://unit42.paloaltonetworks.com/category/high-profile-threats/) | [md](articles/协议安全/2026-11-17-QUIC-and-Covert-用-HTTP-3-隧道承载的-RAT-攻击东南亚政府目标.md) | Unit 42 |
 | 2026-11-14 | 车机 | [MC9S12/HCS12 复位安全评估窗口毛刺：解锁 BDM 读全片 flash](https://github.com/wichers/mc9s12-voltage-glitch-attack) | [md](articles/车机/2026-11-14-MC9S12-HCS12-复位安全评估窗口毛刺-解锁-BDM-读全片-flash.md) | wichers (GitHub, CC0) |
 | 2026-11-14 | 芯片安全 | [GA100 数据中心 GPU PWMVID 电压毛刺实验台](https://github.com/kate-land/ga100vfi) | [md](articles/芯片安全/2026-11-14-GA100-数据中心-GPU-PWMVID-电压毛刺实验台.md) | kate-land (GitHub, MIT) |
 | 2026-11-14 | 硬件钱包 | [STM32F2/F4 故障注入：EMFI/VFI 双档 RDP2→RDP1 + FPB 两毛刺读全片 flash](https://github.com/joegrand/stm32-fault-injection) | [md](articles/硬件钱包/2026-11-14-STM32F2-F4-故障注入-EMFI-VFI-双档-RDP2-RDP1-FPB-两毛刺读全片-flash.md) | Joe Grand / Lennert Wouters (GitHub) |
@@ -44,7 +50,9 @@
 | 2026-10-27 | FUZZ | [Snapshotting our way to CVE-2026-9539](http://blog.quarkslab.com/snapshotting-our-way-to-cve-2026-9539.html) | [md](articles/FUZZ/2026-10-27-Snapshotting-our-way-to-CVE-2026-9539.md) | Quarkslab |
 | 2026-10-21 | 防火墙 | [Active Exploitation of May 2026 PAN-OS CVE-2026-0257 (Updated October 20)](https://unit42.paloaltonetworks.com/active-exploitation-of-pan-os-cve-2026-0257/) | [md](articles/防火墙/2026-10-21-Active-Exploitation-of-May-2026-PAN-OS-CVE-2026-0257-Updated.md) | Unit 42 |
 | 2026-10-20 | 杂项 | [Fake Kernel Threads Are Hiding Backdoors on Linux Servers and Appliances](https://eclypsium.com/blog/linux-malware-fake-kernel-threads/) | [md](articles/杂项/2026-10-20-Fake-Kernel-Threads-Are-Hiding-Backdoors-on-Linux-Servers-an.md) | Eclypsium |
+| 2026-10-13 | 杂项 | [MyReport Updater：从 gRPC 到 SYSTEM 的提权与 RCE](https://blog.quarkslab.com/myreport-updater-from-grpc-to-system.html) | [md](articles/杂项/2026-10-13-MyReport-Updater-从-gRPC-到-SYSTEM-的提权与-RCE.md) | Quarkslab |
 | 2026-10-05 | 卫星安全 | [SatBleed: Security of Commoditized Communication Modules in Satellites](http://arxiv.org/abs/2610.06258v1) | [md](articles/卫星安全/2026-10-05-SatBleed-Security-of-Commoditized-Communication-Modules-in-S.md) | arXiv |
+| 2026-10-01 | 防火墙 | [Cato VPN 客户端：从分流上传到 SYSTEM 提权（CVE-2026-10739）](https://blog.quarkslab.com/cato-vpn-client-split-tunnel-and-privilege-escalation-cve-2026-10739.html) | [md](articles/防火墙/2026-10-01-Cato-VPN-客户端-从分流上传到-SYSTEM-提权-CVE-2026-10739.md) | Quarkslab |
 | 2026-09-29 | 防火墙 | [Here We Go Again (Citrix NetScaler DTLS Preauth Memory Overflow CVE-2026-88772)](https://labs.watchtowr.com/here-we-go-again-citrix-netscaler-dtls-preauth-memory-overflow-cve-2026-88772/) | [md](articles/防火墙/2026-09-29-Here-We-Go-Again-Citrix-NetScaler-DTLS-Preauth-Memory-Overfl.md) | watchTowr Labs |
 | 2026-09-28 | 防火墙 | [Oh Look, The Foot Gun Went Off Again (Citrix NetScaler PreAuth Command Injection CVE-2026-88771)](https://labs.watchtowr.com/oh-look-the-foot-gun-went-off-again-citrix-netscaler-preauth-command-injection-cve-2026-88771/) | [md](articles/防火墙/2026-09-28-Oh-Look-The-Foot-Gun-Went-Off-Again-Citrix-NetScaler-PreAuth.md) | watchTowr Labs |
 | 2026-09-25 | 芯片安全 | [Don't let TEEs break your MPC](https://blog.trailofbits.com/2026/09/25/dont-let-tees-break-your-mpc/) | [md](articles/芯片安全/2026-09-25-Don-t-let-TEEs-break-your-MPC.md) | Trail of Bits |
@@ -52,6 +60,7 @@
 | 2026-09-24 | 打印机 | [CVE-2024-0244 – A heap buffer overflow in the Canon MF753Cdw printer](https://www.thezdi.com/blog/2026/9/23/cve-2024-0244-a-heap-buffer-overflow-in-the-canon-mf753cdw-printer) | [md](articles/打印机/2026-09-24-CVE-2024-0244-A-heap-buffer-overflow-in-the-Canon-MF753Cdw-p.md) | ZDI Blog |
 | 2026-09-17 | 卫星安全 | [JANUS: Denial-of-Service Attack Against Beam Hopping in LEO Satellite Networks](http://arxiv.org/abs/2609.19977v1) | [md](articles/卫星安全/2026-09-17-JANUS-Denial-of-Service-Attack-Against-Beam-Hopping-in-LEO-S.md) | arXiv |
 | 2026-09-01 | 机器人 | [Seeing is Not Believing：打破机器人的物理-数字信任边界](https://arxiv.org/abs/2609.08280) | [md](articles/机器人/2026-09-01-Seeing-is-Not-Believing-打破机器人的物理-数字信任边界.md) | arXiv |
+| 2026-08-29 | 车机 | [NAVEE 就是 Xiaomi：共享平台滑板车的安全同源问题](https://robocoffee.de/?p=1015) | [md](articles/车机/2026-08-29-NAVEE-就是-Xiaomi-共享平台滑板车的安全同源问题.md) | RoboCoffee |
 | 2026-08-25 | 车机 | [Automotive HSMs - Architectural Challenges and Security Implications](http://arxiv.org/abs/2608.25216v1) | [md](articles/车机/2026-08-25-Automotive-HSMs-Architectural-Challenges-and-Security-Implic.md) | arXiv |
 | 2026-08-23 | 杂项 | [Lessons from the Hardware Hacking Competitions: Verification Techniques, Findings, and Insights](http://arxiv.org/abs/2608.22202v1) | [md](articles/杂项/2026-08-23-Lessons-from-the-Hardware-Hacking-Competitions-Verification.md) | arXiv |
 | 2026-08-14 | 防火墙 | [You’re Back In The Room (Citrix NetScaler Pre-Auth RCE CVE-2026-8452(?))](https://labs.watchtowr.com/youre-back-in-the-room-citrix-netscaler-pre-auth-rce-cve-2026-8452/) | [md](articles/防火墙/2026-08-14-You-re-Back-In-The-Room-Citrix-NetScaler-Pre-Auth-RCE-CVE-20.md) | watchTowr Labs |
@@ -129,9 +138,11 @@
 | 2023-06-01 | 故障注入 | [SPHINCS+ 故障攻击与对策（TCHES 2023 官方 artifact）](https://github.com/AymericGenet/SPHINCSplus-FA) | [md](articles/故障注入/2023-06-01-SPHINCS-故障攻击与对策-TCHES-2023-官方-artifact.md) | TCHES 2023 (CRAPL) |
 | 2023-06-01 | 固件解密 | [Binwalk：固件逆向与文件系统提取的事实标准工具](https://github.com/ReFirmLabs/binwalk) | [md](articles/固件解密/2023-06-01-Binwalk-固件逆向与文件系统提取的事实标准工具.md) | ReFirmLabs |
 | 2023-03-10 | 故障注入 | [ESP32 OTP Transfer EMFI：打 eFuse→shadow 寄存器的纯硬件搬运窗口](https://raelize.com/blog/espressif-systems-esp32-glitching-otp-transfer/) | [md](articles/故障注入/2023-03-10-ESP32-OTP-Transfer-EMFI-打-eFuse-shadow-寄存器的纯硬件搬运窗口.md) | Raelize |
+| 2023-02-22 | 车机 | [Brightway 电动滑板车破解案例研究（Xiaomi 3 Lite / 4 Pro 代工方）](https://robocoffee.de/?p=436) | [md](articles/车机/2023-02-22-Brightway-电动滑板车破解案例研究-Xiaomi-3-Lite-4-Pro-代工方.md) | RoboCoffee |
 | 2023-02-20 | 芯片安全 | [Rowhammer 在 RISC-V / 嵌入式平台上的评估](https://arxiv.org/abs/2302.09544) | [md](articles/芯片安全/2023-02-20-Rowhammer-在-RISC-V-嵌入式平台上的评估.md) | arXiv 2302.09544 |
 | 2023-02-14 | 故障注入 | [Oops..! I Glitched It Again! How to Multi-Glitch the Glitching-Protections on ARM TrustZone-M](http://arxiv.org/abs/2302.06932v2) | [md](articles/故障注入/2023-02-14-Oops-I-Glitched-It-Again-How-to-Multi-Glitch-the-Glitching-P.md) | arXiv |
 | 2022-09-20 | 故障注入 | [EM-Fault It Yourself: Building a Replicable EMFI Setup for Desktop and Server Hardware](http://arxiv.org/abs/2209.09835v1) | [md](articles/故障注入/2022-09-20-EM-Fault-It-Yourself-Building-a-Replicable-EMFI-Setup-for-De.md) | arXiv |
+| 2022-09-15 | 车机 | [Xiaomi 电动滑板车的新固件安全措施：BLE 锁与刷机防护的攻防演进](https://robocoffee.de/?p=193) | [md](articles/车机/2022-09-15-Xiaomi-电动滑板车的新固件安全措施-BLE-锁与刷机防护的攻防演进.md) | RoboCoffee |
 | 2022-08-11 | 卫星安全 | [Glitched on Earth by Humans: A Black-Box Security Evaluation of the SpaceX Starlink User Terminal](https://i.blackhat.com/USA-22/Wednesday/US-22-Wouters-Glitched-On-Earth.pdf) | [md](articles/卫星安全/2022-08-11-Glitched-on-Earth-by-Humans-A-Black-Box-Security-Evaluation.md) | Black Hat USA 2022 |
 | 2022-07-23 | 基站 | [OpenRAN – 5G hacking just got a lot more interesting](https://media.ccc.de/v/mch2022-273-openran-5g-hacking-just-got-a-lot-more-interesting) | [md](articles/基站/2022-07-23-OpenRAN-5G-hacking-just-got-a-lot-more-interesting.md) | mch2022 |
 | 2022-03-08 | 芯片安全 | [Spectre-BHB：分支历史缓冲区污染（ARM 白皮书）](https://developer.arm.com/-/media/Arm%20Developer%20Community/PDF/Security%20Update%2008%20March%202022/Spectre-BHB%20White%20Paper%20v1.6.pdf) | [md](articles/芯片安全/2022-03-08-Spectre-BHB-分支历史缓冲区污染-ARM-白皮书.md) | ARM |
