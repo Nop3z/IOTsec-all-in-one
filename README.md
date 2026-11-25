@@ -12,10 +12,10 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 | 板块 | 篇 | 板块 | 篇 | 板块 | 篇 |
 |:--|--:|:--|--:|:--|--:|
 | [Openwrt](#openwrt) | 4 | [摄像头](#摄像头) | 7 | [无人机](#无人机) | 20 |
-| [车机](#车机) | 12 | [充电桩](#充电桩) | 7 | [基站](#基站) | 13 |
+| [车机](#车机) | 14 | [充电桩](#充电桩) | 7 | [基站](#基站) | 13 |
 | [防火墙](#防火墙) | 24 | [卫星安全](#卫星安全) | 10 | [打印机](#打印机) | 6 |
 | [智能家居](#智能家居) | 9 | [机器人](#机器人) | 14 | [芯片安全](#芯片安全) | 35 |
-| [RFID](#rfid) | 6 | [WIFI安全](#wifi安全) | 3 | [协议安全](#协议安全) | 7 |
+| [RFID](#rfid) | 6 | [WIFI安全](#wifi安全) | 3 | [协议安全](#协议安全) | 8 |
 | [硬件钱包](#硬件钱包) | 13 | [FUZZ](#fuzz) | 5 | | |
 
 **技术专题**
@@ -29,8 +29,8 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 
 | 板块 | 篇 | 板块 | 篇 | 板块 | 篇 |
 |:--|--:|:--|--:|:--|--:|
-| [固件下载](#固件下载) | 18 | [虚拟机镜像](#虚拟机镜像) | 0 | [杂项](#杂项) | 24 |
-| [文章快照](articles/INDEX.md) | 205 | [更新日志](#更新日志) | - | [收录标准](#收录标准) | - |
+| [固件下载](#固件下载) | 18 | [虚拟机镜像](#虚拟机镜像) | 0 | [杂项](#杂项) | 26 |
+| [文章快照](articles/INDEX.md) | 210 | [更新日志](#更新日志) | - | [收录标准](#收录标准) | - |
 
 <!-- INDEX:END -->
 
@@ -40,13 +40,13 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 | 日期 | 板块 | 文章 |
 |:--|:--|:--|
 | 2026-11-23 | 杂项 | [VirtualBox Process Hardening on Windows 2026 Edition: What’s a Single Bit Between Friends?](articles/杂项/2026-11-23-VirtualBox-Process-Hardening-2026.md) |
+| 2026-11-20 | 协议安全 | [一条 SIP MESSAGE 打穿 FreeSWITCH：CVE-2026-116779 远程命令执行复现](articles/协议安全/2026-11-20-一条-SIP-MESSAGE-打穿-FreeSWITCH-CVE-2026-116779-远程命令执行复现.md) |
 | 2026-11-19 | 芯片安全 | [利用AVX-512越界写漏洞CVE-2026-114938实现Java Base64解码远程代码执行](articles/芯片安全/2026-11-19-利用AVX-512越界写漏洞CVE-2026-114938实现Java-Base64解码远程代码执行.md) |
 | 2026-11-19 | 芯片安全 | [Java4Shell：补 Java 之前，先看处理器（AVX-512 版本差异命中不同目标）](articles/芯片安全/2026-11-19-Java4Shell-补-Java-之前-先看处理器-AVX-512-版本差异命中不同目标.md) |
 | 2026-11-19 | 杂项 | [CVE-2026-53676：ThingsBoard 远程 JS 执行器沙箱逃逸漏洞分析](articles/杂项/2026-11-19-CVE-2026-53676-ThingsBoard-远程-JS-执行器沙箱逃逸漏洞分析.md) |
 | 2026-11-19 | FUZZ | [从一千多个“漏洞”到三处没修完的补丁：给 AI agent 做固件审计工具的经验](articles/FUZZ/2026-11-19-从一千多个-漏洞-到三处没修完的补丁-给-AI-agent-做固件审计工具的经验.md) |
 | 2026-11-17 | 芯片安全 | [Manipulating AI Models from the Hardware Up：从硬件层篡改 AI 计算基础设施](articles/芯片安全/2026-11-17-Manipulating-AI-Models-from-the-Hardware-Up-从硬件层篡改-AI-计算基础设施.md) |
 | 2026-11-17 | 协议安全 | [QUIC and Covert：用 HTTP/3 隧道承载的 RAT 攻击东南亚政府目标](articles/协议安全/2026-11-17-QUIC-and-Covert-用-HTTP-3-隧道承载的-RAT-攻击东南亚政府目标.md) |
-| 2026-11-14 | 车机 | [MC9S12/HCS12 复位安全评估窗口毛刺：解锁 BDM 读全片 flash](articles/车机/2026-11-14-MC9S12-HCS12-复位安全评估窗口毛刺-解锁-BDM-读全片-flash.md) |
 <!-- LATEST:END -->
 
 全部归档见 [articles/INDEX.md](articles/INDEX.md)。
@@ -114,6 +114,8 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 - [Brightway 电动滑板车破解案例研究（Xiaomi 3 Lite / 4 Pro 代工方）](articles/车机/2023-02-22-Brightway-电动滑板车破解案例研究-Xiaomi-3-Lite-4-Pro-代工方.md) · [原文](https://robocoffee.de/?p=436)
 - [LEQI Scooter Elite 技术分析：又一款滑板车固件被拆开](articles/车机/2026-11-24-LEQI-Scooter-Elite-技术分析-又一款滑板车固件被拆开.md) · [原文](https://robocoffee.de/?p=979)
 - [NAVEE 就是 Xiaomi：共享平台滑板车的安全同源问题](articles/车机/2026-08-29-NAVEE-就是-Xiaomi-共享平台滑板车的安全同源问题.md) · [原文](https://robocoffee.de/?p=1015)
+- [Brightway 安全再评估：Xiaomi 4 Pro（第二代）把刷机口彻底焊死](articles/车机/2023-06-01-Brightway-安全再评估-Xiaomi-4-Pro-第二代-把刷机口彻底焊死.md) · [原文](https://robocoffee.de/?p=897)
+- [Xiaomi 滑板车产品谱系指南：哪些型号能刷、为什么](articles/车机/2026-11-25-Xiaomi-滑板车产品谱系指南-哪些型号能刷-为什么.md) · [原文](https://robocoffee.de/?p=424)
 
 **论文 / 理论综述**
 
@@ -320,6 +322,7 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 - [Fastlane：Apple AirDrop 的协议逆向与攻击分析（USENIX Security 2021）](articles/协议安全/2021-08-11-Fastlane-Apple-AirDrop-的协议逆向与攻击分析-USENIX-Security-2021.md) · [原文](https://www.usenix.org/conference/usenixsecurity21/presentation/stute)
 - [Signal K Server 认证链断在“读文件”这一步：一个 ../ 读走 JWT 密钥](articles/协议安全/2026-11-13-Signal-K-Server-认证链断在-读文件-这一步-一个-读走-JWT-密钥.md) · [原文](https://xz.aliyun.com/news/93323)
 - [QUIC and Covert：用 HTTP/3 隧道承载的 RAT 攻击东南亚政府目标](articles/协议安全/2026-11-17-QUIC-and-Covert-用-HTTP-3-隧道承载的-RAT-攻击东南亚政府目标.md)
+- [一条 SIP MESSAGE 打穿 FreeSWITCH：CVE-2026-116779 远程命令执行复现](articles/协议安全/2026-11-20-一条-SIP-MESSAGE-打穿-FreeSWITCH-CVE-2026-116779-远程命令执行复现.md) · [原文](https://xz.aliyun.com/news/93416)
 
 ## 硬件钱包
 
@@ -524,6 +527,8 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 - [欧洲制冷攻击事件评估：OT 设备被远程打穿后的物理后果](articles/杂项/2026-11-03-欧洲制冷攻击事件评估-OT-设备被远程打穿后的物理后果.md) · [原文](https://www.sentinelone.com/labs/defrost-and-disrupt-an-assessment-of-europe-s-refrigeration-attacks/)
 - [VerifiedIDA：让 LLM 驱动的逆向分析可审计、可续做](articles/杂项/2026-11-04-VerifiedIDA-让-LLM-驱动的逆向分析可审计-可续做.md) · [原文](https://www.sentinelone.com/labs/verifiedida-making-llm-driven-reverse-engineering-inspectable-continuable-and-reproducible/)
 - [MyReport Updater：从 gRPC 到 SYSTEM 的提权与 RCE](articles/杂项/2026-10-13-MyReport-Updater-从-gRPC-到-SYSTEM-的提权与-RCE.md) · [原文](https://blog.quarkslab.com/myreport-updater-from-grpc-to-system.html)
+- [只有 strip 过的二进制时：把 8735 个函数缩到 81 条线索](articles/杂项/2026-11-25-只有-strip-过的二进制时-把-8735-个函数缩到-81-条线索.md) · [原文](https://xz.aliyun.com/news/93408)
+- [De'Longhi Dedica 咖啡机调校指南：把家用机改成能出好浓缩](articles/杂项/2026-11-25-De-Longhi-Dedica-咖啡机调校指南-把家用机改成能出好浓缩.md) · [原文](https://robocoffee.de/?p=382)
 
 **论文 / 理论综述**
 
@@ -535,6 +540,14 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 
 <details>
 <summary>展开查看（最新在上）</summary>
+
+### 2026-11-25 · 2026-W59
+
+- [只有 strip 过的二进制时：把 8735 个函数缩到 81 条线索](articles/杂项/2026-11-25-只有-strip-过的二进制时-把-8735-个函数缩到-81-条线索.md) —— 杂项
+- [一条 SIP MESSAGE 打穿 FreeSWITCH：CVE-2026-116779 远程命令执行复现](articles/协议安全/2026-11-20-一条-SIP-MESSAGE-打穿-FreeSWITCH-CVE-2026-116779-远程命令执行复现.md) —— 协议安全
+- [Brightway 安全再评估：Xiaomi 4 Pro（第二代）把刷机口彻底焊死](articles/车机/2023-06-01-Brightway-安全再评估-Xiaomi-4-Pro-第二代-把刷机口彻底焊死.md) —— 车机
+- [Xiaomi 滑板车产品谱系指南：哪些型号能刷、为什么](articles/车机/2026-11-25-Xiaomi-滑板车产品谱系指南-哪些型号能刷-为什么.md) —— 车机
+- [De'Longhi Dedica 咖啡机调校指南：把家用机改成能出好浓缩](articles/杂项/2026-11-25-De-Longhi-Dedica-咖啡机调校指南-把家用机改成能出好浓缩.md) —— 杂项
 
 ### 2026-11-24 · 2026-W58
 

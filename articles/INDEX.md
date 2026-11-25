@@ -1,9 +1,12 @@
 # 文章快照索引
 
-共 205 篇已归档（每周自动抓取 + 复审）。快照仅供安全研究参考，版权归原作者所有。
+共 210 篇已归档（每周自动抓取 + 复审）。快照仅供安全研究参考，版权归原作者所有。
 
 | 日期 | 板块 | 标题 | 快照 | 来源 |
 |:--|:--|:--|:--|:--|
+| 2026-11-25 | 车机 | [Xiaomi 滑板车产品谱系指南：哪些型号能刷、为什么](https://robocoffee.de/?p=424) | [md](articles/车机/2026-11-25-Xiaomi-滑板车产品谱系指南-哪些型号能刷-为什么.md) | RoboCoffee |
+| 2026-11-25 | 杂项 | [只有 strip 过的二进制时：把 8735 个函数缩到 81 条线索](https://xz.aliyun.com/news/93408) | [md](articles/杂项/2026-11-25-只有-strip-过的二进制时-把-8735-个函数缩到-81-条线索.md) | 先知社区 |
+| 2026-11-25 | 杂项 | [De'Longhi Dedica 咖啡机调校指南：把家用机改成能出好浓缩](https://robocoffee.de/?p=382) | [md](articles/杂项/2026-11-25-De-Longhi-Dedica-咖啡机调校指南-把家用机改成能出好浓缩.md) | RoboCoffee |
 | 2026-11-24 | 车机 | [LEQI Scooter Elite 技术分析：又一款滑板车固件被拆开](https://robocoffee.de/?p=979) | [md](articles/车机/2026-11-24-LEQI-Scooter-Elite-技术分析-又一款滑板车固件被拆开.md) | RoboCoffee |
 | 2026-11-24 | 芯片安全 | [在 LKS32 运动控制 MCU 上运行自定义固件](https://robocoffee.de/?p=876) | [md](articles/芯片安全/2026-11-24-在-LKS32-运动控制-MCU-上运行自定义固件.md) | RoboCoffee |
 | 2026-11-24 | 机器人 | [dustcloud：小米扫地机器人逆向与免拆机 Root](https://github.com/dgiese/dustcloud) | [md](articles/机器人/2026-11-24-dustcloud-小米扫地机器人逆向与免拆机-Root.md) | Dennis Giese / dustcloud |
@@ -11,6 +14,7 @@
 | 2026-11-24 | 智能家居 | [给小米（Yeelight）人体感应夜灯刷自定义固件](https://robocoffee.de/?p=849) | [md](articles/智能家居/2026-11-24-给小米-Yeelight-人体感应夜灯刷自定义固件.md) | RoboCoffee |
 | 2026-11-24 | 打印机 | [Hacking Printers Wiki：打印机攻击知识库](https://hacking-printers.net/wiki/index.php/Main_Page) | [md](articles/打印机/2026-11-24-Hacking-Printers-Wiki-打印机攻击知识库.md) | hacking-printers.net |
 | 2026-11-23 | 杂项 | [VirtualBox Process Hardening on Windows 2026 Edition: What’s a Single Bit Between Friends?](https://projectzero.google/2026/11/virtualbox-process-hardening.html) | [md](articles/杂项/2026-11-23-VirtualBox-Process-Hardening-2026.md) | Google Project Zero |
+| 2026-11-20 | 协议安全 | [一条 SIP MESSAGE 打穿 FreeSWITCH：CVE-2026-116779 远程命令执行复现](https://xz.aliyun.com/news/93416) | [md](articles/协议安全/2026-11-20-一条-SIP-MESSAGE-打穿-FreeSWITCH-CVE-2026-116779-远程命令执行复现.md) | 先知社区 |
 | 2026-11-19 | 芯片安全 | [利用AVX-512越界写漏洞CVE-2026-114938实现Java Base64解码远程代码执行](https://xz.aliyun.com/news/93395) | [md](articles/芯片安全/2026-11-19-利用AVX-512越界写漏洞CVE-2026-114938实现Java-Base64解码远程代码执行.md) | 先知社区 |
 | 2026-11-19 | 芯片安全 | [Java4Shell：补 Java 之前，先看处理器（AVX-512 版本差异命中不同目标）](https://eclypsium.com/blog/java4shell-patch-java-check-the-processor/) | [md](articles/芯片安全/2026-11-19-Java4Shell-补-Java-之前-先看处理器-AVX-512-版本差异命中不同目标.md) | Eclypsium |
 | 2026-11-19 | 杂项 | [CVE-2026-53676：ThingsBoard 远程 JS 执行器沙箱逃逸漏洞分析](https://xz.aliyun.com/news/93399) | [md](articles/杂项/2026-11-19-CVE-2026-53676-ThingsBoard-远程-JS-执行器沙箱逃逸漏洞分析.md) | 先知社区 |
@@ -135,6 +139,7 @@
 | 2023-10-29 | 卫星安全 | [Updated Standard for Secure Satellite Communications: Analysis of Satellites, Attack Vectors, Existing Standards, and Enterprise and Security Architectures](http://arxiv.org/abs/2310.19105v1) | [md](articles/卫星安全/2023-10-29-Updated-Standard-for-Secure-Satellite-Communications-Analysi.md) | arXiv |
 | 2023-08-18 | 机器人 | [Vacuum robot security and privacy：扫地机器人五年后的攻击面](https://media.ccc.de/v/camp2023-57158-vacuum_robot_security_and_privacy) | [md](articles/机器人/2023-08-18-Vacuum-robot-security-and-privacy-扫地机器人五年后的攻击面.md) | camp2023 |
 | 2023-08-17 | 基站 | [Analyzing Cellular Basebands with FirmWire：开源基带分析平台](https://media.ccc.de/v/camp2023-57330-analyzing_cellular_basebands_with_firmwire) | [md](articles/基站/2023-08-17-Analyzing-Cellular-Basebands-with-FirmWire-开源基带分析平台.md) | camp2023 |
+| 2023-06-01 | 车机 | [Brightway 安全再评估：Xiaomi 4 Pro（第二代）把刷机口彻底焊死](https://robocoffee.de/?p=897) | [md](articles/车机/2023-06-01-Brightway-安全再评估-Xiaomi-4-Pro-第二代-把刷机口彻底焊死.md) | RoboCoffee |
 | 2023-06-01 | 故障注入 | [SPHINCS+ 故障攻击与对策（TCHES 2023 官方 artifact）](https://github.com/AymericGenet/SPHINCSplus-FA) | [md](articles/故障注入/2023-06-01-SPHINCS-故障攻击与对策-TCHES-2023-官方-artifact.md) | TCHES 2023 (CRAPL) |
 | 2023-06-01 | 固件解密 | [Binwalk：固件逆向与文件系统提取的事实标准工具](https://github.com/ReFirmLabs/binwalk) | [md](articles/固件解密/2023-06-01-Binwalk-固件逆向与文件系统提取的事实标准工具.md) | ReFirmLabs |
 | 2023-03-10 | 故障注入 | [ESP32 OTP Transfer EMFI：打 eFuse→shadow 寄存器的纯硬件搬运窗口](https://raelize.com/blog/espressif-systems-esp32-glitching-otp-transfer/) | [md](articles/故障注入/2023-03-10-ESP32-OTP-Transfer-EMFI-打-eFuse-shadow-寄存器的纯硬件搬运窗口.md) | Raelize |

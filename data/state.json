@@ -769,6 +769,26 @@
    "first_seen": "2026-11-24T10:00:10.706300+08:00",
    "sha256": "af63252231b326b553ed02e4dc68ea49a4b9fb2334fef11ef8db90313f7899d0",
    "file": "01-VirtualBox-Process-Hardening-on-Windows-2026-Edition-What-s.md"
+  },
+  "https://www.rapid7.com/blog/post/ra-rapid7-analysis-vmware-vcenter-srp-authentication-bypass-to-root-cve-2026-123890": {
+   "first_seen": "2026-11-25T10:00:23.744028+08:00",
+   "sha256": "96d254f8e41f79eb6fdce6e5f09cf0567c6f1105a2f17ca67a78c86a77cd1b8f",
+   "file": "01-Rapid7-Analysis-VMware-vCenter-SRP-Authentication-Bypass-to.md"
+  },
+  "https://xz.aliyun.com/news/93416": {
+   "first_seen": "2026-11-25T10:00:23.744028+08:00",
+   "sha256": "a41bf49896272c45a5c548adba28e6372f5bd19a4fb71e54800ba35887273a5c",
+   "file": "02-利用SIP-MESSAGE触发FreeSWITCH-CVE-2026-116779远程命令执行漏洞复现与分析.md"
+  },
+  "https://www.ioactive.com/supply-chain-attack-prevention-what-each-strategy-covers-and-misses/": {
+   "first_seen": "2026-11-25T10:00:23.744028+08:00",
+   "sha256": "ae2029041767e45ba40a294513ecc8026c24953032112f6c0ebc2934a376771e",
+   "file": "03-Supply-Chain-Attack-Prevention-What-Each-Strategy-Covers-and.md"
+  },
+  "https://research.checkpoint.com/2026/volant-manticore-flying-under-the-radar/": {
+   "first_seen": "2026-11-25T10:00:23.744028+08:00",
+   "sha256": "56fb0945c3eda73f04e954a043527f8acc17f673e1298a8714401925a6b6b6ee",
+   "file": "04-Volant-Manticore-Flying-Under-the-Radar.md"
   }
  },
  "runs": [
@@ -867,6 +887,14 @@
    "shortlist": 1,
    "downloaded": 0,
    "bytes": 0
+  },
+  {
+   "week": "2026-W48",
+   "at": "2026-11-25T10:00:23.744028+08:00",
+   "candidates": 105,
+   "shortlist": 4,
+   "downloaded": 4,
+   "bytes": 1175100
   }
  ]
 }
