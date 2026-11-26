@@ -13,8 +13,8 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 |:--|--:|:--|--:|:--|--:|
 | [Openwrt](#openwrt) | 4 | [摄像头](#摄像头) | 7 | [无人机](#无人机) | 20 |
 | [车机](#车机) | 14 | [充电桩](#充电桩) | 7 | [基站](#基站) | 13 |
-| [防火墙](#防火墙) | 24 | [卫星安全](#卫星安全) | 10 | [打印机](#打印机) | 6 |
-| [智能家居](#智能家居) | 9 | [机器人](#机器人) | 14 | [芯片安全](#芯片安全) | 35 |
+| [防火墙](#防火墙) | 24 | [卫星安全](#卫星安全) | 11 | [打印机](#打印机) | 6 |
+| [智能家居](#智能家居) | 10 | [机器人](#机器人) | 14 | [芯片安全](#芯片安全) | 36 |
 | [RFID](#rfid) | 6 | [WIFI安全](#wifi安全) | 3 | [协议安全](#协议安全) | 8 |
 | [硬件钱包](#硬件钱包) | 13 | [FUZZ](#fuzz) | 5 | | |
 
@@ -22,15 +22,15 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 
 | 板块 | 篇 | 板块 | 篇 |
 |:--|--:|:--|--:|
-| [安全启动](#安全启动) | 23 | [固件解密](#固件解密) | 17 |
+| [安全启动](#安全启动) | 24 | [固件解密](#固件解密) | 17 |
 | [故障注入](#故障注入) | 38 | [绕过ASLR](#绕过aslr) | 5 |
 
 **资源与归档**
 
 | 板块 | 篇 | 板块 | 篇 | 板块 | 篇 |
 |:--|--:|:--|--:|:--|--:|
-| [固件下载](#固件下载) | 18 | [虚拟机镜像](#虚拟机镜像) | 0 | [杂项](#杂项) | 26 |
-| [文章快照](articles/INDEX.md) | 210 | [更新日志](#更新日志) | - | [收录标准](#收录标准) | - |
+| [固件下载](#固件下载) | 18 | [虚拟机镜像](#虚拟机镜像) | 0 | [杂项](#杂项) | 28 |
+| [文章快照](articles/INDEX.md) | 216 | [更新日志](#更新日志) | - | [收录标准](#收录标准) | - |
 
 <!-- INDEX:END -->
 
@@ -188,6 +188,7 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 - [攻防速写｜我们拆了一台Starlink星链终端](https://mp.weixin.qq.com/s/QsLyWHp1zb89Gq7aXgWZwA)
 - [Glitched on Earth by Humans: A Black-Box Security Evaluation of the SpaceX Starlink User Terminal](articles/卫星安全/2022-08-11-Glitched-on-Earth-by-Humans-A-Black-Box-Security-Evaluation.md) · [原文](https://i.blackhat.com/USA-22/Wednesday/US-22-Wouters-Glitched-On-Earth.pdf)
 - [SATCOM Terminals: Hacking by Air, Sea, and Land](articles/卫星安全/2014-08-06-SATCOM-Terminals-Hacking-by-Air-Sea-and-Land.md) · [原文](https://www.blackhat.com/docs/us-14/materials/us-14-Santamarta-SATCOM-Terminals-Hacking-By-Air-Sea-And-Land-WP.pdf)
+- [Don't look up：地球同步卫星上大量敏感链路是明文的](articles/卫星安全/2025-12-28-Don-t-look-up-地球同步卫星上大量敏感链路是明文的.md) · [原文](https://media.ccc.de/v/39c3-don-t-look-up-there-are-sensitive-internal-links-in-the-clear-on-geo-satellites)
 
 **论文 / 理论综述**
 
@@ -223,6 +224,7 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 - [Chipolo 蓝牙追踪器：FI 绕调试锁 → 固件逆向 → 蓝牙栈 RCE](articles/智能家居/2024-12-27-Chipolo-蓝牙追踪器-FI-绕调试锁-固件逆向-蓝牙栈-RCE.md) · [原文](https://media.ccc.de/v/38c3-from-fault-injection-to-rce-analyzing-a-bluetooth-tracker)
 - [Echo Hacking Wiki：Amazon Echo 固件提取与硬件分析](articles/智能家居/2017-06-01-Echo-Hacking-Wiki-Amazon-Echo-固件提取与硬件分析.md) · [原文](https://github.com/echohacking/wiki/wiki)
 - [给小米（Yeelight）人体感应夜灯刷自定义固件](articles/智能家居/2026-11-24-给小米-Yeelight-人体感应夜灯刷自定义固件.md) · [原文](https://robocoffee.de/?p=849)
+- [Hacking washing machines：洗衣机/洗碗机的私有总线与隐藏诊断口](articles/智能家居/2025-12-27-Hacking-washing-machines-洗衣机-洗碗机的私有总线与隐藏诊断口.md) · [原文](https://media.ccc.de/v/39c3-hacking-washing-machines)
 
 ## 机器人
 
@@ -262,6 +264,7 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 - [Java4Shell：补 Java 之前，先看处理器（AVX-512 版本差异命中不同目标）](articles/芯片安全/2026-11-19-Java4Shell-补-Java-之前-先看处理器-AVX-512-版本差异命中不同目标.md) · [原文](https://eclypsium.com/blog/java4shell-patch-java-check-the-processor/)
 - [Manipulating AI Models from the Hardware Up：从硬件层篡改 AI 计算基础设施](articles/芯片安全/2026-11-17-Manipulating-AI-Models-from-the-Hardware-Up-从硬件层篡改-AI-计算基础设施.md) · [原文](https://eclypsium.com/events/manipulating-ai-models-from-the-hardware-up/)
 - [在 LKS32 运动控制 MCU 上运行自定义固件](articles/芯片安全/2026-11-24-在-LKS32-运动控制-MCU-上运行自定义固件.md) · [原文](https://robocoffee.de/?p=876)
+- [Reverse engineering the Pixel TitanM2 firmware：谷歌安全芯片固件的逆向与仿真](articles/芯片安全/2025-12-28-Reverse-engineering-the-Pixel-TitanM2-firmware-谷歌安全芯片固件的逆向与仿.md) · [原文](https://media.ccc.de/v/39c3-reverse-engineering-the-pixel-titanm2-firmware)
 
 **论文 / 理论综述**
 
@@ -384,6 +387,7 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 - [bootl-attacks（CHES'21）：LPC1343 ROP / STM8 双毛刺 / Renesas 78K0 符号执行制导](articles/安全启动/2021-09-01-bootl-attacks-CHES-21-LPC1343-ROP-STM8-双毛刺-Renesas-78K0-符号执行.md) · [原文](https://github.com/janvdherrewegen/bootl-attacks)
 - [RP2350 光子发射引导激光 FI：恢复被永久关闭的 Secure Debug](articles/安全启动/2026-11-13-RP2350-光子发射引导激光-FI-恢复被永久关闭的-Secure-Debug.md) · [原文](https://donjon.ledger.com/blog/rp2350-secure-debug-laser-fault-injection/)
 - [Thunderstrike：MacBook EFI 固件 bootkit 与 Thunderbolt 攻击面](articles/安全启动/2014-12-29-Thunderstrike-MacBook-EFI-固件-bootkit-与-Thunderbolt-攻击面.md) · [原文](https://trmm.net/Thunderstrike/)
+- [Of Boot Vectors and Double Glitches：RP2350 安全启动挑战的五个攻击](articles/安全启动/2025-12-27-Of-Boot-Vectors-and-Double-Glitches-RP2350-安全启动挑战的五个攻击.md) · [原文](https://media.ccc.de/v/39c3-of-boot-vectors-and-double-glitches-bypassing-rp2350-s-secure-boot)
 
 **论文 / 理论综述**
 
@@ -529,6 +533,8 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 - [MyReport Updater：从 gRPC 到 SYSTEM 的提权与 RCE](articles/杂项/2026-10-13-MyReport-Updater-从-gRPC-到-SYSTEM-的提权与-RCE.md) · [原文](https://blog.quarkslab.com/myreport-updater-from-grpc-to-system.html)
 - [只有 strip 过的二进制时：把 8735 个函数缩到 81 条线索](articles/杂项/2026-11-25-只有-strip-过的二进制时-把-8735-个函数缩到-81-条线索.md) · [原文](https://xz.aliyun.com/news/93408)
 - [De'Longhi Dedica 咖啡机调校指南：把家用机改成能出好浓缩](articles/杂项/2026-11-25-De-Longhi-Dedica-咖啡机调校指南-把家用机改成能出好浓缩.md) · [原文](https://robocoffee.de/?p=382)
+- [Set-top box hacking：解锁法国 ISP 的 Freebox（路由器 + PVR）](articles/杂项/2025-12-29-Set-top-box-hacking-解锁法国-ISP-的-Freebox-路由器-PVR.md) · [原文](https://media.ccc.de/v/39c3-set-top-box-hacking-freeing-the-freebox)
+- [BE Modded：破解 Vital Bracelet 可穿戴玩具生态（NFC、OTP ROM 与自定义固件）](articles/杂项/2025-12-29-BE-Modded-破解-Vital-Bracelet-可穿戴玩具生态-NFC-OTP-ROM-与自定义固件.md) · [原文](https://media.ccc.de/v/39c3-be-modded-exploring-and-hacking-the-vital-bracelet-ecosystem)
 
 **论文 / 理论综述**
 
@@ -540,6 +546,15 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 
 <details>
 <summary>展开查看（最新在上）</summary>
+
+### 2026-11-26 · 2026-W60
+
+- [Hacking washing machines：洗衣机/洗碗机的私有总线与隐藏诊断口](articles/智能家居/2025-12-27-Hacking-washing-machines-洗衣机-洗碗机的私有总线与隐藏诊断口.md) —— 智能家居
+- [Set-top box hacking：解锁法国 ISP 的 Freebox（路由器 + PVR）](articles/杂项/2025-12-29-Set-top-box-hacking-解锁法国-ISP-的-Freebox-路由器-PVR.md) —— 杂项
+- [Reverse engineering the Pixel TitanM2 firmware：谷歌安全芯片固件的逆向与仿真](articles/芯片安全/2025-12-28-Reverse-engineering-the-Pixel-TitanM2-firmware-谷歌安全芯片固件的逆向与仿.md) —— 芯片安全
+- [BE Modded：破解 Vital Bracelet 可穿戴玩具生态（NFC、OTP ROM 与自定义固件）](articles/杂项/2025-12-29-BE-Modded-破解-Vital-Bracelet-可穿戴玩具生态-NFC-OTP-ROM-与自定义固件.md) —— 杂项
+- [Don't look up：地球同步卫星上大量敏感链路是明文的](articles/卫星安全/2025-12-28-Don-t-look-up-地球同步卫星上大量敏感链路是明文的.md) —— 卫星安全
+- [Of Boot Vectors and Double Glitches：RP2350 安全启动挑战的五个攻击](articles/安全启动/2025-12-27-Of-Boot-Vectors-and-Double-Glitches-RP2350-安全启动挑战的五个攻击.md) —— 安全启动
 
 ### 2026-11-25 · 2026-W59
 

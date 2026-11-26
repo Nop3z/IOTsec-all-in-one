@@ -1,6 +1,6 @@
 # 文章快照索引
 
-共 210 篇已归档（每周自动抓取 + 复审）。快照仅供安全研究参考，版权归原作者所有。
+共 216 篇已归档（每周自动抓取 + 复审）。快照仅供安全研究参考，版权归原作者所有。
 
 | 日期 | 板块 | 标题 | 快照 | 来源 |
 |:--|:--|:--|:--|:--|
@@ -96,8 +96,14 @@
 | 2026-03-11 | 卫星安全 | [Silent Subversion: Sensor Spoofing Attacks via Supply Chain Implants in Satellite Systems](http://arxiv.org/abs/2603.10388v1) | [md](articles/卫星安全/2026-03-11-Silent-Subversion-Sensor-Spoofing-Attacks-via-Supply-Chain-I.md) | arXiv |
 | 2026-02-20 | Openwrt | [Vulnerability REsearch using VulHunt](https://www.binarly.io/blog/vulnerability-research-using-vulhunt) | [md](articles/Openwrt/2026-02-20-Vulnerability-REsearch-using-VulHunt.md) | Binarly |
 | 2026-01-26 | 安全启动 | [Have you patched? Are you sure? The story of the sticky Supermicro BMC bugs](https://www.binarly.io/blog/have-you-patched--are-you-sure--the-story-of-the-sticky-supermicro-bmc-bugs) | [md](articles/安全启动/2026-01-26-Have-you-patched-Are-you-sure-The-story-of-the-sticky-Superm.md) | Binarly |
+| 2025-12-29 | 杂项 | [Set-top box hacking：解锁法国 ISP 的 Freebox（路由器 + PVR）](https://media.ccc.de/v/39c3-set-top-box-hacking-freeing-the-freebox) | [md](articles/杂项/2025-12-29-Set-top-box-hacking-解锁法国-ISP-的-Freebox-路由器-PVR.md) | 39C3 |
+| 2025-12-29 | 杂项 | [BE Modded：破解 Vital Bracelet 可穿戴玩具生态（NFC、OTP ROM 与自定义固件）](https://media.ccc.de/v/39c3-be-modded-exploring-and-hacking-the-vital-bracelet-ecosystem) | [md](articles/杂项/2025-12-29-BE-Modded-破解-Vital-Bracelet-可穿戴玩具生态-NFC-OTP-ROM-与自定义固件.md) | 39C3 |
+| 2025-12-28 | 芯片安全 | [Reverse engineering the Pixel TitanM2 firmware：谷歌安全芯片固件的逆向与仿真](https://media.ccc.de/v/39c3-reverse-engineering-the-pixel-titanm2-firmware) | [md](articles/芯片安全/2025-12-28-Reverse-engineering-the-Pixel-TitanM2-firmware-谷歌安全芯片固件的逆向与仿.md) | 39C3 |
 | 2025-12-28 | 硬件钱包 | [Lessons from Building an Open-Architecture Secure Element（39C3）](https://media.ccc.de/v/39c3-lessons-from-building-an-open-architecture-secure-element) | [md](articles/硬件钱包/2025-12-28-Lessons-from-Building-an-Open-Architecture-Secure-Element-39.md) | 39C3 |
 | 2025-12-28 | 机器人 | [Skynet Starter Kit：Unitree 机器人生态的端到端攻破（39C3）](https://media.ccc.de/v/39c3-skynet-starter-kit-from-embodied-ai-jailbreak-to-remote-takeover-of-humanoid-robots) | [md](articles/机器人/2025-12-28-Skynet-Starter-Kit-Unitree-机器人生态的端到端攻破-39C3.md) | 39C3 |
+| 2025-12-28 | 卫星安全 | [Don't look up：地球同步卫星上大量敏感链路是明文的](https://media.ccc.de/v/39c3-don-t-look-up-there-are-sensitive-internal-links-in-the-clear-on-geo-satellites) | [md](articles/卫星安全/2025-12-28-Don-t-look-up-地球同步卫星上大量敏感链路是明文的.md) | 39C3 |
+| 2025-12-27 | 智能家居 | [Hacking washing machines：洗衣机/洗碗机的私有总线与隐藏诊断口](https://media.ccc.de/v/39c3-hacking-washing-machines) | [md](articles/智能家居/2025-12-27-Hacking-washing-machines-洗衣机-洗碗机的私有总线与隐藏诊断口.md) | 39C3 |
+| 2025-12-27 | 安全启动 | [Of Boot Vectors and Double Glitches：RP2350 安全启动挑战的五个攻击](https://media.ccc.de/v/39c3-of-boot-vectors-and-double-glitches-bypassing-rp2350-s-secure-boot) | [md](articles/安全启动/2025-12-27-Of-Boot-Vectors-and-Double-Glitches-RP2350-安全启动挑战的五个攻击.md) | 39C3 |
 | 2025-12-10 | 芯片安全 | [Further Hardening Android GPUs](http://security.googleblog.com/2025/12/further-hardening-android-gpus.html) | [md](articles/芯片安全/2025-12-10-Further-Hardening-Android-GPUs.md) | Google Security Blog |
 | 2025-12-09 | 故障注入 | [EMMap: A Systematic Framework for Spatial EMFI Mapping and Fault Classification on Microcontrollers](http://arxiv.org/abs/2512.09049v1) | [md](articles/故障注入/2025-12-09-EMMap-A-Systematic-Framework-for-Spatial-EMFI-Mapping-and-Fa.md) | arXiv |
 | 2025-11-27 | 故障注入 | [Keyless Entry: Breaking and Entering eMMC RPMB with EMFI](http://arxiv.org/abs/2511.22340v1) | [md](articles/故障注入/2025-11-27-Keyless-Entry-Breaking-and-Entering-eMMC-RPMB-with-EMFI.md) | arXiv |

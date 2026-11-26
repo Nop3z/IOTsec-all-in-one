@@ -789,6 +789,21 @@
    "first_seen": "2026-11-25T10:00:23.744028+08:00",
    "sha256": "56fb0945c3eda73f04e954a043527f8acc17f673e1298a8714401925a6b6b6ee",
    "file": "04-Volant-Manticore-Flying-Under-the-Radar.md"
+  },
+  "https://www.rapid7.com/blog/post/etr-cve-2026-123903-critical-vmware-directory-service-authentication-bypass-affects-vcenter": {
+   "first_seen": "2026-11-26T10:00:46.168988+08:00",
+   "sha256": "5eb199946cc0ecb2658ae1d6b2591d6301a362765833c571bbae02406375a981",
+   "file": "01-CVE-2026-123903-Critical-VMware-Directory-Service-Authentica.md"
+  },
+  "https://xz.aliyun.com/news/93419": {
+   "first_seen": "2026-11-26T10:00:46.168988+08:00",
+   "sha256": "83cbd3531cce3df6d26cdc98bc4a293f4dfbacea062c16de54d04b6aa88c978a",
+   "file": "02-Dagu-未授权远程命令执行-CVE-2026-126752-复现与代码审计.md"
+  },
+  "https://www.crowdstrike.com/en-us/blog/crowdstrike-named-leader-2026-gartner-mq-isoc/": {
+   "first_seen": "2026-11-26T10:00:46.168988+08:00",
+   "sha256": "a807968985c3030ccd78e6bfb2385b5619e4ed2ae0f444247183dfb3384f082c",
+   "file": "03-CrowdStrike-Accelerates-the-Shift-to-the-Agentic-SOC.md"
   }
  },
  "runs": [
@@ -895,6 +910,14 @@
    "shortlist": 4,
    "downloaded": 4,
    "bytes": 1175100
+  },
+  {
+   "week": "2026-W48",
+   "at": "2026-11-26T10:00:46.168988+08:00",
+   "candidates": 74,
+   "shortlist": 3,
+   "downloaded": 3,
+   "bytes": 911862
   }
  ]
 }
