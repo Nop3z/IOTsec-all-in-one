@@ -13,24 +13,24 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 |:--|--:|:--|--:|:--|--:|
 | [Openwrt](#openwrt) | 4 | [摄像头](#摄像头) | 7 | [无人机](#无人机) | 20 |
 | [车机](#车机) | 14 | [充电桩](#充电桩) | 7 | [基站](#基站) | 13 |
-| [防火墙](#防火墙) | 24 | [卫星安全](#卫星安全) | 11 | [打印机](#打印机) | 6 |
+| [防火墙](#防火墙) | 27 | [卫星安全](#卫星安全) | 11 | [打印机](#打印机) | 6 |
 | [智能家居](#智能家居) | 10 | [机器人](#机器人) | 14 | [芯片安全](#芯片安全) | 36 |
-| [RFID](#rfid) | 6 | [WIFI安全](#wifi安全) | 3 | [协议安全](#协议安全) | 8 |
+| [RFID](#rfid) | 6 | [WIFI安全](#wifi安全) | 3 | [协议安全](#协议安全) | 9 |
 | [硬件钱包](#硬件钱包) | 13 | [FUZZ](#fuzz) | 5 | | |
 
 **技术专题**
 
 | 板块 | 篇 | 板块 | 篇 |
 |:--|--:|:--|--:|
-| [安全启动](#安全启动) | 24 | [固件解密](#固件解密) | 17 |
+| [安全启动](#安全启动) | 24 | [固件解密](#固件解密) | 19 |
 | [故障注入](#故障注入) | 38 | [绕过ASLR](#绕过aslr) | 5 |
 
 **资源与归档**
 
 | 板块 | 篇 | 板块 | 篇 | 板块 | 篇 |
 |:--|--:|:--|--:|:--|--:|
-| [固件下载](#固件下载) | 18 | [虚拟机镜像](#虚拟机镜像) | 0 | [杂项](#杂项) | 28 |
-| [文章快照](articles/INDEX.md) | 216 | [更新日志](#更新日志) | - | [收录标准](#收录标准) | - |
+| [固件下载](#固件下载) | 18 | [虚拟机镜像](#虚拟机镜像) | 0 | [杂项](#杂项) | 29 |
+| [文章快照](articles/INDEX.md) | 223 | [更新日志](#更新日志) | - | [收录标准](#收录标准) | - |
 
 <!-- INDEX:END -->
 
@@ -180,6 +180,9 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 - [Pull the Plug: FIRESTARTER Survives Patches, Reboots, and Your Incident Response Plan](articles/防火墙/2026-05-07-Pull-the-Plug-FIRESTARTER-Survives-Patches-Reboots-and-Your.md) · [原文](https://eclypsium.com/blog/firestarter-cisco-firewall-backdoor-survives-patches/)
 - [Php2shell 的网络边缘处置手册：哪些安全设备还停在漏洞上](articles/防火墙/2026-11-11-Php2shell-的网络边缘处置手册-哪些安全设备还停在漏洞上.md) · [原文](https://eclypsium.com/blog/php2shell-network-appliances-status/)
 - [Cato VPN 客户端：从分流上传到 SYSTEM 提权（CVE-2026-10739）](articles/防火墙/2026-10-01-Cato-VPN-客户端-从分流上传到-SYSTEM-提权-CVE-2026-10739.md) · [原文](https://blog.quarkslab.com/cato-vpn-client-split-tunnel-and-privilege-escalation-cve-2026-10739.html)
+- [Don't Ruck Us Too Hard：攻破 Ruckus 无线 AP 与控制器（3 个 pre-auth RCE）](articles/防火墙/2019-12-28-Don-t-Ruck-Us-Too-Hard-攻破-Ruckus-无线-AP-与控制器-3-个-pre-auth-RCE.md) · [原文](https://media.ccc.de/v/36c3-10816-don_t_ruck_us_too_hard_-_owning_ruckus_ap_devices)
+- [Router and Infrastructure Hacking：基础设施设备攻击方法论（2006 经典）](articles/防火墙/2006-12-28-Router-and-Infrastructure-Hacking-基础设施设备攻击方法论-2006-经典.md) · [原文](https://media.ccc.de/v/23C3-1700-en-router_and_infrastructure_hacking)
+- [Defeating planned obsolescence：为 Cisco Meraki 交换机自研开源固件](articles/防火墙/2023-08-18-Defeating-planned-obsolescence-为-Cisco-Meraki-交换机自研开源固件.md) · [原文](https://media.ccc.de/v/camp2023-57142-defeating_planned_obsolescence_for_cisco_meraki_switches)
 
 ## 卫星安全
 
@@ -326,6 +329,7 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 - [Signal K Server 认证链断在“读文件”这一步：一个 ../ 读走 JWT 密钥](articles/协议安全/2026-11-13-Signal-K-Server-认证链断在-读文件-这一步-一个-读走-JWT-密钥.md) · [原文](https://xz.aliyun.com/news/93323)
 - [QUIC and Covert：用 HTTP/3 隧道承载的 RAT 攻击东南亚政府目标](articles/协议安全/2026-11-17-QUIC-and-Covert-用-HTTP-3-隧道承载的-RAT-攻击东南亚政府目标.md)
 - [一条 SIP MESSAGE 打穿 FreeSWITCH：CVE-2026-116779 远程命令执行复现](articles/协议安全/2026-11-20-一条-SIP-MESSAGE-打穿-FreeSWITCH-CVE-2026-116779-远程命令执行复现.md) · [原文](https://xz.aliyun.com/news/93416)
+- [Hacking DOCSIS：AVM 中间 CA 私钥丢失、机顶盒 telnet 与 Modem Uncapping](articles/协议安全/2017-04-15-Hacking-DOCSIS-AVM-中间-CA-私钥丢失-机顶盒-telnet-与-Modem-Uncapping.md) · [原文](https://media.ccc.de/v/EH2017-8488-hacking_docsis)
 
 ## 硬件钱包
 
@@ -413,6 +417,8 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 - [STM32-TraceRip：不注入故障，用 CRC 状态步进重建受保护 flash](articles/固件解密/2025-06-10-STM32-TraceRip-不注入故障-用-CRC-状态步进重建受保护-flash.md) · [原文](https://hardwear.io/wp-content/uploads/2026/03/TraceRip-Hardwear.pdf)
 - [Binwalk：固件逆向与文件系统提取的事实标准工具](articles/固件解密/2023-06-01-Binwalk-固件逆向与文件系统提取的事实标准工具.md) · [原文](https://github.com/ReFirmLabs/binwalk)
 - [FACT：固件分析与比较工具（Firmware Analysis and Comparison Tool）](articles/固件解密/2024-01-01-FACT-固件分析与比较工具-Firmware-Analysis-and-Comparison-Tool.md) · [原文](https://github.com/fkie-cad/FACT_core)
+- [Firmware Fat Camp：给固件“减肥”，删掉多余组件缩小攻击面](articles/固件解密/2013-12-27-Firmware-Fat-Camp-给固件-减肥-删掉多余组件缩小攻击面.md) · [原文](https://media.ccc.de/v/30C3_-_5356_-_en_-_saal_6_-_201312272300_-_firmware_fat_camp_-_angcui)
+- [(In)Security of Embedded Devices' Firmware：大规模固件安全分析](articles/固件解密/2015-12-29-In-Security-of-Embedded-Devices-Firmware-大规模固件安全分析.md) · [原文](https://media.ccc.de/v/32c3-7252-in_security_of_embedded_devices_firmware_-_fast_and_furious_at_large_scale)
 
 **论文 / 理论综述**
 
@@ -535,6 +541,7 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 - [De'Longhi Dedica 咖啡机调校指南：把家用机改成能出好浓缩](articles/杂项/2026-11-25-De-Longhi-Dedica-咖啡机调校指南-把家用机改成能出好浓缩.md) · [原文](https://robocoffee.de/?p=382)
 - [Set-top box hacking：解锁法国 ISP 的 Freebox（路由器 + PVR）](articles/杂项/2025-12-29-Set-top-box-hacking-解锁法国-ISP-的-Freebox-路由器-PVR.md) · [原文](https://media.ccc.de/v/39c3-set-top-box-hacking-freeing-the-freebox)
 - [BE Modded：破解 Vital Bracelet 可穿戴玩具生态（NFC、OTP ROM 与自定义固件）](articles/杂项/2025-12-29-BE-Modded-破解-Vital-Bracelet-可穿戴玩具生态-NFC-OTP-ROM-与自定义固件.md) · [原文](https://media.ccc.de/v/39c3-be-modded-exploring-and-hacking-the-vital-bracelet-ecosystem)
+- [Beyond your cable modem：运营商 CPE 背后的数万终端与号码暴露面](articles/杂项/2015-12-27-Beyond-your-cable-modem-运营商-CPE-背后的数万终端与号码暴露面.md) · [原文](https://media.ccc.de/v/32c3-7133-beyond_your_cable_modem)
 
 **论文 / 理论综述**
 
@@ -546,6 +553,16 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 
 <details>
 <summary>展开查看（最新在上）</summary>
+
+### 2026-11-27 · 2026-W61
+
+- [Beyond your cable modem：运营商 CPE 背后的数万终端与号码暴露面](articles/杂项/2015-12-27-Beyond-your-cable-modem-运营商-CPE-背后的数万终端与号码暴露面.md) —— 杂项
+- [Hacking DOCSIS：AVM 中间 CA 私钥丢失、机顶盒 telnet 与 Modem Uncapping](articles/协议安全/2017-04-15-Hacking-DOCSIS-AVM-中间-CA-私钥丢失-机顶盒-telnet-与-Modem-Uncapping.md) —— 协议安全
+- [Don't Ruck Us Too Hard：攻破 Ruckus 无线 AP 与控制器（3 个 pre-auth RCE）](articles/防火墙/2019-12-28-Don-t-Ruck-Us-Too-Hard-攻破-Ruckus-无线-AP-与控制器-3-个-pre-auth-RCE.md) —— 防火墙
+- [Router and Infrastructure Hacking：基础设施设备攻击方法论（2006 经典）](articles/防火墙/2006-12-28-Router-and-Infrastructure-Hacking-基础设施设备攻击方法论-2006-经典.md) —— 防火墙
+- [Firmware Fat Camp：给固件“减肥”，删掉多余组件缩小攻击面](articles/固件解密/2013-12-27-Firmware-Fat-Camp-给固件-减肥-删掉多余组件缩小攻击面.md) —— 固件解密
+- [(In)Security of Embedded Devices' Firmware：大规模固件安全分析](articles/固件解密/2015-12-29-In-Security-of-Embedded-Devices-Firmware-大规模固件安全分析.md) —— 固件解密
+- [Defeating planned obsolescence：为 Cisco Meraki 交换机自研开源固件](articles/防火墙/2023-08-18-Defeating-planned-obsolescence-为-Cisco-Meraki-交换机自研开源固件.md) —— 防火墙
 
 ### 2026-11-26 · 2026-W60
 

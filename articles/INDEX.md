@@ -1,6 +1,6 @@
 # 文章快照索引
 
-共 216 篇已归档（每周自动抓取 + 复审）。快照仅供安全研究参考，版权归原作者所有。
+共 223 篇已归档（每周自动抓取 + 复审）。快照仅供安全研究参考，版权归原作者所有。
 
 | 日期 | 板块 | 标题 | 快照 | 来源 |
 |:--|:--|:--|:--|:--|
@@ -143,6 +143,7 @@
 | 2024-01-01 | 固件解密 | [FACT：固件分析与比较工具（Firmware Analysis and Comparison Tool）](https://github.com/fkie-cad/FACT_core) | [md](articles/固件解密/2024-01-01-FACT-固件分析与比较工具-Firmware-Analysis-and-Comparison-Tool.md) | Fraunhofer FKIE |
 | 2023-12-27 | 机器人 | [Sucking dust and cutting grass：逆向机器人并绕过安全机制](https://media.ccc.de/v/37c3-11943-sucking_dust_and_cutting_grass_reversing_robots_and_bypassing_security) | [md](articles/机器人/2023-12-27-Sucking-dust-and-cutting-grass-逆向机器人并绕过安全机制.md) | 37C3 |
 | 2023-10-29 | 卫星安全 | [Updated Standard for Secure Satellite Communications: Analysis of Satellites, Attack Vectors, Existing Standards, and Enterprise and Security Architectures](http://arxiv.org/abs/2310.19105v1) | [md](articles/卫星安全/2023-10-29-Updated-Standard-for-Secure-Satellite-Communications-Analysi.md) | arXiv |
+| 2023-08-18 | 防火墙 | [Defeating planned obsolescence：为 Cisco Meraki 交换机自研开源固件](https://media.ccc.de/v/camp2023-57142-defeating_planned_obsolescence_for_cisco_meraki_switches) | [md](articles/防火墙/2023-08-18-Defeating-planned-obsolescence-为-Cisco-Meraki-交换机自研开源固件.md) | camp2023 |
 | 2023-08-18 | 机器人 | [Vacuum robot security and privacy：扫地机器人五年后的攻击面](https://media.ccc.de/v/camp2023-57158-vacuum_robot_security_and_privacy) | [md](articles/机器人/2023-08-18-Vacuum-robot-security-and-privacy-扫地机器人五年后的攻击面.md) | camp2023 |
 | 2023-08-17 | 基站 | [Analyzing Cellular Basebands with FirmWire：开源基带分析平台](https://media.ccc.de/v/camp2023-57330-analyzing_cellular_basebands_with_firmwire) | [md](articles/基站/2023-08-17-Analyzing-Cellular-Basebands-with-FirmWire-开源基带分析平台.md) | camp2023 |
 | 2023-06-01 | 车机 | [Brightway 安全再评估：Xiaomi 4 Pro（第二代）把刷机口彻底焊死](https://robocoffee.de/?p=897) | [md](articles/车机/2023-06-01-Brightway-安全再评估-Xiaomi-4-Pro-第二代-把刷机口彻底焊死.md) | RoboCoffee |
@@ -176,6 +177,7 @@
 | 2020-06-13 | 芯片安全 | [Rowhammer 的工程可复现性评估：成功率、时间与平台差异](https://arxiv.org/abs/2006.07671) | [md](articles/芯片安全/2020-06-13-Rowhammer-的工程可复现性评估-成功率-时间与平台差异.md) | arXiv 2006.07671 |
 | 2020-06-01 | 硬件钱包 | [Trezor / KeepKey 硬件钱包安全分析（CVUT 学位论文）](https://dspace.cvut.cz/bitstream/handle/10467/88181/F8-BP-2020-Kozak-Lukas-thesis.pdf) | [md](articles/硬件钱包/2020-06-01-Trezor-KeepKey-硬件钱包安全分析-CVUT-学位论文.md) | CVUT 2020 |
 | 2020-02-15 | 芯片安全 | [Spectre 与嵌入式处理器：Cortex-A/M 与 RISC-V 的系统性评估](https://arxiv.org/abs/2002.06639) | [md](articles/芯片安全/2020-02-15-Spectre-与嵌入式处理器-Cortex-A-M-与-RISC-V-的系统性评估.md) | arXiv 2002.06639 |
+| 2019-12-28 | 防火墙 | [Don't Ruck Us Too Hard：攻破 Ruckus 无线 AP 与控制器（3 个 pre-auth RCE）](https://media.ccc.de/v/36c3-10816-don_t_ruck_us_too_hard_-_owning_ruckus_ap_devices) | [md](articles/防火墙/2019-12-28-Don-t-Ruck-Us-Too-Hard-攻破-Ruckus-无线-AP-与控制器-3-个-pre-auth-RCE.md) | 36C3 |
 | 2019-12-27 | 机器人 | [How (not) to build autonomous robots：配送机器人背后的工程与安全债](https://media.ccc.de/v/36c3-10601-how_not_to_build_autonomous_robots) | [md](articles/机器人/2019-12-27-How-not-to-build-autonomous-robots-配送机器人背后的工程与安全债.md) | 36C3 |
 | 2019-12-27 | 基站 | [SIM card technology from A-Z：SIM/eSIM 攻击面全景](https://media.ccc.de/v/36c3-10737-sim_card_technology_from_a-z) | [md](articles/基站/2019-12-27-SIM-card-technology-from-A-Z-SIM-eSIM-攻击面全景.md) | 36C3 |
 | 2019-10-11 | 芯片安全 | [Hardware Security Evaluation of MAX 10 FPGA](http://arxiv.org/abs/1910.05086v1) | [md](articles/芯片安全/2019-10-11-Hardware-Security-Evaluation-of-MAX-10-FPGA.md) | arXiv |
@@ -204,11 +206,14 @@
 | 2017-06-01 | 智能家居 | [Echo Hacking Wiki：Amazon Echo 固件提取与硬件分析](https://github.com/echohacking/wiki/wiki) | [md](articles/智能家居/2017-06-01-Echo-Hacking-Wiki-Amazon-Echo-固件提取与硬件分析.md) | 社区项目 |
 | 2017-06-01 | 打印机 | [打印机攻击面与 PJL 后门：用打印语言控制设备](https://www.contextis.com/en/blog/printer-exploitation) | [md](articles/打印机/2017-06-01-打印机攻击面与-PJL-后门-用打印语言控制设备.md) | Context Information Security |
 | 2017-05-03 | 机器人 | [Rogue Robots：工业机器人软件的老旧依赖与物理后果](https://www.trendmicro.com/vinfo/it/security/news/internet-of-things/rogue-robots-testing-industrial-robot-security) | [md](articles/机器人/2017-05-03-Rogue-Robots-工业机器人软件的老旧依赖与物理后果.md) | Trend Micro |
+| 2017-04-15 | 协议安全 | [Hacking DOCSIS：AVM 中间 CA 私钥丢失、机顶盒 telnet 与 Modem Uncapping](https://media.ccc.de/v/EH2017-8488-hacking_docsis) | [md](articles/协议安全/2017-04-15-Hacking-DOCSIS-AVM-中间-CA-私钥丢失-机顶盒-telnet-与-Modem-Uncapping.md) | Easterhegg 2017 |
 | 2017-01-01 | 摄像头 | [Hikvision 摄像头后门固件分析（2017）](https://ipvm.com/reports/hikvision-backdoor) | [md](articles/摄像头/2017-01-01-Hikvision-摄像头后门固件分析-2017.md) | IPVM / 安全社区 |
 | 2016-10-24 | 芯片安全 | [Drammer：Android 手机上的确定性 Rowhammer（CCS 2016）](https://arxiv.org/abs/1610.03526) | [md](articles/芯片安全/2016-10-24-Drammer-Android-手机上的确定性-Rowhammer-CCS-2016.md) | VUSec 等 |
 | 2016-09-19 | 车机 | [Remote Attack to Tesla Model S：从 Wi-Fi 到 CAN 总线的远程控制（KeenLab 2016）](https://keenlab.tencent.com/en/2016/09/19/Keen-Security-Lab-of-Tencent-Car-Hacking-Research-Remote-Attack-to-Tesla-Cars/) | [md](articles/车机/2016-09-19-Remote-Attack-to-Tesla-Model-S-从-Wi-Fi-到-CAN-总线的远程控制-KeenLab.md) | Tencent KeenLab |
 | 2016-05-22 | 芯片安全 | [Dedup Est Machina：用 Rowhammer 翻转指针窃取机密（S&P 2016）](https://arxiv.org/abs/1610.02829) | [md](articles/芯片安全/2016-05-22-Dedup-Est-Machina-用-Rowhammer-翻转指针窃取机密-S-P-2016.md) | Bosman et al. |
 | 2016-03-15 | 无人机 | [315 晚会曝光：大疆无人机被劫持始末](https://www.leiphone.com/category/zixun/aeqQVEI2hvyRBPDh.html) | [md](articles/无人机/2016-03-15-315-晚会曝光-大疆无人机被劫持始末.md) | 雷锋网 / CCTV 315 |
+| 2015-12-29 | 固件解密 | [(In)Security of Embedded Devices' Firmware：大规模固件安全分析](https://media.ccc.de/v/32c3-7252-in_security_of_embedded_devices_firmware_-_fast_and_furious_at_large_scale) | [md](articles/固件解密/2015-12-29-In-Security-of-Embedded-Devices-Firmware-大规模固件安全分析.md) | 32C3 |
+| 2015-12-27 | 杂项 | [Beyond your cable modem：运营商 CPE 背后的数万终端与号码暴露面](https://media.ccc.de/v/32c3-7133-beyond_your_cable_modem) | [md](articles/杂项/2015-12-27-Beyond-your-cable-modem-运营商-CPE-背后的数万终端与号码暴露面.md) | 32C3 |
 | 2015-08-05 | 车机 | [Remote Car Hacking：Jeep Cherokee 攻击面白皮书（Miller & Valasek）](https://ioactive.com/wp-content/uploads/2018/05/IOActive_Remote_Car_Hacking-1.pdf) | [md](articles/车机/2015-08-05-Remote-Car-Hacking-Jeep-Cherokee-攻击面白皮书-Miller-Valasek.md) | IOActive / Black Hat 2015 |
 | 2015-05-12 | 芯片安全 | [Rowhammer.js：用 JavaScript 在浏览器里触发 Rowhammer（DIMVA 2015）](https://arxiv.org/abs/1505.02573) | [md](articles/芯片安全/2015-05-12-Rowhammer-js-用-JavaScript-在浏览器里触发-Rowhammer-DIMVA-2015.md) | Gruss et al. |
 | 2014-12-29 | 安全启动 | [Thunderstrike：MacBook EFI 固件 bootkit 与 Thunderbolt 攻击面](https://trmm.net/Thunderstrike/) | [md](articles/安全启动/2014-12-29-Thunderstrike-MacBook-EFI-固件-bootkit-与-Thunderbolt-攻击面.md) | Trammell Hudson |
@@ -217,6 +222,8 @@
 | 2014-06-14 | 芯片安全 | [Rowhammer 原始论文：反复刷新同一行即可翻转相邻行比特（ISCA 2014）](https://users.ece.cmu.edu/~yoonguk/papers/kim-isca14.pdf) | [md](articles/芯片安全/2014-06-14-Rowhammer-原始论文-反复刷新同一行即可翻转相邻行比特-ISCA-2014.md) | Kim et al., ISCA 2014 |
 | 2013-12-29 | 硬件钱包 | [Trezor: Bitcoin hardware wallet：硬件钱包安全模型的起点](https://media.ccc.de/v/30C3_-_5545_-_en_-_saal_1_-_201312292200_-_trezor_bitcoin_hardware_wallet_-_pavol_stick_rusnak) | [md](articles/硬件钱包/2013-12-29-Trezor-Bitcoin-hardware-wallet-硬件钱包安全模型的起点.md) | 30C3 |
 | 2013-12-27 | 基站 | [Baseband Exploitation in 2013：LTE 时代的利用难度](https://media.ccc.de/v/30C3_-_5618_-_en_-_saal_1_-_201312272145_-_baseband_exploitation_in_2013_-_rpw_esizkur) | [md](articles/基站/2013-12-27-Baseband-Exploitation-in-2013-LTE-时代的利用难度.md) | 30C3 |
+| 2013-12-27 | 固件解密 | [Firmware Fat Camp：给固件“减肥”，删掉多余组件缩小攻击面](https://media.ccc.de/v/30C3_-_5356_-_en_-_saal_6_-_201312272300_-_firmware_fat_camp_-_angcui) | [md](articles/固件解密/2013-12-27-Firmware-Fat-Camp-给固件-减肥-删掉多余组件缩小攻击面.md) | 30C3 |
 | 2011-12-28 | 基站 | [Reverse-engineering a Qualcomm baseband：系统级逆向](https://media.ccc.de/v/28c3-4735-en-reverse_engineering_a_qualcomm_baseband) | [md](articles/基站/2011-12-28-Reverse-engineering-a-Qualcomm-baseband-系统级逆向.md) | 28C3 |
 | 2010-12-28 | 基站 | [The Baseband Apocalypse：把基带当作独立攻击面](https://media.ccc.de/v/27c3-4090-en-baseband_apocalypse) | [md](articles/基站/2010-12-28-The-Baseband-Apocalypse-把基带当作独立攻击面.md) | 27C3 |
 | 2008-07-31 | RFID | [反向工程密码学 RFID 标签：MIFARE Classic 的 Crypto-1 被完整攻破（USENIX Security 2008）](https://www.usenix.org/legacy/event/sec08/tech/nohl.html) | [md](articles/RFID/2008-07-31-反向工程密码学-RFID-标签-MIFARE-Classic-的-Crypto-1-被完整攻破-USENIX-Secur.md) | USENIX Security 2008 |
+| 2006-12-28 | 防火墙 | [Router and Infrastructure Hacking：基础设施设备攻击方法论（2006 经典）](https://media.ccc.de/v/23C3-1700-en-router_and_infrastructure_hacking) | [md](articles/防火墙/2006-12-28-Router-and-Infrastructure-Hacking-基础设施设备攻击方法论-2006-经典.md) | 23C3 |
