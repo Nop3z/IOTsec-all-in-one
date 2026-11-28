@@ -1,6 +1,6 @@
 # 文章快照索引
 
-共 223 篇已归档（每周自动抓取 + 复审）。快照仅供安全研究参考，版权归原作者所有。
+共 230 篇已归档（每周自动抓取 + 复审）。快照仅供安全研究参考，版权归原作者所有。
 
 | 日期 | 板块 | 标题 | 快照 | 来源 |
 |:--|:--|:--|:--|:--|
@@ -104,9 +104,11 @@
 | 2025-12-28 | 卫星安全 | [Don't look up：地球同步卫星上大量敏感链路是明文的](https://media.ccc.de/v/39c3-don-t-look-up-there-are-sensitive-internal-links-in-the-clear-on-geo-satellites) | [md](articles/卫星安全/2025-12-28-Don-t-look-up-地球同步卫星上大量敏感链路是明文的.md) | 39C3 |
 | 2025-12-27 | 智能家居 | [Hacking washing machines：洗衣机/洗碗机的私有总线与隐藏诊断口](https://media.ccc.de/v/39c3-hacking-washing-machines) | [md](articles/智能家居/2025-12-27-Hacking-washing-machines-洗衣机-洗碗机的私有总线与隐藏诊断口.md) | 39C3 |
 | 2025-12-27 | 安全启动 | [Of Boot Vectors and Double Glitches：RP2350 安全启动挑战的五个攻击](https://media.ccc.de/v/39c3-of-boot-vectors-and-double-glitches-bypassing-rp2350-s-secure-boot) | [md](articles/安全启动/2025-12-27-Of-Boot-Vectors-and-Double-Glitches-RP2350-安全启动挑战的五个攻击.md) | 39C3 |
+| 2025-12-27 | 卫星安全 | [Who cares about the Baltic Jammer：当导航系统“不理会”干扰机（R-Mode）](https://media.ccc.de/v/39c3-who-cares-about-the-baltic-jammer-terrestrial-navigation-in-the-baltic-sea-region) | [md](articles/卫星安全/2025-12-27-Who-cares-about-the-Baltic-Jammer-当导航系统-不理会-干扰机-R-Mode.md) | 39C3 |
 | 2025-12-10 | 芯片安全 | [Further Hardening Android GPUs](http://security.googleblog.com/2025/12/further-hardening-android-gpus.html) | [md](articles/芯片安全/2025-12-10-Further-Hardening-Android-GPUs.md) | Google Security Blog |
 | 2025-12-09 | 故障注入 | [EMMap: A Systematic Framework for Spatial EMFI Mapping and Fault Classification on Microcontrollers](http://arxiv.org/abs/2512.09049v1) | [md](articles/故障注入/2025-12-09-EMMap-A-Systematic-Framework-for-Spatial-EMFI-Mapping-and-Fa.md) | arXiv |
 | 2025-11-27 | 故障注入 | [Keyless Entry: Breaking and Entering eMMC RPMB with EMFI](http://arxiv.org/abs/2511.22340v1) | [md](articles/故障注入/2025-11-27-Keyless-Entry-Breaking-and-Entering-eMMC-RPMB-with-EMFI.md) | arXiv |
+| 2025-11-26 | 车机 | [Pwn My Ride：用一个 AirPlay SDK 漏洞越狱 CarPlay 车机](https://media.ccc.de/v/god2025-56485-pwn-my-ride-jailbreaking-c) | [md](articles/车机/2025-11-26-Pwn-My-Ride-用一个-AirPlay-SDK-漏洞越狱-CarPlay-车机.md) | GOD 2025 |
 | 2025-11-19 | 安全启动 | [How an Old Bug in Lighttpd Gained New Life in AMI BMC, Including Lenovo and Intel products](https://www.binarly.io/blog/how-an-old-bug-in-lighttpd-gained-new-life-in-ami-bmc-including-lenovo-and-intel-products) | [md](articles/安全启动/2025-11-19-How-an-Old-Bug-in-Lighttpd-Gained-New-Life-in-AMI-BMC-Includ.md) | Binarly |
 | 2025-10-17 | 安全启动 | [Missing Mitigations: Inside The Security Gap in UEFI Firmware](https://www.binarly.io/blog/missing-mitigations-inside-security-gap-uefi-firmware) | [md](articles/安全启动/2025-10-17-Missing-Mitigations-Inside-The-Security-Gap-in-UEFI-Firmware.md) | Binarly |
 | 2025-10-08 | 卫星安全 | [SpyChain: Multi-Vector Supply Chain Attacks on Small Satellite Systems](http://arxiv.org/abs/2510.06535v2) | [md](articles/卫星安全/2025-10-08-SpyChain-Multi-Vector-Supply-Chain-Attacks-on-Small-Satellit.md) | arXiv |
@@ -128,7 +130,9 @@
 | 2025-03-05 | 故障注入 | [Honest to a Fault: Root-Causing Fault Attacks with Pre-Silicon RISC Pipeline Characterization](http://arxiv.org/abs/2503.04846v2) | [md](articles/故障注入/2025-03-05-Honest-to-a-Fault-Root-Causing-Fault-Attacks-with-Pre-Silico.md) | arXiv |
 | 2025-02-08 | 杂项 | [The Explosion of Hardware-Hacking Devices](https://eclypsium.com/blog/the-explosion-of-hardware-hacking-devices/) | [md](articles/杂项/2025-02-08-The-Explosion-of-Hardware-Hacking-Devices.md) | Eclypsium |
 | 2025-01-01 | 硬件钱包 | [Why Secure Elements make a crucial difference：安全元件与钱包设计取舍](https://www.ledger.com/why-secure-elements-make-a-crucial-difference-to-hardware-wallet-security) | [md](articles/硬件钱包/2025-01-01-Why-Secure-Elements-make-a-crucial-difference-安全元件与钱包设计取舍.md) | Ledger |
+| 2024-12-28 | 卫星安全 | [Hacking yourself a satellite：抢救一颗失效的 BEESAT-1](https://media.ccc.de/v/38c3-hacking-yourself-a-satellite-recovering-beesat-1) | [md](articles/卫星安全/2024-12-28-Hacking-yourself-a-satellite-抢救一颗失效的-BEESAT-1.md) | 38C3 |
 | 2024-12-27 | 智能家居 | [Chipolo 蓝牙追踪器：FI 绕调试锁 → 固件逆向 → 蓝牙栈 RCE](https://media.ccc.de/v/38c3-from-fault-injection-to-rce-analyzing-a-bluetooth-tracker) | [md](articles/智能家居/2024-12-27-Chipolo-蓝牙追踪器-FI-绕调试锁-固件逆向-蓝牙栈-RCE.md) | 38C3 / Nicolas Oberli |
+| 2024-12-27 | 卫星安全 | [Investigating the Iridium Satellite Network：用 SDR 监听铱星网络](https://media.ccc.de/v/38c3-investigating-the-iridium-satellite-network) | [md](articles/卫星安全/2024-12-27-Investigating-the-Iridium-Satellite-Network-用-SDR-监听铱星网络.md) | 38C3 |
 | 2024-11-29 | 安全启动 | [LogoFAIL Exploited to Deploy Bootkitty, the first UEFI bootkit for Linux](https://www.binarly.io/blog/logofail-exploited-deploy-bootkitty-first-uefi-bootkit-linux) | [md](articles/安全启动/2024-11-29-LogoFAIL-Exploited-to-Deploy-Bootkitty-the-first-UEFI-bootki.md) | Binarly |
 | 2024-11-22 | 故障注入 | [Physical and Software Based Fault Injection Attacks Against TEEs in Mobile Devices: A Systemisation of Knowledge](http://arxiv.org/abs/2411.14878v1) | [md](articles/故障注入/2024-11-22-Physical-and-Software-Based-Fault-Injection-Attacks-Against.md) | arXiv |
 | 2024-10-07 | 芯片安全 | [压电打火机 EMFI 打 DRAM 总线：笔记本 Linux 提权 root](https://www.da.vidbuchanan.co.uk/blog/dram-emfi.html) | [md](articles/芯片安全/2024-10-07-压电打火机-EMFI-打-DRAM-总线-笔记本-Linux-提权-root.md) | David Buchanan |
@@ -198,6 +202,7 @@
 | 2018-01-03 | 芯片安全 | [Meltdown：利用乱序执行与权限检查时序泄露内核内存](https://meltdownattack.com/meltdown.pdf) | [md](articles/芯片安全/2018-01-03-Meltdown-利用乱序执行与权限检查时序泄露内核内存.md) | Meltdown 团队（USENIX Sec 2018） |
 | 2018-01-01 | 故障注入 | [RHme2 / RHme3 故障注入挑战解题合集（Riscure CTF）](https://github.com/Riscure/Rhme-2016) | [md](articles/故障注入/2018-01-01-RHme2-RHme3-故障注入挑战解题合集-Riscure-CTF.md) | Riscure / 社区 writeups |
 | 2017-12-28 | 基站 | [Mobile Data Interception from the Interconnection Link：Diameter 也能被滥用](https://media.ccc.de/v/34c3-8879-mobile_data_interception_from_the_interconnection_link) | [md](articles/基站/2017-12-28-Mobile-Data-Interception-from-the-Interconnection-Link-Diame.md) | 34C3 |
+| 2017-12-28 | 协议安全 | [Hoermann BiSecur：AES-128 双向无线门控被攻破](https://media.ccc.de/v/34c3-9029-uncovering_vulnerabilities_in_hoermann_bisecur) | [md](articles/协议安全/2017-12-28-Hoermann-BiSecur-AES-128-双向无线门控被攻破.md) | 34C3 |
 | 2017-11-01 | 机器人 | [Hacking Robots Before Skynet（POC 2017 演示稿）](https://powerofcommunity.net/assets/v0/poc2017/lucas.pdf) | [md](articles/机器人/2017-11-01-Hacking-Robots-Before-Skynet-POC-2017-演示稿.md) | POC 2017 / IOActive |
 | 2017-10-16 | WIFI安全 | [KRACK：WPA2 四次握手密钥重装攻击](https://www.krackattacks.com/) | [md](articles/WIFI安全/2017-10-16-KRACK-WPA2-四次握手密钥重装攻击.md) | Mathy Vanhoef / KU Leuven |
 | 2017-09-18 | 杂项 | [Deep dip teardown of tubeless insulin pump](http://arxiv.org/abs/1709.06026v1) | [md](articles/杂项/2017-09-18-Deep-dip-teardown-of-tubeless-insulin-pump.md) | arXiv |
@@ -217,7 +222,9 @@
 | 2015-08-05 | 车机 | [Remote Car Hacking：Jeep Cherokee 攻击面白皮书（Miller & Valasek）](https://ioactive.com/wp-content/uploads/2018/05/IOActive_Remote_Car_Hacking-1.pdf) | [md](articles/车机/2015-08-05-Remote-Car-Hacking-Jeep-Cherokee-攻击面白皮书-Miller-Valasek.md) | IOActive / Black Hat 2015 |
 | 2015-05-12 | 芯片安全 | [Rowhammer.js：用 JavaScript 在浏览器里触发 Rowhammer（DIMVA 2015）](https://arxiv.org/abs/1505.02573) | [md](articles/芯片安全/2015-05-12-Rowhammer-js-用-JavaScript-在浏览器里触发-Rowhammer-DIMVA-2015.md) | Gruss et al. |
 | 2014-12-29 | 安全启动 | [Thunderstrike：MacBook EFI 固件 bootkit 与 Thunderbolt 攻击面](https://trmm.net/Thunderstrike/) | [md](articles/安全启动/2014-12-29-Thunderstrike-MacBook-EFI-固件-bootkit-与-Thunderbolt-攻击面.md) | Trammell Hudson |
+| 2014-12-28 | 卫星安全 | [Iridium Pager Hacking：逆向铱星寻呼系统的始末](https://media.ccc.de/v/31c3_-_6236_-_en_-_saal_1_-_201412281645_-_iridium_pager_hacking_-_sec_-_schneider) | [md](articles/卫星安全/2014-12-28-Iridium-Pager-Hacking-逆向铱星寻呼系统的始末.md) | 31C3 |
 | 2014-12-27 | 基站 | [SS7: Locate. Track. Manipulate.：信令网上的定位与监听](https://media.ccc.de/v/31c3_-_6249_-_en_-_saal_1_-_201412271715_-_ss7_locate_track_manipulate_-_tobias_engel) | [md](articles/基站/2014-12-27-SS7-Locate-Track-Manipulate-信令网上的定位与监听.md) | 31C3 |
+| 2014-12-27 | 卫星安全 | [osmo-gmr：卫星电话协议的开源实现与安全分析](https://media.ccc.de/v/31c3_-_6267_-_en_-_saal_g_-_201412271600_-_osmo-gmr_what_s_up_with_sat-phones_-_sylvain_munaut) | [md](articles/卫星安全/2014-12-27-osmo-gmr-卫星电话协议的开源实现与安全分析.md) | 31C3 |
 | 2014-08-06 | 卫星安全 | [SATCOM Terminals: Hacking by Air, Sea, and Land](https://www.blackhat.com/docs/us-14/materials/us-14-Santamarta-SATCOM-Terminals-Hacking-By-Air-Sea-And-Land-WP.pdf) | [md](articles/卫星安全/2014-08-06-SATCOM-Terminals-Hacking-by-Air-Sea-and-Land.md) | Black Hat USA 2014 |
 | 2014-06-14 | 芯片安全 | [Rowhammer 原始论文：反复刷新同一行即可翻转相邻行比特（ISCA 2014）](https://users.ece.cmu.edu/~yoonguk/papers/kim-isca14.pdf) | [md](articles/芯片安全/2014-06-14-Rowhammer-原始论文-反复刷新同一行即可翻转相邻行比特-ISCA-2014.md) | Kim et al., ISCA 2014 |
 | 2013-12-29 | 硬件钱包 | [Trezor: Bitcoin hardware wallet：硬件钱包安全模型的起点](https://media.ccc.de/v/30C3_-_5545_-_en_-_saal_1_-_201312292200_-_trezor_bitcoin_hardware_wallet_-_pavol_stick_rusnak) | [md](articles/硬件钱包/2013-12-29-Trezor-Bitcoin-hardware-wallet-硬件钱包安全模型的起点.md) | 30C3 |

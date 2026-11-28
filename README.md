@@ -12,10 +12,10 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 | 板块 | 篇 | 板块 | 篇 | 板块 | 篇 |
 |:--|--:|:--|--:|:--|--:|
 | [Openwrt](#openwrt) | 4 | [摄像头](#摄像头) | 7 | [无人机](#无人机) | 20 |
-| [车机](#车机) | 14 | [充电桩](#充电桩) | 7 | [基站](#基站) | 13 |
-| [防火墙](#防火墙) | 27 | [卫星安全](#卫星安全) | 11 | [打印机](#打印机) | 6 |
+| [车机](#车机) | 15 | [充电桩](#充电桩) | 7 | [基站](#基站) | 13 |
+| [防火墙](#防火墙) | 27 | [卫星安全](#卫星安全) | 16 | [打印机](#打印机) | 6 |
 | [智能家居](#智能家居) | 10 | [机器人](#机器人) | 14 | [芯片安全](#芯片安全) | 36 |
-| [RFID](#rfid) | 6 | [WIFI安全](#wifi安全) | 3 | [协议安全](#协议安全) | 9 |
+| [RFID](#rfid) | 6 | [WIFI安全](#wifi安全) | 3 | [协议安全](#协议安全) | 10 |
 | [硬件钱包](#硬件钱包) | 13 | [FUZZ](#fuzz) | 5 | | |
 
 **技术专题**
@@ -30,7 +30,7 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 | 板块 | 篇 | 板块 | 篇 | 板块 | 篇 |
 |:--|--:|:--|--:|:--|--:|
 | [固件下载](#固件下载) | 18 | [虚拟机镜像](#虚拟机镜像) | 0 | [杂项](#杂项) | 29 |
-| [文章快照](articles/INDEX.md) | 223 | [更新日志](#更新日志) | - | [收录标准](#收录标准) | - |
+| [文章快照](articles/INDEX.md) | 230 | [更新日志](#更新日志) | - | [收录标准](#收录标准) | - |
 
 <!-- INDEX:END -->
 
@@ -116,6 +116,7 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 - [NAVEE 就是 Xiaomi：共享平台滑板车的安全同源问题](articles/车机/2026-08-29-NAVEE-就是-Xiaomi-共享平台滑板车的安全同源问题.md) · [原文](https://robocoffee.de/?p=1015)
 - [Brightway 安全再评估：Xiaomi 4 Pro（第二代）把刷机口彻底焊死](articles/车机/2023-06-01-Brightway-安全再评估-Xiaomi-4-Pro-第二代-把刷机口彻底焊死.md) · [原文](https://robocoffee.de/?p=897)
 - [Xiaomi 滑板车产品谱系指南：哪些型号能刷、为什么](articles/车机/2026-11-25-Xiaomi-滑板车产品谱系指南-哪些型号能刷-为什么.md) · [原文](https://robocoffee.de/?p=424)
+- [Pwn My Ride：用一个 AirPlay SDK 漏洞越狱 CarPlay 车机](articles/车机/2025-11-26-Pwn-My-Ride-用一个-AirPlay-SDK-漏洞越狱-CarPlay-车机.md) · [原文](https://media.ccc.de/v/god2025-56485-pwn-my-ride-jailbreaking-c)
 
 **论文 / 理论综述**
 
@@ -192,6 +193,11 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 - [Glitched on Earth by Humans: A Black-Box Security Evaluation of the SpaceX Starlink User Terminal](articles/卫星安全/2022-08-11-Glitched-on-Earth-by-Humans-A-Black-Box-Security-Evaluation.md) · [原文](https://i.blackhat.com/USA-22/Wednesday/US-22-Wouters-Glitched-On-Earth.pdf)
 - [SATCOM Terminals: Hacking by Air, Sea, and Land](articles/卫星安全/2014-08-06-SATCOM-Terminals-Hacking-by-Air-Sea-and-Land.md) · [原文](https://www.blackhat.com/docs/us-14/materials/us-14-Santamarta-SATCOM-Terminals-Hacking-By-Air-Sea-And-Land-WP.pdf)
 - [Don't look up：地球同步卫星上大量敏感链路是明文的](articles/卫星安全/2025-12-28-Don-t-look-up-地球同步卫星上大量敏感链路是明文的.md) · [原文](https://media.ccc.de/v/39c3-don-t-look-up-there-are-sensitive-internal-links-in-the-clear-on-geo-satellites)
+- [Who cares about the Baltic Jammer：当导航系统“不理会”干扰机（R-Mode）](articles/卫星安全/2025-12-27-Who-cares-about-the-Baltic-Jammer-当导航系统-不理会-干扰机-R-Mode.md) · [原文](https://media.ccc.de/v/39c3-who-cares-about-the-baltic-jammer-terrestrial-navigation-in-the-baltic-sea-region)
+- [Investigating the Iridium Satellite Network：用 SDR 监听铱星网络](articles/卫星安全/2024-12-27-Investigating-the-Iridium-Satellite-Network-用-SDR-监听铱星网络.md) · [原文](https://media.ccc.de/v/38c3-investigating-the-iridium-satellite-network)
+- [Hacking yourself a satellite：抢救一颗失效的 BEESAT-1](articles/卫星安全/2024-12-28-Hacking-yourself-a-satellite-抢救一颗失效的-BEESAT-1.md) · [原文](https://media.ccc.de/v/38c3-hacking-yourself-a-satellite-recovering-beesat-1)
+- [Iridium Pager Hacking：逆向铱星寻呼系统的始末](articles/卫星安全/2014-12-28-Iridium-Pager-Hacking-逆向铱星寻呼系统的始末.md) · [原文](https://media.ccc.de/v/31c3_-_6236_-_en_-_saal_1_-_201412281645_-_iridium_pager_hacking_-_sec_-_schneider)
+- [osmo-gmr：卫星电话协议的开源实现与安全分析](articles/卫星安全/2014-12-27-osmo-gmr-卫星电话协议的开源实现与安全分析.md) · [原文](https://media.ccc.de/v/31c3_-_6267_-_en_-_saal_g_-_201412271600_-_osmo-gmr_what_s_up_with_sat-phones_-_sylvain_munaut)
 
 **论文 / 理论综述**
 
@@ -330,6 +336,7 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 - [QUIC and Covert：用 HTTP/3 隧道承载的 RAT 攻击东南亚政府目标](articles/协议安全/2026-11-17-QUIC-and-Covert-用-HTTP-3-隧道承载的-RAT-攻击东南亚政府目标.md)
 - [一条 SIP MESSAGE 打穿 FreeSWITCH：CVE-2026-116779 远程命令执行复现](articles/协议安全/2026-11-20-一条-SIP-MESSAGE-打穿-FreeSWITCH-CVE-2026-116779-远程命令执行复现.md) · [原文](https://xz.aliyun.com/news/93416)
 - [Hacking DOCSIS：AVM 中间 CA 私钥丢失、机顶盒 telnet 与 Modem Uncapping](articles/协议安全/2017-04-15-Hacking-DOCSIS-AVM-中间-CA-私钥丢失-机顶盒-telnet-与-Modem-Uncapping.md) · [原文](https://media.ccc.de/v/EH2017-8488-hacking_docsis)
+- [Hoermann BiSecur：AES-128 双向无线门控被攻破](articles/协议安全/2017-12-28-Hoermann-BiSecur-AES-128-双向无线门控被攻破.md) · [原文](https://media.ccc.de/v/34c3-9029-uncovering_vulnerabilities_in_hoermann_bisecur)
 
 ## 硬件钱包
 
@@ -553,6 +560,16 @@ IoT / 固件 / 硬件 / 底层安全研究资料库。只收**有研究价值**�
 
 <details>
 <summary>展开查看（最新在上）</summary>
+
+### 2026-11-28 · 2026-W62
+
+- [Who cares about the Baltic Jammer：当导航系统“不理会”干扰机（R-Mode）](articles/卫星安全/2025-12-27-Who-cares-about-the-Baltic-Jammer-当导航系统-不理会-干扰机-R-Mode.md) —— 卫星安全
+- [Investigating the Iridium Satellite Network：用 SDR 监听铱星网络](articles/卫星安全/2024-12-27-Investigating-the-Iridium-Satellite-Network-用-SDR-监听铱星网络.md) —— 卫星安全
+- [Hacking yourself a satellite：抢救一颗失效的 BEESAT-1](articles/卫星安全/2024-12-28-Hacking-yourself-a-satellite-抢救一颗失效的-BEESAT-1.md) —— 卫星安全
+- [Iridium Pager Hacking：逆向铱星寻呼系统的始末](articles/卫星安全/2014-12-28-Iridium-Pager-Hacking-逆向铱星寻呼系统的始末.md) —— 卫星安全
+- [osmo-gmr：卫星电话协议的开源实现与安全分析](articles/卫星安全/2014-12-27-osmo-gmr-卫星电话协议的开源实现与安全分析.md) —— 卫星安全
+- [Hoermann BiSecur：AES-128 双向无线门控被攻破](articles/协议安全/2017-12-28-Hoermann-BiSecur-AES-128-双向无线门控被攻破.md) —— 协议安全
+- [Pwn My Ride：用一个 AirPlay SDK 漏洞越狱 CarPlay 车机](articles/车机/2025-11-26-Pwn-My-Ride-用一个-AirPlay-SDK-漏洞越狱-CarPlay-车机.md) —— 车机
 
 ### 2026-11-27 · 2026-W61
 

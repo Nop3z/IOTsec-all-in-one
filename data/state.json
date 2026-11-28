@@ -918,6 +918,14 @@
    "shortlist": 3,
    "downloaded": 3,
    "bytes": 911862
+  },
+  {
+   "week": "2026-W48",
+   "at": "2026-11-27T10:00:20.500953+08:00",
+   "candidates": 32,
+   "shortlist": 0,
+   "downloaded": 0,
+   "bytes": 0
   }
  ]
 }
